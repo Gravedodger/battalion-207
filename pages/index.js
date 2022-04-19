@@ -9,14 +9,14 @@ import flagsOfUSAandUK from '../assets/images/flags/UK-US_flag.png';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className='container'>
       <Head>
         <title>Battalion-207</title>
         <meta name="description" content="Battalion-207 needs and requirements" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.mainWrap}>
+      <main className='mainWrap'>
           <div className={styles.homepageWrap}>
               <div className={styles.starterItemMobile}>
                   <Image src={ logo } className={styles.logoMobile} />
