@@ -103,14 +103,121 @@
   line-height: 1.5;
 }
 
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+}
+
+.mainWrap {
+  padding: 5rem 0;
+}
+
+.homepageWrap {
+  display: flex;
+  width: 100%;
+  margin-top: 15%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.starterItemMobile {
+  display: none;
+}
+
+.starterItem {
+  display: flex;
+  width: 25%;
+  align-items: center;
+  justify-content: center;
+}
+
+.starterItemFlag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15%;
+}
+
+.nationalFlag {
+  width: 15rem;
+  cursor: pointer;
+}
+
+.nationalFlag:hover {
+  box-shadow: 3px 2px 12px 12px rgba(0,0,0,0.75);
+}
+
+.mainLogo {
+  width: 20rem;
+}
+
+.logoMobile {
+  display: none;
+}
+
+@media screen and (min-width: 801px) and (max-width: 1150px) {
+  .homepageWrap {
+    margin-top: 25%;
+  }
+  .mainLogo {
+    width: 10rem;
+  }
+  .nationalFlag {
+    width: 7rem;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 800px) {
+  .homepageWrap {
+    flex-direction: column;
+    top: 23%;
+  }
+  .mainLogo {
+    display: none;
+  }
+  .starterItem {
+    display: none;
+  }
+  .starterItemMobile {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    flex-direction: column;
+    margin-bottom: 20%;
+  }
+  .logoMobile {
+    display: flex;
+  }
+  .nationalFlag {
+    width: 6rem;
+    margin-bottom: 25%;
+  }
+
+}
+
+@media screen and (min-width: 100px) and (max-width: 399px) {
+  .homepageWrap {
+    flex-direction: column;
+  }
+  .mainLogo {
+    display: none;
+  }
+  .starterItemMobile {
+    display: none;
+    margin-bottom: 10%;
+  }
+  .starterItem {
+    display: none;
+  }
+  .logoMobile {
+    display: none;
+    width: 8rem;
+    margin-bottom: 3rem;
+  }
+  .nationalFlag {
+    width: 6rem;
+    margin-bottom: 2rem;
   }
 }

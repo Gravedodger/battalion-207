@@ -1,0 +1,102 @@
+.container {
+    padding: 0 2rem;
+}
+
+.homepageContainer {
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    margin: 20%;
+}
+
+.homepageLogoWrap {
+    width: 30%;
+    height: 30%;
+    margin-right: 5%;
+}
+
+.homepageLogo {
+    cursor: pointer;
+}
+
+.homepageNav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.homepageNavItem {
+    font-size: 2.7rem;
+    font-weight: bold;
+    line-height: 5rem;
+    cursor: pointer;
+}
+
+.homepageNavItem:hover {
+    transform: scale(1.3);
+    transition-duration: 1s;
+    text-shadow: 3px 2px 12px 32px rgba(0,0,0,0.75);
+}
+
+@media screen and (min-width: 1151px) and (max-width: 1300px) {
+    .homepageContainer {
+        width: 60%;
+    }
+    .homepageLogoWrap {
+        width: 50%;
+        height: 50%;
+    }
+    .homepageNavItem {
+        font-size: 1.7rem;
+        line-height: 3.5rem;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1150px) {
+    .homepageContainer {
+        width: 80%;
+    }
+    .homepageLogoWrap {
+        width: 40%;
+        height: 40%;
+    }
+    .homepageNavItem {
+        font-size: 1.4rem;
+        line-height: 3rem;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 800px) {
+    .homepageContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .homepageLogoWrap {
+        width: 40%;
+        height: 40%;
+        margin-left: 75px;
+    }
+    .homepageNavItem {
+        font-size: 1.2rem;
+        line-height: 3rem;
+    }
+}
+
+@media screen and (min-width: 100px) and (max-width: 399px) {
+    .homepageContainer {
+        width: 100%;
+        margin: 55% 0;
+    }
+    .homepageLogoWrap {
+        display: none;
+    }
+    .homepageNavItem {
+        font-size: 0.9rem;
+        line-height: 3rem;
+    }
+}
