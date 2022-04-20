@@ -24,17 +24,23 @@ export default function Home() {
                       <Image src={ logo } />
                   </div>
 
-                  <div className={styles.starterFlagContainer}>
-                      <div className={styles.starterUkrFlag}>
-                          <Link href='homepage/ukr'>
-                              <Image src={ flagOfUkraine } />
-                          </Link>
+                  <div className={styles.starterFlagWrap}>
+                      <div className={styles.starterFlagContainer}>
+                          <p className={styles.starterFlagText}>Українською</p>
+                          <div className={styles.starterUkrFlag}>
+                              <Link href='homepage/ukr'>
+                                  <Image src={ flagOfUkraine } />
+                              </Link>
+                          </div>
                       </div>
 
-                      <div className={styles.starterEngFlag}>
-                          <Link href="homepage/eng">
-                              <Image src={ flagsOfUSAandUK } />
-                          </Link>
+                      <div className={styles.starterFlagContainer}>
+                          <p className={styles.starterFlagText}>In English</p>
+                          <div className={styles.starterEngFlag}>
+                              <Link href="homepage/eng">
+                                  <Image src={ flagsOfUSAandUK } />
+                              </Link>
+                          </div>
                       </div>
                   </div>
               </div>

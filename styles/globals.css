@@ -110,10 +110,6 @@ p {
   align-items: center;
 }
 
-
-
-
-
 .title a {
   color: #0070f3;
   text-decoration: none;
@@ -185,8 +181,4 @@ p {
     width: 100%;
     flex-direction: column;
   }
-}
-
-.mainWrap {
-  padding: 5rem 0;
 }
