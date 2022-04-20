@@ -1,5 +1,5 @@
 import React from "react";
-import styles from '../styles/Home.module.css';
+import styles from '../styles/Starter.module.css';
 import Link from "next/link";
 import Head from 'next/head';
 import Image from 'next/image';
@@ -17,28 +17,49 @@ export default function Home() {
       </Head>
 
       <main className='mainWrap'>
-          <div className={styles.homepageWrap}>
-              <div className={styles.starterItemMobile}>
-                  <Image src={ logo } className={styles.logoMobile} />
-              </div>
-              <div className={styles.starterItemFlag}>
-                  <Link href='homepage/ukr'>
-                      <Image src={ flagOfUkraine } className={styles.nationalFlag}
-                             width={300} height={200} />
-                  </Link>
-              </div>
-              <div className={styles.starterItem}>
-                  <Image src={ logo } className={styles.mainLogo}
-                         width={500} height={600} />
-              </div>
-              <div className={styles.starterItemFlag}>
-                  <Link href="homepage/eng">
-                      <Image src={ flagsOfUSAandUK } className={styles.nationalFlag}
-                             width={300} height={200} />
-                  </Link>
+          <div className={styles.starterWrap}>
+
+              <div className={styles.starterDesktop}>
+                  <div className={styles.starterLogoContainer}>
+                      <Image src={ logo } />
+                  </div>
+
+                  <div className={styles.starterFlagContainer}>
+                      <div className={styles.starterUkrFlag}>
+                          <Link href='homepage/ukr'>
+                              <Image src={ flagOfUkraine } />
+                          </Link>
+                      </div>
+
+                      <div className={styles.starterEngFlag}>
+                          <Link href="homepage/eng">
+                              <Image src={ flagsOfUSAandUK } />
+                          </Link>
+                      </div>
+                  </div>
               </div>
           </div>
       </main>
     </div>
   )
 }
+
+// <div className={styles.starterItemMobile}>
+//     <Image src={ logo } className={styles.logoMobile} />
+// </div>
+
+
+{/*<div className={styles.starterItemFlagsMobile}>*/}
+{/*    <div className={styles.starterItemFlag}>*/}
+{/*        <Link href="homepage/eng">*/}
+{/*            <Image src={ flagsOfUSAandUK } className={styles.nationalFlag}*/}
+{/*                   width={300} height={200} />*/}
+{/*        </Link>*/}
+{/*    </div>*/}
+
+{/*    <div className={styles.starterItemFlag}>*/}
+{/*        <Link href='homepage/ukr'>*/}
+{/*            <Image src={ flagOfUkraine } className={styles.nationalFlag} width={300} height={200} />*/}
+{/*        </Link>*/}
+{/*    </div>*/}
+{/*</div>*/}

@@ -11,14 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16cc5659-9977-4949-ba87-ebf4e6bd80d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/battalion-207.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/smaly.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about/eng.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Home.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Starter.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +46,7 @@
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -72,7 +69,7 @@
       <updated>1650353191828</updated>
       <workItem from="1650353194064" duration="14748000" />
       <workItem from="1650404736058" duration="1358000" />
-      <workItem from="1650406151163" duration="540000" />
+      <workItem from="1650406151163" duration="12274000" />
     </task>
     <servers />
   </component>
@@ -107,5 +104,13 @@
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="0" y="0" width="582" height="672" key="find.popup/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1650358812278" />
+    <state x="298" y="150" key="run.anything.popup" timestamp="1650454841537">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="298" y="150" key="run.anything.popup/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1650454841537" />
+    <state x="303" y="-1" width="672" height="678" key="search.everywhere.popup" timestamp="1650449872112">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="303" y="-1" width="672" height="678" key="search.everywhere.popup/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1650449872112" />
   </component>
 </project>

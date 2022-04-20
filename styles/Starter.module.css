@@ -1,0 +1,97 @@
+.starterWrap {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.starterDesktop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+
+
+.starterLogoContainer {
+  width: 30%;
+  margin-bottom: 5%;
+}
+
+.starterFlagContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.starterUkrFlag {
+  width: 275px;
+  height: 183px;
+  margin-right: 5%;
+}
+
+.starterUkrFlag:hover {
+  box-shadow: 3px 2px 12px 12px rgba(0,0,0,0.75);
+}
+
+.starterEngFlag {
+  width: 300px;
+  height: 178px;
+  margin-left: 5%;
+}
+
+.starterEngFlag:hover {
+  box-shadow: 3px 2px 12px 12px rgba(0,0,0,0.75);
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  .starterDesktop {
+    padding-top: 5%;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1199px) {
+  .starterDesktop {
+    padding-top: 10%;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 899px) {
+  .starterDesktop {
+    padding-top: 20%;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 749px) {
+  .starterDesktop {
+    padding-top: 25%;
+  }
+  .starterUkrFlag {
+    width: 275px;
+    height: 183px;
+    margin-right: 5%;
+  }
+  .starterEngFlag {
+    width: 300px;
+    height: 178px;
+    margin-left: 5%;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 499px) {
+  .starterDesktop {
+    padding-top: 40%;
+  }
+  .starterUkrFlag {
+    width: 675px;
+    margin-right: 20%;
+  }
+  .starterEngFlag {
+    width: 675px;
+    margin-left: 20%;
+  }
+}
