@@ -97,6 +97,7 @@ p {
 }
 
 .container {
+  margin: 0;
   padding: 0 2rem;
 }
 

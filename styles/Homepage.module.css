@@ -1,19 +1,15 @@
-.container {
-    padding: 0 2rem;
-}
-
 .homepageContainer {
     display: flex;
-    width: 60%;
+    width: 55%;
+    margin-top: 20rem;
+    margin-left: 25rem;
     align-items: center;
-    justify-content: center;
-    margin: 20%;
+    justify-content: space-evenly;
 }
 
 .homepageLogoWrap {
-    width: 30%;
-    height: 30%;
-    margin-right: 5%;
+    width: 23rem;
+    height: 23rem;
 }
 
 .homepageLogo {
@@ -22,9 +18,9 @@
 
 .homepageNav {
     display: flex;
+    width: 80%;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    text-align: justify;
 }
 
 .homepageNavItem {
@@ -40,63 +36,94 @@
     text-shadow: 3px 2px 12px 32px rgba(0,0,0,0.75);
 }
 
-@media screen and (min-width: 1151px) and (max-width: 1300px) {
+@media screen and (min-width: 1390px) and (max-width: 1800px) {
     .homepageContainer {
+        width: 100%;
+    }
+    .homepageNav {
         width: 60%;
     }
     .homepageLogoWrap {
-        width: 50%;
-        height: 50%;
+        width: 23rem;
+        height: 23rem;
     }
     .homepageNavItem {
-        font-size: 1.7rem;
-        line-height: 3.5rem;
+        font-size: 2rem;
+        line-height: 4.5rem;
     }
 }
 
-@media screen and (min-width: 801px) and (max-width: 1150px) {
+@media screen and (min-width: 1000px) and (max-width: 1399px) {
     .homepageContainer {
-        width: 80%;
+        width: 100%;
+    }
+    .homepageNav {
+        /*width: 50%;*/
+    }
+    .homepageLogoWrap {
+        width: 25%;
+        height: 25%;
+        margin-right: 5%;
+    }
+    .homepageNavItem {
+        font-size: 2rem;
+        line-height: 4.2rem;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 999px) {
+    .homepageContainer {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    .homepageLogoWrap {
+        width: 25%;
+        height: 25%;
+    }
+    .homepageNavItem {
+        font-size: 1.5rem;
+        line-height: 3.3rem;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 799px) {
+    .homepageContainer {
+        display: flex;
+        width: 100%;
+        margin-top: 50%;
+        margin-left: 30%;
+        align-items: center;
     }
     .homepageLogoWrap {
         width: 40%;
         height: 40%;
     }
     .homepageNavItem {
-        font-size: 1.4rem;
-        line-height: 3rem;
+        width: 100%;
+        font-size: 1rem;
+        line-height: 2.5rem;
     }
 }
 
-@media screen and (min-width: 400px) and (max-width: 800px) {
+@media screen and (min-width: 200px) and (max-width: 599px) {
     .homepageContainer {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        width: 22rem;
+        margin-top: 15rem;
+        margin-left: 4rem;
+        flex-wrap: wrap;
+    }
+    .homepageLogoWrap {
+        width: 30%;
+        height: 30%;
+        margin-right: 15%;
+    }
+    .homepageNavItem {
+        width: 150px;
+        font-size: 0.8rem;
+        line-height: 2.5rem;
         text-align: center;
-    }
-    .homepageLogoWrap {
-        width: 40%;
-        height: 40%;
-        margin-left: 75px;
-    }
-    .homepageNavItem {
-        font-size: 1.2rem;
-        line-height: 3rem;
-    }
-}
-
-@media screen and (min-width: 100px) and (max-width: 399px) {
-    .homepageContainer {
-        width: 100%;
-        margin: 55% 0;
-    }
-    .homepageLogoWrap {
-        display: none;
-    }
-    .homepageNavItem {
-        font-size: 0.9rem;
-        line-height: 3rem;
     }
 }

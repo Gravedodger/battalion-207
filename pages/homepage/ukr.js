@@ -7,7 +7,7 @@ import Head from "next/head";
 
 const HomePageUkr = () => {
     return (
-        <div className={styles.container}>
+        <div className="container">
             <Head>
                 <meta lang="uk"/>
                 <meta name="description" content="Батальйон-207 навігаційне меню" />
