@@ -110,21 +110,19 @@
     padding-top: 0;
   }
   .starterLogoContainer {
-    width: 120px;
+    width: 160px;
   }
   .starterFlagWrap {
-    margin-top: 30%;
-    flex-direction: column;
+    margin-top: 20%;
     align-items: center;
+    justify-content: center;
   }
   .starterUkrFlag {
-    width: 170px;
-    height: 113px;
-    margin-bottom: 10%;
+    width: 160px;
+    height: 100px;
   }
   .starterEngFlag {
-    width: 170px;
+    width: 175px;
     height: 100px;
-    margin-top: 10%;
   }
 }

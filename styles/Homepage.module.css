@@ -121,14 +121,14 @@
         display: flex;
         flex-direction: column;
         width: 22rem;
-        margin-top: 6rem;
-        margin-left: 1rem;
+        margin-top: 5rem;
+        margin-left: 0;
         flex-wrap: wrap;
     }
     .homepageLogoWrap {
         width: 35%;
         height: 35%;
-        margin: 0;
+        margin: 0 0 4rem;
         padding: 0;
     }
     .homepageNav ul {
