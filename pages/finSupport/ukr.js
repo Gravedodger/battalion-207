@@ -7,10 +7,12 @@ const FinSupportPageUkr = () => {
     return (
         <div className={styles.container}>
             <Head>
-                <title>Battalion-207 || Реквізити</title>
+                <meta lang="uk"/>
                 <meta name="description" content="Фінансові реквізити Батальйону 207" />
                 <link rel="icon" href="/favicon.ico" />
+                <title>Battalion-207 || Реквізити</title>
             </Head>
+
             <div className={styles.mainWrap}>
                 <Link href='../homepage/ukr' className={styles.return}>
                     <h5>До головного меню</h5>

@@ -7,9 +7,10 @@ const ReportsPageUkr = () => {
     return (
         <div className={styles.container}>
             <Head>
-                <title>Батальйон-207 || Звітність</title>
+                <meta lang="uk"/>
                 <meta name="description" content="Фінансова та інвентарна звітність Батальйону-207" />
                 <link rel="icon" href="/favicon.ico" />
+                <title>Батальйон-207 || Звітність</title>
             </Head>
 
             <div className={styles.mainWrap}>

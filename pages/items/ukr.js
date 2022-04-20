@@ -25,9 +25,10 @@ const ItemsPageUkr = () => {
 
     return <div className={styles.container}>
         <Head>
-            <title>Батальйон-207 || Нагальна необхідність</title>
+            <meta lang="uk"/>
             <meta name="description" content="Battalion-207 нагальна необхіждність" />
             <link rel="icon" href="/favicon.ico" />
+            <title>Батальйон-207 || Нагальна необхідність</title>
         </Head>
 
         <main>

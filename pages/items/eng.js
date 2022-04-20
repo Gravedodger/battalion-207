@@ -24,9 +24,10 @@ const ItemsPageEng = () => {
 
     return <div className={styles.container}>
         <Head>
-            <title>Battalion-207 || Items</title>
+            <meta lang="en"/>
             <meta name="description" content="Battalion-207 specific requirements" />
             <link rel="icon" href="/favicon.ico" />
+            <title>Battalion-207 || Items</title>
         </Head>
 
         <main>

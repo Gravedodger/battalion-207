@@ -9,9 +9,10 @@ const homePageEng = () => {
     return (
         <div className={styles.container}>
             <Head>
-                <title>Battalion-207</title>
-                <meta name="description" content="Battalion-207 needs and requirements" />
+                <meta lang="en"/>
+                <meta name="description" content="Battalion-207 nav menu" />
                 <link rel="icon" href="/favicon.ico" />
+                <title>Battalion-207 || Navigation</title>
             </Head>
 
             <div className={styles.homepageContainer}>

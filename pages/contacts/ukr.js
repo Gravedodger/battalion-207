@@ -7,9 +7,10 @@ const ContactsPageUkr = () => {
     return (
         <div className={styles.container}>
             <Head>
-                <title>Battalion-207 || Контакти</title>
+                <meta lang="uk"/>
                 <meta name="description" content="Батальйон 207 контактна інформація" />
                 <link rel="icon" href="/favicon.ico" />
+                <title>Battalion-207 || Контакти</title>
             </Head>
 
             <div className={styles.mainWrap}>

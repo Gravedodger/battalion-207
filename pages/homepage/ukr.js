@@ -9,9 +9,10 @@ const HomePageUkr = () => {
     return (
         <div className={styles.container}>
             <Head>
-                <title>Батальйон-207</title>
-                <meta name="description" content="Батальйон-207 нагальна необхідність підрозділу" />
+                <meta lang="uk"/>
+                <meta name="description" content="Батальйон-207 навігаційне меню" />
                 <link rel="icon" href="/favicon.ico" />
+                <title>Батальйон-207 || Меню</title>
             </Head>
 
             <div className={styles.homepageContainer}>

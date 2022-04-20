@@ -7,13 +7,14 @@ const FinSupportPageEng = () => {
     return (
         <div className={styles.container}>
             <Head>
-                <title>Battalion-207 || Requisites</title>
+                <meta lang="en"/>
                 <meta name="description" content="Battalion-207 bank account requisites" />
                 <link rel="icon" href="/favicon.ico" />
+                <title>Battalion-207 || Requisites</title>
             </Head>
 
             <div className={styles.mainWrap}>
-                <Link href='../homepage/ukr' className={styles.return}>
+                <Link href='../homepage/eng' className={styles.return}>
                     <h5>Return to main menu</h5>
                 </Link>
                 <h1>Financial Support Page</h1>
