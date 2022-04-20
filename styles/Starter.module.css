@@ -107,7 +107,7 @@
 
 @media screen and (min-width: 200px) and (max-width: 499px) {
   .starterDesktop {
-    padding-top: 2%;
+    padding-top: 0;
   }
   .starterLogoContainer {
     width: 120px;
