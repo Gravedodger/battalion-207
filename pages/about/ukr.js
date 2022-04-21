@@ -2,6 +2,9 @@ import React from 'react';
 import styles from "../../styles/Styles.module.css";
 import Link from "next/link";
 import Head from "next/head";
+import logo from '/assets/images/logos/logo-112.png';
+import Image from "next/image";
+import {ReturnButtonUkr} from "../../components/ReturnButton";
 
 const AboutPageUkr = () => {
     return (
@@ -13,12 +16,23 @@ const AboutPageUkr = () => {
                 <title>Battalion-207 || Про Батальйон</title>
             </Head>
 
-            <div className={styles.mainWrap}>
-                <Link href='../homepage/ukr' className={styles.return}>
-                    <h5>Повернутися до головного меню</h5>
-                </Link>
-                <h1>Про Батальйон</h1>
-            </div>
+            <main>
+                <section className={styles.mainWrap && styles.section}>
+                    <div className={styles.title}>
+                        <ReturnButtonUkr />
+                        <h2>Про Батальйон</h2>
+                        <div className={styles.underline} />
+                    </div>
+
+                    <article className={styles.aboutArticle}>
+                        <div className={styles.articleLogoContainer}>
+                            <Image src={logo} alt="battalion logo" />
+                        </div>
+
+
+                    </article>
+                </section>
+            </main>
         </div>
     );
 };

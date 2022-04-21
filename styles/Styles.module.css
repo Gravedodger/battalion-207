@@ -40,3 +40,14 @@ Content
     margin-left: auto;
     background: var(--clr-gold);
 }
+
+.articleLogoContainer {
+    width: 200px;
+    height: 400px;
+}
+
+.aboutArticle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

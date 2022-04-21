@@ -1,0 +1,26 @@
+.returnBtnWrap {
+    display: flex;
+    width: 200px;
+    margin: 2rem;
+    padding: 0;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.returnBtnWrap:hover {
+    cursor: pointer;
+}
+
+.returnBtnContainer {
+    width: 35px;
+
+}
+
+.returnBtnTxt p {
+    color: #000000;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.returnBtn {
+}
