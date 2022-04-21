@@ -51,7 +51,6 @@ Content
 }
 
 .articleLogoContainer {
-    /*width: 100%;*/
     margin-right: 5rem;
 }
 
@@ -135,7 +134,7 @@ Content
         margin-left: 8%;
     }
     .articleLogoContainer {
-        margin: 0;
+        margin: 2rem;
         width: 160px;
     }
     .articleTxtContainer {
