@@ -2,6 +2,9 @@ import React from 'react';
 import styles from "../../styles/Styles.module.css";
 import Link from "next/link";
 import Head from "next/head";
+import { ReturnButtonEng } from "../../components/ReturnButton";
+import Image from "next/image";
+import logo from "../../assets/images/logos/logo-112.png";
 
 const ContactsPageEng = () => {
     return (
@@ -13,12 +16,25 @@ const ContactsPageEng = () => {
                 <title>Battalion-207 || Contacts</title>
             </Head>
 
-            <div className={styles.mainWrap}>
-                <Link href='../homepage/eng' className={styles.return}>
-                    <h5>Return to main menu</h5>
-                </Link>
-                <h1>Contacts Page</h1>
-            </div>
+            <main>
+                <section className={styles.mainWrap && styles.section}>
+                    <div className={styles.title}>
+                        <ReturnButtonEng />
+                        <h2>Contacts Page</h2>
+                        <div className={styles.underline} />
+                    </div>
+
+                    <article className={styles.aboutArticle}>
+                        <div className={styles.articleLogoContainer}>
+                            <Image src={logo} alt="battalion logo" />
+                        </div>
+
+                        <div className={styles.articleTxtContainer}>
+                            <p>ENGLISH TEXT VERSION</p>
+                        </div>
+                    </article>
+                </section>
+            </main>
         </div>
     );
 };

@@ -5,6 +5,7 @@ import Categories from "/components/Categories";
 import Card from "/components/Card";
 import Link from "next/link";
 import Head from "next/head";
+import { ReturnButtonEng } from "../../components/ReturnButton";
 
 const allCategories = ['all', ...new Set(items.map(item => item.category))];
 
@@ -33,9 +34,7 @@ const ItemsPageEng = () => {
         <main>
             <section className={styles.mainWrap && styles.section}>
                 <div className={styles.title}>
-                    <Link href='../homepage/eng' className={styles.return}>
-                        <h5>Return to main menu</h5>
-                    </Link>
+                    <ReturnButtonEng />
                     <h2>Current needs</h2>
                     <div className={styles.underline} />
                 </div>

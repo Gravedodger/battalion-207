@@ -2,6 +2,7 @@ import React from 'react';
 import styles from "../../styles/Styles.module.css";
 import Link from "next/link";
 import Head from "next/head";
+import { ReturnButtonEng } from "../../components/ReturnButton";
 
 const FinSupportPageEng = () => {
     return (
@@ -13,12 +14,15 @@ const FinSupportPageEng = () => {
                 <title>Battalion-207 || Requisites</title>
             </Head>
 
-            <div className={styles.mainWrap}>
-                <Link href='../homepage/eng' className={styles.return}>
-                    <h5>Return to main menu</h5>
-                </Link>
-                <h1>Financial Support Page</h1>
-            </div>
+            <main>
+                <section className={styles.mainWrap && styles.section}>
+                    <div className={styles.title}>
+                        <ReturnButtonEng />
+                        <h2>Financial Support Page</h2>
+                        <div className={styles.underline} />
+                    </div>
+                </section>
+            </main>
         </div>
     );
 };

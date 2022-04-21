@@ -4,7 +4,7 @@ import Link from "next/link";
 import Head from "next/head";
 import logo from '/assets/images/logos/logo-112.png';
 import Image from "next/image";
-import {ReturnButtonUkr} from "../../components/ReturnButton";
+import { ReturnButtonUkr } from "../../components/ReturnButton";
 
 const AboutPageUkr = () => {
     return (

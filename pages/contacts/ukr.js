@@ -2,6 +2,7 @@ import React from 'react';
 import styles from "../../styles/Styles.module.css";
 import Link from "next/link";
 import Head from "next/head";
+import { ReturnButtonUkr } from "../../components/ReturnButton";
 
 const ContactsPageUkr = () => {
     return (
@@ -13,12 +14,15 @@ const ContactsPageUkr = () => {
                 <title>Battalion-207 || Контакти</title>
             </Head>
 
-            <div className={styles.mainWrap}>
-                <Link href='../homepage/ukr' className={styles.return}>
-                    <h5>До головного меню</h5>
-                </Link>
-                <h1>Контактна інформація</h1>
-            </div>
+            <main>
+                <section className={styles.mainWrap && styles.section}>
+                    <div className={styles.title}>
+                        <ReturnButtonUkr />
+                        <h2>Контактна інформація</h2>
+                        <div className={styles.underline} />
+                    </div>
+                </section>
+            </main>
         </div>
     );
 };

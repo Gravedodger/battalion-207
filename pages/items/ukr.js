@@ -5,6 +5,7 @@ import Categories from "/components/Categories";
 import Card from "/components/Card";
 import Link from "next/link";
 import Head from "next/head";
+import {ReturnButtonUkr} from "../../components/ReturnButton";
 
 const ItemsPageUkr = () => {
 
@@ -34,9 +35,7 @@ const ItemsPageUkr = () => {
         <main>
             <section className={styles.mainWrap && styles.section}>
                 <div className={styles.title}>
-                    <Link href='../homepage/ukr' className={styles.return}>
-                        <h5>До головного меню</h5>
-                    </Link>
+                    <ReturnButtonUkr />
                     <h2>Нагальна необхідність</h2>
                     <div className={styles.underline} />
                 </div>
