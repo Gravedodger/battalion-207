@@ -12,8 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="16cc5659-9977-4949-ba87-ebf4e6bd80d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about/ukr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Styles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Styles.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ReturnButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ReturnButton.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +70,7 @@
       <workItem from="1650353194064" duration="14748000" />
       <workItem from="1650404736058" duration="1358000" />
       <workItem from="1650406151163" duration="19991000" />
-      <workItem from="1650485615972" duration="15436000" />
+      <workItem from="1650485615972" duration="17602000" />
     </task>
     <servers />
   </component>

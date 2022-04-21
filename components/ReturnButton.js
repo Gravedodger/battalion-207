@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export const ReturnButtonUkr = () => {
     return (
-        <Link href="../pages/homepage/ukr.js">
+        <Link href="/homepage/ukr">
             <div className={styles.returnBtnWrap}>
                 <div className={styles.returnBtnContainer}>
                     <Image src={returnBtn} className={styles.returnBtn} />
@@ -21,7 +21,7 @@ export const ReturnButtonUkr = () => {
 
 export const ReturnButtonEng = () => {
     return (
-        <Link href="../pages/homepage/eng.js">
+        <Link href="/homepage/eng">
             <div className={styles.returnBtnWrap}>
                 <div className={styles.returnBtnContainer}>
                     <Image src={returnBtn} className={styles.returnBtn} />
