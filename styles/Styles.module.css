@@ -110,10 +110,11 @@ Content
     .aboutArticle {
         margin-top: 1.2rem;
         flex-direction: column;
-        margin-bottom: 4rem;
+        margin-bottom: 3rem;
+        margin-left: 18%;
     }
     .articleTxtContainer {
-        width: 30rem;
+        width: 20rem;
         margin-right: 6rem;
     }
     .aboutArticle p {
@@ -123,5 +124,30 @@ Content
     }
     .articleLogoContainer {
         margin-bottom: 3rem;
+    }
+}
+
+@media screen and (min-width: 100px) and (max-width: 399px) {
+    .aboutArticle {
+        margin-top: 1rem;
+        flex-direction: column;
+        margin-bottom: 4rem;
+        margin-left: 8%;
+    }
+    .articleLogoContainer {
+        margin: 0;
+        width: 160px;
+    }
+    .articleTxtContainer {
+        width: 13rem;
+        margin: 0;
+    }
+    .aboutArticle p {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.5rem;
+    }
+    .articleLogoContainer {
+        margin-bottom: 1.5rem;
     }
 }
