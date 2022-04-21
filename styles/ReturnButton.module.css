@@ -1,7 +1,10 @@
 .returnBtnWrap {
+    position: absolute;
+    top: 1%;
+    left: 1%;
     display: flex;
     width: 200px;
-    margin: 2rem;
+    margin: 1.5rem;
     padding: 0;
     align-items: center;
     justify-content: space-evenly;
@@ -12,8 +15,8 @@
 }
 
 .returnBtnContainer {
-    width: 35px;
-
+    display: flex;
+    width: 30px;
 }
 
 .returnBtnTxt p {
@@ -22,5 +25,53 @@
     font-weight: 500;
 }
 
-.returnBtn {
+.returnBtn {}
+
+@media screen and (min-width: 800px) and (max-width: 1100px) {
+    .returnBtnWrap {
+        width: 50px;
+    }
+    .returnBtnTxt {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 799px) {
+    .returnBtnWrap {
+        width: 50px;
+    }
+    .returnBtnTxt {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 799px) {
+    .returnBtnWrap {
+        width: 50px;
+    }
+    .returnBtnTxt {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 599px) {
+    .returnBtnWrap {
+        position: relative;
+        left: 35%;
+        width: 50px;
+    }
+    .returnBtnTxt {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 10px) and (max-width: 299px) {
+    .returnBtnWrap {
+        position: relative;
+        left: 10%;
+        width: 50%;
+    }
+    .returnBtnTxt {
+        display: none;
+    }
 }

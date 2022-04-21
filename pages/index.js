@@ -17,7 +17,7 @@ export default function Home() {
       </Head>
 
       <main className='mainWrap'>
-          <div className={styles.starterWrap}>
+          <section className={styles.starterWrap}>
 
               <div className={styles.starterDesktop}>
                   <div className={styles.starterLogoContainer}>
@@ -44,28 +44,8 @@ export default function Home() {
                       </div>
                   </div>
               </div>
-          </div>
+          </section>
       </main>
     </div>
-  )
-}
-
-// <div className={styles.starterItemMobile}>
-//     <Image src={ logo } className={styles.logoMobile} />
-// </div>
-
-
-{/*<div className={styles.starterItemFlagsMobile}>*/}
-{/*    <div className={styles.starterItemFlag}>*/}
-{/*        <Link href="homepage/eng">*/}
-{/*            <Image src={ flagsOfUSAandUK } className={styles.nationalFlag}*/}
-{/*                   width={300} height={200} />*/}
-{/*        </Link>*/}
-{/*    </div>*/}
-
-{/*    <div className={styles.starterItemFlag}>*/}
-{/*        <Link href='homepage/ukr'>*/}
-{/*            <Image src={ flagOfUkraine } className={styles.nationalFlag} width={300} height={200} />*/}
-{/*        </Link>*/}
-{/*    </div>*/}
-{/*</div>*/}
+  );
+};

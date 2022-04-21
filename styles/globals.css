@@ -62,13 +62,11 @@ Variables
   --fixed-width: 620px;
 }
 
-/*
-===============
-Global Styles
-===============
-*/
+/*===============   Global Styles   ===============*/
 
-ul { list-style-type: none; }
+ul {
+  list-style-type: none;
+}
 
 h1, h2, h3, h4 {
   letter-spacing: var(--spacing);
@@ -131,6 +129,10 @@ p {
 .title,
 .description {
   text-align: center;
+}
+
+.title h2 {
+  margin-top: 4%;
 }
 
 .description {

@@ -58,13 +58,19 @@
 
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
   .starterDesktop {
-    padding-top: 5%;
+    margin-top: 3%;
+  }
+  .starterLogoContainer {
+    width: 25%;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }
 
 @media screen and (min-width: 900px) and (max-width: 1199px) {
-  .starterDesktop {
-    margin-top: 10%;
+  .starterLogoContainer {
+    width: 25%;
+    margin-top: -5%;
   }
   .starterUkrFlag {
     margin-right: 15%;
@@ -76,7 +82,7 @@
 
 @media screen and (min-width: 750px) and (max-width: 899px) {
   .starterDesktop {
-    margin-top: 20%;
+    margin-top: 5%;
   }
   .starterUkrFlag {
     margin-right: 15%;
@@ -88,7 +94,7 @@
 
 @media screen and (min-width: 500px) and (max-width: 749px) {
   .starterDesktop {
-    margin-top: 25%;
+    margin-top: 5%;
   }
   .starterFlagWrap {
     width: 90%;

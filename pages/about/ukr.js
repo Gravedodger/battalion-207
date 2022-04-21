@@ -18,7 +18,7 @@ const AboutPageUkr = () => {
 
             <main>
                 <section className={styles.mainWrap && styles.section}>
-                    <div className={styles.title}>
+                    <div className="title">
                         <ReturnButtonUkr />
                         <h2>Про Батальйон</h2>
                         <div className={styles.underline} />
