@@ -2,43 +2,35 @@
     display: flex;
     width: 80%;
     margin-top: 3.6rem;
-    margin-left: 20rem;
+    margin-left: 15rem;
     align-items: center;
-    justify-content: center;
 }
 
 .articleLogoContainer {
+    width: 30rem;
     margin-right: 5rem;
 }
 
 .articleTxtContainer {
     display: flex;
-    width: 80rem;
+    width: 50rem;
     flex-direction: column;
 }
 
 .aboutArticle p {
-    font-size: 20px;
+    font-size: 22px;
     line-height: 2rem;
     color: #000000;
     text-align: justify;
 }
 
-@media screen and (min-width: 1201px) and (max-width: 1900px) {
+
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
     .aboutArticle {
-        margin: 0 0 0 15%;
+        margin: 0 0 0 10%;
     }
     .contactsInfo {
         width: 90%;
-    }
-}
-
-@media screen and (min-width: 1000px) and (max-width: 1200px) {
-    .articleTxtContainer {
-        width: 70rem;
-    }
-    .aboutArticle {
-        margin-left: 15%;
     }
     .aboutArticle p {
         font-size: 18px;
@@ -46,16 +38,32 @@
     }
 }
 
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+    .articleTxtContainer {
+        width: 60rem;
+    }
+    .aboutArticle {
+        margin-left: 10%;
+    }
+    .aboutArticle p {
+        font-size: 18px;
+        line-height: 1.6rem;
+    }
+}
+
 @media screen and (min-width: 800px) and (max-width: 999px) {
     .aboutArticle {
-        margin-top: 4rem;
-        margin-left: 3rem;
+        margin-top: 3rem;
+        margin-left: 5rem;
+    }
+    .articleLogoContainer {
+        width: 30rem;
     }
     .articleTxtContainer {
         width: 60rem;
     }
     .aboutArticle p {
-        font-size: 15px;
+        font-size: 14px;
         line-height: 1.5rem;
     }
 }
@@ -63,7 +71,10 @@
 @media screen and (min-width: 600px) and (max-width: 799px) {
     .aboutArticle {
         margin-top: 3rem;
-        margin-left: 2.5rem;
+        margin-left: 5rem;
+    }
+    .articleLogoContainer {
+        margin-right: 3rem;
     }
     .articleTxtContainer {
         width: 50rem;
@@ -86,12 +97,13 @@
         margin-right: 6rem;
     }
     .aboutArticle p {
-        font-size: 14px;
+        font-size: 15px;
         font-weight: 500;
         line-height: 1.5rem;
     }
     .articleLogoContainer {
-        margin-bottom: 3rem;
+        width: 16rem;
+        margin-bottom: 2rem;
     }
 }
 
@@ -113,7 +125,7 @@
     .aboutArticle p {
         font-size: 14px;
         font-weight: 500;
-        line-height: 1.5rem;
+        line-height: 1.3rem;
     }
     .articleLogoContainer {
         margin-bottom: 1.5rem;
