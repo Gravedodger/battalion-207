@@ -23,16 +23,16 @@ const ItemsPageUkr = () => {
         }
     }
 
-    return <div className="container">
-        <Head>
-            <meta lang="uk" />
-            <meta name="description" content="Battalion-207 нагальна необхіждність" />
-            <link rel="icon" href="/favicon.ico" />
-            <title>Батальйон-207 || Нагальна необхідність</title>
-        </Head>
+    return (
+        <div>
+            <Head>
+                <meta lang="uk" />
+                <meta name="description" content="Battalion-207 нагальна необхіждність" />
+                <link rel="icon" href="/favicon.ico" />
+                <title>Батальйон-207 || Нагальна необхідність</title>
+            </Head>
 
-        <main>
-            <section className="section">
+            <main>
                 <div className="title">
                     <ReturnButtonUkr />
                     <h2>Нагальна необхідність</h2>
@@ -40,9 +40,9 @@ const ItemsPageUkr = () => {
                 </div>
                 <Categories categories={categories} filterItems={ filterItems } />
                 <Card items={cardItems}/>
-            </section>
-        </main>
-    </div>
+            </main>
+        </div>
+    )
 };
 
 export default ItemsPageUkr;
