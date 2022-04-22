@@ -13,9 +13,9 @@
     <list default="true" id="16cc5659-9977-4949-ba87-ebf4e6bd80d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Categories.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Categories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ThreeDots.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ThreeDots.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Categories.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Categories.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/ThreeDots.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/ThreeDots.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +81,7 @@
       <workItem from="1650353194064" duration="14748000" />
       <workItem from="1650404736058" duration="1358000" />
       <workItem from="1650406151163" duration="19991000" />
-      <workItem from="1650485615972" duration="53596000" />
+      <workItem from="1650485615972" duration="57136000" />
     </task>
     <servers />
   </component>

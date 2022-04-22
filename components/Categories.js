@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from '/styles/Categories.module.css';
 import ThreeDotsTyping from "./ThreeDots";
 
@@ -15,7 +15,8 @@ const Categories = ({ categories, filterItems }) => {
 
             <div className={styles.categoriesExpand}>
                 <ThreeDotsTyping />
-=            </div>
+            </div>
+
         </div>
     );
 };
