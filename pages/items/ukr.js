@@ -3,9 +3,8 @@ import styles from '/styles/Styles.module.css';
 import items from "/assets/data/dataUKR";
 import Categories from "/components/Categories";
 import Card from "/components/Card";
-import Link from "next/link";
 import Head from "next/head";
-import {ReturnButtonUkr} from "../../components/ReturnButton";
+import { ReturnButtonUkr } from "../../components/ReturnButton";
 
 const ItemsPageUkr = () => {
 
@@ -24,7 +23,7 @@ const ItemsPageUkr = () => {
         }
     }
 
-    return <div className={styles.container}>
+    return <div className="container">
         <Head>
             <meta lang="uk"/>
             <meta name="description" content="Battalion-207 нагальна необхіждність" />
@@ -33,13 +32,13 @@ const ItemsPageUkr = () => {
         </Head>
 
         <main>
-            <section className={styles.mainWrap && styles.section}>
-                <div className={styles.title}>
+            <section className="mainWrap section">
+                <div className="title">
                     <ReturnButtonUkr />
                     <h2>Нагальна необхідність</h2>
-                    <div className={styles.underline} />
+                    <div className="underline" />
                 </div>
-                <Categories categories={categories} filterItems={filterItems}/>
+                <Categories categories={categories} filterItems={ filterItems } />
                 <Card items={cardItems}/>
             </section>
         </main>

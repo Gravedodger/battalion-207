@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from "next/link";
 import styles from "../../styles/Styles.module.css";
 import Head from "next/head";
 import { ReturnButtonEng } from "../../components/ReturnButton";
@@ -8,7 +7,7 @@ import logo from "../../assets/images/logos/logo-112.png";
 
 const AboutPageEng = () => {
     return (
-        <div className={styles.container}>
+        <div className="container">
             <Head>
                 <meta lang="en"/>
                 <meta name="description" content="Battalion-207 information about the battalion" />
@@ -17,11 +16,11 @@ const AboutPageEng = () => {
             </Head>
 
             <main>
-                <section className={styles.mainWrap && styles.section}>
-                    <div className={styles.title}>
+                <section className="mainWrap section">
+                    <div className="title">
                         <ReturnButtonEng />
                         <h2>Про Батальйон</h2>
-                        <div className={styles.underline} />
+                        <div className="underline" />
                     </div>
 
                     <article className={styles.aboutArticle}>

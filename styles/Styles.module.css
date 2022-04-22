@@ -1,51 +1,8 @@
-/*  Global Classes */
-/* section */
-
-.container {
-    padding: 0 2rem;
-}
-
-.section {
-    width: 90vw;
-    margin: 0 auto;
-    max-width: var(--max-width);
-}
-
-@media screen and (min-width: 992px) {
-    .section { width: 95vw; }
-}
-
-/*
-===============
-Content
-===============
-*/
-.mainWrap {
-    padding: 5rem 0;
-}
-
-.title {
-    margin-bottom: 2rem;
-    text-align: center;
-}
-
-.return:hover {
-    cursor: pointer;
-}
-
-.underline {
-    width: 5rem;
-    height: 0.25rem;
-    margin-right: auto;
-    margin-left: auto;
-    background: var(--clr-gold);
-}
-
 .aboutArticle {
     display: flex;
     width: 80%;
     margin-top: 3.6rem;
-    margin-left: 6rem;
+    margin-left: 20rem;
     align-items: center;
     justify-content: center;
 }
@@ -67,9 +24,21 @@ Content
     text-align: justify;
 }
 
+@media screen and (min-width: 1201px) and (max-width: 1900px) {
+    .aboutArticle {
+        margin: 0 0 0 15%;
+    }
+    .contactsInfo {
+        width: 90%;
+    }
+}
+
 @media screen and (min-width: 1000px) and (max-width: 1200px) {
     .articleTxtContainer {
         width: 70rem;
+    }
+    .aboutArticle {
+        margin-left: 15%;
     }
     .aboutArticle p {
         font-size: 18px;
@@ -134,7 +103,7 @@ Content
         margin-left: 8%;
     }
     .articleLogoContainer {
-        margin: 2rem;
+        margin: 1rem;
         width: 160px;
     }
     .articleTxtContainer {
@@ -149,4 +118,50 @@ Content
     .articleLogoContainer {
         margin-bottom: 1.5rem;
     }
+}
+
+/*///////////////   CONTACTS   //////////////////*/
+.contactsInfo {
+    width: 100%;
+}
+
+.contactsItem {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.contactsItem h4 {
+    width: 13rem;
+}
+
+.contactsItem p {
+    width: 18rem;
+    margin-left: 5%;
+    justify-content: flex-end;
+
+}
+
+.contactsItemLink {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+
+}
+
+@media screen and (min-width: 800px) and (max-width: 999px) {
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 799px) {
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 599px) {
+
+}
+
+@media screen and (min-width: 100px) and (max-width: 399px) {
+
 }

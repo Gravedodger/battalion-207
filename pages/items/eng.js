@@ -3,7 +3,6 @@ import styles from '/styles/Styles.module.css';
 import items from "/assets/data/dataENG";
 import Categories from "/components/Categories";
 import Card from "/components/Card";
-import Link from "next/link";
 import Head from "next/head";
 import { ReturnButtonEng } from "../../components/ReturnButton";
 
@@ -23,7 +22,7 @@ const ItemsPageEng = () => {
         }
     }
 
-    return <div className={styles.container}>
+    return <div className="container">
         <Head>
             <meta lang="en"/>
             <meta name="description" content="Battalion-207 specific requirements" />
@@ -32,13 +31,13 @@ const ItemsPageEng = () => {
         </Head>
 
         <main>
-            <section className={styles.mainWrap && styles.section}>
-                <div className={styles.title}>
+            <section className="mainWrap styles.section">
+                <div className="title">
                     <ReturnButtonEng />
                     <h2>Current needs</h2>
-                    <div className={styles.underline} />
+                    <div className="underline" />
                 </div>
-                <Categories categories={categories} filterItems={filterItems}/>
+                <Categories categories={categories} filterItems={ filterItems } />
                 <Card items={cardItems}/>
             </section>
         </main>

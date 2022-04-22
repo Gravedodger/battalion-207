@@ -14,10 +14,7 @@ a {
 * { box-sizing: border-box; }
 
 /*
-===============
-Variables
-===============
-*/
+===============   Variables   ===============*/
 
 :root {
   /* dark shades of primary color*/
@@ -183,5 +180,49 @@ p {
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+}
+
+/*  Global Classes */
+
+.container {
+  padding: 0 2rem;
+}
+
+.section {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+
+@media screen and (min-width: 992px) {
+  .section { width: 95vw; }
+}
+
+/*===============   Content   ===============*/
+.mainWrap {
+  padding: 5rem 0;
+}
+
+.title {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.return:hover {
+  cursor: pointer;
+}
+
+.underline {
+  width: 5rem;
+  height: 0.25rem;
+  margin-right: auto;
+  margin-left: auto;
+  background: var(--clr-gold);
+}
+
+@media screen and (min-width: 100px) and (max-width: 399px) {
+  .title {
+    margin-bottom: 0.5rem;
   }
 }
