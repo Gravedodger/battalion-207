@@ -16,7 +16,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='mainWrap'>
+      <main>
           <section className={styles.starterWrap}>
 
               <div className={styles.starterDesktop}>

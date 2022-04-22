@@ -1,12 +1,11 @@
 import React from 'react';
 import styles from "../../styles/Styles.module.css";
-import Link from "next/link";
 import Head from "next/head";
 import { ReturnButtonEng } from "../../components/ReturnButton";
 
 const FinSupportPageEng = () => {
     return (
-        <div className={styles.container}>
+        <div className="container">
             <Head>
                 <meta lang="en"/>
                 <meta name="description" content="Battalion-207 bank account requisites" />
@@ -15,11 +14,11 @@ const FinSupportPageEng = () => {
             </Head>
 
             <main>
-                <section className={styles.mainWrap && styles.section}>
-                    <div className={styles.title}>
+                <section className="styles.section">
+                    <div className="title">
                         <ReturnButtonEng />
                         <h2>Financial Support Page</h2>
-                        <div className={styles.underline} />
+                        <div className="underline" />
                     </div>
                 </section>
             </main>

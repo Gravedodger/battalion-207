@@ -16,10 +16,10 @@ const AboutPageEng = () => {
             </Head>
 
             <main>
-                <section className="mainWrap section">
+                <section className="section">
                     <div className="title">
                         <ReturnButtonEng />
-                        <h2>Про Батальйон</h2>
+                        <h2>About Us</h2>
                         <div className="underline" />
                     </div>
 

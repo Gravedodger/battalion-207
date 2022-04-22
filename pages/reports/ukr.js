@@ -1,12 +1,11 @@
 import React from 'react';
 import styles from "../../styles/Styles.module.css";
-import Link from "next/link";
 import Head from "next/head";
 import { ReturnButtonUkr } from "../../components/ReturnButton";
 
 const ReportsPageUkr = () => {
     return (
-        <div className={styles.container}>
+        <div className="container">
             <Head>
                 <meta lang="uk"/>
                 <meta name="description" content="Фінансова та інвентарна звітність Батальйону-207" />
@@ -15,11 +14,11 @@ const ReportsPageUkr = () => {
             </Head>
 
             <main>
-                <section className={styles.mainWrap && styles.section}>
-                    <div className={styles.title}>
+                <section className="section">
+                    <div className="title">
                         <ReturnButtonUkr />
                         <h2>Сторінка звітності</h2>
-                        <div className={styles.underline} />
+                        <div className="underline" />
                     </div>
                 </section>
             </main>

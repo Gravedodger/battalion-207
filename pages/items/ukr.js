@@ -25,14 +25,14 @@ const ItemsPageUkr = () => {
 
     return <div className="container">
         <Head>
-            <meta lang="uk"/>
+            <meta lang="uk" />
             <meta name="description" content="Battalion-207 нагальна необхіждність" />
             <link rel="icon" href="/favicon.ico" />
             <title>Батальйон-207 || Нагальна необхідність</title>
         </Head>
 
         <main>
-            <section className="mainWrap section">
+            <section className="section">
                 <div className="title">
                     <ReturnButtonUkr />
                     <h2>Нагальна необхідність</h2>

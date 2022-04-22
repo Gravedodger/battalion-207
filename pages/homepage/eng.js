@@ -7,7 +7,7 @@ import Head from "next/head";
 
 const homePageEng = () => {
     return (
-        <div className={styles.container}>
+        <div>
             <Head>
                 <meta lang="en"/>
                 <meta name="description" content="Battalion-207 nav menu" />
@@ -40,7 +40,6 @@ const homePageEng = () => {
                         </Link>
                     </ul>
                 </nav>
-
             </div>
         </div>
     );

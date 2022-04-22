@@ -16,7 +16,7 @@ const AboutPageUkr = () => {
             </Head>
 
             <main>
-                <section className="mainWrap section">
+                <section className="section">
                     <div className="title">
                         <ReturnButtonUkr />
                         <h2>Про Батальйон</h2>

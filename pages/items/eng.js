@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import styles from '/styles/Styles.module.css';
 import items from "/assets/data/dataENG";
 import Categories from "/components/Categories";
@@ -24,14 +24,14 @@ const ItemsPageEng = () => {
 
     return <div className="container">
         <Head>
-            <meta lang="en"/>
+            <meta lang="en" />
             <meta name="description" content="Battalion-207 specific requirements" />
             <link rel="icon" href="/favicon.ico" />
             <title>Battalion-207 || Items</title>
         </Head>
 
         <main>
-            <section className="mainWrap styles.section">
+            <section className="styles.section">
                 <div className="title">
                     <ReturnButtonEng />
                     <h2>Current needs</h2>
