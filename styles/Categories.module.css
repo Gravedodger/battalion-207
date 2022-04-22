@@ -6,7 +6,7 @@
 }
 
 .categoriesExpand {
-    display: block;
+    display: none;
 }
 
 .filterBtn {
@@ -42,5 +42,9 @@
 @media screen and (min-width: 1200px) and (max-width: 1600px){
     .btnContainer {
         display: none;
+    }
+    .categoriesExpand {
+        display: flex;
+        flex-direction: column;
     }
 }

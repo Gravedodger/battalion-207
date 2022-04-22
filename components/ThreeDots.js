@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '/styles/ThreeDots.module.css';
 
 const ThreeDotsTyping = () => {
-    return <div className={styles.snippet} dataTitle={styles.dotTyping}>
+    return <div className={styles.snippet}>
         <div className={styles.stage}>
             <div className={styles.dotTyping} />
         </div>
@@ -10,4 +10,3 @@ const ThreeDotsTyping = () => {
 };
 
 export default ThreeDotsTyping;
-1

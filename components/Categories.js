@@ -17,7 +17,6 @@ const Categories = ({ categories, filterItems }) => {
                 <ThreeDotsTyping />
 =            </div>
         </div>
-
     );
 };
 
