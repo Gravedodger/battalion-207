@@ -39,7 +39,7 @@
     background: var(--clr-gold);
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 100px) and (max-width: 1200px) {
     .btnContainer {
         display: none;
     }
