@@ -11,9 +11,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16cc5659-9977-4949-ba87-ebf4e6bd80d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/components/Modal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/data/dataENG.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/data/dataUKR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo/id-9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/smaly.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/smaly.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/homepage/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/homepage/eng.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Categories.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Categories.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/data/dataENG.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/data/dataUKR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Categories.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Categories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/items/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/items/eng.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/items/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/items/ukr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Card.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Card.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +107,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/icons" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/items" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -56,14 +118,18 @@
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public" />
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\assets\images" />
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\pages\items" />
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\pages\api" />
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\styles" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\assets\images\items" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\assets\images\icons" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\styles" />
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\assets\images\flags" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -79,7 +145,8 @@
       <workItem from="1650353194064" duration="14748000" />
       <workItem from="1650404736058" duration="1358000" />
       <workItem from="1650406151163" duration="19991000" />
-      <workItem from="1650485615972" duration="58046000" />
+      <workItem from="1650485615972" duration="82309000" />
+      <workItem from="1650671926131" duration="1878000" />
     </task>
     <servers />
   </component>
@@ -110,21 +177,29 @@
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="365" y="139" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1650630248193" />
-    <state x="372" y="84" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1650636839685">
+    <state x="372" y="84" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1650645305459">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="372" y="84" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1650636839685" />
+    <state x="372" y="84" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1650645305459" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1650663960132">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1650663960132" />
+    <state x="109" y="64" width="1122" height="660" key="dock-window-1" timestamp="1650645318787">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="109" y="64" width="1122" height="660" key="dock-window-1/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1650645318787" />
     <state x="0" y="0" width="582" height="672" key="find.popup" timestamp="1650499059041">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="0" y="0" width="582" height="672" key="find.popup/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1650499059041" />
-    <state x="298" y="150" key="run.anything.popup" timestamp="1650633164599">
+    <state x="298" y="150" width="672" height="677" key="run.anything.popup" timestamp="1650672896739">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="298" y="150" key="run.anything.popup/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1650633164599" />
-    <state x="303" y="-1" width="672" height="678" key="search.everywhere.popup" timestamp="1650501655695">
+    <state x="298" y="150" width="672" height="677" key="run.anything.popup/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1650672896739" />
+    <state x="303" y="0" width="672" height="670" key="search.everywhere.popup" timestamp="1650660467272">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="303" y="-1" width="672" height="678" key="search.everywhere.popup/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1650501655695" />
+    <state x="303" y="0" width="672" height="670" key="search.everywhere.popup/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1650660467272" />
   </component>
 </project>

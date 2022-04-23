@@ -1,13 +1,20 @@
 import React from 'react';
 import styles from '/styles/Card.module.css';
+import Image from "next/image";
 
-const Card = ({ items }) => {
+const Card = ({items}) => {
     return (
         <div className={styles.sectionCenter}>
             {items.map(cardItem => {
                 const { id, img, requiredAmount, desc, title } = cardItem;
                 return <article key={ id } className={styles.cardItem}>
-                    <img src={ img } alt={ title } className={styles.photo} />
+
+                        <img
+                            src={ img }
+                            alt={ title }
+                            className={styles.photo}
+                        />
+
                     <div className={styles.itemInfo}>
                         <header>
                             <h4>

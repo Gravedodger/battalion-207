@@ -132,7 +132,7 @@ const cardsUKR = [
         title: 'Термобілизна розміри 48, 54, 56, 60',
         category: 'Одяг',
         requiredAmount: 40,
-        img: 'https://norfin-ukraine.com.ua/wp-content/uploads/2020/11/termobele-norfin-hunting-base.jpg',
+        img: 'https://s3.us-east-2.amazonaws.com/travelfashiongirlpostphotos/2014/10+Best+Thermal+Underwear+for+Women%3A+The+Smart+Traveler\'s+Secret+to+Packing+Light+in+Winter/best-thermal-underwear-for-women-37.jpg',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dolore enim esse hic itaque liberonesciunt nobis nulla numquam provident quam quisquam recusandae rerum sapiente, temporibus tenetur totam,ut',
     },
     {
