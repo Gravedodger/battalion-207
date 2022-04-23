@@ -23,7 +23,7 @@ const homePageEng = () => {
                 </div>
                 <nav className={styles.homepageNav}>
                     <ul>
-                        <Link href='/eng'>
+                        <Link href='../about/eng'>
                             <li className={styles.homepageNavItem}>About</li>
                         </Link>
                         <Link href='../items/eng'>

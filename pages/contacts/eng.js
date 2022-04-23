@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const ContactsPageEng = () => {
     return (
-        <div className="container">
+        <div>
             <Head>
                 <meta lang="en"/>
                 <meta name="description" content="Battalion-207 contact information" />

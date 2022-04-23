@@ -5,7 +5,7 @@ import { ReturnButtonUkr } from "../../components/ReturnButton";
 
 const ReportsPageUkr = () => {
     return (
-        <div className="container">
+        <div>
             <Head>
                 <meta lang="uk"/>
                 <meta name="description" content="Фінансова та інвентарна звітність Батальйону-207" />
@@ -14,13 +14,13 @@ const ReportsPageUkr = () => {
             </Head>
 
             <main>
-                <section className="section">
+                <div>
                     <div className="title">
                         <ReturnButtonUkr />
                         <h2>Сторінка звітності</h2>
                         <div className="underline" />
                     </div>
-                </section>
+                </div>
             </main>
         </div>
     );

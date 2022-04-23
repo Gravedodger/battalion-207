@@ -9,7 +9,7 @@ import flagsOfUSAandUK from '../assets/images/flags/UK-US_flag.png';
 
 export default function Home() {
   return (
-    <div className='container'>
+    <div>
       <Head>
         <title>Battalion-207</title>
         <meta name="description" content="Battalion-207 needs and requirements" />
@@ -17,7 +17,7 @@ export default function Home() {
       </Head>
 
       <main>
-          <section className={styles.starterWrap}>
+          <div className={styles.starterWrap}>
 
               <div className={styles.starterDesktop}>
                   <div className={styles.starterLogoContainer}>
@@ -44,7 +44,7 @@ export default function Home() {
                       </div>
                   </div>
               </div>
-          </section>
+          </div>
       </main>
     </div>
   );

@@ -16,7 +16,7 @@ const HomePageUkr = () => {
             </Head>
 
             <main>
-                <section className={styles.homepageContainer}>
+                <div className={styles.homepageContainer}>
                     <div className={styles.homepageLogoWrap}>
                         <Link href='/'>
                             <Image src={ logo } className={styles.homepageLogo} />
@@ -42,7 +42,7 @@ const HomePageUkr = () => {
                             </Link>
                         </ul>
                     </nav>
-                </section>
+                </div>
             </main>
         </div>
     );

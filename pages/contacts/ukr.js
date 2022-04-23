@@ -8,7 +8,7 @@ import { ReturnButtonUkr } from "../../components/ReturnButton";
 
 const ContactsPageUkr = () => {
     return (
-        <div className="container">
+        <div>
             <Head>
                 <meta lang="uk"/>
                 <meta name="description" content="Батальйон 207 контактна інформація" />

@@ -5,7 +5,7 @@ import { ReturnButtonEng } from "../../components/ReturnButton";
 
 const FinSupportPageEng = () => {
     return (
-        <div className="container">
+        <div>
             <Head>
                 <meta lang="en"/>
                 <meta name="description" content="Battalion-207 bank account requisites" />
@@ -14,13 +14,15 @@ const FinSupportPageEng = () => {
             </Head>
 
             <main>
-                <section className="styles.section">
-                    <div className="title">
-                        <ReturnButtonEng />
-                        <h2>Financial Support Page</h2>
-                        <div className="underline" />
-                    </div>
-                </section>
+                <div className="title">
+                    <ReturnButtonEng />
+                    <h2>Financial Support Page</h2>
+                    <div className="underline" />
+                </div>
+
+                <div>
+
+                </div>
             </main>
         </div>
     );

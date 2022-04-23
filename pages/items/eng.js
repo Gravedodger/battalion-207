@@ -22,26 +22,28 @@ const ItemsPageEng = () => {
         }
     }
 
-    return <div className="container">
-        <Head>
-            <meta lang="en" />
-            <meta name="description" content="Battalion-207 specific requirements" />
-            <link rel="icon" href="/favicon.ico" />
-            <title>Battalion-207 || Items</title>
-        </Head>
+    return (
+        <div>
+            <Head>
+                <meta lang="en" />
+                <meta name="description" content="Battalion-207 specific requirements" />
+                <link rel="icon" href="/favicon.ico" />
+                <title>Battalion-207 || Items</title>
+            </Head>
 
-        <main>
-            <section className="styles.section">
-                <div className="title">
-                    <ReturnButtonEng />
-                    <h2>Current needs</h2>
-                    <div className="underline" />
+            <main>
+                <div>
+                    <div className="title">
+                        <ReturnButtonEng />
+                        <h2>Current needs</h2>
+                        <div className="underline" />
+                    </div>
+                    <Categories categories={categories} filterItems={ filterItems } />
+                    <Card items={cardItems}/>
                 </div>
-                <Categories categories={categories} filterItems={ filterItems } />
-                <Card items={cardItems}/>
-            </section>
-        </main>
-    </div>
+            </main>
+        </div>
+    );
 };
 
 export default ItemsPageEng;
