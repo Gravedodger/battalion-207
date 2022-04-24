@@ -33,3 +33,15 @@ export const ReturnButtonEng = () => {
         </Link>
     );
 };
+
+export const ReturnButton = () => {
+    return (
+        <Link href="/homepage/eng">
+            <div className={styles.returnBtnWrap}>
+                <div className={styles.returnBtnContainer}>
+                    <Image src={returnBtn} className={styles.returnBtn} />
+                </div>
+            </div>
+        </Link>
+    );
+};

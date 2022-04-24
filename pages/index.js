@@ -1,51 +1,69 @@
 import React from "react";
 import styles from '../styles/Starter.module.css';
-import Link from "next/link";
 import Head from 'next/head';
-import Image from 'next/image';
-import logo from '../public/logo.png';
-import flagOfUkraine from '../public/images/flags/ukraine-flag.png';
-import flagsOfUSAandUK from '../public/images/flags/UK-US_flag.png';
+import '../public/images/flags/ukraine-flag.png';
+import '../public/images/flags/UK-US_flag.png';
+import { Flex, Box, Container, IconButton, useColorMode, useColorModeValue, Text, Image, Link } from '@chakra-ui/react';
+import Header from "../components/Header";
+import {MoonIcon} from "@chakra-ui/icons";
+import {LightBulbIcon} from "../components/Icons";
 
 export default function Home() {
+    const { toggleColorMode } = useColorMode();
+    const bgColor = useColorModeValue('white', 'gray.800');
+    const themeIcon = useColorModeValue(<MoonIcon />, <LightBulbIcon />);
+
   return (
-    <div>
-      <Head>
-        <title>Battalion-207</title>
-        <meta name="description" content="Battalion-207 needs and requirements" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <>
+          <Head>
+              <title>Battalion-207</title>
+              <meta name="description" content="Battalion-207 needs and requirements" />
+              <link rel="icon" href="/favicon.ico" />
+          </Head>
 
-      <main>
-          <div className={styles.starterWrap}>
+          <Box minHeight="100vh" display="flex" flexDir="column">
+              <Container maxW="x1" py={3} display="flex" justifyContent="center" alignItems="center">
+                  <Box w={50} h={50}>
+                      <IconButton position="absolute" left="70%" top="3%" m={3}
+                                  variant="ghost" aria-label="Toggle theme"
+                                  fontSize={40} color="var(--clr-gold)"
+                      onClick={toggleColorMode} icon={themeIcon} />
+                  </Box>
 
-              <div className={styles.starterDesktop}>
-                  <div className={styles.starterLogoContainer}>
-                      <Image src={ logo } />
-                  </div>
+                  <Flex className={styles.starterWrap} flexWrap='wrap' spacing={20} gap={10} mt="5%"
+                        justifyContent='center' alignItems='center' flexDirection='column'>
+                      <Box className={styles.starterLogoContainer}>
+                          <Image src='/logo.png' alt="main logo" objectFit='cover' boxSize="90%" />
+                      </Box>
 
-                  <div className={styles.starterFlagWrap}>
-                      <div className={styles.starterFlagContainer}>
-                          <p className={styles.starterFlagText}>Українською</p>
-                          <div className={styles.starterUkrFlag}>
-                              <Link href='homepage/ukr'>
-                                  <Image src={ flagOfUkraine } />
-                              </Link>
-                          </div>
-                      </div>
+                      <Flex className={styles.starterFlagWrap} justifyContent='center' alignItems='center'>
+                          <Box className={styles.starterFlagContainer}>
+                              <Text fontSize="md" textAlign="center" mb={2}>
+                                  Українською
+                              </Text>
+                              <Box className={styles.starterUkrFlag}>
+                                  <Link href='homepage/ukr'>
+                                      <Image src='/ukraine-flag.png' alt="flag of Ukraine"
+                                             objectFit='cover' boxSize="90%"  />
+                                  </Link>
+                              </Box>
+                          </Box>
 
-                      <div className={styles.starterFlagContainer}>
-                          <p className={styles.starterFlagText}>In English</p>
-                          <div className={styles.starterEngFlag}>
-                              <Link href="homepage/eng">
-                                  <Image src={ flagsOfUSAandUK } />
-                              </Link>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </main>
-    </div>
+                          <Box className={styles.starterFlagContainer}>
+                              <Text fontSize="md" textAlign="center" mb={2}>
+                                  In English
+                              </Text>
+                              <Box className={styles.starterEngFlag}>
+                                  <Link href="homepage/eng">
+                                      <Image src='/UK-US_flag.png' alt="flag of US/UK"
+                                             objectFit='cover' boxSize="90%"  />
+                                  </Link>
+                              </Box>
+                          </Box>
+                      </Flex>
+                  </Flex>
+              </Container>
+          </Box>
+      </>
   );
 };

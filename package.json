@@ -2,6 +2,11 @@
   "name": "battalion-207",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Sviatoslav Malyshevskyi",
+    "email": "s.malyshevskyi.development@gmail.com"
+  },
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,12 +14,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/icons": "^1.1.7",
     "@chakra-ui/react": "^1.8.8",
     "@emotion/react": "11",
     "@emotion/styled": "11",
     "framer-motion": "6",
     "next": "12.1.5",
     "normalize.css": "^8.0.1",
+    "prop-types": "^15.8.1",
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "styled-components": "^5.3.5"
