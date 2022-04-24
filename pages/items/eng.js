@@ -3,9 +3,8 @@ import styles from '/styles/Styles.module.css';
 import items from "/pages/api/data/dataENG";
 import Categories from "/components/Categories";
 import Card from "/components/Card";
+import Header from "../../components/Header";
 import Head from "next/head";
-import { ReturnButtonEng } from "../../components/ReturnButton";
-
 const allCategories = ['all', ...new Set(items.map(item => item.category))];
 
 const ItemsPageEng = () => {
@@ -33,12 +32,9 @@ const ItemsPageEng = () => {
 
             <main>
                 <div>
-                    <div className="title">
-                        <ReturnButtonEng />
-                        <h2>Current needs</h2>
-                        <div className="underline" />
-                    </div>
-                    <Categories categories={categories} filterItems={ filterItems } />
+                    <Header pageTitle="Current needs">
+                        <Categories categories={categories} filterItems={ filterItems } />
+                    </Header>
                     <Card items={cardItems}/>
                 </div>
             </main>

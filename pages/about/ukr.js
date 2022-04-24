@@ -3,9 +3,9 @@ import styles from "../../styles/Styles.module.css";
 import Head from "next/head";
 import logo from '/public/logo.png';
 import Image from "next/image";
-import { ReturnButtonUkr } from "../../components/ReturnButton";
+import Header from "../../components/Header";
 
-const AboutPageUkr = () => {
+const AboutPageUkr = ({pageTitle}) => {
     return (
         <div>
             <Head>
@@ -16,11 +16,7 @@ const AboutPageUkr = () => {
             </Head>
 
             <main>
-                <div className="title">
-                    <ReturnButtonUkr />
-                    <h2>Про Батальйон</h2>
-                    <div className="underline" />
-                </div>
+                <Header pageTitle='Про Батальйон' />
 
                 <article className={styles.aboutArticle}>
                     <div className={styles.articleLogoContainer}>

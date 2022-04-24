@@ -3,7 +3,7 @@ import styles from "../../styles/Styles.module.css";
 import logo from "../../public/logo.png";
 import Head from "next/head";
 import Image from "next/image";
-import { ReturnButtonEng } from "../../components/ReturnButton";
+import Header from "../../components/Header";
 
 const AboutPageEng = () => {
     return (
@@ -16,11 +16,7 @@ const AboutPageEng = () => {
             </Head>
 
             <main>
-                <div className="title">
-                    <ReturnButtonEng />
-                    <h2>About Us</h2>
-                    <div className="underline" />
-                </div>
+               <Header pageTitle="About Us" />
 
                 <article className={styles.aboutArticle}>
                     <div className={styles.articleLogoContainer}>

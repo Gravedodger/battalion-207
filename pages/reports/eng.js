@@ -2,6 +2,7 @@ import React from 'react';
 import styles from "../../styles/Styles.module.css";
 import Head from "next/head";
 import { ReturnButtonEng } from "../../components/ReturnButton";
+import Header from "../../components/Header";
 
 const ReportsPageEng = () => {
     return (
@@ -14,13 +15,11 @@ const ReportsPageEng = () => {
             </Head>
 
             <main>
-                <div>
-                    <div className="title">
-                        <ReturnButtonEng />
-                        <h2>Reports Page</h2>
-                        <div className="underline" />
-                    </div>
-                </div>
+               <Header pageTitle="Reports" />
+
+               <div>
+
+               </div>
             </main>
         </div>
     );

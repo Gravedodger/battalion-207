@@ -2,6 +2,7 @@ import React from 'react';
 import styles from "../../styles/Styles.module.css";
 import Head from "next/head";
 import { ReturnButtonUkr } from "../../components/ReturnButton";
+import Header from "../../components/Header";
 
 const ReportsPageUkr = () => {
     return (
@@ -14,12 +15,10 @@ const ReportsPageUkr = () => {
             </Head>
 
             <main>
+                <Header pageTitle="Звітність" />
+
                 <div>
-                    <div className="title">
-                        <ReturnButtonUkr />
-                        <h2>Сторінка звітності</h2>
-                        <div className="underline" />
-                    </div>
+
                 </div>
             </main>
         </div>

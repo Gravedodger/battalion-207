@@ -4,7 +4,7 @@ import items from "/pages/api/data/dataUKR";
 import Categories from "/components/Categories";
 import Card from "/components/Card";
 import Head from "next/head";
-import { ReturnButtonUkr } from "../../components/ReturnButton";
+import Header from "../../components/Header";
 
 const ItemsPageUkr = () => {
 
@@ -33,12 +33,9 @@ const ItemsPageUkr = () => {
             </Head>
 
             <main>
-                <div className="title">
-                    <ReturnButtonUkr />
-                    <h2>Нагальна необхідність</h2>
-                    <div className="underline" />
-                </div>
-                <Categories categories={categories} filterItems={ filterItems } />
+                <Header pageTitle="Нагальна необхідність">
+                    <Categories categories={categories} filterItems={ filterItems } />
+                </Header>
                 <Card items={cardItems}/>
             </main>
         </div>

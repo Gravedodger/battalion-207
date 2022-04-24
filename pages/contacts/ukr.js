@@ -5,6 +5,8 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { ReturnButtonUkr } from "../../components/ReturnButton";
+import He from "styled-components/dist/styled-components.browser.esm";
+import Header from "../../components/Header";
 
 const ContactsPageUkr = () => {
     return (
@@ -17,11 +19,7 @@ const ContactsPageUkr = () => {
             </Head>
 
             <main>
-                <div className="title">
-                    <ReturnButtonUkr />
-                    <h2>Контактна інформація</h2>
-                    <div className="underline" />
-                </div>
+                <Header pageTitle="Контактна інформація" />
 
                 <div className={styles.aboutArticle}>
                     <div className={styles.articleLogoContainer}>

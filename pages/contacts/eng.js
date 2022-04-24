@@ -5,6 +5,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { ReturnButtonEng } from "../../components/ReturnButton";
 import Link from "next/link";
+import Header from "../../components/Header";
 
 const ContactsPageEng = () => {
     return (
@@ -17,11 +18,7 @@ const ContactsPageEng = () => {
             </Head>
 
             <main>
-                <div className="title">
-                    <ReturnButtonEng />
-                    <h2>Contact information</h2>
-                    <div className="underline" />
-                </div>
+                <Header pageTitle="Contact information" />
 
                 <div className={styles.aboutArticle}>
                     <div className={styles.articleLogoContainer}>

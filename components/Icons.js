@@ -1,5 +1,6 @@
 import React from 'react';
 import { createIcon } from '@chakra-ui/icons';
+import {Box, IconButton} from "@chakra-ui/react";
 
 const viewBox = '0 0 20 20';
 
