@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from "/assets/images/logos/logo-112.png";
+import logo from "/public/logo.png";
 import styles from '/styles/Homepage.module.css';
 import Image from "next/image";
 import Link from "next/link";

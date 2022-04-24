@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from "../../styles/Styles.module.css";
 import Head from "next/head";
-import logo from '/assets/images/logos/logo-112.png';
+import logo from '/public/logo.png';
 import Image from "next/image";
 import { ReturnButtonUkr } from "../../components/ReturnButton";
 

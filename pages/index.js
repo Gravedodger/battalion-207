@@ -3,9 +3,9 @@ import styles from '../styles/Starter.module.css';
 import Link from "next/link";
 import Head from 'next/head';
 import Image from 'next/image';
-import logo from '../assets/images/logos/logo-112.png';
-import flagOfUkraine from '../assets/images/flags/ukraine-flag.png';
-import flagsOfUSAandUK from '../assets/images/flags/UK-US_flag.png';
+import logo from '../public/logo.png';
+import flagOfUkraine from '../public/images/flags/ukraine-flag.png';
+import flagsOfUSAandUK from '../public/images/flags/UK-US_flag.png';
 
 export default function Home() {
   return (

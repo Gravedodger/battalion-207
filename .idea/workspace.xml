@@ -11,20 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16cc5659-9977-4949-ba87-ebf4e6bd80d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/battalion-207.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/battalion-207.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contacts/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contacts/eng.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contacts/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contacts/ukr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/finSupport/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/finSupport/eng.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/finSupport/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/finSupport/ukr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/homepage/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/homepage/eng.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/homepage/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/homepage/ukr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/items/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/items/eng.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/reports/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/reports/eng.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/reports/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/reports/ukr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Categories.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Categories.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/flags/ukraine-flag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/logos/logo-112.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/logos/logo-army.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +85,8 @@
       <workItem from="1650404736058" duration="1358000" />
       <workItem from="1650406151163" duration="19991000" />
       <workItem from="1650485615972" duration="82309000" />
-      <workItem from="1650671926131" duration="4814000" />
+      <workItem from="1650671926131" duration="6986000" />
+      <workItem from="1650763505106" duration="547000" />
     </task>
     <servers />
   </component>

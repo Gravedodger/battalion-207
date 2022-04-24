@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '/styles/ReturnButton.module.css';
-import returnBtn from '/assets/images/icons/back.png';
+import returnBtn from '/public/images/icons/back.png';
 import Link from "next/link";
 import Image from "next/image";
 
