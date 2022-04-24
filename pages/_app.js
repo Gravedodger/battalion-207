@@ -1,9 +1,12 @@
 import React from "react";
+import { ChakraProvider } from "@chakra-ui/react";
 import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
   return (
-      <Component {...pageProps} />
+      <ChakraProvider>
+          <Component {...pageProps} />
+      </ChakraProvider>
       )
 }
 
