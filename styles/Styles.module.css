@@ -110,13 +110,11 @@
 
 @media screen and (min-width: 100px) and (max-width: 399px) {
     .aboutArticle {
-        /*margin-top: 1rem;*/
         flex-direction: column;
-        /*margin-left: 8%;*/
-        margin: 0 0 2rem 0;
+        margin: 0 0 2rem 8%;
     }
     .articleLogoContainer {
-        margin: 1rem;
+        margin-bottom: 1rem;
         width: 160px;
     }
     .articleTxtContainer {

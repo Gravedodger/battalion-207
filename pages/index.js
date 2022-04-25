@@ -4,9 +4,8 @@ import Head from 'next/head';
 import '../public/images/flags/ukraine-flag.png';
 import '../public/images/flags/UK-US_flag.png';
 import { Flex, Box, Container, IconButton, useColorMode, useColorModeValue, Text, Image, Link } from '@chakra-ui/react';
-import Header from "../components/Header";
-import {MoonIcon} from "@chakra-ui/icons";
-import {LightBulbIcon} from "../components/Icons";
+import { MoonIcon } from "@chakra-ui/icons";
+import { LightBulbIcon } from "../components/Icons";
 
 export default function Home() {
     const { toggleColorMode } = useColorMode();
