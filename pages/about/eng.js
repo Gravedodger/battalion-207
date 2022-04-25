@@ -23,10 +23,12 @@ const AboutPageEng = ({ pageTitle }) => {
 
                 <Container className={styles.articleTxtContainer} fontSize='xl' textAlign='justify'>
                     <Text>
-                        The 207th Battalion of the 112th Territorial Defense Brigade of Kyiv is a separate unit
+                        The 207th Battalion of the 241st Territorial Defense Brigade of Kyiv is a separate unit
                         within the Armed Forces of Ukraine, subordinated to the Operational Command "North"
                         (unit A7376).
                     </Text>
+
+                    <br />
 
                     <Text>
                         The Battalion was formed in response to the full-scale invasion of Ukraine by military
@@ -37,10 +39,14 @@ const AboutPageEng = ({ pageTitle }) => {
                         rest of Europe.
                     </Text>
 
+                    <br />
+
                     <Text>
                         Skilful command, combined with bravery of every soldier, helped the Battalion to play an
                         important role in defense of the Capital of Ukraine, the city of Kyiv.
                     </Text>
+
+                    <br />
 
                     <Text>
                         Today, individual companies of the Battalion are engaged in combat missions around the Kyiv
