@@ -18,7 +18,7 @@ const Header = ({filter, setFilter, pageTitle}) => {
 
             <Box>
                 <Text
-                    fontSize={{ lg: '5xl', md: '4xl', sm: '2xl' }} fontWeight={600} color='#000000'
+                    fontSize={{ lg: '5xl', md: '4xl', sm: '2xl' }} fontWeight={600}
                     mb={{ base: 2, lg: 2, md: 4, sm: 3 }}
                 >
                     {pageTitle}
