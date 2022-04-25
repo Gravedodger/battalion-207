@@ -1,30 +1,38 @@
 import React from 'react';
 import styles from '/styles/Card.module.css';
-import Image from "next/image";
+import { Box, Image, Text } from '@chakra-ui/react';
 
 const Card = ({items}) => {
     return (
         <div className={styles.sectionCenter}>
             {items.map(cardItem => {
                 const { id, img, requiredAmount, desc, title } = cardItem;
-                return <article key={ id } className={styles.cardItem}>
 
-                        <img
-                            src={ img }
-                            alt={ title }
+                return (
+                    <article key={id} className={styles.cardItem}>
+
+                        <Image
+                            objectFit='contain'
                             className={styles.photo}
+                            src={img}
+                            alt={title}
                         />
 
-                    <div className={styles.itemInfo}>
-                        <header>
-                            <h4>
-                                { title }
-                            </h4>
-                            <h5 className={styles.requiredAmount}>{ requiredAmount }</h5>
-                        </header>
-                        <p className={styles.itemText}>{ desc }</p>
-                    </div>
-                </article>
+                        <Box flexDirection='column' className={styles.itemInfo}>
+                            <header>
+                                <Text fontSize='xl' fontWeight={600}>
+                                    {title}
+                                </Text>
+                                <Text fontSize='lg' fontWeight={600} className={styles.requiredAmount}>
+                                    {requiredAmount} од.
+                                </Text>
+                            </header>
+                            <p className={styles.itemText}>
+                                {desc}
+                            </p>
+                        </Box>
+                    </article>
+                )
             })}
         </div>
     );

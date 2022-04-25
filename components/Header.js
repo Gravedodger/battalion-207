@@ -2,7 +2,7 @@ import React from 'react';
 import { MoonIcon } from '@chakra-ui/icons';
 import ReturnButton from "./ReturnButton";
 import { FilterIcon, LightBulbIcon } from './Icons';
-import { Box, Container, IconButton, Text, useColorMode, useColorModeValue} from '@chakra-ui/react';
+import { Box, Flex, IconButton, Text, useColorMode, useColorModeValue} from '@chakra-ui/react';
 
 const Header = ({filter, setFilter, pageTitle}) => {
     const { toggleColorMode } = useColorMode();
@@ -10,24 +10,26 @@ const Header = ({filter, setFilter, pageTitle}) => {
     const themeIcon = useColorModeValue(<MoonIcon />, <LightBulbIcon />);
 
     return (
-        <Box py={3} mb={10} zIndex={1} backgroundColor={bgColor}>
-            <Container w="100%" maxW="x1" display="flex" justifyContent="space-around" alignItems="center">
-                <Box>
-                    <ReturnButton color="var(--clr-gold)"/>
-                </Box>
+        <Flex alignItems='center' justifyContent='space-around' py={3} mb={10} zIndex={1} backgroundColor={bgColor}>
+            <Box>
+                <ReturnButton color="var(--clr-gold)" />
+            </Box>
 
-                <Box>
-                    <Text fontSize="5xl" fontWeight="00" color='#000000'>{pageTitle}</Text>
-                        <div className="underline" />
+            <Box>
+                <Text
+                    fontSize={{ lg: '5xl', md: '4xl', sm: '2xl' }} fontWeight={600} color='#000000'
+                    mb={{ base: 2, lg: 2, md: 4, sm: 3 }}
+                >
+                    {pageTitle}
+                </Text>
+                <div className="underline" />
+            </Box>
 
-                </Box>
-
-                <Box>
-                    <IconButton variant="ghost" aria-label="Toggle theme"
-                                fontSize={40} color="var(--clr-gold)" onClick={toggleColorMode} icon={themeIcon} />
-                </Box>
-            </Container>
-        </Box>
+            <Box>
+                <IconButton variant="ghost" aria-label="Toggle theme"
+                            fontSize={{ lg: 50, md: 40, sm: 30 }} color="var(--clr-gold)" onClick={toggleColorMode} icon={themeIcon} />
+            </Box>
+        </Flex>
     );
 }
 
