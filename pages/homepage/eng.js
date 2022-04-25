@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
 
-const homePageEng = () => {
+const homePageEng = ({ pageTitle }) => {
     return (
         <div>
             <Head>

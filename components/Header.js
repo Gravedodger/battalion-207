@@ -1,6 +1,7 @@
 import React from 'react';
-import { MoonIcon } from '@chakra-ui/icons';
-import ReturnButton from "./ReturnButton";
+import styles from "../styles/Icons.module.css";
+import { ReturnButton } from "./Icons";
+import { MoonIcon } from "@chakra-ui/icons";
 import { FilterIcon, LightBulbIcon } from './Icons';
 import { Box, Flex, IconButton, Text, useColorMode, useColorModeValue} from '@chakra-ui/react';
 
@@ -26,8 +27,15 @@ const Header = ({filter, setFilter, pageTitle}) => {
             </Box>
 
             <Box>
-                <IconButton variant="ghost" aria-label="Toggle theme"
-                            fontSize={{ lg: 50, md: 40, sm: 30 }} color="var(--clr-gold)" onClick={toggleColorMode} icon={themeIcon} />
+                <IconButton
+                    fontSize={{ lg: '40px', md: '30px', sm: '30px' }}
+                    variant="ghost"
+                    aria-label="Toggle theme"
+                    cursor='pointer'
+                    icon={themeIcon}
+                    onClick={toggleColorMode}
+                    color='#c59d5f'
+                />
             </Box>
         </Flex>
     );

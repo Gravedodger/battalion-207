@@ -4,10 +4,10 @@ import Head from "next/head";
 import Header from "../../components/Header";
 import { Container, Box, Image, Text } from '@chakra-ui/react';
 
-const AboutPageEng = () => {
+const AboutPageEng = ({ pageTitle }) => {
     return <>
         <Head>
-            <meta lang="en"/>
+            <meta lang="en" />
             <meta name="description" content="Battalion-207 information about the battalion" />
             <link rel="icon" href="/favicon.ico" />
             <title>Battalion-207 || About</title>

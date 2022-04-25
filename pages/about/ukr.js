@@ -7,7 +7,7 @@ import { Container, Box, Image, Text } from '@chakra-ui/react';
 const AboutPageUkr = ({ pageTitle }) => {
     return <>
         <Head>
-            <meta lang="uk"/>
+            <meta lang="uk" />
             <meta name="description" content="Battalion-207 інформація про батальйон" />
             <link rel="icon" href="/favicon.ico" />
             <title>Battalion-207 || Про Батальйон</title>
