@@ -18,7 +18,7 @@ const AboutPageUkr = ({ pageTitle }) => {
 
             <Box className={styles.aboutArticle}>
                 <div className={styles.articleLogoContainer}>
-                    <Image objectFit='fill' src='/logo.png' alt="battalion logo" />
+                    <Image objectFit='contain' src='/logo.png' alt="battalion logo" />
                 </div>
 
                 <Container className={styles.articleTxtContainer} fontSize='xl' textAlign='justify'>

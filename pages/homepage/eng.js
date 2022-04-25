@@ -1,48 +1,67 @@
 import React from 'react';
-import logo from "/public/logo.png";
 import styles from '/styles/Homepage.module.css';
-import Image from "next/image";
-import Link from "next/link";
+import NextLink from 'next/link';
 import Head from "next/head";
+import Header from "../../components/Header";
+import { VStack, Center, StackDivider, Link, Image } from '@chakra-ui/react'
 
 const homePageEng = ({ pageTitle }) => {
-    return (
-        <div>
-            <Head>
-                <meta lang="en"/>
-                <meta name="description" content="Battalion-207 nav menu" />
-                <link rel="icon" href="/favicon.ico" />
-                <title>Battalion-207 || Navigation</title>
-            </Head>
+    return <>
+        <Head>
+            <meta lang="en" />
+            <meta name="description" content="Battalion-207 nav menu" />
+            <link rel="icon" href="/favicon.ico" />
+            <title>Battalion-207 || Navigation</title>
+        </Head>
 
+        <Header pageTitle='Battalion 207' />
+
+        <Center>
             <div className={styles.homepageContainer}>
                 <div className={styles.homepageLogoWrap}>
-                    <Link href='/'>
-                        <Image src={ logo } className={styles.homepageLogo} />
-                    </Link>
+                    <Image src='/logo.png' />
                 </div>
-                <nav className={styles.homepageNav}>
-                    <ul>
-                        <Link href='../about/eng'>
-                            <li className={styles.homepageNavItem}>About</li>
+
+                <VStack
+                    className={styles.homepageNav}
+                    divider={<StackDivider borderColor='#c59d5f'/>}
+                    spacing={4}
+                    align='center'
+                >
+
+                    <NextLink href='../about/ukr' passHref>
+                        <Link className={styles.homepageNavItem}>
+                            About
                         </Link>
-                        <Link href='../items/eng'>
-                            <li className={styles.homepageNavItem}>Items</li>
+                    </NextLink>
+
+                    <NextLink href='../about/ukr' passHref>
+                        <Link className={styles.homepageNavItem}>
+                            Items
                         </Link>
-                        <Link href='../reports/eng'>
-                            <li className={styles.homepageNavItem}>Reports</li>
+                    </NextLink>
+
+                    <NextLink href='../about/ukr' passHref>
+                        <Link className={styles.homepageNavItem}>
+                            Reports
                         </Link>
-                        <Link href='../finSupport/eng'>
-                            <li className={styles.homepageNavItem}>Financial Support</li>
+                    </NextLink>
+
+                    <NextLink href='../about/ukr' passHref>
+                        <Link className={styles.homepageNavItem}>
+                            Financial Support
                         </Link>
-                        <Link href='../contacts/eng'>
-                            <li className={styles.homepageNavItem}>Contacts</li>
+                    </NextLink>
+
+                    <NextLink href='../about/ukr' passHref>
+                        <Link className={styles.homepageNavItem}>
+                            Contacts
                         </Link>
-                    </ul>
-                </nav>
+                    </NextLink>
+                </VStack>
             </div>
-        </div>
-    );
+        </Center>
+    </>
 };
 
 export default homePageEng;

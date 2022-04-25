@@ -1,30 +1,19 @@
 .starterWrap {
   display: flex;
   width: 100%;
-  height: 100%;
   margin: 0;
   padding: 0;
   align-items: center;
   justify-content: space-evenly;
 }
 
-.starterDesktop {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 80%;
-  margin: 5rem;
-}
-
 .starterLogoContainer {
-  width: 30%;
-  margin-bottom: 5%;
+  width: 20%;
 }
 
 .starterFlagWrap {
-  display: flex;
-  justify-content: space-around;
-  width: 70%;
+  width: 60%;
+  margin-bottom: 5%;
 }
 
 .starterFlagText {
@@ -33,13 +22,15 @@
 
 .starterFlagContainer {
   display: flex;
+  width: 100%;
   flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .starterUkrFlag {
-  width: 275px;
-  height: 183px;
-  margin-right: 5%;
+  width: 60%;
+  object-fit: cover;
 }
 
 .starterUkrFlag:hover {
@@ -47,9 +38,8 @@
 }
 
 .starterEngFlag {
-  width: 300px;
-  height: 178px;
-  margin-left: 5%;
+  width: 60%;
+  object-fit: cover;
 }
 
 .starterEngFlag:hover {
@@ -57,78 +47,76 @@
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
-  .starterDesktop {
-    margin-top: 3%;
-  }
   .starterLogoContainer {
-    width: 25%;
-    margin-top: 0;
-    margin-bottom: 0;
+    width: 14%;
+  }
+  .starterFlagWrap {
+    width: 60%;
+  }
+  .starterUkrFlag {
+    width: 50%;
+  }
+  .starterEngFlag {
+    width: 50%;
   }
 }
 
 @media screen and (min-width: 900px) and (max-width: 1199px) {
   .starterLogoContainer {
-    width: 25%;
-    margin-top: -5%;
+    width: 30%;
+  }
+  .starterFlagWrap {
+    width: 80%;
   }
   .starterUkrFlag {
-    margin-right: 15%;
+    width: 60%;
   }
   .starterEngFlag {
-    margin-left: 15%;
+    width: 60%;
   }
 }
 
 @media screen and (min-width: 750px) and (max-width: 899px) {
-  .starterDesktop {
-    margin-top: 5%;
+  .starterLogoContainer {
+    width: 40%;
+  }
+  .starterFlagWrap {
+    width: 70%;
   }
   .starterUkrFlag {
-    margin-right: 15%;
+    width: 70%;
   }
   .starterEngFlag {
-    margin-left: 15%;
+    width: 70%;
   }
 }
 
 @media screen and (min-width: 500px) and (max-width: 749px) {
-  .starterDesktop {
-    margin-top: 5%;
+  .starterLogoContainer {
+    width: 40%;
   }
   .starterFlagWrap {
-    width: 90%;
+    width: 80%;
   }
   .starterUkrFlag {
-    width: 225px;
-    height: 149px;
-    margin-right: 15%;
+    width: 160px;
   }
   .starterEngFlag {
-    width: 255px;
-    height: 151px;
-    margin-left: 15%;
+    width: 160px;
   }
 }
 
 @media screen and (min-width: 200px) and (max-width: 499px) {
-  .starterDesktop {
-    padding-top: 0;
+  .starterFlagWrap {
+    width: 100%;
   }
   .starterLogoContainer {
-    width: 160px;
-  }
-  .starterFlagWrap {
-    margin-top: 20%;
-    align-items: center;
-    justify-content: center;
+    width: 50%;
   }
   .starterUkrFlag {
-    width: 160px;
-    height: 100px;
+    width: 85%;
   }
   .starterEngFlag {
-    width: 175px;
-    height: 100px;
+    width: 85%;
   }
 }

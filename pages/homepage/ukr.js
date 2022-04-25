@@ -1,10 +1,9 @@
 import React, { Fragment } from 'react';
 import styles from '/styles/Homepage.module.css';
-import { Image } from '@chakra-ui/react';
 import NextLink from 'next/link';
 import Head from "next/head";
 import Header from "../../components/Header";
-import { VStack, Center, StackDivider, Text, Container, Box, Link } from '@chakra-ui/react'
+import { VStack, Center, StackDivider, Image, Link } from '@chakra-ui/react'
 
 const HomePageUkr = ({ pageTitle }) => {
     return <>
@@ -20,7 +19,7 @@ const HomePageUkr = ({ pageTitle }) => {
         <Center>
             <div className={styles.homepageContainer}>
                 <div className={styles.homepageLogoWrap}>
-                    <Image src='/logo.png' className={styles.homepageLogo} />
+                    <Image src='/logo.png' />
                 </div>
 
                 <VStack
@@ -31,52 +30,31 @@ const HomePageUkr = ({ pageTitle }) => {
                 >
 
                     <NextLink href='../about/ukr' passHref>
-                        <Link
-                            fontSize={{ lg: 40, md: 30, sm: 20 }}
-                            fontWeight={{ lg: 600 , md: 500, sm: 500 }}
-                            className={styles.chakraLink}
-                        >
+                        <Link className={styles.homepageNavItem}>
                             Про Батальйон
                         </Link>
                     </NextLink>
 
                     <NextLink href='../items/ukr' passHref>
-                        <Link
-                            fontSize={{ lg: 40, md: 30, sm: 20 }}
-                            fontWeight={{ lg: 600 , md: 500, sm: 500 }}
-                            className={styles.chakraLink}
-                        >
+                        <Link className={styles.homepageNavItem}>
                             Нагальна необхідність
                         </Link>
                     </NextLink>
 
                     <NextLink href='../reports/ukr' passHref>
-                        <Link
-                            fontSize={{ lg: 40, md: 30, sm: 20 }}
-                            fontWeight={{ lg: 600 , md: 500, sm: 500 }}
-                            className={styles.chakraLink}
-                        >
+                        <Link className={styles.homepageNavItem}>
                             Звітність
                         </Link>
                     </NextLink>
 
-                    <NextLink href='../finSupport/ukr' passHref                         textDecoration='none'
-                    >
-                        <Link
-                            fontSize={{ lg: 40, md: 30, sm: 20 }}
-                            fontWeight={{ lg: 600 , md: 500, sm: 500 }}
-                            className={styles.chakraLink}
-                        >
+                    <NextLink href='../finSupport/ukr' passHref>
+                        <Link className={styles.homepageNavItem}>
                             Фінансова допомога
                         </Link>
                     </NextLink>
 
                     <NextLink href='../contacts/ukr' passHref>
-                        <Link
-                            fontSize={{ lg: 40, md: 30, sm: 20 }}
-                            fontWeight={{ lg: 600 , md: 500, sm: 500 }}
-                            className={styles.chakraLink}
-                        >
+                        <Link className={styles.homepageNavItem}>
                             Контактна інформація
                         </Link>
                     </NextLink>

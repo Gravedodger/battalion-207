@@ -7,8 +7,8 @@
 }
 
 .articleLogoContainer {
-    width: 30rem;
-    margin-right: 5rem;
+    width: 20%;
+    margin-right: 10%;
 }
 
 .articleTxtContainer {
@@ -32,6 +32,9 @@
     .contactsInfo {
         width: 90%;
     }
+    .articleLogoContainer {
+        width: 30%;
+    }
     .aboutArticle p {
         font-size: 18px;
         line-height: 1.8rem;
@@ -45,6 +48,9 @@
     .aboutArticle {
         margin-left: 10%;
     }
+    .articleLogoContainer {
+        width: 30%;
+    }
     .aboutArticle p {
         font-size: 18px;
         line-height: 1.6rem;
@@ -57,7 +63,7 @@
         margin-left: 5rem;
     }
     .articleLogoContainer {
-        width: 30rem;
+        width: 20%;
     }
     .articleTxtContainer {
         width: 60rem;
@@ -104,7 +110,7 @@
     .articleLogoContainer {
         width: 16rem;
         margin-bottom: 2rem;
-        margin-left: 4rem;
+        /*margin-left: 4rem;*/
     }
 }
 
@@ -114,8 +120,8 @@
         margin: 0 0 2rem 8%;
     }
     .articleLogoContainer {
-        margin-bottom: 1rem;
-        width: 160px;
+        margin: 0 0 1rem 1rem;
+        width: 140px;
     }
     .articleTxtContainer {
         width: 13rem;
@@ -132,47 +138,153 @@
 }
 
 /*///////////////   CONTACTS   //////////////////*/
+.contacts {
+    display: flex;
+    width: 100%;
+    margin-top: 3rem;
+    margin-left: 28%;
+    align-items: center;
+}
+
+.contactsLogoContainer {
+    width: 30%;
+    margin-right: 5%;
+}
+
 .contactsInfo {
     width: 100%;
 }
 
 .contactsItem {
+    width: 55%;
+    font-size: 20px;
+    margin-bottom: 4%;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-}
-
-.contactsItem h4 {
-    width: 13rem;
-}
-
-.contactsItem p {
-    width: 18rem;
-    margin-left: 5%;
-    justify-content: flex-end;
-
+    justify-content: space-between;
 }
 
 .contactsItemLink {
     cursor: pointer;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 1200px) {
-
-}
-
-@media screen and (min-width: 800px) and (max-width: 999px) {
-
-}
-
-@media screen and (min-width: 600px) and (max-width: 799px) {
-
+@media screen and (min-width: 100px) and (max-width: 399px) {
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+        margin: 0 20% 0 20%;
+    }
+    .contactsLogoContainer {
+        width: 50%;
+    }
+    .contactsInfo {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .contactsItem {
+        display: flex;
+        width: 100%;
+        margin-bottom: 0;
+        flex-direction: column;
+        font-size: 11px;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 @media screen and (min-width: 400px) and (max-width: 599px) {
-
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 20% 0 20%;
+    }
+    .contactsLogoContainer {
+        width: 30%;
+        margin: 0;
+    }
+    .contactsInfo {
+        width: 100%;
+        margin-top: 5%;
+    }
+    .contactsItem {
+        flex-direction: row;
+        margin-bottom: 2%;
+        font-size: 12px;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
 
-@media screen and (min-width: 100px) and (max-width: 399px) {
+@media screen and (min-width: 600px) and (max-width: 999px) {
+    .contacts {
+        display: flex;
+        width: 100%;
+        margin-top: 3rem;
+        margin-left: 10%;
+        align-items: center;
+    }
 
+    .contactsLogoContainer {
+        width: 20%;
+        margin-right: 5%;
+    }
+
+    .contactsInfo {
+        width: 65%;
+    }
+
+    .contactsItem {
+        width: 100%;
+        font-size: 15px;
+        margin-bottom: 2%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+    .contacts {
+        width: 100%;
+        margin: 0 20% 0 20%;
+        align-items: center;
+    }
+    .contactsLogoContainer {
+        width: 30%;
+        margin: 0;
+    }
+    .contactsInfo {
+        margin-left: 7%;
+    }
+    .contactsItem {
+        margin-bottom: 4%;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+    .contacts {
+        width: 100%;
+        margin: 0 20% 0 20%;
+        align-items: center;
+    }
+    .contactsLogoContainer {
+        width: 40%;
+        margin: 0;
+    }
+    .contactsInfo {
+        margin-left: 10%;
+    }
+    .contactsItem {
+        margin-bottom: 4%;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 16px;
+    }
 }
