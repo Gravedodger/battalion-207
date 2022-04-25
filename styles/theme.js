@@ -5,7 +5,7 @@ const theme = extendTheme({
         global: {
             html: {
                 scrollBehavior: 'smooth'
-            }
+            },
         }
     }
 });

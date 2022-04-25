@@ -112,8 +112,8 @@
     .aboutArticle {
         /*margin-top: 1rem;*/
         flex-direction: column;
-        margin-bottom: 4rem;
         /*margin-left: 8%;*/
+        margin: 0 0 2rem 0;
     }
     .articleLogoContainer {
         margin: 1rem;
