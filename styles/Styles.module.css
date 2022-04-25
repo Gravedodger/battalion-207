@@ -90,7 +90,7 @@
         margin-top: 1.2rem;
         flex-direction: column;
         margin-bottom: 3rem;
-        margin-left: 18%;
+        margin-left: 10%;
     }
     .articleTxtContainer {
         width: 20rem;
@@ -104,6 +104,7 @@
     .articleLogoContainer {
         width: 16rem;
         margin-bottom: 2rem;
+        margin-left: 4rem;
     }
 }
 
