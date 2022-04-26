@@ -6,8 +6,13 @@ const theme = extendTheme({
             html: {
                 scrollBehavior: 'smooth'
             },
-        }
-    }
+        },
+    },
+
+    // config: {
+    //     initialColorMode: "System",
+    //     useSystemColorMode: true,
+    // },
 });
 
 export default theme;

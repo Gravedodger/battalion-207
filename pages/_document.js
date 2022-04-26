@@ -12,7 +12,7 @@ class Document extends NextDocument {
             <Html>
                 <Head />
                 <body>
-                    <ColorModeScript initialColorMode="light" />
+                    <ColorModeScript initialColorMode="system" />
                     <Main />
                     <NextScript />
                 </body>
