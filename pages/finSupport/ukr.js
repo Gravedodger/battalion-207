@@ -1,8 +1,8 @@
-import React, {Fragment, useState} from 'react';
-import styles from "/styles/FInSupport.module.css";
+import React, { Fragment, useState } from 'react';
+import styles from "/styles/FinSupport.module.css";
+import { Center, Box, Flex, Text } from '@chakra-ui/react';
 import Head from "next/head";
 import Header from "../../components/Header";
-import { Center, Box, Flex, Text } from '@chakra-ui/react';
 import PopoverUKR from "../../components/Popover";
 
 const FinSupportPageUkr = () => {
