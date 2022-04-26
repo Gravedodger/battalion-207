@@ -12,7 +12,7 @@ const Header = ({filter, setFilter, pageTitle}) => {
 
     return (
         <Flex
-            position: 'sticky'
+            position: 'fixed'
             alignItems='center'
             justifyContent='space-around'
             py={3}
