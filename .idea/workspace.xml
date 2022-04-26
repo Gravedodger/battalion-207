@@ -11,23 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16cc5659-9977-4949-ba87-ebf4e6bd80d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/styles/Buttons.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/FInSupport.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/smaly.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/smaly.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/FinCard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/data/dataUKR.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/data/dataUKR.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/finSupport/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/finSupport/eng.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/finSupport/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/finSupport/ukr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/currency/eur.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/currency/eur.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/currency/gbp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/currency/gbp.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/currency/ukraine-hryvnia.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/currency/ukraine-hryvnia.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/currency/usd.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/currency/usd.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/FinCard.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Buttons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Homepage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Homepage.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Styles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Styles.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +89,8 @@
       <workItem from="1650671926131" duration="6986000" />
       <workItem from="1650763505106" duration="9610000" />
       <workItem from="1650800026122" duration="7234000" />
-      <workItem from="1650833426491" duration="69152000" />
+      <workItem from="1650833426491" duration="69236000" />
+      <workItem from="1651003911685" duration="793000" />
     </task>
     <servers />
   </component>

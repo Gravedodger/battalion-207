@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import styles from "../../styles/FInSupport.module.css";
+import styles from "/styles/FInSupport.module.css";
 import Head from "next/head";
 import Header from "../../components/Header";
 import { TransferBtnUkr } from "../../components/Buttons";

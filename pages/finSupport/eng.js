@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react';
-import styles from "../../styles/FinSupport.module.css";
+import styles from "/styles/FinSupport.module.css";
 import Head from "next/head";
 import Header from "../../components/Header";
-import {Box, Center, Flex, Text} from "@chakra-ui/react";
-import {TransferBtnEng} from "../../components/Buttons";
+import { Box, Center, Flex, Text } from "@chakra-ui/react";
+import { TransferBtnEng } from "../../components/Buttons";
 
 const FinSupportPageEng = () => {
     return <>
