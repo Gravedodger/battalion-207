@@ -1,19 +1,19 @@
 const cardsUKR = [
     {
         id: 1,
-        title: 'Магазини для АК-74 5.45 кал',
+        title: 'Магазини для АК-74',
         category: 'Зброя',
         requiredAmount: 250,
         img: 'https://media.istockphoto.com/photos/kalashnikov-magazine-with-extra-bullets-picture-id166223678?k=20&m=166223678&s=612x612&w=0&h=lyPm_66rl2bxCL3n3lEPaXajINy13-8vt7DaYRMaBPo=',
-        desc: 'Provident quam quisquam recusandae rerum sapiente, temporibus tenetur bla bla bla bla bla bla totam,ut1',
+        desc: 'Магазини на 30 набоїв калібру 5.45 для автомату АК-74',
     },
     {
         id: 2,
-        title: 'Балони з мастилом для чищення зброї',
+        title: 'Мастило для зброї',
         category: 'Зброя',
         requiredAmount: 30,
         img: 'https://www.topammo.com.ua/wp-content/uploads/2019/10/%D0%B1%D0%B0%D0%BB%D0%B8%D1%81%D1%82%D0%BE%D0%BB-300x244.png',
-        desc: 'Provident quam quisquam recusandae rerum sapiente, temporibus tenetur bla bla bla bla bla bla totam,ut1',
+        desc: 'Балони з мастилом для чищення зброї',
     },
     {
         id: 3,
@@ -21,7 +21,7 @@ const cardsUKR = [
         category: 'Зброя',
         requiredAmount: 20,
         img: 'data:image/jpeg;base64,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',
-        desc: 'Provident quam quisquam recusandae rerum sapiente, temporibus tenetur bla bla bla bla bla bla totam,ut1',
+        desc: 'Прибори безшумної стрільби (глушники) для автомату АК-74',
     },
     {
         id: 4,
@@ -405,7 +405,7 @@ const cardsUKR = [
         category: 'Іжа/Напої',
         requiredAmount: 100,
         img: 'https://content1.rozetka.com.ua/goods/images/big/133421607.png',
-        desc: 'Provident quam quisquam recusandae rerum sapiente, temporibus tenetur bla bla bla bla bla bla totam,ut1',
+        desc: '',
     },
     {
         id: 52,

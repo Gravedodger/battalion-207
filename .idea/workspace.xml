@@ -11,9 +11,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16cc5659-9977-4949-ba87-ebf4e6bd80d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/styles/Buttons.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/FInSupport.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/smaly.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/smaly.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/FinCard.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/data/dataUKR.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/data/dataUKR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/finSupport/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/finSupport/eng.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/finSupport/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/finSupport/ukr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/currency/eur.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/currency/eur.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/currency/gbp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/currency/gbp.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/currency/ukraine-hryvnia.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/currency/ukraine-hryvnia.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/currency/usd.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/currency/usd.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/FinCard.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Buttons.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/Homepage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Homepage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Styles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Styles.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +103,7 @@
       <workItem from="1650671926131" duration="6986000" />
       <workItem from="1650763505106" duration="9610000" />
       <workItem from="1650800026122" duration="7234000" />
-      <workItem from="1650833426491" duration="60683000" />
+      <workItem from="1650833426491" duration="69152000" />
     </task>
     <servers />
   </component>
@@ -125,10 +138,10 @@
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="365" y="139" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1650765844640" />
-    <state x="372" y="84" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1650892000895">
+    <state x="372" y="84" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1650975308121">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="372" y="84" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1650892000895" />
+    <state x="372" y="84" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1650975308121" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1650663960132">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
@@ -149,9 +162,9 @@
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="298" y="150" width="672" height="677" key="run.anything.popup/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1650943202888" />
-    <state x="303" y="0" width="672" height="670" key="search.everywhere.popup" timestamp="1650918147820">
+    <state x="303" y="0" width="672" height="670" key="search.everywhere.popup" timestamp="1650979940545">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="303" y="0" width="672" height="670" key="search.everywhere.popup/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1650918147820" />
+    <state x="303" y="0" width="672" height="670" key="search.everywhere.popup/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1650979940545" />
   </component>
 </project>

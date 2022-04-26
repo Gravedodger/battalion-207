@@ -223,9 +223,3 @@ p {
     margin-bottom: 0.5rem;
   }
 }
-
-.fixed {
-  position: fixed;
-  width: 100%;
-
-}

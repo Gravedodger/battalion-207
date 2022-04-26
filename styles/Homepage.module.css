@@ -1,7 +1,7 @@
 .homepageContainer {
     display: flex;
     width: 55%;
-    margin-top: 14%;
+    margin-top: 5%;
     align-items: center;
     justify-content: space-evenly;
 }
@@ -19,9 +19,9 @@
 }
 
 .homepageNavItem {
-    font-size: 2.7rem;
+    font-size: 2.1rem;
     font-weight: 600;
-    line-height: 6rem;
+    line-height: 5rem;
     cursor: pointer;
     text-shadow: 3px 2px 12px 32px rgba(0,0,0,0.75);
     text-decoration: none !important;
@@ -47,8 +47,8 @@
         height: 23rem;
     }
     .homepageNavItem {
-        font-size: 2.3rem;
-        line-height: 5rem;
+        font-size: 2rem;
+        line-height: 4rem;
     }
 }
 
@@ -83,7 +83,7 @@
     }
     .homepageNavItem {
         font-size: 0.9rem;
-        line-height: 3rem;
+        line-height: 2rem;
     }
 }
 
@@ -92,7 +92,7 @@
         width: 100%;
         margin-right: 20%;
         margin-left: 20%;
-        margin-top: 20%;
+        margin-top: 10%;
     }
     .homepageLogoWrap {
         width: 25rem;
@@ -100,7 +100,7 @@
     .homepageNavItem {
         width: 100%;
         font-size: 0.8rem;
-        line-height: 2rem;
+        line-height: 1.5rem;
         text-align: center;
     }
 }
@@ -112,7 +112,7 @@
         width: 100%;
         align-items: center;
         justify-content: center;
-        margin: 20% 0 0;
+        margin: 10% 0 0;
     }
     .homepageLogoWrap {
         width: 12rem;
@@ -124,7 +124,7 @@
         width: 200px;
         font-size: 1rem;
         letter-spacing: 0.023rem;
-        line-height: 2rem;
+        line-height: 1.7rem;
         text-align: center;
     }
 }

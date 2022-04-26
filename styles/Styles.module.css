@@ -3,7 +3,7 @@
     width: 100%;
     margin-right: 15%;
     margin-left: 15%;
-    margin-top: 3rem;
+    margin-top: 5%;
     align-items: center;
 }
 
@@ -63,7 +63,6 @@
 
 @media screen and (min-width: 800px) and (max-width: 999px) {
     .aboutArticle {
-        margin-top: 3%;
     }
     .articleLogoContainer {
         width: 17rem;
@@ -78,7 +77,6 @@
 
 @media screen and (min-width: 600px) and (max-width: 799px) {
     .aboutArticle {
-        margin-top: 0.5rem;
         margin-left: 1rem;
         margin-right: 1rem;
         flex-direction: column;
@@ -95,7 +93,7 @@
 
 @media screen and (min-width: 400px) and (max-width: 599px) {
     .aboutArticle {
-        margin: 1rem 10%;
+        margin: 0 10%;
         flex-direction: column;
     }
     .articleLogoContainer {
@@ -129,8 +127,8 @@
 .contacts {
     display: flex;
     width: 100%;
-    margin-top: 3rem;
     margin-left: 28%;
+    margin-top: 10%;
     align-items: center;
 }
 
@@ -213,7 +211,7 @@
     .contacts {
         display: flex;
         width: 100%;
-        margin-top: 3rem;
+        margin-top: 10%;
         margin-left: 10%;
         align-items: center;
     }

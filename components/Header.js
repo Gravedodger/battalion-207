@@ -15,8 +15,7 @@ const Header = ({filter, setFilter, pageTitle}) => {
             className='fixed'
             alignItems='center'
             justifyContent='space-around'
-            py={3}
-            mb='5%'
+            py={2}
             zIndex={1}
             backgroundColor={bgColor}
         >
