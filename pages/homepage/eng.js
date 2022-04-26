@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import styles from '/styles/Homepage.module.css';
 import NextLink from 'next/link';
 import Head from "next/head";
@@ -29,31 +29,31 @@ const homePageEng = ({ pageTitle }) => {
                     align='center'
                 >
 
-                    <NextLink href='../about/ukr' passHref>
+                    <NextLink href='../about/eng' passHref>
                         <Link className={styles.homepageNavItem}>
                             About
                         </Link>
                     </NextLink>
 
-                    <NextLink href='../about/ukr' passHref>
+                    <NextLink href='../items/eng' passHref>
                         <Link className={styles.homepageNavItem}>
                             Items
                         </Link>
                     </NextLink>
 
-                    <NextLink href='../about/ukr' passHref>
+                    <NextLink href='../reports/eng' passHref>
                         <Link className={styles.homepageNavItem}>
                             Reports
                         </Link>
                     </NextLink>
 
-                    <NextLink href='../about/ukr' passHref>
+                    <NextLink href='../finSupport/eng' passHref>
                         <Link className={styles.homepageNavItem}>
                             Financial Support
                         </Link>
                     </NextLink>
 
-                    <NextLink href='../about/ukr' passHref>
+                    <NextLink href='../contacts/eng' passHref>
                         <Link className={styles.homepageNavItem}>
                             Contacts
                         </Link>

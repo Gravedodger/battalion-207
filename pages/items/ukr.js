@@ -6,7 +6,7 @@ import Card from "/components/Card";
 import Head from "next/head";
 import Header from "../../components/Header";
 
-const ItemsPageUkr = () => {
+const ItemsPageUkr = ({ pageTitle }) => {
     const allCategories = ['Все', ...new Set(items.map(item => item.category))];
     const [cardItems, setCardItems] = useState(items);
     // eslint-disable-next-line

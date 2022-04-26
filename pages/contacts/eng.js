@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import styles from "../../styles/Styles.module.css";
 import Head from "next/head";
 import Link from "next/link";
@@ -6,7 +6,7 @@ import Header from "../../components/Header";
 import { Center, TableContainer, Table, Tbody, Tr, Td, Image, Text } from '@chakra-ui/react';
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 
-const ContactsPageEng = () => {
+const ContactsPageEng = ({ pageTitle }) => {
     return <>
         <Head>
             <meta lang="en" />
@@ -18,8 +18,8 @@ const ContactsPageEng = () => {
         <Header pageTitle="Contact information" />
 
         <Center>
-            <div className={styles.aboutArticle}>
-                <div className={styles.articleLogoContainer}>
+            <div className={styles.contacts}>
+                <div className={styles.contactsLogoContainer}>
                     <Image src='/logo.png' alt="battalion logo" />
                 </div>
 
@@ -51,7 +51,7 @@ const ContactsPageEng = () => {
                                         <p className={styles.contactsItemLink}>Sviatoslav Malyshevskyi</p>
                                         <Link href="https://www.facebook.com/sviatoslav.malyshevskyi" passHref
                                               target="_blank" rel="noopener noreferrer">
-                                            <ExternalLinkIcon />
+                                            <ExternalLinkIcon ml={3} />
                                         </Link>
                                     </Text>
                                 </Td>

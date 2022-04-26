@@ -35,6 +35,8 @@
 @media screen and (min-width: 1390px) and (max-width: 1800px) {
     .homepageContainer {
         width: 100%;
+        margin-left: 20%;
+        margin-right: 20%;
     }
     .homepageNav {
         width: 60%;
@@ -51,8 +53,9 @@
 
 @media screen and (min-width: 1000px) and (max-width: 1399px) {
     .homepageContainer {
-        width: 70%;
-        margin: 1rem 0 1rem 0;
+        width: 100%;
+        margin-right: 10%;
+        margin-left: 10%;
     }
     .homepageNav {
         width: 40%;
@@ -69,71 +72,63 @@
 
 @media screen and (min-width: 800px) and (max-width: 999px) {
     .homepageContainer {
-        display: flex;
-        align-items: center;
         width: 100%;
-        margin: 1rem 0 0;
+        margin-right: 20%;
+        margin-left: 15%;
     }
     .homepageLogoWrap {
         width: 40%;
         height: 40%;
     }
     .homepageNavItem {
-        font-size: 1rem;
-        line-height: 5rem;
+        font-size: 0.9rem;
+        line-height: 3rem;
     }
 }
 
 @media screen and (min-width: 600px) and (max-width: 799px) {
     .homepageContainer {
-        display: flex;
         width: 100%;
-        margin-top: 10%;
-        margin-left: 6%;
-        align-items: center;
+        margin-right: 20%;
+        margin-left: 20%;
     }
     .homepageLogoWrap {
-        width: 50%;
-        height: 50%;
-    }
-    .homepageNav {
-        width: 100%;
+        width: 25rem;
     }
     .homepageNavItem {
         width: 100%;
-        font-size: 1rem;
-        line-height: 5rem;
+        font-size: 0.8rem;
+        line-height: 2rem;
+        text-align: center;
     }
 }
 
-@media screen and (min-width: 200px) and (max-width: 599px) {
+@media screen and (min-width: 201px) and (max-width: 599px) {
     .homepageContainer {
         display: flex;
         flex-direction: column;
-        width: 22rem;
-        margin: 5% 0 0;
-        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
     }
     .homepageLogoWrap {
-        width: 35%;
-        height: 35%;
-        margin: 0 0 10%;
-        padding: 0;
-    }
-    .homepageNav ul {
-        margin: 0;
-        padding: 0;
+        width: 12rem;
+        margin-bottom: 10%;
+        margin-left: 16%;
+
     }
     .homepageNavItem {
         width: 200px;
-        font-size: 1rem;
-        line-height: 5rem;
+        font-size: 1.13rem;
+        letter-spacing: 0.023rem;
+        line-height: 3.3rem;
         text-align: center;
     }
 }
 
 
-@media screen and (min-width: 10px) and (max-width: 450px) {
+@media screen and (min-width: 10px) and (max-width: 200px) {
     .homepageContainer {
         display: flex;
         flex-direction: column;

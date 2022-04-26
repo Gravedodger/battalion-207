@@ -1,33 +1,33 @@
 .aboutArticle {
     display: flex;
-    width: 80%;
-    margin-top: 3.6rem;
-    margin-left: 15rem;
+    width: 100%;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 3rem;
     align-items: center;
 }
 
 .articleLogoContainer {
-    width: 20%;
-    margin-right: 10%;
+    width: 30%;
 }
 
 .articleTxtContainer {
     display: flex;
-    width: 50rem;
     flex-direction: column;
 }
 
-.aboutArticle p {
+.aboutText {
+    width: 40rem;
+    margin-bottom: 3%;
     font-size: 22px;
     line-height: 2rem;
-    color: #000000;
     text-align: justify;
+    color: #222222;
 }
-
 
 @media screen and (min-width: 1201px) and (max-width: 1400px) {
     .aboutArticle {
-        margin: 0 0 0 10%;
+        margin: 0 10% 0 10%;
     }
     .contactsInfo {
         width: 90%;
@@ -35,105 +35,93 @@
     .articleLogoContainer {
         width: 30%;
     }
-    .aboutArticle p {
+    .aboutText {
+        width: 35rem;
+        margin-bottom: 3%;
         font-size: 18px;
         line-height: 1.8rem;
     }
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1200px) {
-    .articleTxtContainer {
-        width: 60rem;
-    }
     .aboutArticle {
         margin-left: 10%;
     }
     .articleLogoContainer {
-        width: 30%;
+        width: 18rem;
+        margin-right: 6%;
     }
-    .aboutArticle p {
+    .articleTxtContainer {
+        width: 80%;
+    }
+    .aboutText {
+        width: 33rem;
         font-size: 18px;
-        line-height: 1.6rem;
+        line-height: 1.8rem;
     }
 }
 
 @media screen and (min-width: 800px) and (max-width: 999px) {
     .aboutArticle {
-        margin-top: 3rem;
-        margin-left: 5rem;
+        margin-top: 3%;
     }
     .articleLogoContainer {
-        width: 20%;
+        width: 17rem;
+        margin-right: 5%;
     }
-    .articleTxtContainer {
-        width: 60rem;
-    }
-    .aboutArticle p {
-        font-size: 14px;
-        line-height: 1.5rem;
+    .aboutText {
+        width: 28rem;
+        font-size: 16px;
+        line-height: 1.4rem;
     }
 }
 
 @media screen and (min-width: 600px) and (max-width: 799px) {
     .aboutArticle {
-        margin-top: 3rem;
-        margin-left: 5rem;
+        margin-top: 0.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        flex-direction: column;
     }
     .articleLogoContainer {
-        margin-right: 3rem;
+        margin-bottom: 3rem;
     }
-    .articleTxtContainer {
-        width: 50rem;
-    }
-    .aboutArticle p {
-        font-size: 13px;
-        line-height: 1.2rem;
+    .aboutText {
+        width: 30rem;
+        font-size: 17px;
+        line-height: 1.4rem;
     }
 }
 
 @media screen and (min-width: 400px) and (max-width: 599px) {
     .aboutArticle {
-        margin-top: 1.2rem;
+        margin: 1rem 10%;
         flex-direction: column;
-        margin-bottom: 3rem;
-        margin-left: 10%;
-    }
-    .articleTxtContainer {
-        width: 20rem;
-        margin-right: 6rem;
-    }
-    .aboutArticle p {
-        font-size: 15px;
-        font-weight: 500;
-        line-height: 1.5rem;
     }
     .articleLogoContainer {
-        width: 16rem;
+        width: 14rem;
         margin-bottom: 2rem;
-        /*margin-left: 4rem;*/
+    }
+    .aboutText {
+        width: 23rem;
+        font-size: 15px;
+        line-height: 1.4rem;
     }
 }
 
-@media screen and (min-width: 100px) and (max-width: 399px) {
+@media screen and (min-width: 200px) and (max-width: 399px) {
     .aboutArticle {
+        margin: 0 10%;
         flex-direction: column;
-        margin: 0 0 2rem 8%;
     }
     .articleLogoContainer {
-        margin: 0 0 1rem 1rem;
-        width: 140px;
+        width: 10rem;
+        margin-bottom: 2rem;
     }
-    .articleTxtContainer {
-        width: 13rem;
-        margin: 0;
-    }
-    .aboutArticle p {
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 1.3rem;
-    }
-    .articleLogoContainer {
-        margin-bottom: 1.5rem;
+    .aboutText {
+        width: 15rem;
+        font-size: 11px;
+        line-height: 1rem;
     }
 }
 
@@ -212,6 +200,7 @@
         margin-top: 5%;
     }
     .contactsItem {
+        width: 100%;
         flex-direction: row;
         margin-bottom: 2%;
         font-size: 12px;
@@ -235,19 +224,21 @@
     }
 
     .contactsInfo {
-        width: 65%;
+        width: 60%;
+        justify-content: space-between;
     }
 
     .contactsItem {
-        width: 100%;
-        font-size: 15px;
-        margin-bottom: 2%;
+        width: 60%;
         display: flex;
+        margin-bottom: 2%;
+        font-size: 12px;
+        color: #000;
         justify-content: space-between;
     }
 }
 
-@media screen and (min-width: 1000px) and (max-width: 1200px) {
+@media screen and (min-width: 1000px) and (max-width: 1199px) {
     .contacts {
         width: 100%;
         margin: 0 20% 0 20%;
@@ -258,19 +249,20 @@
         margin: 0;
     }
     .contactsInfo {
-        margin-left: 7%;
+        width: 100%;
+        color: #000;
     }
     .contactsItem {
+        width: 100%;
         margin-bottom: 4%;
-        align-items: center;
-        justify-content: space-between;
         font-size: 15px;
+        justify-content: space-between;
     }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
     .contacts {
-        width: 100%;
+        width: 80%;
         margin: 0 20% 0 20%;
         align-items: center;
     }
@@ -279,12 +271,14 @@
         margin: 0;
     }
     .contactsInfo {
+        width: 90%;
         margin-left: 10%;
     }
     .contactsItem {
+        width: 100%;
         margin-bottom: 4%;
+        font-size: 16px;
         align-items: center;
         justify-content: space-between;
-        font-size: 16px;
     }
 }
