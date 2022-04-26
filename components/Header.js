@@ -12,14 +12,14 @@ const Header = ({filter, setFilter, pageTitle}) => {
 
     return (
         <Flex
-            position: 'fixed'
-            top='0'
+            className='fixed'
             alignItems='center'
             justifyContent='space-around'
             py={3}
             mb='5%'
             zIndex={1}
-            backgroundColor={bgColor}>
+            backgroundColor={bgColor}
+        >
             <Box>
                 <ReturnButton color="var(--clr-gold)" />
             </Box>

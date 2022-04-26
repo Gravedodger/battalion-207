@@ -1,7 +1,7 @@
 .homepageContainer {
     display: flex;
     width: 55%;
-    margin-top: 2rem;
+    margin-top: 14%;
     align-items: center;
     justify-content: space-evenly;
 }
@@ -37,6 +37,7 @@
         width: 100%;
         margin-left: 20%;
         margin-right: 20%;
+
     }
     .homepageNav {
         width: 60%;
@@ -91,6 +92,7 @@
         width: 100%;
         margin-right: 20%;
         margin-left: 20%;
+        margin-top: 20%;
     }
     .homepageLogoWrap {
         width: 25rem;
@@ -110,7 +112,7 @@
         width: 100%;
         align-items: center;
         justify-content: center;
-        margin: 0;
+        margin: 20% 0 0;
     }
     .homepageLogoWrap {
         width: 12rem;
@@ -120,9 +122,9 @@
     }
     .homepageNavItem {
         width: 200px;
-        font-size: 1.13rem;
+        font-size: 1rem;
         letter-spacing: 0.023rem;
-        line-height: 3.3rem;
+        line-height: 2rem;
         text-align: center;
     }
 }
