@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styles from '/styles/Styles.module.css';
-import items from "/pages/api/data/dataENG";
+import items from "/pages/api/data/Items/itemsDataENG";
 import Categories from "/components/Categories";
 import Card from "/components/Card";
 import Header from "../../components/Header";

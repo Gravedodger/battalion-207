@@ -1,6 +1,6 @@
 import React, {useState, Fragment} from 'react';
 import styles from '/styles/Styles.module.css';
-import items from "/pages/api/data/dataUKR";
+import items from "/pages/api/data/Items/itemsDataUKR";
 import Categories from "/components/Categories";
 import Card from "/components/Card";
 import Head from "next/head";
