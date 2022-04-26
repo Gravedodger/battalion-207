@@ -11,7 +11,14 @@ const Header = ({filter, setFilter, pageTitle}) => {
     const themeIcon = useColorModeValue(<MoonIcon />, <LightBulbIcon />);
 
     return (
-        <Flex alignItems='center' justifyContent='space-around' py={3} mb='5%' zIndex={1} backgroundColor={bgColor}>
+        <Flex
+            position: 'sticky'
+            alignItems='center'
+            justifyContent='space-around'
+            py={3}
+            mb='5%'
+            zIndex={1}
+            backgroundColor={bgColor}>
             <Box>
                 <ReturnButton color="var(--clr-gold)" />
             </Box>
