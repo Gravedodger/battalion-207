@@ -3,9 +3,9 @@ import styles from "/styles/FinSupport.module.css";
 import { Center, Box, Flex, Text } from '@chakra-ui/react';
 import Head from "next/head";
 import Header from "../../components/Header";
-import PopoverUKR from "../../components/Popover";
+import PopoverItem from "../../components/Popover";
 
-const FinSupportPageUkr = () => {
+const FinSupportPageUkr = ( trigger, title, details, gratitude ) => {
     return <>
         <Head>
             <meta lang="uk" />
@@ -18,6 +18,8 @@ const FinSupportPageUkr = () => {
 
         <Center className={styles.finSupportMain}>
             <Flex className={styles.payPalContainer}>
+
+{/*   USD   */}
                 <Flex className={styles.payPalItem}>
                     <Box className={styles.currencyIcn}>
                         <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 122.88">
@@ -38,11 +40,28 @@ const FinSupportPageUkr = () => {
                         />
                     </form>
                     <Text className={styles.textOR}>або</Text>
-                    <PopoverUKR />
+                    <PopoverItem
+                        trigger='Переказ за реквізитами'
+                        title='Реквізити USD рахунку'
+                        account='Номер рахунку:'
+                        accountNumber={26207301959227}
+                        iban='IBAN:'
+                        ibanNumber='UA093220010000026207301959227'
+                        recipient='Отримувач:'
+                        recipientDetails='МАЛИШЕВСЬКИЙ СВЯТОСЛАВ'
+                        bank='Банк (Коресп.):'
+                        bankDetails='JSC UNIVERSAL BANK, КИЇВ, УКРАЇНА'
+                        swift='SWIFT код:'
+                        swiftDetails='UNJSUAUKXXX'
+                        purpose='Повідомлення:'
+                        purposeDetails='"Підтримка 207 батальйону ТрО м.Києва"'
+                        gratitude='Щиро дякуємо за Вашу підтримку! Слава Україні!'
+                    />
                 </Flex>
 
                 <Box className={styles.finDivider} />
 
+{/*   GBP   */}
                 <Flex className={styles.payPalItem}>
                     <Box className={styles.currencyIcn}>
                         <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 122.88">
@@ -59,12 +78,16 @@ const FinSupportPageUkr = () => {
                                alt="Donate with PayPal button" />
                     </form>
                     <Text className={styles.textOR}>або</Text>
-                    <PopoverUKR />
+                    <PopoverItem trigger='Переказ за реквізитами'
+                                 title='Реквізити GBP рахунку'
+                                 details='Реквізити рахунку...'
+                                 gratitude='Щиро дякуємо за Вашу підтримку! Слава Україні!'
+                    />
                 </Flex>
 
                 <Box className={styles.finDivider} />
 
-
+{/*   EUR   */}
                 <Flex className={styles.payPalItem}>
                     <Box className={styles.currencyIcn}>
                         <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 122.88">
@@ -80,11 +103,28 @@ const FinSupportPageUkr = () => {
                                 alt="Donate with PayPal button" />
                     </form>
                     <Text className={styles.textOR}>або</Text>
-                    <PopoverUKR />
+                    <PopoverItem
+                        trigger='Переказ за реквізитами'
+                        title='Реквізити EUR рахунку'
+                        account='Номер рахунку:'
+                        accountNumber={4731219613244064}
+                        iban='IBAN:'
+                        ibanNumber='UA243052990000026205738201214'
+                        recipient='Отримувач:'
+                        recipientDetails='МАЛИШЕВСЬКИЙ СВЯТОСЛАВ (3244919677)'
+                        bank='Банк (Коресп.):'
+                        bankDetails='J.P.MORGAN AG, Correspondent account: 623-160-5145'
+                        swift='SWIFT код:'
+                        swiftDetails='CHASDEFX'
+                        purpose='Повідомлення:'
+                        purposeDetails='"Підтримка 207 батальйону ТрО м.Києва"'
+                        gratitude='Щиро дякуємо за Вашу підтримку! Слава Україні!'
+                    />
                 </Flex>
 
                 <Box className={styles.finDivider} />
 
+{/*   EUR   */}
                 <Flex className={styles.payPalItem}>
                     <Box className={styles.currencyIcn} mb='30%'>
                         <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96.08 122.88">
@@ -92,7 +132,21 @@ const FinSupportPageUkr = () => {
                             <path d="M67.41,55.44l-14.8,12H96.08V80.64H39.7c-3.76,2.84-6,6.3-6,10.71,0,7.56,6,11.66,16.71,11.66,9.13,0,17-4.4,23.3-13.53L91,101.14c-9.43,14.5-26.46,21.74-42.53,21.74-21.11,0-36.84-10.07-36.84-26.77a24.07,24.07,0,0,1,5.66-15.44H0V67.44H27.71l15.13-12H0V42.24H56.07c4.1-3.77,6-7.24,6-11.34,0-6.6-6-11.33-15.13-11.33-8.83,0-16.37,5-21.74,13.53L8.5,21.74C17.64,7.24,32.44,0,48.51,0c21.73,0,35.9,11.34,35.9,26.77a26,26,0,0,1-5,15.44h16.7V55.44Z" />
                         </svg>
                     </Box>
-                    <PopoverUKR />
+                    <PopoverItem
+                        trigger='Переказ за реквізитами'
+                        title='Гривневий рахунок'
+                        account='Номер рахунку:'
+                        accountNumber={5363542308417279}
+                        iban='IBAN:'
+                        ibanNumber='UA903052990000026206684803044'
+                        recepient='Отримувач:'
+                        recipientDetails='МАЛИШЕВСЬКИЙ СВЯТОСЛАВ (3244919677)'
+                        bank='Банк:'
+                        bankDetails='ПриватБанк (305299)'
+                        purpose='Повідомлення:'
+                        purposeDetails='"Підтримка 207 батальйону ТрО м.Києва"'
+                        gratitude='Щиро дякуємо за Вашу підтримку! Слава Україні!'
+                    />
                 </Flex>
             </Flex>
         </Center>

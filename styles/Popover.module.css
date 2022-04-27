@@ -1,0 +1,42 @@
+.popBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popCanvas {
+    text-align: center;
+}
+
+.popTitle {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.popFlex {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popItem {
+    float: left;
+    width: 40%;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.popDetails {
+    float: right;
+    width: 60%;
+}
+
+.popDivider {
+    width: 70%;
+    height: 1px;
+    margin: 1px auto 1px auto;
+    background: var(--clr-gold);
+}
