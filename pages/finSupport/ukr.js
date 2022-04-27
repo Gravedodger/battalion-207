@@ -5,10 +5,12 @@ import Head from "next/head";
 import Header from "../../components/Header";
 import PopoverItem from "../../components/Popover";
 import { PayPalEUR, PayPalGBP, PayPalUSD } from "../../components/PayPalButtons";
+import {usdRequisitesUkr} from '/components/requisites/RequisitesUKR';
 
-const FinSupportPageUkr = ( trigger, title, details, gratitude ) => {
+const FinSupportPageUkr = () => {
     const USD = <Image src='/usd-round.png' objectFit='fill' alt='USD' />;
     const ppUSD = <PayPalUSD />
+    const usdReqUkr = usdRequisitesUkr;
 
     const GBP = <Image src='/pound-round.png' objectFit='fill' alt='GBP' />;
     const ppGBP = <PayPalGBP />
@@ -27,7 +29,7 @@ const FinSupportPageUkr = ( trigger, title, details, gratitude ) => {
             <title>Battalion-207 || Реквізити</title>
         </Head>
 
-        <main>
+        <main className='container'>
             <Header pageTitle="Фінансова підтримка" />
 
             <Center className={styles.finSupportMain}>
@@ -39,24 +41,8 @@ const FinSupportPageUkr = ( trigger, title, details, gratitude ) => {
                             trigger={USD}
                             title='USD опції:'
                             payPal={ppUSD}
+                            usdReq={usdReqUkr}
                         />
-                        {/*<PopoverItem*/}
-                        {/*    trigger={USD}*/}
-                        {/*    title='Реквізити USD рахунку'*/}
-                        {/*    account='Номер рахунку:'*/}
-                        {/*    accountNumber={26207301959227}*/}
-                        {/*    iban='IBAN:'*/}
-                        {/*    ibanNumber='UA093220010000026207301959227'*/}
-                        {/*    recipient='Отримувач:'*/}
-                        {/*    recipientDetails='МАЛИШЕВСЬКИЙ СВЯТОСЛАВ'*/}
-                        {/*    bank='Банк (Коресп.):'*/}
-                        {/*    bankDetails='JSC UNIVERSAL BANK, КИЇВ, УКРАЇНА'*/}
-                        {/*    swift='SWIFT код:'*/}
-                        {/*    swiftDetails='UNJSUAUKXXX'*/}
-                        {/*    purpose='Повідомлення:'*/}
-                        {/*    purposeDetails='"Підтримка 207 батальйону ТрО м.Києва"'*/}
-                        {/*    gratitude='Щиро дякуємо за Вашу підтримку! Слава Україні!'*/}
-                        {/*/>*/}
                     </Flex>
 
                     <Box className={styles.finDivider} />

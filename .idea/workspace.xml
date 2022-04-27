@@ -11,29 +11,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16cc5659-9977-4949-ba87-ebf4e6bd80d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/PayPalButtons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bitcoin-round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ethereum-round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/euro-round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/hryvna-round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/pound-round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/usd-round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/smaly.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/smaly.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ModalContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/requisites/RequisitesUKR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/context/Provider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/context/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/context/context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/context/initialState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/context/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Popover.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Popover.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about/ukr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/finSupport/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/finSupport/ukr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/currency/eur.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/currency/eur.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/currency/gbp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/currency/gbp.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/currency/ukraine-hryvnia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/currency/ukraine-hryvnia.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/currency/usd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/currency/usd.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ukraine-flag.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/FinSupport.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/FinSupport.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Popover.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Popover.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +57,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="17.9.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -86,11 +78,11 @@
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public\images\logos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\pages\api\data\Items" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public\images\flags" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public\images" />
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\assets\images" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -111,7 +103,7 @@
       <workItem from="1650763505106" duration="9610000" />
       <workItem from="1650800026122" duration="7234000" />
       <workItem from="1650833426491" duration="69236000" />
-      <workItem from="1651003911685" duration="25954000" />
+      <workItem from="1651003911685" duration="38188000" />
     </task>
     <servers />
   </component>
@@ -146,10 +138,10 @@
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="365" y="139" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1650765844640" />
-    <state x="372" y="84" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1650975308121">
+    <state x="372" y="84" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1651063156040">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="372" y="84" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1650975308121" />
+    <state x="372" y="84" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1651063156040" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1650663960132">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
@@ -166,13 +158,13 @@
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="0" y="0" width="582" height="672" key="find.popup/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1650499059041" />
-    <state x="298" y="150" width="672" height="677" key="run.anything.popup" timestamp="1651014776881">
+    <state x="298" y="150" width="672" height="677" key="run.anything.popup" timestamp="1651071220671">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="298" y="150" width="672" height="677" key="run.anything.popup/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1651014776881" />
-    <state x="303" y="0" width="672" height="670" key="search.everywhere.popup" timestamp="1651019781552">
+    <state x="298" y="150" width="672" height="677" key="run.anything.popup/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1651071220671" />
+    <state x="303" y="0" width="672" height="670" key="search.everywhere.popup" timestamp="1651069916825">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="303" y="0" width="672" height="670" key="search.everywhere.popup/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1651019781552" />
+    <state x="303" y="0" width="672" height="670" key="search.everywhere.popup/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1651069916825" />
   </component>
 </project>

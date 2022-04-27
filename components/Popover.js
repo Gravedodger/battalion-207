@@ -4,12 +4,14 @@ import {
     Popover, PopoverTrigger, PopoverContent, PopoverHeader, PopoverBody, Box,
     PopoverFooter, PopoverArrow, PopoverCloseButton, Button, Text, Flex, Portal, Link
 } from '@chakra-ui/react';
+import { usdRequisitesUkr } from '/components/requisites/RequisitesUKR';
 
 const PopoverItem = (props) => {
     const {
         trigger,
         title,
         payPal,
+        usdReq,
         account, accountNumber,
         iban, ibanNumber,
         recipient, recipientDetails,
@@ -43,14 +45,12 @@ const PopoverItem = (props) => {
 
                         <Flex className={styles.popFlex}>
                             <Text className={styles.popItem}>Використати Payoneer:</Text>
-                            <Link href='#USDRequisites'>
-                                <Button py={5} px={7} mr={8}
-                                        backgroundColor='#c59d5f'
-                                        border='#c59d5f' borderRadius={50} fontSize='11px'
-                                        fontWeight={600} color='#fff'>
-                                    Реквізити
-                                </Button>
-                            </Link>
+                            <Button py={5} px={7}
+                                    backgroundColor='#c59d5f'
+                                    border='#c59d5f' borderRadius={50} fontSize='11px'
+                                    fontWeight={600} color='#fff'>
+                                s.malyshevskyi.08@aberdeen.ac.uk
+                            </Button>
                         </Flex>
 
                         <Flex className={styles.popFlex}>
@@ -59,42 +59,11 @@ const PopoverItem = (props) => {
                                 <Button py={5} px={7} mr={8}
                                         backgroundColor='#c59d5f'
                                         border='#c59d5f' borderRadius={50} fontSize='11px'
-                                        fontWeight={600} color='#fff'>
+                                        fontWeight={600} color='#fff'  onClick={() => <usdRequisitesUkr />}>
                                     Реквізити
                                 </Button>
                             </Link>
                         </Flex>
-
-
-                        {/*<Box className={styles.popFlex}>*/}
-                        {/*    <Text className={styles.popItem}>{props.account}</Text>*/}
-                        {/*    <Text className={styles.popDetails}>{props.accountNumber}</Text>*/}
-                        {/*</Box>*/}
-                        {/*<Box className={styles.popDivider} />*/}
-                        {/*<Box className={styles.popFlex}>*/}
-                        {/*    <Text className={styles.popItem}>{props.iban}</Text>*/}
-                        {/*    <Text className={styles.popDetails}>{props.ibanNumber}</Text>*/}
-                        {/*</Box>*/}
-                        {/*<Box className={styles.popDivider} />*/}
-                        {/*<Box className={styles.popFlex}>*/}
-                        {/*    <Text className={styles.popItem}>{props.recipient}</Text>*/}
-                        {/*    <Text className={styles.popDetails}>{props.recipientDetails}</Text>*/}
-                        {/*</Box>*/}
-                        {/*<Box className={styles.popDivider} />*/}
-                        {/*<Box className={styles.popFlex}>*/}
-                        {/*    <Text className={styles.popItem}>{props.bank}</Text>*/}
-                        {/*    <Text className={styles.popDetails}>{props.bankDetails}</Text>*/}
-                        {/*</Box>*/}
-                        {/*<Box className={styles.popDivider} />*/}
-                        {/*<Box className={styles.popFlex}>*/}
-                        {/*    <Text className={styles.popItem}>{props.swift}</Text>*/}
-                        {/*    <Text className={styles.popDetails}>{props.swiftDetails}</Text>*/}
-                        {/*</Box>*/}
-                        {/*<Box className={styles.popDivider} />*/}
-                        {/*<Box display='flex' flexDirection='column'>*/}
-                        {/*    <Text className={styles.popItem}>{props.purpose}</Text>*/}
-                        {/*    <Text display='inline' w='100%'>{props.purposeDetails}</Text>*/}
-                        {/*</Box>*/}
                     </PopoverBody>
                     <PopoverFooter>
                         <Text>

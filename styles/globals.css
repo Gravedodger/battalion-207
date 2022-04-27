@@ -94,6 +94,7 @@ p {
 .container {
   margin: 0;
   padding: 0 2rem;
+  z-index: 1;
 }
 
 .main {
@@ -222,3 +223,24 @@ p {
     margin-bottom: 0.5rem;
   }
 }
+
+/*===============   Modal   ===============*/
+.modal {
+  display: none;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  padding-top: 3%;
+  width: 500px;
+  margin: 30px auto;
+  z-index: 10;
+  transform: translate(-50%, -50%);
+  background-color: #beece3;
+  border-radius: .5rem;
+}
+
+.modal-open {
+  display: block;
+  z-index: 999;
+}
+
