@@ -3,9 +3,6 @@
 **/
 
 const nextConfig = {
-  experimental: {
-    runtime: 'nodejs',
-  },
   basePath: '',
   images: {
     domains: [
