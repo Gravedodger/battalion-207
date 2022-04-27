@@ -1,10 +1,10 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import styles from '/styles/Popover.module.css';
 import {
     Popover, PopoverTrigger, PopoverContent, PopoverHeader, PopoverBody, Box,
     PopoverFooter, PopoverArrow, PopoverCloseButton, Button, Text, Flex, Portal, Link
 } from '@chakra-ui/react';
-import { usdRequisitesUkr } from '/components/requisites/RequisitesUKR';
+import ModalContainer from "./ModalContainer";
 
 const PopoverItem = (props) => {
     const {
@@ -18,7 +18,7 @@ const PopoverItem = (props) => {
         bank, bankDetails,
         swift, swiftDetails,
         purpose, purposeDetails,
-        gratitude
+        gratitude, requisites,
     } = props;
 
     return (
@@ -29,49 +29,41 @@ const PopoverItem = (props) => {
                 </Box>
             </PopoverTrigger>
 
-                <PopoverContent className={styles.popCanvas}>
-                    <PopoverArrow />
-                    <PopoverHeader>
-                        <Text className={styles.popTitle}>
-                            {props.title}
-                        </Text>
-                    </PopoverHeader>
-                    <PopoverCloseButton />
-                    <PopoverBody className={styles.popBody}>
-                        <Flex className={styles.popFlex}>
-                            <Text className={styles.popItem}>Використати PayPal:</Text>
-                            {props.payPal}
-                        </Flex>
+            <PopoverContent className={styles.popCanvas}>
+                <PopoverArrow />
+                <PopoverHeader>
+                    <Text className={styles.popTitle}>
+                        {props.title}
+                    </Text>
+                </PopoverHeader>
+                <PopoverCloseButton />
+                <PopoverBody className={styles.popBody}>
+                    <Flex className={styles.popFlex}>
+                        <Text className={styles.popItem}>Використати PayPal:</Text>
+                        {props.payPal}
+                    </Flex>
 
-                        <Flex className={styles.popFlex}>
-                            <Text className={styles.popItem}>Використати Payoneer:</Text>
-                            <Button py={5} px={7}
-                                    backgroundColor='#c59d5f'
-                                    border='#c59d5f' borderRadius={50} fontSize='11px'
-                                    fontWeight={600} color='#fff'>
-                                s.malyshevskyi.08@aberdeen.ac.uk
-                            </Button>
-                        </Flex>
+                    <Flex className={styles.popFlex}>
+                        <Text className={styles.popItem}>Використати Payoneer:</Text>
+                        <Button py={5} px={7}
+                                backgroundColor='#c59d5f'
+                                border='#c59d5f' borderRadius={50} fontSize='11px'
+                                fontWeight={600} color='#fff'>
+                            s.malyshevskyi.08@aberdeen.ac.uk
+                        </Button>
+                    </Flex>
 
-                        <Flex className={styles.popFlex}>
-                            <Text className={styles.popItem}>Пряме зарахування:</Text>
-                            <Link href='#USDRequisites'>
-                                <Button py={5} px={7} mr={8}
-                                        backgroundColor='#c59d5f'
-                                        border='#c59d5f' borderRadius={50} fontSize='11px'
-                                        fontWeight={600} color='#fff'  onClick={() => <usdRequisitesUkr />}>
-                                    Реквізити
-                                </Button>
-                            </Link>
-                        </Flex>
-                    </PopoverBody>
-                    <PopoverFooter>
-                        <Text>
-                            {props.gratitude}
-                        </Text>
-                    </PopoverFooter>
-                </PopoverContent>
-
+                    <Flex className={styles.popFlex}>
+                        <Text className={styles.popItem}>Пряме зарахування:</Text>
+                        {props.requisites}
+                    </Flex>
+                </PopoverBody>
+                <PopoverFooter>
+                    <Text>
+                        {props.gratitude}
+                    </Text>
+                </PopoverFooter>
+            </PopoverContent>
         </Popover>
     );
 };

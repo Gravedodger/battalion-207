@@ -5,21 +5,24 @@ import Head from "next/head";
 import Header from "../../components/Header";
 import PopoverItem from "../../components/Popover";
 import { PayPalEUR, PayPalGBP, PayPalUSD } from "../../components/PayPalButtons";
-import {usdRequisitesUkr} from '/components/requisites/RequisitesUKR';
+import { UsdRequisitesUkr } from "../../components/requisites/RequisitesUKR.js";
+import {EurRequisitesUkr, GbpRequisitesUkr, UahRequisitesUkr} from "../../components/requisites/RequisitesUKR";
 
 const FinSupportPageUkr = () => {
     const USD = <Image src='/usd-round.png' objectFit='fill' alt='USD' />;
-    const ppUSD = <PayPalUSD />
-    const usdReqUkr = usdRequisitesUkr;
+    const ppUSD = <PayPalUSD />;
+    const usdReq = <UsdRequisitesUkr />
 
     const GBP = <Image src='/pound-round.png' objectFit='fill' alt='GBP' />;
     const ppGBP = <PayPalGBP />
+    const gbpReq = <GbpRequisitesUkr />
 
     const EUR = <Image src='/euro-round.png' objectFit='fill' alt='EUR' />;
     const ppEUR = <PayPalEUR />
+    const eurReq = <EurRequisitesUkr />
 
     const UAH = <Image src='/hryvna-round.png' objectFit='fill' alt='UAH' />;
-
+    const uahReq = <UahRequisitesUkr />
 
     return <>
         <Head>
@@ -41,7 +44,7 @@ const FinSupportPageUkr = () => {
                             trigger={USD}
                             title='USD опції:'
                             payPal={ppUSD}
-                            usdReq={usdReqUkr}
+                            requisites={usdReq}
                         />
                     </Flex>
 
@@ -54,13 +57,8 @@ const FinSupportPageUkr = () => {
                             trigger={GBP}
                             title='GBP опції:'
                             payPal={ppGBP}
+                            requisites={gbpReq}
                         />
-
-                        {/*<PopoverItem trigger='Переказ за реквізитами'*/}
-                        {/*             title='Реквізити GBP рахунку'*/}
-                        {/*             details='Реквізити рахунку...'*/}
-                        {/*             gratitude='Щиро дякуємо за Вашу підтримку! Слава Україні!'*/}
-                        {/*/>*/}
                     </Flex>
 
                     <Box className={styles.finDivider} />
@@ -71,23 +69,8 @@ const FinSupportPageUkr = () => {
                             trigger={EUR}
                             title='EUR опції:'
                             payPal={ppEUR}
+                            requisites={eurReq}
                         />
-                        {/*    trigger='Переказ за реквізитами'*/}
-                        {/*    title='Реквізити EUR рахунку'*/}
-                        {/*    account='Номер рахунку:'*/}
-                        {/*    accountNumber={4731219613244064}*/}
-                        {/*    iban='IBAN:'*/}
-                        {/*    ibanNumber='UA243052990000026205738201214'*/}
-                        {/*    recipient='Отримувач:'*/}
-                        {/*    recipientDetails='МАЛИШЕВСЬКИЙ СВЯТОСЛАВ (3244919677)'*/}
-                        {/*    bank='Банк (Коресп.):'*/}
-                        {/*    bankDetails='J.P.MORGAN AG, Correspondent account: 623-160-5145'*/}
-                        {/*    swift='SWIFT код:'*/}
-                        {/*    swiftDetails='CHASDEFX'*/}
-                        {/*    purpose='Повідомлення:'*/}
-                        {/*    purposeDetails='"Підтримка 207 батальйону ТрО м.Києва"'*/}
-                        {/*    gratitude='Щиро дякуємо за Вашу підтримку! Слава Україні!'*/}
-                        {/*/>*/}
                     </Flex>
 
                     <Box className={styles.finDivider} />
@@ -97,23 +80,8 @@ const FinSupportPageUkr = () => {
                         <PopoverItem
                             trigger={UAH}
                             title='Гривневі опції:'
+                            requisites={uahReq}
                         />
-
-
-                        {/*    trigger='Переказ за реквізитами'*/}
-                        {/*    title='Гривневий рахунок'*/}
-                        {/*    account='Номер рахунку:'*/}
-                        {/*    accountNumber={5363542308417279}*/}
-                        {/*    iban='IBAN:'*/}
-                        {/*    ibanNumber='UA903052990000026206684803044'*/}
-                        {/*    recepient='Отримувач:'*/}
-                        {/*    recipientDetails='МАЛИШЕВСЬКИЙ СВЯТОСЛАВ (3244919677)'*/}
-                        {/*    bank='Банк:'*/}
-                        {/*    bankDetails='ПриватБанк (305299)'*/}
-                        {/*    purpose='Повідомлення:'*/}
-                        {/*    purposeDetails='"Підтримка 207 батальйону ТрО м.Києва"'*/}
-                        {/*    gratitude='Щиро дякуємо за Вашу підтримку! Слава Україні!'*/}
-                        {/*/>*/}
                     </Flex>
                 </Flex>
             </Center>
