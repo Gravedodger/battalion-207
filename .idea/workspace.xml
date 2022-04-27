@@ -11,15 +11,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16cc5659-9977-4949-ba87-ebf4e6bd80d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/styles/Popover.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/PayPalButtons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bitcoin-round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ethereum-round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/euro-round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/hryvna-round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/pound-round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/usd-round.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/smaly.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/smaly.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Popover.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Popover.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/data/Modal/modalDataENG.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/data/Modal/modalDataUKR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/finSupport/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/finSupport/eng.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about/ukr.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/finSupport/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/finSupport/ukr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/currency/eur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/currency/eur.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/currency/gbp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/currency/gbp.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/currency/ukraine-hryvnia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/currency/ukraine-hryvnia.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/currency/usd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/currency/usd.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ukraine-flag.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/FinSupport.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/FinSupport.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Popover.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Popover.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +66,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images/currency" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -64,16 +79,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public\images\currency" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public" />
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public\images\currency" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\pages" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public\images\logos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\pages\api\data\Items" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public\images\flags" />
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public\images" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\assets\images" />
     </key>
@@ -96,7 +111,7 @@
       <workItem from="1650763505106" duration="9610000" />
       <workItem from="1650800026122" duration="7234000" />
       <workItem from="1650833426491" duration="69236000" />
-      <workItem from="1651003911685" duration="19799000" />
+      <workItem from="1651003911685" duration="25954000" />
     </task>
     <servers />
   </component>

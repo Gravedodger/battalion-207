@@ -4,7 +4,7 @@ import Head from "next/head";
 import Header from "../../components/Header";
 import { Center, Container, Box, Image, Text } from '@chakra-ui/react';
 
-const AboutPageUkr = ({ pageTitle }) => {
+const AboutPageUkr = () => {
     return <>
         <Head>
             <meta lang="uk" />
