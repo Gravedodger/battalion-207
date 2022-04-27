@@ -93,7 +93,7 @@
 
 @media screen and (min-width: 400px) and (max-width: 599px) {
     .aboutArticle {
-        margin: 0 10%;
+        margin: 5% 10% 0 10%;
         flex-direction: column;
     }
     .articleLogoContainer {
@@ -127,8 +127,7 @@
 .contacts {
     display: flex;
     width: 100%;
-    margin-left: 28%;
-    margin-top: 10%;
+    margin-left: 25%;
     align-items: center;
 }
 
@@ -164,7 +163,8 @@
         margin: 0 20% 0 20%;
     }
     .contactsLogoContainer {
-        width: 50%;
+        width: 60%;
+        margin-bottom: 10%;
     }
     .contactsInfo {
         width: 100%;
@@ -211,8 +211,6 @@
     .contacts {
         display: flex;
         width: 100%;
-        margin-top: 10%;
-        margin-left: 10%;
         align-items: center;
     }
 

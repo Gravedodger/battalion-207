@@ -12,10 +12,9 @@ const Header = ({filter, setFilter, pageTitle}) => {
 
     return (
         <Flex
-            className='fixed'
             alignItems='center'
             justifyContent='space-around'
-            py={2}
+            mb='5%' pt={4} pb={4}
             zIndex={1}
             backgroundColor={bgColor}
         >

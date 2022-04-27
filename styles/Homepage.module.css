@@ -134,7 +134,8 @@
     .homepageContainer {
         display: flex;
         flex-direction: column;
-        width: 22rem;
+        width-bottom: 22rem;
+        margin-: 10%;
         flex-wrap: wrap;
     }
     .homepageLogoWrap {

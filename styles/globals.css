@@ -98,9 +98,7 @@ p {
 }
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+  margin-bottom: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;

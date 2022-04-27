@@ -1,7 +1,7 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import styles from "../../styles/Styles.module.css";
 import Head from "next/head";
-import Header from "../../components/Header";
+import Header from "/components/Header";
 import { Center, Container, Box, Image, Text } from '@chakra-ui/react';
 
 const AboutPageUkr = () => {

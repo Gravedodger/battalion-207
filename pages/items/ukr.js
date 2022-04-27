@@ -1,10 +1,10 @@
 import React, {useState, Fragment} from 'react';
 import styles from '/styles/Styles.module.css';
 import items from "/pages/api/data/Items/itemsDataUKR";
-import Categories from "/components/Categories";
 import Card from "/components/Card";
 import Head from "next/head";
 import Header from "../../components/Header";
+import { Center, Box } from '@chakra-ui/react';
 
 const ItemsPageUkr = ({ pageTitle }) => {
     const allCategories = ['Все', ...new Set(items.map(item => item.category))];
@@ -28,12 +28,12 @@ const ItemsPageUkr = ({ pageTitle }) => {
             <title>Батальйон-207 || Нагальна необхідність</title>
         </Head>
 
-        <Header pageTitle="Нагальна необхідність">
-            <Categories categories={categories} filterItems={ filterItems } />
-        </Header>>
-        <main className='main'>
-            <Card items={cardItems} />
-        </main>
+        <Header pageTitle="Нагальна необхідність" />
+        <Center>
+            <Box>
+                <Card items={cardItems} />
+            </Box>
+        </Center>
     </>
 }
 
