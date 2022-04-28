@@ -2,10 +2,10 @@ import React from 'react';
 import styles from "/styles/FinSupport.module.css";
 import { Center, Box, Flex, Image } from '@chakra-ui/react';
 import Head from "next/head";
-import Header from "../../components/Header";
-import PopoverItem from "../../components/Popover";
+import Header from "/components/Header";
+import PopoverItem from "/components/Popover";
 import { PayPalEUR, PayPalGBP, PayPalUSD } from "../../components/PayPalButtons";
-import { EurRequisitesEng, GbpRequisitesEng,  UahRequisitesEng, UsdRequisitesEng} from "../../components/requisites/RequisitesUKR";
+import { EurRequisitesEng, GbpRequisitesEng,  UahRequisitesEng, UsdRequisitesEng } from '/components/requisites';
 
 const FinSupportPageEng = () => {
     const USD = <Image src='/usd-round.png' className={styles.currencyIcn} objectFit='fill' alt='USD' />;
