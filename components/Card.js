@@ -1,41 +1,34 @@
 import React from 'react';
 import styles from '/styles/Card.module.css';
-import { Box, Image, Text } from '@chakra-ui/react';
+import { Box, Image, Text, useColorModeValue } from '@chakra-ui/react';
 
 const Card = ({items}) => {
-    return (
-        <div className={styles.sectionCenter}>
-            {items.map(cardItem => {
-                const { id, img, requiredAmount, desc, title } = cardItem;
+    const textColor = useColorModeValue('#222222', '#c59d5f');
 
-                return (
-                    <article key={id} className={styles.cardItem}>
+    return <div className={styles.sectionCenter}>
+        {items.map(cardItem => {
+            const { id, img, requiredAmount, desc, title } = cardItem;
 
-                        <Image
-                            objectFit='contain'
-                            className={styles.photo}
-                            src={img}
-                            alt={title}
-                        />
+            return <article key={id} className={styles.cardItem}>
 
-                        <Box flexDirection='column' className={styles.itemInfo}>
-                            <header>
-                                <Text fontSize='xl' fontWeight={600}>
-                                    {title}
-                                </Text>
-                                <Text fontSize='lg' fontWeight={600} className={styles.requiredAmount}>
-                                    {requiredAmount} од.
-                                </Text>
-                            </header>
-                            <p className={styles.itemText}>
-                                {desc}
-                            </p>
-                        </Box>
-                    </article>
-                )
-            })}
-        </div>
-    );
-};
+                <Image objectFit='contain' className={styles.photo} src={img} alt={title} />
+
+                <Box flexDirection='column' className={styles.itemInfo}>
+                    <header>
+                        <Text fontSize='xl' fontWeight={600} color={textColor} className={styles.cardTitle}>
+                            {title}
+                        </Text>
+                        <Text fontSize='lg' fontWeight={600} color={textColor} className={styles.requiredAmount}>
+                            {requiredAmount} од.
+                        </Text>
+                    </header>
+                    <Text className={styles.itemText}>
+                        {desc}
+                    </Text>
+                </Box>
+            </article>
+        })}
+    </div>
+}
 
 export default Card;

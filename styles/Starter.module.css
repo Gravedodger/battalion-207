@@ -28,6 +28,10 @@
   justify-content: space-between;
 }
 
+.starterFlagContainer:hover .flagLabel {
+  color: #c59d5f;
+}
+
 .starterUkrFlag {
   width: 60%;
   object-fit: cover;

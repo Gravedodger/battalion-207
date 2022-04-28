@@ -13,6 +13,14 @@
     gap: 1rem 2rem;
 }
 
+.cardItem:hover .requiredAmount {
+    color: var(--clr-gold);
+}
+
+.cardItem:hover .cardTitle {
+    color: var(--clr-gold);
+}
+
 .photo {
     display: block;
     width: 100%;

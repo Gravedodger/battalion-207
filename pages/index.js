@@ -3,14 +3,15 @@ import styles from '../styles/Starter.module.css';
 import Head from 'next/head';
 import '../public/images/flags/ukraine-flag.png';
 import '../public/images/flags/UK-US_flag.png';
+import { Center, Flex, Box, Container, IconButton, useColorMode, useColorModeValue, Text, Image, Link } from '@chakra-ui/react';
 import { MoonIcon } from "@chakra-ui/icons";
 import { LightBulbIcon } from "../components/Icons";
-import { Center, Flex, Box, Container, IconButton, useColorMode, useColorModeValue, Text, Image, Link } from '@chakra-ui/react';
 
 export default function Home() {
+    const themeIcon = useColorModeValue(<MoonIcon/>, <LightBulbIcon/>);
     const {toggleColorMode} = useColorMode();
     const bgColor = useColorModeValue('white', 'gray.800');
-    const themeIcon = useColorModeValue(<MoonIcon/>, <LightBulbIcon/>);
+    const textColor = useColorModeValue('#222222', '#fff');
 
     return (
         <>
@@ -44,7 +45,13 @@ export default function Home() {
 
                         <Flex className={styles.starterFlagWrap} justifyContent='center' alignItems='center'>
                             <Box className={styles.starterFlagContainer}>
-                                <Text fontSize={{lg: 'lg', md: 'md', sm: 'sm'}} textAlign="center" mb={2}>
+                                <Text
+                                    fontSize={{lg: 'lg', md: 'md', sm: 'sm'}}
+                                    textAlign="center"
+                                    mb={2}
+                                    color={textColor}
+                                    className={styles.flagLabel}
+                                >
                                     Українською
                                 </Text>
 
@@ -61,7 +68,12 @@ export default function Home() {
                             </Box>
 
                             <Box className={styles.starterFlagContainer}>
-                                <Text fontSize={{lg: 'lg', md: 'md', sm: 'sm'}} textAlign="center" mb={2}>
+                                <Text fontSize={{lg: 'lg', md: 'md', sm: 'sm'}}
+                                      textAlign="center"
+                                      mb={2}
+                                      color={textColor}
+                                      className={styles.flagLabel}
+                                >
                                     In English
                                 </Text>
 

@@ -1,12 +1,15 @@
 import React, { Fragment } from 'react';
 import styles from "/styles/FinSupport.module.css";
+import { Center, Box, Flex, Image } from '@chakra-ui/react';
 import Head from "next/head";
 import Header from "../../components/Header";
-import { Box, Center, Flex, Text } from "@chakra-ui/react";
-import { TransferBtnEng } from "../../components/Buttons";
 import PopoverItem from "../../components/Popover";
+import { PayPalEUR, PayPalGBP, PayPalUSD } from "../../components/PayPalButtons";
+import { UsdRequisitesUkr } from "../../components/requisites/RequisitesUKR.js";
+import { EurRequisitesUkr, GbpRequisitesUkr, UahRequisitesUkr } from "../../components/requisites/RequisitesUKR";
 
 const FinSupportPageEng = () => {
+
     return <>
         <Head>
             <meta lang="en" />

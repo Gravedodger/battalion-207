@@ -2,8 +2,11 @@ import React from 'react';
 import styles from "../../styles/Styles.module.css";
 import Head from "next/head";
 import Header from "../../components/Header";
+import {Box, Center, Text, useColorModeValue} from "@chakra-ui/react";
 
 const ReportsPageEng = () => {
+    const textColor = useColorModeValue('#222222', '#c59d5f');
+
     return (
         <div>
             <Head>
@@ -16,9 +19,13 @@ const ReportsPageEng = () => {
             <main>
                <Header pageTitle="Reports" />
 
-               <div>
-
-               </div>
+                <Center>
+                    <Box>
+                        <Text color={textColor} fontSize={{ lg:'xl', md:'md', sm:'sm' }}>
+                            Секція в процесі розробки та з'явиться незабаром!
+                        </Text>
+                    </Box>
+                </Center>
             </main>
         </div>
     );

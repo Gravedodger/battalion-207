@@ -1,12 +1,14 @@
-import React, { Fragment } from 'react';
-import styles from "../../styles/Styles.module.css";
+import React  from 'react';
+import styles from "/styles/Styles.module.css";
 import Head from "next/head";
 import Link from "next/link";
-import Header from "../../components/Header"
-import { Center, TableContainer, Table, Tbody, Tr, Td, Image, Text } from '@chakra-ui/react';
+import Header from "/components/Header"
+import { Center, TableContainer, Table, Tbody, Tr, Td, Image, Text, useColorModeValue } from '@chakra-ui/react';
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 
-const ContactsPageUkr = ({ pageTitle }) => {
+const ContactsPageUkr = () => {
+    const textColor = useColorModeValue('#222222', '#fff');
+
     return <>
         <Head>
             <meta lang="uk" />
@@ -26,15 +28,14 @@ const ContactsPageUkr = ({ pageTitle }) => {
                 <TableContainer className={styles.contactsInfo}>
                     <Table overflow='hidden'>
                         <Tbody>
-
                             <Tr className={styles.contactsItem}>
                                 <Td>
-                                    <Text fontWeight={600}>
+                                    <Text fontWeight={600} color={textColor}>
                                         Підпорядкування:
                                     </Text>
                                 </Td>
                                 <Td>
-                                    <Text>
+                                    <Text color={textColor}>
                                         в/ч А7376, м.Київ
                                     </Text>
                                 </Td>
@@ -42,13 +43,13 @@ const ContactsPageUkr = ({ pageTitle }) => {
 
                             <Tr className={styles.contactsItem}>
                                 <Td>
-                                    <Text fontWeight={600}>
+                                    <Text fontWeight={600} color={textColor}>
                                         Контактна особа:
                                     </Text>
                                 </Td>
                                 <Td>
-                                    <Text display='flex' alignItems='center' justifyContent='space=between'>
-                                        <p className={styles.contactsItemLink}>Святослав Малишевський</p>
+                                    <Text display='flex' alignItems='center'color={textColor} justifyContent='space=between'>
+                                        <Text color={textColor} className={styles.contactsItemLink}>Святослав Малишевський</Text>
                                         <Link href="https://www.facebook.com/sviatoslav.malyshevskyi" passHref
                                               target="_blank" rel="noopener noreferrer">
                                             <ExternalLinkIcon ml={3} />
@@ -59,31 +60,27 @@ const ContactsPageUkr = ({ pageTitle }) => {
 
                             <Tr className={styles.contactsItem}>
                                 <Td>
-                                    <Text fontWeight={600}>
+                                    <Text fontWeight={600} color={textColor}>
                                         Контактний телефон:
                                     </Text>
                                 </Td>
                                 <Td>
-                                    <Text>
-                                        <Link href="tel:+380964954677">
-                                            <p>+38 096 495 46 77</p>
-                                        </Link>
-                                    </Text>
+                                    <Link href="tel:+380964954677">
+                                        <Text color={textColor} className={styles.contactsItemLink}>+38 096 495 46 77</Text>
+                                    </Link>
                                 </Td>
                             </Tr>
 
                             <Tr className={styles.contactsItem}>
                                 <Td>
-                                    <Text fontWeight={600}>
+                                    <Text fontWeight={600} color={textColor}>
                                         Листування:
                                     </Text>
                                 </Td>
                                 <Td>
-                                    <Text>
-                                        <Link href="mailto:battalion207.info@gmail.com">
-                                            <p className={styles.contactsItemLink}>battalion207.info@gmail.com</p>
-                                        </Link>
-                                    </Text>
+                                    <Link href="mailto:battalion207.info@gmail.com">
+                                        <Text color={textColor} className={styles.contactsItemLink}>battalion207.info@gmail.com</Text>
+                                    </Link>
                                 </Td>
                             </Tr>
                         </Tbody>

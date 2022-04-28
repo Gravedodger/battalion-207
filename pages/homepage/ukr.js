@@ -5,7 +5,7 @@ import Head from "next/head";
 import Header from "../../components/Header";
 import { VStack, Center, StackDivider, Image, Link } from '@chakra-ui/react'
 
-const HomePageUkr = ({ pageTitle }) => {
+const HomePageUkr = () => {
     return <>
         <Head>
             <meta lang="uk" />
@@ -26,8 +26,7 @@ const HomePageUkr = ({ pageTitle }) => {
                     className={styles.homepageNav}
                     divider={<StackDivider borderColor='#c59d5f'/>}
                     spacing={4}
-                    align='center'
-                >
+                    align='center'>
 
                     <NextLink href='../about/ukr' passHref>
                         <Link className={styles.homepageNavItem}>

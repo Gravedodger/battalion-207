@@ -6,9 +6,11 @@ import { FilterIcon, LightBulbIcon } from './Icons';
 import { Box, Flex, IconButton, Text, useColorMode, useColorModeValue} from '@chakra-ui/react';
 
 const Header = ({filter, setFilter, pageTitle}) => {
-    const { toggleColorMode } = useColorMode();
-    const bgColor = useColorModeValue('white', 'gray.800');
     const themeIcon = useColorModeValue(<MoonIcon />, <LightBulbIcon />);
+    const { toggleColorMode } = useColorMode();
+
+    const bgColor = useColorModeValue('white', 'gray.800');
+    const textColor = useColorModeValue('#222222', '#c59d5f')
 
     return (
         <Flex
@@ -25,7 +27,7 @@ const Header = ({filter, setFilter, pageTitle}) => {
             <Box>
                 <Text
                     fontSize={{ lg: '5xl', md: '4xl', sm: '2xl' }} fontWeight={600}
-                    mb={{ base: 2, lg: 2, md: 4, sm: 3 }}
+                    mb={{ base: 2, lg: 2, md: 4, sm: 3 }} color={textColor}
                 >
                     {pageTitle}
                 </Text>
@@ -40,7 +42,7 @@ const Header = ({filter, setFilter, pageTitle}) => {
                     cursor='pointer'
                     icon={themeIcon}
                     onClick={toggleColorMode}
-                    color='#c59d5f'
+                    color='#222222'
                 />
             </Box>
         </Flex>

@@ -153,6 +153,10 @@
     cursor: pointer;
 }
 
+.contactsItem:hover .contactsItemLink {
+    color: #c59d5f;
+}
+
 @media screen and (min-width: 100px) and (max-width: 399px) {
     .contacts {
         display: flex;

@@ -1,24 +1,13 @@
-import React, {useContext} from 'react';
+import React, { useContext } from 'react';
 import styles from '/styles/Popover.module.css';
-import {
-    Popover, PopoverTrigger, PopoverContent, PopoverHeader, PopoverBody, Box,
-    PopoverFooter, PopoverArrow, PopoverCloseButton, Button, Text, Flex, Portal, Link
-} from '@chakra-ui/react';
-import ModalContainer from "./ModalContainer";
+import { Popover, PopoverTrigger, PopoverContent, PopoverHeader, PopoverBody, Box, PopoverFooter, PopoverArrow,
+    PopoverCloseButton, Button, Text, Flex } from '@chakra-ui/react';
+import CopyContents from "./CopyContents";
 
 const PopoverItem = (props) => {
     const {
-        trigger,
-        title,
-        payPal,
-        usdReq,
-        account, accountNumber,
-        iban, ibanNumber,
-        recipient, recipientDetails,
-        bank, bankDetails,
-        swift, swiftDetails,
-        purpose, purposeDetails,
-        gratitude, requisites,
+        trigger, title, payPal, usdReq, account, accountNumber, iban, ibanNumber, recipient, recipientDetails,
+        bank, bankDetails, swift, swiftDetails, purpose, purposeDetails, gratitude, requisites,
     } = props;
 
     return (
@@ -45,12 +34,8 @@ const PopoverItem = (props) => {
 
                     <Flex className={styles.popFlex}>
                         <Text className={styles.popItem}>Використати Payoneer:</Text>
-                        <Button py={5} px={7}
-                                backgroundColor='#c59d5f'
-                                border='#c59d5f' borderRadius={50} fontSize='11px'
-                                fontWeight={600} color='#fff'>
-                            s.malyshevskyi.08@aberdeen.ac.uk
-                        </Button>
+                        <CopyContents />
+
                     </Flex>
 
                     <Flex className={styles.popFlex}>

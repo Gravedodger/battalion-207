@@ -8,14 +8,6 @@ const cardsUKR = [
         desc: 'Магазини на 30 набоїв калібру 5.45 для автомату АК-74',
     },
     {
-        id: 2,
-        title: 'Мастило для зброї',
-        category: 'Зброя',
-        requiredAmount: 30,
-        img: 'https://www.topammo.com.ua/wp-content/uploads/2019/10/%D0%B1%D0%B0%D0%BB%D0%B8%D1%81%D1%82%D0%BE%D0%BB-300x244.png',
-        desc: 'Балони з мастилом для чищення зброї',
-    },
-    {
         id: 3,
         title: 'ПБС (Глушники) для АК-74',
         category: 'Зброя',
@@ -414,6 +406,14 @@ const cardsUKR = [
         requiredAmount: 300,
         img: 'https://angio.com.ua/assets/files/angio/reg_images/avvg_1_1_1_1_1_1.jpg.pagespeed.ce.kl0ET2XXt4.jpg',
         desc: 'Provident quam quisquam recusandae rerum sapiente, temporibus tenetur bla bla bla bla bla bla totam,ut1',
+    },
+    {
+        id: 2,
+        title: 'Мастило для зброї',
+        category: 'Зброя',
+        requiredAmount: 30,
+        img: 'https://www.topammo.com.ua/wp-content/uploads/2019/10/%D0%B1%D0%B0%D0%BB%D0%B8%D1%81%D1%82%D0%BE%D0%BB-300x244.png',
+        desc: 'Балони з мастилом для чищення зброї',
     },
 ];
 

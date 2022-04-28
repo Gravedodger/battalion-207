@@ -1,11 +1,11 @@
-import React, { Fragment } from 'react';
+import React  from 'react';
 import styles from '/styles/Homepage.module.css';
 import NextLink from 'next/link';
 import Head from "next/head";
 import Header from "../../components/Header";
 import { VStack, Center, StackDivider, Link, Image } from '@chakra-ui/react'
 
-const homePageEng = ({ pageTitle }) => {
+const homePageEng = () => {
     return <>
         <Head>
             <meta lang="en" />
@@ -26,8 +26,7 @@ const homePageEng = ({ pageTitle }) => {
                     className={styles.homepageNav}
                     divider={<StackDivider borderColor='#c59d5f'/>}
                     spacing={4}
-                    align='center'
-                >
+                    align='center'>
 
                     <NextLink href='../about/eng' passHref>
                         <Link className={styles.homepageNavItem}>

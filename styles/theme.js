@@ -1,18 +1,17 @@
-import { extendTheme } from '@chakra-ui/react';
+import { extendTheme, ThemeConfig } from '@chakra-ui/react';
 
 const theme = extendTheme({
     styles: {
         global: {
             html: {
-                scrollBehavior: 'smooth'
+                scrollBehavior: 'smooth',
             },
         },
     },
 
-    // config: {
-    //     initialColorMode: "System",
-    //     useSystemColorMode: true,
-    // },
+    config: {
+        initialColorMode: "System",
+    },
 });
 
 export default theme;

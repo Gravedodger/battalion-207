@@ -1,6 +1,6 @@
-import React, { Fragment, useState } from 'react';
+import React  from 'react';
 import styles from "/styles/FinSupport.module.css";
-import { Center, Box, Flex, Text, Image } from '@chakra-ui/react';
+import { Center, Box, Flex, Image } from '@chakra-ui/react';
 import Head from "next/head";
 import Header from "../../components/Header";
 import PopoverItem from "../../components/Popover";
