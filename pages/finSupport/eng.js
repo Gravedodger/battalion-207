@@ -5,7 +5,7 @@ import Head from "next/head";
 import Header from "/components/Header";
 import PopoverItem from "/components/Popover";
 import { PayPalEUR, PayPalGBP, PayPalUSD } from "../../components/PayPalButtons";
-import { EurRequisitesEng, GbpRequisitesEng,  UahRequisitesEng, UsdRequisitesEng } from '/components/requisites';
+import { EurRequisitesEng, GbpRequisitesEng,  UahRequisitesEng, UsdRequisitesEng } from '/components/requisites/index';
 
 const FinSupportPageEng = () => {
     const USD = <Image src='/usd-round.png' className={styles.currencyIcn} objectFit='fill' alt='USD' />;
