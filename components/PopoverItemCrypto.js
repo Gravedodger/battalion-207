@@ -1,11 +1,10 @@
 import React  from 'react';
 import styles from '/styles/Popover.module.css';
 import { Popover, PopoverTrigger, PopoverContent, PopoverHeader, PopoverBody, Box, PopoverFooter, PopoverArrow,
-    PopoverCloseButton, Text, Flex } from '@chakra-ui/react';
-import CopyContents from "./CopyContents";
+    PopoverCloseButton, Text } from '@chakra-ui/react';
 
-const PopoverItem = (props) => {
-    const { trigger, title, payPal, payoneer, address, gratitude, requisites, text } = props;
+const PopoverItemCrypto = (props) => {
+    const { trigger, title, payPal, payoneer, address, gratitude, requisites, wallet } = props;
 
     return (
         <Popover placement='bottom-start' closeOnBlur={true}  className='popTrigger'>
@@ -24,19 +23,10 @@ const PopoverItem = (props) => {
                 </PopoverHeader>
                 <PopoverCloseButton />
                 <PopoverBody className={styles.popBody}>
-                    <Flex className={styles.popFlex}>
-                        <Text className={styles.popItem}>Використати PayPal:</Text>
-                        {props.payPal}
-                    </Flex>
-                    <Flex className={styles.popFlex}>
-                        <Text className={styles.popItem}>Використати Payoneer:</Text>
-                        <CopyContents />
-                    </Flex>
-
-                    <Flex className={styles.popFlex}>
-                        <Text className={styles.popItem}>Пряме зарахування:</Text>
-                        {props.requisites}
-                    </Flex>
+                    <Text fontSize={{ lg: 'md', md: 'sm', sm: 'sm' }}
+                          className={styles.wallet}>
+                        {props.wallet}
+                    </Text>
                 </PopoverBody>
                 <PopoverFooter>
                     <Text>
@@ -48,4 +38,4 @@ const PopoverItem = (props) => {
     );
 };
 
-export default PopoverItem;
+export default PopoverItemCrypto;

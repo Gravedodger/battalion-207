@@ -1,12 +1,13 @@
 import React  from 'react';
 import styles from "/styles/FinSupport.module.css";
-import { Center, Box, Flex, Image } from '@chakra-ui/react';
+import { Center, Box, Flex, Image, Text } from '@chakra-ui/react';
 import Head from "next/head";
-import Header from "../../components/Header";
-import PopoverItem from "../../components/Popover";
+import Header from "/components/Header";
+import PopoverItem from "/components/Popover";
+import PopoverItemCrypto from "/components/PopoverItemCrypto";
 import { PayPalEUR, PayPalGBP, PayPalUSD } from "../../components/PayPalButtons";
-import { UsdRequisitesUkr } from "../../components/requisites/RequisitesUKR.js";
-import { EurRequisitesUkr, GbpRequisitesUkr, UahRequisitesUkr } from "../../components/requisites/RequisitesUKR";
+import { UsdRequisitesUkr } from "/components/requisites/RequisitesUKR.js";
+import { EurRequisitesUkr, GbpRequisitesUkr, UahRequisitesUkr } from "/components/requisites/RequisitesUKR";
 
 const FinSupportPageUkr = () => {
     const USD = <Image src='/usd-round.png' className={styles.currencyIcn} objectFit='fill' alt='USD' />;
@@ -49,6 +50,7 @@ const FinSupportPageUkr = () => {
                             title='USD опції:'
                             payPal={ppUSD}
                             requisites={usdReq}
+                            gratitude='Щиро дякуємо за Вашу підтримку! Слава Україні!'
                         />
                     </Flex>
 
@@ -62,6 +64,7 @@ const FinSupportPageUkr = () => {
                             title='GBP опції:'
                             payPal={ppGBP}
                             requisites={gbpReq}
+                            gratitude='Щиро дякуємо за Вашу підтримку! Слава Україні!'
                         />
                     </Flex>
 
@@ -74,6 +77,7 @@ const FinSupportPageUkr = () => {
                             title='EUR опції:'
                             payPal={ppEUR}
                             requisites={eurReq}
+                            gratitude='Щиро дякуємо за Вашу підтримку! Слава Україні!'
                         />
                     </Flex>
 
@@ -96,9 +100,11 @@ const FinSupportPageUkr = () => {
 
                     {/*   Bitcoin   */}
                     <Flex className={styles.payPalItem}>
-                        <PopoverItem
+                        <PopoverItemCrypto
                             trigger={Bitcoin}
                             title='Bitcoin опції:'
+                            wallet='bc1qd7hqxc5jvr37rx06h3m25tt3vmq6zg9r53yf0d'
+                            gratitude='Щиро дякуємо за Вашу підтримку! Слава Україні!'
                         />
                     </Flex>
 
@@ -106,9 +112,12 @@ const FinSupportPageUkr = () => {
 
                     {/*   Etherium   */}
                     <Flex className={styles.payPalItem}>
-                        <PopoverItem
+                        <PopoverItemCrypto
                             trigger={Ethereum}
                             title='Ethereum опції:'
+                            wallet='0xAcA9205E9105Fc58EC160b709261DFDf42046986'
+                            gratitude='Щиро дякуємо за Вашу підтримку! Слава Україні!'
+
                         />
                     </Flex>
                 </Flex>

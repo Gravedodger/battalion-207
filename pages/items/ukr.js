@@ -6,6 +6,7 @@ import Head from "next/head";
 import Header from "../../components/Header";
 import { Center, Box, useColorModeValue, Tooltip } from '@chakra-ui/react';
 import { FilterIcon } from "../../components/Icons";
+import Categories from "../../components/Categories";
 
 const ItemsPageUkr = () => {
     const textColor = useColorModeValue('#222222', '#c59d5f');
@@ -35,7 +36,7 @@ const ItemsPageUkr = () => {
 
         <Box display='flex' alignItems='center' justifyContent='center' mt='-3%' mb='3%'>
             <Tooltip label='Сортувати'>
-                <FilterIcon color={textColor} fontSize={40} cursor='pointer' />
+                <Categories />
             </Tooltip>
         </Box>
 

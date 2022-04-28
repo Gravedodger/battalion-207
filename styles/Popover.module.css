@@ -45,3 +45,16 @@
     margin: 1px auto 1px auto;
     background: var(--clr-gold);
 }
+
+.wallet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 25px;
+    background-color: #c59d5f;
+    border: #c59d5f solid 1px;
+    border-radius: 50px;
+    font-size: 10px;
+    font-weight: 600;
+    color: #fff;
+}
