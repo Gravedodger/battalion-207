@@ -1,31 +1,19 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styles from '/styles/Categories.module.css';
-import {FilterIcon} from "./Icons";
-import {useColorModeValue, Box, Menu, MenuButton, MenuList, MenuOptionGroup, MenuItemOption, Tooltip } from "@chakra-ui/react";
-import items from "../pages/api/data/Items/itemsDataUKR";
+import cardsUKR from "/pages/api/data/Items/itemsDataUKR";
+import { FilterIcon } from "./Icons";
+import { Menu, Tooltip, MenuList, MenuButton, MenuItemOption, useColorModeValue } from "@chakra-ui/react";
 
-const Categories = (item) => {
+const Categories = ({ filterItems, setItem, filterFunction }) => {
     const textColor = useColorModeValue('#222222', '#c59d5f');
-
-    const allCategories = ['Все', ...new Set(items.map(item => item.category))];
-    const [cardItems, setCardItems] = useState(null);
-    // eslint-disable-next-line
-    const [categories, setCategories] = useState('Все');
-
-    const filterItems = (category) => {
-        if (category === 'Все') {
-            setCardItems(items);
-        } else {
-            const newItems = items.filter(item => item.category === category);
-            setCardItems(newItems);
-        }
-    }
-
+    const borderColor = useColorModeValue('#c59d5f', '')
 
     return (
         <Menu closeOnSelect={false}>
             <Tooltip label='Вибрати категорії'>
                 <MenuButton
+                    onClick={() => setItem(cardsUKR)}
+                    defaultValue='Все'
                     color={textColor}
                     fontSize={40}
                     cursor='pointer'
@@ -36,22 +24,23 @@ const Categories = (item) => {
                 />
             </Tooltip>
 
-            <MenuList>
-                <MenuOptionGroup
-                    title="Filter"
-                    defaultValue='CRITICAL NEED'
-                    type="radio"
-                    onChange={(val) => {
-                        setCardItems(items)
-                    }}>
-                    {allCategories.map((categories) => (
-                        <MenuItemOption value={categories}>{categories}</MenuItemOption>
-                    ))}
+            <MenuList display='flex' flexDirection='column' borderColor={borderColor} borderWidth='3px'>
+                {filterItems.map((Val, id) => {
+                    return (
+                        <MenuItemOption
+                            key={id}
+                            fontSize={18}
+                            cursor='pointer'
+                            variant="ghost"
+                            onClick={() => filterFunction(Val)}
+                        >
+                            {Val}
+                        </MenuItemOption>
                     );
-                </MenuOptionGroup>
+                })}
             </MenuList>
         </Menu>
     );
-};
+}
 
 export default Categories;
