@@ -46,7 +46,8 @@
 
 .itemText {
     margin-bottom: 0;
-    padding-top: 1rem;
+    /*padding-top: 1rem;*/
+    width: 330px;
 }
 
 @media screen and (min-width: 768px) {

@@ -24,10 +24,10 @@ const ItemsPageEng = () => {
                 <meta lang="en" />
                 <meta name="description" content="Battalion-207 specific requirements" />
                 <link rel="icon" href="/favicon.ico" />
-                <title>Battalion-207 || Items</title>
+                <title>Battalion-207 || Required Items</title>
             </Head>
 
-            <Header pageTitle='Current needs' />
+            <Header pageTitle='Required Items' />
 
             <Box display='flex' alignItems='center' justifyContent='center' mt='-3%' mb='3%'>
                 <Tooltip label='Choose categories'>

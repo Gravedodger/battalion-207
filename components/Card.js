@@ -20,7 +20,7 @@ const Card = ({ item }) => {
                                 </Text>
 
                                 <Text fontSize='lg' fontWeight={600} color={textColor} className={styles.requiredAmount}>
-                                    {Val.requiredAmount} од.
+                                    {Val.requiredAmount} {Val.i}
                                 </Text>
                             </header>
 

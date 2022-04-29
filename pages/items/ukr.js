@@ -5,7 +5,7 @@ import Head from "next/head";
 import Header from "/components/Header";
 import Card from "/components/Card";
 import Categories from "/components/Categories";
-import { Center, Box, Tooltip, useColorModeValue } from '@chakra-ui/react';
+import { Center, Box, Tooltip } from '@chakra-ui/react';
 
 const ItemsPageUkr = () => {
     const [item, setItem]= useState(items);

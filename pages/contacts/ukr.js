@@ -3,8 +3,8 @@ import styles from "/styles/Styles.module.css";
 import Head from "next/head";
 import Link from "next/link";
 import Header from "/components/Header"
-import { Center, TableContainer, Table, Tbody, Tr, Td, Image, Text, useColorModeValue } from '@chakra-ui/react';
 import { ExternalLinkIcon } from "@chakra-ui/icons";
+import { Center, TableContainer, Table, Tbody, Tr, Td, Image, Text, useColorModeValue } from '@chakra-ui/react';
 
 const ContactsPageUkr = () => {
     const textColor = useColorModeValue('#222222', '#fff');
