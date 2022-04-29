@@ -1,16 +1,15 @@
 import React from "react";
 import styles from '../styles/Starter.module.css';
 import Head from 'next/head';
-import '../public/images/flags/ukraine-flag.png';
-import '../public/images/flags/UK-US_flag.png';
-import { Center, Flex, Box, Container, IconButton, useColorMode, useColorModeValue, Text, Image, Link } from '@chakra-ui/react';
 import { MoonIcon } from "@chakra-ui/icons";
 import { LightBulbIcon } from "../components/Icons";
+import { Center, Flex, Box, Container, IconButton, useColorMode, Text, Image, Link, useColorModeValue } from '@chakra-ui/react';
+import '../public/images/flags/UK-US_flag.png';
+import '../public/images/flags/ukraine-flag.png';
 
 export default function Home() {
+    const { toggleColorMode } = useColorMode();
     const themeIcon = useColorModeValue(<MoonIcon/>, <LightBulbIcon/>);
-    const {toggleColorMode} = useColorMode();
-    const bgColor = useColorModeValue('white', 'gray.800');
     const textColor = useColorModeValue('#222222', '#fff');
 
     return (
@@ -27,7 +26,7 @@ export default function Home() {
                     <Box w='100%'>
                         <IconButton
                             position='relative' left='80%' mt='2%'
-                            fontSize={{lg: '40px', md: '30px', sm: '40px'}}
+                            fontSize='40px'
                             variant="ghost"
                             aria-label="Toggle theme"
                             cursor='pointer'

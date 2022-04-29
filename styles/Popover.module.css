@@ -1,5 +1,4 @@
 .popTrigger {
-
 }
 
 .popBody {
@@ -13,14 +12,14 @@
 }
 
 .popTitle {
-    font-size: 16px;
+    text-align: center;
+    font-size: 18px;
     font-weight: 800;
 }
 
 .popFlex {
     display: flex;
     width: 100%;
-    margin-bottom: 5%;
     text-align: left;
     flex-direction: row;
     align-items: center;
@@ -29,20 +28,21 @@
 
 .popItem {
     float: left;
-    width: 40%;
+    width: 30%;
     font-size: 14px;
     font-weight: 800;
 }
 
 .popDetails {
     float: right;
-    width: 60%;
+    width: 70%;
+    text-align: center;
 }
 
 .popDivider {
     width: 70%;
     height: 1px;
-    margin: 1px auto 1px auto;
+    margin: 1.8rem auto;
     background: var(--clr-gold);
 }
 

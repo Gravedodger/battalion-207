@@ -8,8 +8,6 @@ const ModalContainer = (props) => {
     const textColor = useColorModeValue('#222222', '#fff');
     const titleColor = useColorModeValue('#222222', '#c59d5f');
     const { isOpen, onOpen, onClose } = useDisclosure();
-    const { trigger, title, account, accountNumber, iban, ibanNumber, recipient, recipientDetails, bank, bankDetails,
-        swift, swiftDetails, purpose, purposeDetails, gratitude, requisites, requisitesText } = props;
 
     return <>
         <Button py={5} px={7} mr={8} backgroundColor='#c59d5f' border='#c59d5f' borderRadius={50} fontSize='11px'
@@ -18,42 +16,54 @@ const ModalContainer = (props) => {
         </Button>
 
         <Modal isOpen={isOpen} onClose={onClose}>
+
             <ModalOverlay />
+
             <ModalContent>
-                <ModalHeader color={titleColor}>{props.title}</ModalHeader>
+                <ModalHeader color={titleColor} className={styles.popTitle}>{props.title}</ModalHeader>
+
                 <ModalCloseButton />
+
                 <ModalBody>
                     <Box>
-                        <Box>
-                            <Box className={styles.popFlex}>
-                                <Text color={titleColor} className={styles.popItem}>{props.account}</Text>
-                                <Text color={textColor} className={styles.popDetails}>{props.accountNumber}</Text>
-                            </Box>
-                            <Box className={styles.popDivider} />
-                            <Box className={styles.popFlex}>
-                                <Text color={titleColor} className={styles.popItem}>{props.iban}</Text>
-                                <Text color={textColor} className={styles.popDetails}>{props.ibanNumber}</Text>
-                            </Box>
-                            <Box className={styles.popDivider} />
-                            <Box className={styles.popFlex}>
-                                <Text color={titleColor} className={styles.popItem}>{props.recipient}</Text>
-                                <Text color={textColor} className={styles.popDetails}>{props.recipientDetails}</Text>
-                            </Box>
-                            <Box className={styles.popDivider} />
-                            <Box className={styles.popFlex}>
-                                <Text color={titleColor} className={styles.popItem}>{props.bank}</Text>
-                                <Text color={textColor} className={styles.popDetails}>{props.bankDetails}</Text>
-                            </Box>
-                            <Box className={styles.popDivider} />
-                            <Box className={styles.popFlex}>
-                                <Text color={titleColor} className={styles.popItem}>{props.swift}</Text>
-                                <Text color={textColor} className={styles.popDetails}>{props.swiftDetails}</Text>
-                            </Box>
-                            <Box className={styles.popDivider} />
-                            <Box display='flex' flexDirection='column'>
-                                <Text color={titleColor} className={styles.popItem}>{props.purpose}</Text>
-                                <Text color={textColor} display='inline' w='100%'>{props.purposeDetails}</Text>
-                            </Box>
+                        <Box className={styles.popFlex}>
+                            <Text color={titleColor} className={styles.popItem}>{props.account}</Text>
+                            <Text color={textColor} className={styles.popDetails}>{props.accountNumber}</Text>
+                        </Box>
+
+                        <Box className={styles.popDivider} />
+
+                        <Box className={styles.popFlex}>
+                            <Text color={titleColor} className={styles.popItem}>{props.iban}</Text>
+                            <Text color={textColor} className={styles.popDetails}>{props.ibanNumber}</Text>
+                        </Box>
+
+                        <Box className={styles.popDivider} />
+
+                        <Box className={styles.popFlex}>
+                            <Text color={titleColor} className={styles.popItem}>{props.recipient}</Text>
+                            <Text color={textColor} className={styles.popDetails}>{props.recipientDetails}</Text>
+                        </Box>
+
+                        <Box className={styles.popDivider} />
+
+                        <Box className={styles.popFlex}>
+                            <Text color={titleColor} className={styles.popItem}>{props.bank}</Text>
+                            <Text color={textColor} className={styles.popDetails}>{props.bankDetails}</Text>
+                        </Box>
+
+                        <Box className={styles.popDivider} />
+
+                        <Box className={styles.popFlex}>
+                            <Text color={titleColor} className={styles.popItem}>{props.swift}</Text>
+                            <Text color={textColor} className={styles.popDetails}>{props.swiftDetails}</Text>
+                        </Box>
+
+                        <Box className={styles.popDivider} />
+
+                        <Box display='flex' flexDirection='column'>
+                            <Text color={titleColor} className={styles.popItem}>{props.purpose}</Text>
+                            <Text color={textColor} display='inline' w='100%'>{props.purposeDetails}</Text>
                         </Box>
                     </Box>
                 </ModalBody>

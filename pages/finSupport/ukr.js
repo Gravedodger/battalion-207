@@ -117,7 +117,7 @@ const FinSupportPageUkr = () => {
                             title='Ethereum опції:'
                             wallet='0xAcA9205E9105Fc58EC160b709261DFDf42046986'
                             gratitude='Щиро дякуємо за Вашу підтримку! Слава Україні!'
-
+                            preventOverflow={true}
                         />
                     </Flex>
                 </Flex>
