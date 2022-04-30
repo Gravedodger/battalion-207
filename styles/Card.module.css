@@ -24,14 +24,15 @@
 .photo {
     display: block;
     width: 100%;
-    height: 200px;
-    object-fit: inherit;
+    height: 228px;
+    object-fit: inherit !important;
     border: 0.25rem solid var(--clr-gold);
     border-radius: var(--radius);
 }
 
 .itemInfo header {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     border-bottom: 0.5px dotted var(--clr-grey-5);
 }
@@ -46,7 +47,7 @@
 
 .itemText {
     margin-bottom: 0;
-    /*padding-top: 1rem;*/
+    padding-top: 1rem;
     width: 330px;
 }
 
