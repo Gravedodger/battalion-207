@@ -11,7 +11,7 @@ export default function Home() {
     const textColor = useColorModeValue('#222222', '#fff');
 
     return (
-        <>
+        <main className='main'>
             <Head>
                 <title>Battalion-207</title>
                 <meta name="description" content="Battalion-207 needs and requirements"/>
@@ -88,6 +88,6 @@ export default function Home() {
                     </Flex>
                 </Container>
             </Center>
-        </>
+        </main>
     );
-};
+}

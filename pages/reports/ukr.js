@@ -1,14 +1,14 @@
 import React from 'react';
-import styles from "../../styles/Styles.module.css";
+import styles from "/styles/Styles.module.css";
 import Head from "next/head";
-import Header from "../../components/Header";
+import Header from "/components/Header";
 import { Center, Box, Text, useColorModeValue} from "@chakra-ui/react";
 
 const ReportsPageUkr = () => {
     const textColor = useColorModeValue('#222222', '#c59d5f');
 
     return (
-        <div>
+        <main className='main'>
             <Head>
                 <meta lang="uk" />
                 <meta name="description" content="Фінансова та інвентарна звітність Батальйону-207" />
@@ -27,7 +27,7 @@ const ReportsPageUkr = () => {
                     </Box>
                 </Center>
             </main>
-        </div>
+        </main>
     );
 };
 

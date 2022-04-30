@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styles from '/styles/Styles.module.css';
 import items from "/pages/api/data/Items/itemsDataENG";
 import Head from "next/head";
-import Header from "../../components/Header";
+import Header from "/components/Header";
 import Card from "/components/Card";
 import Categories from "/components/Categories";
 import { Center, Box, Tooltip } from '@chakra-ui/react';
@@ -19,7 +19,7 @@ const ItemsPageEng = () => {
     };
 
     return (
-        <>
+        <main className='main'>
             <Head>
                 <meta lang="en" />
                 <meta name="description" content="Battalion-207 specific requirements" />
@@ -45,7 +45,7 @@ const ItemsPageEng = () => {
                     <Card item={item}/>
                 </Box>
             </Center>
-        </>
+        </main>
     );
 }
 

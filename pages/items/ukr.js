@@ -19,7 +19,7 @@ const ItemsPageUkr = () => {
     };
 
     return (
-        <>
+        <main className='main'>
             <Head>
                 <meta lang="uk" />
                 <meta name="description" content="Battalion-207 нагальна необхіждність" />
@@ -45,7 +45,7 @@ const ItemsPageUkr = () => {
                     <Card item={item} />
                 </Box>
             </Center>
-        </>
+        </main>
     );
 }
 
