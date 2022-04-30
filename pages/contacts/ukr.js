@@ -9,15 +9,15 @@ import { Center, TableContainer, Table, Tbody, Tr, Td, Image, Text, useColorMode
 const ContactsPageUkr = () => {
     const textColor = useColorModeValue('#222222', '#fff');
 
-    return (
-        <main>
-            <Head>
-                <meta lang="uk" />
-                <meta name="description" content="Батальйон 207 контактна інформація" />
-                <link rel="icon" href="/favicon.ico" />
-                <title>Battalion-207 || Контакти</title>
-            </Head>
+    return <>
+        <Head>
+            <meta lang="uk" />
+            <meta name="description" content="Батальйон 207 контактна інформація" />
+            <link rel="icon" href="/favicon.ico" />
+            <title>Battalion-207 || Контакти</title>
+        </Head>
 
+        <main className='main'>
             <Header pageTitle="Контактна інформація" />
 
             <Center>
@@ -90,7 +90,7 @@ const ContactsPageUkr = () => {
                 </div>
             </Center>
         </main>
-    );
+    </>
 }
 
 export default ContactsPageUkr;

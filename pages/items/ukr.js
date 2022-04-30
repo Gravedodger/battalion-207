@@ -18,15 +18,15 @@ const ItemsPageUkr = () => {
         setItem(newItem);
     };
 
-    return (
-        <main className='main'>
-            <Head>
-                <meta lang="uk" />
-                <meta name="description" content="Battalion-207 нагальна необхіждність" />
-                <link rel="icon" href="/favicon.ico" />
-                <title>Батальйон-207 || Нагальна необхідність</title>
-            </Head>
+    return <>
+        <Head>
+            <meta lang="uk" />
+            <meta name="description" content="Battalion-207 нагальна необхіждність" />
+            <link rel="icon" href="/favicon.ico" />
+            <title>Батальйон-207 || Нагальна необхідність</title>
+        </Head>
 
+        <main className='main'>
             <Header pageTitle='Нагальна необхідність' />
 
             <Box display='flex' alignItems='center' justifyContent='center' mt='-3%' mb='3%'>
@@ -46,7 +46,7 @@ const ItemsPageUkr = () => {
                 </Box>
             </Center>
         </main>
-    );
+    </>
 }
 
 export default ItemsPageUkr;

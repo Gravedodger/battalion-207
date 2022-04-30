@@ -18,15 +18,15 @@ const ItemsPageEng = () => {
         setItem(newItem);
     };
 
-    return (
-        <main className='main'>
-            <Head>
-                <meta lang="en" />
-                <meta name="description" content="Battalion-207 specific requirements" />
-                <link rel="icon" href="/favicon.ico" />
-                <title>Battalion-207 || Required Items</title>
-            </Head>
+    return <>
+        <Head>
+            <meta lang="en" />
+            <meta name="description" content="Battalion-207 specific requirements" />
+            <link rel="icon" href="/favicon.ico" />
+            <title>Battalion-207 || Required Items</title>
+        </Head>
 
+        <main className='main'>
             <Header pageTitle='Required Items' />
 
             <Box display='flex' alignItems='center' justifyContent='center' mt='-3%' mb='3%'>
@@ -46,7 +46,7 @@ const ItemsPageEng = () => {
                 </Box>
             </Center>
         </main>
-    );
+    </>
 }
 
 export default ItemsPageEng;

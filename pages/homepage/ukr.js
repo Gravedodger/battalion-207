@@ -1,20 +1,20 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import styles from '/styles/Homepage.module.css';
 import NextLink from 'next/link';
 import Head from "next/head";
-import Header from "../../components/Header";
+import Header from "/components/Header";
 import { VStack, Center, StackDivider, Image, Link } from '@chakra-ui/react'
 
 const HomePageUkr = () => {
-    return (
-        <main className='main'>
-            <Head>
-                <meta lang="uk" />
-                <meta name="description" content="Батальйон-207 навігаційне меню" />
-                <link rel="icon" href="/favicon.ico" />
-                <title>Батальйон-207 || Меню</title>
-            </Head>
+    return <>
+        <Head>
+            <meta lang="uk" />
+            <meta name="description" content="Батальйон-207 навігаційне меню" />
+            <link rel="icon" href="/favicon.ico" />
+            <title>Батальйон-207 || Меню</title>
+        </Head>
 
+        <main className='main'>
             <Header pageTitle='Батальйон 207' />
 
             <Center>
@@ -23,11 +23,10 @@ const HomePageUkr = () => {
                         <Image src='/logo.png' />
                     </div>
 
-                    <VStack
-                        className={styles.homepageNav}
-                        divider={<StackDivider borderColor='#c59d5f'/>}
-                        spacing={4}
-                        align='center'>
+                    <VStack className={styles.homepageNav}
+                            divider={<StackDivider borderColor='#c59d5f'/>}
+                            spacing={4}
+                            align='center' >
 
                         <NextLink href='../about/ukr' passHref>
                             <Link className={styles.homepageNavItem}>
@@ -62,7 +61,7 @@ const HomePageUkr = () => {
                 </div>
             </Center>
         </main>
-    );
+    </>
 }
 
 export default HomePageUkr;

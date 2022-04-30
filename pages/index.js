@@ -10,17 +10,16 @@ export default function Home() {
     const themeIcon = useColorModeValue(<MoonIcon/>, <LightBulbIcon/>);
     const textColor = useColorModeValue('#222222', '#fff');
 
-    return (
+    return <>
+        <Head>
+            <title>Battalion-207</title>
+            <meta name="description" content="Battalion-207 needs and requirements"/>
+            <link rel="icon" href="/favicon.ico"/>
+        </Head>
+
         <main className='main'>
-            <Head>
-                <title>Battalion-207</title>
-                <meta name="description" content="Battalion-207 needs and requirements"/>
-                <link rel="icon" href="/favicon.ico"/>
-            </Head>
-
             <Center>
-                <Container maxW="x1" display="flex" flexDir="column" justifyContent="center" alignItems="center">
-
+                <Container display="flex" maxW="x1" flexDir="column" justifyContent="center" alignItems="center">
                     <Box w='100%'>
                         <IconButton
                             position='relative' left='80%' mt='2%'
@@ -34,7 +33,8 @@ export default function Home() {
                         />
                     </Box>
 
-                    <Flex className={styles.starterWrap} flexWrap='wrap' spacing={20} gap={10} mt="5%"
+                    <Flex className={styles.starterWrap} flexWrap='wrap'
+                          spacing={20} gap={10}
                           justifyContent='center' alignItems='center' flexDirection='column'>
                         <Box className={styles.starterLogoContainer}>
                             <Image src='/logo.png' alt="main logo" objectFit='contain' boxSize="90%"/>
@@ -42,12 +42,8 @@ export default function Home() {
 
                         <Flex className={styles.starterFlagWrap} justifyContent='center' alignItems='center'>
                             <Box className={styles.starterFlagContainer}>
-                                <Text
-                                    fontSize={{lg: 'lg', md: 'md', sm: 'sm'}}
-                                    textAlign="center"
-                                    mb={2}
-                                    color={textColor}
-                                    className={styles.flagLabel}
+                                <Text fontSize={{ lg: 'lg', md: 'md', sm: 'sm' }} textAlign="center"
+                                    mb={2} color={textColor} className={styles.flagLabel}
                                 >
                                     Українською
                                 </Text>
@@ -65,22 +61,15 @@ export default function Home() {
                             </Box>
 
                             <Box className={styles.starterFlagContainer}>
-                                <Text fontSize={{lg: 'lg', md: 'md', sm: 'sm'}}
-                                      textAlign="center"
-                                      mb={2}
-                                      color={textColor}
-                                      className={styles.flagLabel}
+                                <Text fontSize={{ lg: 'lg', md: 'md', sm: 'sm' }} textAlign="center" mb={2}
+                                      color={textColor} className={styles.flagLabel}
                                 >
                                     In English
                                 </Text>
 
                                 <Box className={styles.starterEngFlag}>
                                     <Link href="homepage/eng">
-                                        <Image
-                                            src='/UK-US_flag.png'
-                                            alt="Flags of US/UK"
-                                            objectFit='contain'
-                                        />
+                                        <Image src='/UK-US_flag.png' objectFit='contain' alt="Flags of US/UK" />
                                     </Link>
                                 </Box>
                             </Box>
@@ -89,5 +78,5 @@ export default function Home() {
                 </Container>
             </Center>
         </main>
-    );
+    </>
 }

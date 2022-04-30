@@ -6,15 +6,15 @@ import Header from "/components/Header";
 import { VStack, Center, StackDivider, Link, Image } from '@chakra-ui/react'
 
 const homePageEng = () => {
-    return (
-        <main className='main'>
-            <Head>
-                <meta lang="en" />
-                <meta name="description" content="Battalion-207 nav menu" />
-                <link rel="icon" href="/favicon.ico" />
-                <title>Battalion-207 || Navigation</title>
-            </Head>
+    return <>
+        <Head>
+            <meta lang="en" />
+            <meta name="description" content="Battalion-207 nav menu" />
+            <link rel="icon" href="/favicon.ico" />
+            <title>Battalion-207 || Navigation</title>
+        </Head>
 
+        <main className='main'>
             <Header pageTitle='Battalion 207' />
 
             <Center>
@@ -23,11 +23,10 @@ const homePageEng = () => {
                         <Image src='/logo.png' />
                     </div>
 
-                    <VStack
-                        className={styles.homepageNav}
-                        divider={<StackDivider borderColor='#c59d5f'/>}
-                        spacing={4}
-                        align='center'>
+                    <VStack className={styles.homepageNav}
+                            divider={<StackDivider borderColor='#c59d5f'/>}
+                            spacing={4}
+                            align='center' >
 
                         <NextLink href='../about/eng' passHref>
                             <Link className={styles.homepageNavItem}>
@@ -62,7 +61,7 @@ const homePageEng = () => {
                 </div>
             </Center>
         </main>
-    );
+    </>
 }
 
 export default homePageEng;

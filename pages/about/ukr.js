@@ -7,17 +7,16 @@ import { Center, Container, Box, Image, Text, useColorModeValue } from '@chakra-
 const AboutPageUkr = () => {
     const textColor = useColorModeValue('#222222', '#fff');
 
-    return (
+    return <>
+        <Head>
+            <meta lang="uk" />
+            <meta name="description" content="Battalion-207 інформація про батальйон" />
+            <link rel="icon" href="/favicon.ico" />
+            <title>Battalion-207 || Про Батальйон</title>
+        </Head>
+
         <main className='main'>
-            <Head>
-                <meta lang="uk" />
-                <meta name="description" content="Battalion-207 інформація про батальйон" />
-                <link rel="icon" href="/favicon.ico" />
-                <title>Battalion-207 || Про Батальйон</title>
-            </Head>
-
             <Header pageTitle='Про Батальйон' />
-
             <Center>
                 <Box className={styles.aboutArticle}>
                     <div className={styles.articleLogoContainer}>
@@ -51,7 +50,7 @@ const AboutPageUkr = () => {
                 </Box>
             </Center>
         </main>
-    );
+    </>
 }
 
 export default AboutPageUkr;

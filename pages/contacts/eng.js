@@ -9,15 +9,15 @@ import { Center, TableContainer, Table, Tbody, Tr, Td, Image, Text, useColorMode
 const ContactsPageEng = () => {
     const textColor = useColorModeValue('#222222', '#fff');
 
-    return (
-        <main className='main'>
-            <Head>
-                <meta lang="en" />
-                <meta name="description" content="Battalion-207 contact information" />
-                <link rel="icon" href="/favicon.ico" />
-                <title>Battalion-207 || Contacts</title>
-            </Head>
+    return <>
+        <Head>
+            <meta lang="en" />
+            <meta name="description" content="Battalion-207 contact information" />
+            <link rel="icon" href="/favicon.ico" />
+            <title>Battalion-207 || Contacts</title>
+        </Head>
 
+        <main className='main'>
             <Header pageTitle="Contact information" />
 
             <Center>
@@ -94,7 +94,7 @@ const ContactsPageEng = () => {
                 </div>
             </Center>
         </main>
-    );
+    </>
 }
 
 export default ContactsPageEng;
