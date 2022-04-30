@@ -9,7 +9,7 @@ const cardsENG = [
         desc: 'AK-74 magazines for 30 rounds of 5.45 caliber',
     },
     {
-        id: 3,
+        id: 2,
         title: 'Mufflers for AK-74',
         category: 'Weapons',
         requiredAmount: 20, i: 'units',
