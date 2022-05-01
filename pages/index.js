@@ -43,7 +43,7 @@ export default function Home() {
                         <Flex className={styles.starterFlagWrap} justifyContent='center' alignItems='center'>
                             <Box className={styles.starterFlagContainer}>
                                 <Text fontSize={{ lg: 'lg', md: 'md', sm: 'sm' }} textAlign="center"
-                                    mb={2} color={textColor} className={styles.flagLabel}
+                                      color={textColor} className={styles.flagLabel}
                                 >
                                     Українською
                                 </Text>
@@ -61,7 +61,7 @@ export default function Home() {
                             </Box>
 
                             <Box className={styles.starterFlagContainer}>
-                                <Text fontSize={{ lg: 'lg', md: 'md', sm: 'sm' }} textAlign="center" mb={2}
+                                <Text fontSize={{ lg: 'lg', md: 'md', sm: 'sm' }} textAlign="center"
                                       color={textColor} className={styles.flagLabel}
                                 >
                                     In English

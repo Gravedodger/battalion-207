@@ -5,7 +5,7 @@ import { Popover, PopoverTrigger, PopoverContent, PopoverHeader, PopoverBody, Bo
 import CopyContents from "./CopyContents";
 
 const PopoverItem = (props) => {
-    const { trigger, title, payPal, payoneer, address, gratitude, requisites, text } = props;
+    const { trigger, title, payPal, payoneer, address, gratitude, requisites, text, ukraine } = props;
 
     return (
         <Popover placement='bottom-start' closeOnBlur={true}  className='popTrigger'>
@@ -15,7 +15,7 @@ const PopoverItem = (props) => {
                 </Box>
             </PopoverTrigger>
 
-            <PopoverContent className={styles.popCanvas}>
+            <PopoverContent className={styles.popCanvas} w='22rem'>
                 <PopoverArrow />
                 <PopoverHeader>
                     <Text className={styles.popTitle}>
@@ -41,6 +41,9 @@ const PopoverItem = (props) => {
                 <PopoverFooter>
                     <Text>
                         {props.gratitude}
+                    </Text>
+                    <Text>
+                        {props.ukraine}
                     </Text>
                 </PopoverFooter>
             </PopoverContent>

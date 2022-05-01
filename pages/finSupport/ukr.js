@@ -49,7 +49,8 @@ const FinSupportPageUkr = () => {
                                      trigger={USD}
                                      payPal={ppUSD}
                                      requisites={usdReq}
-                                     gratitude='Щиро дякуємо за Вашу підтримку! Слава Україні!' />
+                                     gratitude='Щиро дякуємо за Вашу підтримку!'
+                                     ukraine='Слава Україні!' />
                     </Flex>
 
                     <Box className={styles.finDivider} />
@@ -61,7 +62,9 @@ const FinSupportPageUkr = () => {
                                      trigger={GBP}
                                      payPal={ppGBP}
                                      requisites={gbpReq}
-                                     gratitude='Щиро дякуємо за Вашу підтримку! Слава Україні!' />
+                                     gratitude='Щиро дякуємо за Вашу підтримку!'
+                                     gratitude='Щиро дякуємо за Вашу підтримку!'
+                                     ukraine='Слава Україні!' />
                     </Flex>
 
                     <Box className={styles.finDivider} />
@@ -72,7 +75,8 @@ const FinSupportPageUkr = () => {
                                      trigger={EUR}
                                      payPal={ppEUR}
                                      requisites={eurReq}
-                                     gratitude='Щиро дякуємо за Вашу підтримку! Слава Україні!' />
+                                     gratitude='Щиро дякуємо за Вашу підтримку!'
+                                     ukraine='Слава Україні!' />
                     </Flex>
 
                     <Box className={styles.finDivider} />
@@ -81,7 +85,9 @@ const FinSupportPageUkr = () => {
                     <Flex className={styles.payPalItem}>
                         <PopoverItem title='Гривневі опції:'
                                      trigger={UAH}
-                                     requisites={uahReq} />
+                                     requisites={uahReq}
+                                     gratitude='Щиро дякуємо за Вашу підтримку!'
+                                     ukraine='Слава Україні!' />
                     </Flex>
                 </Flex>
             </Center>
@@ -95,7 +101,8 @@ const FinSupportPageUkr = () => {
                         <PopoverItemCrypto title='Bitcoin опції:'
                                            trigger={Bitcoin}
                                            wallet='bc1qd7hqxc5jvr37rx06h3m25tt3vmq6zg9r53yf0d'
-                                           gratitude='Щиро дякуємо за Вашу підтримку! Слава Україні!' />
+                                           gratitude='Щиро дякуємо за Вашу підтримку!'
+                                           ukraine='Слава Україні!' />
                     </Flex>
 
                     <Box className={styles.finDivider} />
@@ -105,7 +112,8 @@ const FinSupportPageUkr = () => {
                         <PopoverItemCrypto title='Ethereum опції:'
                                            trigger={Ethereum}
                                            wallet='0xAcA9205E9105Fc58EC160b709261DFDf42046986'
-                                           gratitude='Щиро дякуємо за Вашу підтримку! Слава Україні!'
+                                           gratitude='Щиро дякуємо за Вашу підтримку!'
+                                           ukraine='Слава Україні!'
                                            preventOverflow={true} />
                     </Flex>
                 </Flex>

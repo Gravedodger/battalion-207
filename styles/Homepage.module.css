@@ -1,14 +1,13 @@
 .homepageContainer {
     display: flex;
     width: 55%;
-    margin-top: 5%;
     align-items: center;
     justify-content: space-evenly;
 }
 
 .homepageLogoWrap {
     width: 40%;
-    margin-right: 20%;
+    margin-right: 16%;
 }
 
 .homepageNav {
@@ -19,9 +18,9 @@
 }
 
 .homepageNavItem {
-    font-size: 2.1rem;
+    font-size: 1.8rem;
     font-weight: 600;
-    line-height: 5rem;
+    line-height: 4rem;
     cursor: pointer;
     text-shadow: 3px 2px 12px 32px rgba(0,0,0,0.75);
     text-decoration: none !important;
@@ -35,9 +34,7 @@
 @media screen and (min-width: 1390px) and (max-width: 1800px) {
     .homepageContainer {
         width: 100%;
-        margin-left: 20%;
-        margin-right: 20%;
-
+        margin: 0 20% 0 20%;
     }
     .homepageNav {
         width: 60%;
@@ -55,8 +52,7 @@
 @media screen and (min-width: 1000px) and (max-width: 1399px) {
     .homepageContainer {
         width: 100%;
-        margin-right: 10%;
-        margin-left: 10%;
+        margin: 0 10% 0 10%;
     }
     .homepageNav {
         width: 40%;
@@ -74,8 +70,7 @@
 @media screen and (min-width: 800px) and (max-width: 999px) {
     .homepageContainer {
         width: 100%;
-        margin-right: 20%;
-        margin-left: 15%;
+        margin: 0 20% 0 15%;
     }
     .homepageLogoWrap {
         width: 40%;
@@ -90,18 +85,16 @@
 @media screen and (min-width: 600px) and (max-width: 799px) {
     .homepageContainer {
         width: 100%;
-        margin-right: 20%;
-        margin-left: 20%;
-        margin-top: 10%;
+        margin: 5% 20% 0 20%;
     }
     .homepageLogoWrap {
         width: 25rem;
     }
     .homepageNavItem {
         width: 100%;
+        text-align: center;
         font-size: 0.8rem;
         line-height: 1.5rem;
-        text-align: center;
     }
 }
 
@@ -112,7 +105,7 @@
         width: 100%;
         align-items: center;
         justify-content: center;
-        margin: 10% 0 0;
+        margin: 3% 0 0 0;
     }
     .homepageLogoWrap {
         width: 12rem;
@@ -134,14 +127,12 @@
     .homepageContainer {
         display: flex;
         flex-direction: column;
-        width-bottom: 22rem;
-        margin-: 10%;
+        margin-bottom: 10%;
         flex-wrap: wrap;
     }
     .homepageLogoWrap {
         width: 35%;
-        height: 35%;
-        margin: 0 0 10%;
+        margin: 0;
         padding: 0;
     }
     .homepageNav ul {

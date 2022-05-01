@@ -1,10 +1,10 @@
 .transfer {
     width: 130px;
     height: 40px;
-    background-color: #c59d5f;
-    border: #c59d5f solid 1px;
-    border-radius: 50px;
     font-size: 10px;
     font-weight: 600;
     color: #fff;
+    border: #c59d5f solid 1px;
+    border-radius: 50px;
+    background-color: #c59d5f;
 }
