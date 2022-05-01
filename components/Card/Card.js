@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '/styles/Card.module.css';
+import styles from '/components/Card/Card.module.css';
 import { Box, Image, Text, useColorModeValue } from '@chakra-ui/react';
 
 const Card = ({ item }) => {

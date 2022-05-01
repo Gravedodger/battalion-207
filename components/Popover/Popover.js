@@ -1,8 +1,8 @@
 import React  from 'react';
-import styles from '/styles/Popover.module.css';
+import styles from '/components/Popover/Popover.module.css';
 import { Popover, PopoverTrigger, PopoverContent, PopoverHeader, PopoverBody, Box, PopoverFooter, PopoverArrow,
     PopoverCloseButton, Text, Flex } from '@chakra-ui/react';
-import CopyContents from "./CopyContents";
+import CopyContents from "../CopyContents";
 
 const PopoverItem = (props) => {
     const { trigger, title, payPal, payoneer, address, gratitude, requisites, text, ukraine } = props;

@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from '/styles/Categories.module.css';
+import styles from '/components/Categories/Categories.module.css';
 import cardsUKR from "/pages/api/data/Items/itemsDataUKR";
-import { FilterIcon } from "./Icons";
+import { FilterIcon } from "../Icons";
 import { Menu, Tooltip, MenuList, MenuButton, MenuItemOption, useColorModeValue } from "@chakra-ui/react";
 
 const Categories = ({ filterItems, setItem, filterFunction }) => {

@@ -3,7 +3,7 @@ import styles from "/styles/FinSupport.module.css";
 import { Center, Box, Flex, Image } from '@chakra-ui/react';
 import Head from "next/head";
 import Header from "/components/Header";
-import PopoverItem from "/components/Popover";
+import PopoverItem from "/components/Popover/Popover";
 import { PayPalEUR, PayPalGBP, PayPalUSD } from "/components/PayPalButtons";
 import { EurRequisitesEng, GbpRequisitesEng,  UahRequisitesEng, UsdRequisitesEng } from '/components/requisites/index';
 

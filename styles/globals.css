@@ -223,3 +223,10 @@ p {
   z-index: 999;
 }
 
+.buttonTopContainer {
+  padding: 15%;
+  margin-left: -20%;
+  background-color: #c59d5f;
+  color: #000;
+  opacity: 0.7;
+}
