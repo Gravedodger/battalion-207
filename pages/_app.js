@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
       <ChakraProvider theme={theme}>
           <Component {...pageProps} />
 
-          <ScrollToTop showUnder={600}>
+          <ScrollToTop showUnder={600} duration={100}>
                 <span className='buttonTopContainer'>
                     <ChevronUpIcon
                         w='5rem' h='5rem'

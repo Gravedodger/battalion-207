@@ -11,27 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16cc5659-9977-4949-ba87-ebf4e6bd80d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/chevronUp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Card/Card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Categories.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Categories/Categories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ModalContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ModalContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Popover.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Popover/Popover.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/PopoverItemCrypto.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Popover/PopoverItemCrypto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ScrollToTop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_document.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/finSupport/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/finSupport/eng.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/finSupport/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/finSupport/ukr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/items/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/items/eng.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/items/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/items/ukr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Card.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Card/Card.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Categories.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Categories/Categories.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Popover.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Popover/Popover.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Styles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Styles.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +96,7 @@
       <workItem from="1651187820773" duration="22466000" />
       <workItem from="1651322230750" duration="41153000" />
       <workItem from="1651388837229" duration="3551000" />
-      <workItem from="1651392499563" duration="4978000" />
+      <workItem from="1651392499563" duration="5172000" />
     </task>
     <servers />
   </component>
