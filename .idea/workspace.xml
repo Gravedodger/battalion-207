@@ -11,15 +11,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16cc5659-9977-4949-ba87-ebf4e6bd80d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/components/Gallery/Gallery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Gallery/Gallery.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Gallery/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Pagination/Pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Pagination/Pagination.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Pagination/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Gutsul.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/featured-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/featured-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/featured-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/featured-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/featured-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/featured-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/featured-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/featured-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/theBand.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/smaly.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/smaly.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Popover.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Popover.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/finSupport/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/finSupport/ukr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Buttons.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Buttons.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about/ukr.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/Homepage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Homepage.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Popover.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Popover.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Starter.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Starter.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Styles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Styles.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +64,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="17.9.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/components/Gallery/img" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -72,11 +84,11 @@
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public\images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\Gallery\img" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public\images\currency" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\pages" />
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public\images\logos" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -102,7 +114,7 @@
       <workItem from="1651138121818" duration="15316000" />
       <workItem from="1651187023863" duration="734000" />
       <workItem from="1651187820773" duration="22466000" />
-      <workItem from="1651322230750" duration="31920000" />
+      <workItem from="1651322230750" duration="41009000" />
     </task>
     <servers />
   </component>

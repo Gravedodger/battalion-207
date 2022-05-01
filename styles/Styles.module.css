@@ -3,7 +3,6 @@
     width: 100%;
     margin-right: 15%;
     margin-left: 15%;
-    margin-top: 5%;
     align-items: center;
 }
 
@@ -164,7 +163,7 @@
         width: 80%;
         align-items: center;
         justify-content: center;
-        margin: 0 20% 0 20%;
+        margin: 0 20% 0 10%;
     }
     .contactsLogoContainer {
         width: 60%;

@@ -3,6 +3,7 @@ import styles from "/styles/Styles.module.css";
 import Head from "next/head";
 import Header from "/components/Header";
 import { Center, Container, Box, Image, Text, useColorModeValue } from '@chakra-ui/react';
+import Gallery from "../../components/Gallery";
 
 const AboutPageUkr = () => {
     const textColor = useColorModeValue('#222222', '#fff');
@@ -47,6 +48,12 @@ const AboutPageUkr = () => {
                             межами.
                         </Text>
                     </Container>
+                </Box>
+            </Center>
+
+            <Center mt='5%'>
+                <Box>
+                    <Gallery />
                 </Box>
             </Center>
         </main>
