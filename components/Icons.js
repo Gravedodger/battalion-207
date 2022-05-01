@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "../styles/Icons.module.css";
+import styles from "./Icons/Icons.module.css";
 import Router from "next/router";
 import { ChevronLeftIcon, createIcon } from '@chakra-ui/icons';
 import { Box, useColorModeValue } from "@chakra-ui/react";

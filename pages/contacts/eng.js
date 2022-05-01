@@ -2,7 +2,7 @@ import React  from 'react';
 import styles from "/styles/Styles.module.css";
 import Head from "next/head";
 import Link from "next/link";
-import Header from "/components/Header";
+import Header from "/components/Header/Header";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { Center, TableContainer, Table, Tbody, Tr, Td, Image, Text, useColorModeValue } from '@chakra-ui/react';
 

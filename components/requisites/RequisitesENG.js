@@ -1,5 +1,5 @@
 import React from "react";
-import ModalContainer from "/components/ModalContainer";
+import ModalContainer from "/components/Modal/ModalContainer";
 
 export const UsdRequisitesEng = () => {
     return <ModalContainer

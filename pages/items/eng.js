@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styles from '/styles/Styles.module.css';
 import items from "/pages/api/data/Items/itemsDataENG";
 import Head from "next/head";
-import Header from "/components/Header";
+import Header from "/components/Header/Header";
 import Card from "/components/Card/Card";
 import Categories from "/components/Categories/Categories";
 import { Center, Box, Tooltip } from '@chakra-ui/react';

@@ -11,7 +11,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16cc5659-9977-4949-ba87-ebf4e6bd80d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/components/Card/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Categories/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/CopyContents/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Header/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Icons/FilterIcon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Icons/LightBulbIcon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Icons/ReturnButtonIcn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Modal/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/CopyContents.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/CopyContents/CopyContents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Icons.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Icons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ModalContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Modal/ModalContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Popover/Popover.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Popover/Popover.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/requisites/RequisitesENG.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/requisites/RequisitesENG.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/requisites/RequisitesUKR.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/requisites/RequisitesUKR.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about/eng.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about/ukr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contacts/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contacts/eng.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contacts/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contacts/ukr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/finSupport/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/finSupport/eng.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/finSupport/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/finSupport/ukr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/homepage/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/homepage/eng.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/homepage/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/homepage/ukr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/items/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/items/eng.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/items/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/items/ukr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/reports/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/reports/eng.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/reports/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/reports/ukr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Icons.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Icons/Icons.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/ThreeDots.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,19 +87,19 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\Icons" />
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\CopyContents" />
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\Modal" />
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components" />
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\Header" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\Gallery\img" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public\images\currency" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\pages" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\ScrollToTop" />
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\Popover" />
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\Categories" />
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\Card" />
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -96,7 +127,8 @@
       <workItem from="1651187820773" duration="22466000" />
       <workItem from="1651322230750" duration="41153000" />
       <workItem from="1651388837229" duration="3551000" />
-      <workItem from="1651392499563" duration="5172000" />
+      <workItem from="1651392499563" duration="5589000" />
+      <workItem from="1651442389617" duration="2570000" />
     </task>
     <servers />
   </component>
@@ -127,9 +159,10 @@
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="97" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1650938547308" />
-    <state x="365" y="139" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1650765844640">
+    <state x="365" y="139" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1651445437186">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
+    <state x="365" y="139" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.672/686.-1080.1920.1080@0.0.1280.672" timestamp="1651445437186" />
     <state x="365" y="139" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1650765844640" />
     <state x="372" y="84" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1651214930475">
       <screen x="0" y="0" width="1280" height="672" />

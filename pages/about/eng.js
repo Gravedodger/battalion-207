@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from "/styles/Styles.module.css";
 import Head from "next/head";
-import Header from "/components/Header";
+import Header from "/components/Header/Header";
 import { Center, Container, Box, Image, Text, useColorModeValue } from '@chakra-ui/react';
 
 const AboutPageEng = () => {

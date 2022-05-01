@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from "../styles/Icons.module.css";
-import { ReturnButton } from "./Icons";
+import styles from "../Icons/Icons.module.css";
+import { ReturnButton } from "../Icons";
 import { MoonIcon } from "@chakra-ui/icons";
-import { FilterIcon, LightBulbIcon } from './Icons';
+import { FilterIcon, LightBulbIcon } from '../Icons';
 import { Box, Flex, IconButton, Text, useColorMode, useColorModeValue} from '@chakra-ui/react';
 
 const Header = ({filter, setFilter, pageTitle}) => {

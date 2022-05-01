@@ -1,7 +1,7 @@
 import React  from 'react';
 import styles from "/styles/FinSupport.module.css";
 import Head from "next/head";
-import Header from "/components/Header";
+import Header from "/components/Header/Header";
 import PopoverItem from "/components/Popover/Popover";
 import PopoverItemCrypto from "/components/Popover/PopoverItemCrypto";
 import { Center, Box, Flex, Image, Text } from '@chakra-ui/react';
