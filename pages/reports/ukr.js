@@ -2,7 +2,8 @@ import React from 'react';
 import styles from "/styles/Styles.module.css";
 import Head from "next/head";
 import Header from "/components/Header/Header";
-import { Center, Box, Text, useColorModeValue} from "@chakra-ui/react";
+import { Box, useColorModeValue } from "@chakra-ui/react";
+import WarStatsUKR from "../../components/WarStats/WarStatsUKR";
 
 const ReportsPageUkr = () => {
     const textColor = useColorModeValue('#222222', '#c59d5f');
@@ -15,16 +16,10 @@ const ReportsPageUkr = () => {
             <title>Батальйон-207 || Звітність</title>
         </Head>
 
-        <main className='main'>
+        <Box>
             <Header pageTitle="Звітність" />
-            <Center>
-                <Box>
-                    <Text color={textColor} fontSize={{ lg:'xl', md:'md', sm:'sm' }}>
-                        Секція в процесі розробки та з'явиться незабаром!
-                    </Text>
-                </Box>
-            </Center>
-        </main>
+            <WarStatsUKR />
+        </Box>
     </>
 }
 

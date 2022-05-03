@@ -1,0 +1,36 @@
+.topToBtn {
+    position: relative;
+}
+
+.toTopIcn {
+    position: fixed;
+    z-index: 20;
+    top: 80%;
+    right: 3rem;
+    width: 60px !important;
+    height: 60px !important;
+    color: #fff;
+    background-color: #c59d5f;
+    border: 2px solid #fff;
+    border-radius: 50%;  animation: movebtn 3s ease-in-out infinite;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+.toTopIcn:hover {
+    color: #c59d5f;
+    background: #fff;
+    animation: none;
+    border: 2px solid #c59d5f;
+}
+
+@keyframes movebtn {
+    0% { transform: translateY(0px); }
+    75% { transform: translateY(-30px); }
+}
+
+@media screen and (min-width: 1150px) {
+    .toTopIcn {
+        right: 4rem;
+    }
+}

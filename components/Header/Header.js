@@ -5,7 +5,7 @@ import { MoonIcon } from "@chakra-ui/icons";
 import { FilterIcon, LightBulbIcon } from '../Icons';
 import { Box, Flex, IconButton, Text, useColorMode, useColorModeValue} from '@chakra-ui/react';
 
-const Header = ({filter, setFilter, pageTitle}) => {
+const Header = ({ filter, setFilter, pageTitle }) => {
     const themeIcon = useColorModeValue(<MoonIcon />, <LightBulbIcon />);
     const { toggleColorMode } = useColorMode();
 

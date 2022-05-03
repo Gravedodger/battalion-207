@@ -1,0 +1,20 @@
+.span {
+    padding-left: 12px;
+}
+
+.warHeaderText {
+    margin-bottom: 1.2rem;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.warCount {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.warInfoText {
+    font-size: 14px;
+}
