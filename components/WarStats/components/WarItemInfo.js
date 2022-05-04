@@ -7,7 +7,12 @@ const WarItemInfo = ({ infoUKR, infoENG }) => {
 
     return (
         <Box>
-            <Text color={textColor} fontWeight={600} letterSpacing={1.6} fontSize='15px'>
+            <Text color={textColor}
+                  fontSize='15px'
+                  fontWeight={600}
+                  letterSpacing={1.6}
+                  textAlign='justify'
+            >
                 {infoUKR} {infoENG}
             </Text>
         </Box>

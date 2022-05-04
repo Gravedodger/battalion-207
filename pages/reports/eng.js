@@ -4,6 +4,7 @@ import Head from "next/head";
 import Header from "/components/Header/Header";
 import { Box, useColorModeValue } from "@chakra-ui/react";
 import WarStatsENG from "../../components/WarStats/WarStatsENG";
+import DonationsFeature from "../../components/DonationsFeature";
 
 const ReportsPageEng = () => {
     const textColor = useColorModeValue('#222222', '#c59d5f');
@@ -19,6 +20,9 @@ const ReportsPageEng = () => {
         <Box>
             <Header pageTitle="Reports" />
             <WarStatsENG />
+        </Box>
+        <Box>
+            <DonationsFeature titleENG='Latest Donations' />
         </Box>
     </>
 }
