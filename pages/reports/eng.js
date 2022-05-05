@@ -22,7 +22,7 @@ const ReportsPageEng = () => {
             <WarStatsENG />
         </Box>
         <Box>
-            <DonationsFeature titleENG='Latest Donations' />
+            <DonationsFeature titleENG='Latest Donations' totalENG='Total:' />
         </Box>
     </>
 }
