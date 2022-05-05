@@ -1,7 +1,7 @@
 .DFCardContainer {
     display: flex;
     width: 50%;
-    margin: 4rem auto;
+    margin: 6rem auto 5rem auto;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -95,5 +95,20 @@
         grid-area: section;
         width: 90%;
         max-height: 380px;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 499px) {
+    .DFCardContainer {
+        margin: 2rem auto 2rem auto;
+    }
+    .DFHeaderText {
+        padding: 10px;
+        font-size: 14px;
+    }
+    .DFNav {
+        width: 30%;
+        margin: 0;
+        justify-self: center;
     }
 }

@@ -7,7 +7,8 @@ import WarItemInfo from "./WarItemInfo";
 const WarItem = ({ warIcon, warCount, warInfoUKR, warInfoENG }) => {
     return (
         <Box>
-            <Box display='flex'
+            <Box mt='1rem' mr='2rem'
+                 display='flex'
                  alighItems='center'
                  justifyContent='space-between'>
                 <WarItemIcon icon={warIcon} />

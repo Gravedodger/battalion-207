@@ -8,15 +8,25 @@ const DFBody = ({ totalUkr, totalEng }) => {
     return (
         <Tabs>
             <TabList>
-                <Tab>UAH</Tab>
-                <Tab>USD</Tab>
-                <Tab>EUR</Tab>
-                <Tab isDisabled>GBP</Tab>
-                <Tab isDisabled>Cryptocurrency</Tab>
+                <Tab p={{ lg: 4, md: 3, sm: 2, base: 2 }} fontSize={{ lg: '18px', sm: '14px', base: '12px' }}>
+                    UAH
+                </Tab>
+                <Tab p={{ lg: 4, md: 3, sm: 2, base: 2 }} fontSize={{ lg: '18px', sm: '14px', base: '12px' }}>
+                    USD
+                </Tab>
+                <Tab p={{ lg: 4, md: 3, sm: 2, base: 2 }} fontSize={{ lg: '18px', sm: '14px', base: '12px' }}>
+                    EUR
+                </Tab>
+                <Tab p={{ lg: 4, md: 3, sm: 2, base: 2 }} fontSize={{ lg: '18px', sm: '14px', base: '12px' }} isDisabled>
+                    GBP
+                </Tab>
+                <Tab p={{ lg: 4, md: 3, sm: 2, base: 2 }} fontSize={{ lg: '18px', sm: '14px', base: '12px' }} isDisabled>
+                    Crypto
+                </Tab>
             </TabList>
 
-            <TabPanels h='550px'>
-                <TabPanel p={4}>
+            <TabPanels h={{ lg:'550px', md: '500px', sm: '450px', base: '450px' }}>
+                <TabPanel p={{ lg: 4, md: 4, sm: 2, base: 1 }} fontSize={{lg: '18px', md: '16px', sm: '15px', base: '14px' }}>
                     <Text mt='1rem' color={textColor}>06.04.2022</Text>
                     <Text mt='0.2rem' color='#09A205'>
                         + ₴ 1,000 => Yuliana N.
@@ -62,8 +72,8 @@ const DFBody = ({ totalUkr, totalEng }) => {
                     </Box>
                 </TabPanel>
 
-                <TabPanel p={4}>
-                    <Text color={textColor}>07.04.2022</Text>
+                <TabPanel p={{ lg: 4, md: 4, sm: 2, base: 1 }} fontSize={{lg: '18px', md: '16px', sm: '15px', base: '14px' }}>
+                    <Text mt='1rem' color={textColor}>07.04.2022</Text>
                     <Text mt='0.2rem' color='#09A205'>
                         + $ 100 => Kamil I.
                     </Text>
@@ -98,8 +108,8 @@ const DFBody = ({ totalUkr, totalEng }) => {
                     </Box>
                 </TabPanel>
 
-                <TabPanel p={4}>
-                    <Text color={textColor}>11.04.2022</Text>
+                <TabPanel p={{ lg: 4, md: 4, sm: 2, base: 1 }} fontSize={{lg: '18px', md: '16px', sm: '15px', base: '14px' }}>
+                    <Text mt='1rem' color={textColor}>11.04.2022</Text>
                     <Text mt='0.2rem' color='#09A205'>
                         + € 50 => an unknown person
                     </Text>

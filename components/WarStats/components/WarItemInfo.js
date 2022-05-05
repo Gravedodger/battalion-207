@@ -7,8 +7,9 @@ const WarItemInfo = ({ infoUKR, infoENG }) => {
 
     return (
         <Box>
-            <Text color={textColor}
-                  fontSize='15px'
+            <Text mt='4px'
+                color={textColor}
+                  fontSize={{ lg: '15px', md: '13px',  sm: '11px', base: '11px' }}
                   fontWeight={600}
                   letterSpacing={1.6}
                   textAlign='justify'

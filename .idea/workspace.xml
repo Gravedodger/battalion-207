@@ -11,13 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16cc5659-9977-4949-ba87-ebf4e6bd80d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/reports/Patrons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/smaly.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/smaly.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/DonationsFeature/DonationsFeature.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/DonationsFeature/DonationsFeature.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/DonationsFeature/DonationsFeature.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/DonationsFeature/DonationsFeature.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/DonationsFeature/components/DFBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/DonationsFeature/components/DFBody.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/reports/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/reports/eng.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/reports/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/reports/ukr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/WarStats/WarStats.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/WarStats.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/WarStats/WarStatsENG.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/WarStatsENG.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/WarStats/components/WarItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/WarItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/WarStats/components/WarItemIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/WarItemIcon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/WarStats/components/WarItemInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/WarItemInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/WarStats/components/WarListUKR.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/WarListUKR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/WarStats/components/warListENG.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/warListENG.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,11 +73,11 @@
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\pages\api\data\patrons" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\DonationsFeature\components\DFHeader" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\Feature\components" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\WarStats" />
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\Icons" />
     </key>
   </component>
   <component name="RunManager">
@@ -116,7 +119,7 @@
       <workItem from="1651442389617" duration="9423000" />
       <workItem from="1651460135554" duration="3141000" />
       <workItem from="1651497692727" duration="1838000" />
-      <workItem from="1651573660378" duration="55827000" />
+      <workItem from="1651573660378" duration="59956000" />
     </task>
     <servers />
   </component>

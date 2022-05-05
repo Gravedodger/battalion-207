@@ -3,9 +3,9 @@ import { Grid,GridItem } from '@chakra-ui/react';
 import WarItem from "./WarItem";
 
 const WarListENG = () => {
-    return <Grid templateColumns={{ lg: 'repeat(4, 1fr)', md: 'repeat(3, 1fr)', sm: 'repeat(2, 1fr)' }}
-
-                 gap={{ lg: 10, md: 8, sm: 4 }}>
+    return <Grid ml='5%'
+        templateColumns={{ lg: 'repeat(4, 1fr)', md: 'repeat(3, 1fr)', sm: 'repeat(2, 1fr)', base: 'repeat(2, 1fr)' }}
+        gap={{ lg: 10, md: 8, sm: 4 }}>
 
         <GridItem w='100%'>
             <WarItem
@@ -83,7 +83,7 @@ const WarListENG = () => {
             <WarItem
                 warIcon='/icnTruck.png'
                 warCount='1,867'
-                warInfoENG='Vehicles + Fuel trucks'
+                warInfoENG='Vehicles'
             />
         </GridItem>
 
