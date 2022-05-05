@@ -3,14 +3,13 @@ import styles from '/components/Popover/Popover.module.css';
 import { Popover, PopoverTrigger, PopoverContent, PopoverHeader, PopoverBody, Box, PopoverFooter, PopoverArrow,
     PopoverCloseButton, Text } from '@chakra-ui/react';
 
-const PopoverItemCrypto = (props) => {
-    const { trigger, title, payPal, payoneer, address, gratitude, requisites, wallet } = props;
+const PopoverItemCrypto = ({ trigger, title, wallet, gratitude, ukraine }) => {
 
     return (
         <Popover placement='bottom-start' closeOnBlur={true}  className='popTrigger'>
             <PopoverTrigger>
                 <Box cursor='pointer'>
-                    {props.trigger}
+                    {trigger}
                 </Box>
             </PopoverTrigger>
 
@@ -18,19 +17,22 @@ const PopoverItemCrypto = (props) => {
                 <PopoverArrow />
                 <PopoverHeader>
                     <Text className={styles.popTitle}>
-                        {props.title}
+                        {title}
                     </Text>
                 </PopoverHeader>
                 <PopoverCloseButton />
                 <PopoverBody className={styles.popBody}>
                     <Text fontSize={{ lg: 'md', md: 'sm', sm: 'sm' }}
                           className={styles.wallet}>
-                        {props.wallet}
+                        {wallet}
                     </Text>
                 </PopoverBody>
                 <PopoverFooter>
                     <Text>
-                        {props.gratitude}
+                        {gratitude}
+                    </Text>
+                    <Text>
+                        {ukraine}
                     </Text>
                 </PopoverFooter>
             </PopoverContent>

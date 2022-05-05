@@ -72,11 +72,7 @@ class Gallery extends React.Component {
     render() {
         return (
             <Box mb='10%'>
-                <Box textAlign='center' mb='5%'>
-                    <Text fontSize='32px' color='#c59d5f' fontWeight='600' >
-                        Battalion Gallery
-                    </Text>
-                </Box>
+
 
                 <Center>
                     <SimpleGrid autoFlow={true}

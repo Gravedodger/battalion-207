@@ -112,8 +112,8 @@
         flex-direction: column;
     }
     .articleLogoContainer {
-        width: 10rem;
-        margin-bottom: 2rem;
+        width: 8rem;
+        margin: 0 0 2rem -0.8rem;
     }
     .aboutText {
         width: 15rem;

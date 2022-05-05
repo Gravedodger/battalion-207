@@ -1,11 +1,10 @@
 import React from 'react';
-import styles from "../Icons/Icons.module.css";
 import { ReturnButton } from "../Icons";
 import { MoonIcon } from "@chakra-ui/icons";
-import { FilterIcon, LightBulbIcon } from '../Icons';
-import { Box, Flex, IconButton, Text, useColorMode, useColorModeValue} from '@chakra-ui/react';
+import { LightBulbIcon } from '../Icons';
+import { Box, Flex, IconButton, Text, useColorMode, useColorModeValue } from '@chakra-ui/react';
 
-const Header = ({ filter, setFilter, pageTitle }) => {
+const Header = ({ pageTitle }) => {
     const themeIcon = useColorModeValue(<MoonIcon />, <LightBulbIcon />);
     const { toggleColorMode } = useColorMode();
 
@@ -26,8 +25,11 @@ const Header = ({ filter, setFilter, pageTitle }) => {
 
             <Box>
                 <Text
-                    fontSize={{ lg: '5xl', md: '4xl', sm: '2xl' }} fontWeight={600}
-                    mb={{ base: 2, lg: 2, md: 4, sm: 3 }} color={textColor}
+                    ml={{ base: 2, sm: 2 }}
+                    mb={{ base: 2, lg: 2, md: 4, sm: 3 }}
+                    fontSize={{ lg: '5xl', md: '4xl', sm: '2xl' }}
+                    fontWeight={600}
+                    color={textColor}
                 >
                     {pageTitle}
                 </Text>

@@ -4,14 +4,13 @@ import { Popover, PopoverTrigger, PopoverContent, PopoverHeader, PopoverBody, Bo
     PopoverCloseButton, Text, Flex } from '@chakra-ui/react';
 import CopyContents from "../CopyContents/CopyContents";
 
-const PopoverItem = (props) => {
-    const { trigger, title, payPal, payoneer, address, gratitude, requisites, text, ukraine } = props;
-
+const PopoverItem = ({   trigger, title, payPal, directDepositLabel, PayoneerLabel,
+                         PayPalLabel, gratitude, requisites, ukraine }) => {
     return (
         <Popover placement='bottom-start' closeOnBlur={true}  className='popTrigger'>
             <PopoverTrigger>
                 <Box cursor='pointer'>
-                    {props.trigger}
+                    {trigger}
                 </Box>
             </PopoverTrigger>
 
@@ -19,36 +18,36 @@ const PopoverItem = (props) => {
                 <PopoverArrow />
                 <PopoverHeader>
                     <Text className={styles.popTitle}>
-                        {props.title}
+                        {title}
                     </Text>
                 </PopoverHeader>
                 <PopoverCloseButton />
                 <PopoverBody className={styles.popBody}>
                     <Flex className={styles.popFlex}>
-                        <Text className={styles.popItem}>Використати PayPal:</Text>
-                        {props.payPal}
+                        <Text className={styles.popItem}>{PayPalLabel}</Text>
+                        {payPal}
                     </Flex>
                     <Flex className={styles.popFlex}>
-                        <Text className={styles.popItem}>Використати Payoneer:</Text>
+                        <Text className={styles.popItem}>{PayoneerLabel}</Text>
                         <CopyContents />
                     </Flex>
 
                     <Flex className={styles.popFlex}>
-                        <Text className={styles.popItem}>Пряме зарахування:</Text>
-                        {props.requisites}
+                        <Text className={styles.popItem}>{directDepositLabel}</Text>
+                        {requisites}
                     </Flex>
                 </PopoverBody>
                 <PopoverFooter>
                     <Text>
-                        {props.gratitude}
+                        {gratitude}
                     </Text>
                     <Text>
-                        {props.ukraine}
+                        {ukraine}
                     </Text>
                 </PopoverFooter>
             </PopoverContent>
         </Popover>
     );
-};
+}
 
 export default PopoverItem;

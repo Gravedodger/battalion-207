@@ -4,10 +4,9 @@ import Head from "next/head";
 import Header from "/components/Header/Header";
 import PopoverItem from "/components/Popover/Popover";
 import PopoverItemCrypto from "/components/Popover/PopoverItemCrypto";
-import { Center, Box, Flex, Image, Text } from '@chakra-ui/react';
+import { Center, Image, GridItem, Grid, Box, Text } from '@chakra-ui/react';
 import { PayPalEUR, PayPalGBP, PayPalUSD } from "/components/PayPalButtons";
-import { UsdRequisitesUkr } from "/components/requisites/RequisitesUKR.js";
-import { EurRequisitesUkr, GbpRequisitesUkr, UahRequisitesUkr } from "/components/requisites/RequisitesUKR";
+import { EurRequisitesUkr, GbpRequisitesUkr, UahRequisitesUkr, UsdRequisitesUkr } from "/components/Requisites/RequisitesUKR";
 
 const FinSupportPageUkr = () => {
     const USD = <Image src='/usd-round.png' className={styles.currencyIcn} objectFit='fill' alt='USD' />;
@@ -37,88 +36,100 @@ const FinSupportPageUkr = () => {
             <title>Battalion-207 || Реквізити</title>
         </Head>
 
-        <main className='main'>
-            <Header pageTitle="Фінансова підтримка" />
+        <Header pageTitle="Фінансова підтримка" />
 
-            <Center className={styles.finSupportMain}>
-                <Flex className={styles.payPalContainer}>
+        <Center className={styles.finSupportMain}>
+            <Box>
+                <Text>
 
+                </Text>
+            </Box>
+
+            <Grid ml={{ md: '1rem', sm: '2.2rem', base: '3rem' }}
+                  templateColumns={{ lg: 'repeat(3, 1fr)', md: 'repeat(3, 1fr)', sm: 'repeat(2, 1fr)', base: 'repeat(2, 1fr)' }}
+                  gap={{ base: 2, lg: 10, md: 8, sm: 2 }}>
+
+                <GridItem w={{ lg: '90%', md: '80%', sm: '60%', base: '50%' }}>
                     {/*   USD   */}
-                    <Flex className={styles.payPalItem}>
-                        <PopoverItem title='USD опції:'
-                                     trigger={USD}
-                                     payPal={ppUSD}
-                                     requisites={usdReq}
-                                     gratitude='Щиро дякуємо за Вашу підтримку!'
-                                     ukraine='Слава Україні!' />
-                    </Flex>
+                    <PopoverItem
+                        title='USD опції:'
+                        trigger={USD}
+                        PayPalLabel='Використати PayPal:'
+                        payPal={ppUSD}
+                        PayoneerLabel='Використати Payoneer:'
+                        directDepositLabel='Пряме зарахування:'
+                        requisites={usdReq}
+                        gratitude='Щиро дякуємо за Вашу підтримку!'
+                        ukraine='Слава Україні!'
+                    />
+                </GridItem>
 
-                    <Box className={styles.finDivider} />
-
-
+                <GridItem w={{ lg: '90%', md: '80%', sm: '60%', base: '50%' }}>
                     {/*   GBP   */}
-                    <Flex className={styles.payPalItem}>
-                        <PopoverItem title='GBP опції:'
-                                     trigger={GBP}
-                                     payPal={ppGBP}
-                                     requisites={gbpReq}
-                                     gratitude='Щиро дякуємо за Вашу підтримку!'
-                                     gratitude='Щиро дякуємо за Вашу підтримку!'
-                                     ukraine='Слава Україні!' />
-                    </Flex>
+                    <PopoverItem
+                        title='GBP опції:'
+                        trigger={GBP}
+                        PayPalLabel='Використати PayPal:'
+                        payPal={ppGBP}
+                        PayoneerLabel='Використати Payoneer:'
+                        directDepositLabel='Пряме зарахування:'
+                        requisites={gbpReq}
+                        gratitude='Щиро дякуємо за Вашу підтримку!'
+                        ukraine='Слава Україні!'
+                    />
+                </GridItem>
 
-                    <Box className={styles.finDivider} />
-
+                <GridItem w={{ lg: '90%', md: '80%', sm: '60%', base: '50%' }}>
                     {/*   EUR   */}
-                    <Flex className={styles.payPalItem}>
-                        <PopoverItem title='EUR опції:'
-                                     trigger={EUR}
-                                     payPal={ppEUR}
-                                     requisites={eurReq}
-                                     gratitude='Щиро дякуємо за Вашу підтримку!'
-                                     ukraine='Слава Україні!' />
-                    </Flex>
+                    <PopoverItem
+                        title='EUR опції:'
+                        trigger={EUR}
+                        PayPalLabel='Використати PayPal:'
+                        payPal={ppEUR}
+                        PayoneerLabel='Використати Payoneer:'
+                        directDepositLabel='Пряме зарахування:'
+                        requisites={eurReq}
+                        gratitude='Щиро дякуємо за Вашу підтримку!'
+                        ukraine='Слава Україні!'
+                    />
+                </GridItem>
 
-                    <Box className={styles.finDivider} />
-
+                <GridItem w={{ lg: '90%', md: '80%', sm: '60%', base: '50%' }}>
                     {/*   UAH   */}
-                    <Flex className={styles.payPalItem}>
-                        <PopoverItem title='Гривневі опції:'
-                                     trigger={UAH}
-                                     requisites={uahReq}
-                                     gratitude='Щиро дякуємо за Вашу підтримку!'
-                                     ukraine='Слава Україні!' />
-                    </Flex>
-                </Flex>
-            </Center>
+                    <PopoverItem
+                        title='Гривневі опції:'
+                        trigger={UAH}
+                        PayoneerLabel='Використати Payoneer:'
+                        directDepositLabel='Пряме зарахування:'
+                        requisites={uahReq}
+                        gratitude='Щиро дякуємо за Вашу підтримку!'
+                        ukraine='Слава Україні!'
+                    />
+                </GridItem>
 
-            <Center className={styles.finSupportMain}>
-                <Flex className={styles.payPalContainer} w='32rem'>
-                    <Box className={styles.finDivider} />
-
+                <GridItem w={{ lg: '90%', md: '80%', sm: '60%', base: '50%' }}>
                     {/*   Bitcoin   */}
-                    <Flex className={styles.payPalItem}>
-                        <PopoverItemCrypto title='Bitcoin опції:'
-                                           trigger={Bitcoin}
-                                           wallet='bc1qd7hqxc5jvr37rx06h3m25tt3vmq6zg9r53yf0d'
-                                           gratitude='Щиро дякуємо за Вашу підтримку!'
-                                           ukraine='Слава Україні!' />
-                    </Flex>
+                    <PopoverItemCrypto
+                        title='Гаманець Bitcoin:'
+                        trigger={Bitcoin}
+                        wallet='bc1qd7hqxc5jvr37rx06h3m25tt3vmq6zg9r53yf0d'
+                        gratitude='Щиро дякуємо за Вашу підтримку!'
+                        ukraine='Слава Україні!'
+                    />
+                </GridItem>
 
-                    <Box className={styles.finDivider} />
-
+                <GridItem w={{ lg: '90%', md: '80%', sm: '60%', base: '50%' }}>
                     {/*   Etherium   */}
-                    <Flex className={styles.payPalItem}>
-                        <PopoverItemCrypto title='Ethereum опції:'
-                                           trigger={Ethereum}
-                                           wallet='0xAcA9205E9105Fc58EC160b709261DFDf42046986'
-                                           gratitude='Щиро дякуємо за Вашу підтримку!'
-                                           ukraine='Слава Україні!'
-                                           preventOverflow={true} />
-                    </Flex>
-                </Flex>
-            </Center>
-        </main>
+                    <PopoverItemCrypto
+                        title='Гаманець Ethereum:'
+                        trigger={Ethereum}
+                        wallet='0xAcA9205E9105Fc58EC160b709261DFDf42046986'
+                        gratitude='Щиро дякуємо за Вашу підтримку!'
+                        ukraine='Слава Україні!'
+                    />
+                </GridItem>
+            </Grid>
+        </Center>
     </>
 }
 

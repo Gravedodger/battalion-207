@@ -12,15 +12,18 @@
   <component name="ChangeListManager">
     <list default="true" id="16cc5659-9977-4949-ba87-ebf4e6bd80d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/DonationsFeature/DonationsFeature.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/DonationsFeature/DonationsFeature.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/DonationsFeature/components/DFBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/DonationsFeature/components/DFBody.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/WarStats/WarStats.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/WarStats.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/WarStats/WarStatsENG.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/WarStatsENG.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/WarStats/components/WarItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/WarItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/WarStats/components/WarItemIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/WarItemIcon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/WarStats/components/WarItemInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/WarItemInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/WarStats/components/WarListUKR.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/WarListUKR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/WarStats/components/warListENG.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/warListENG.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Gallery/Gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Gallery/Gallery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Popover/Popover.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Popover/Popover.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Popover/PopoverItemCrypto.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Popover/PopoverItemCrypto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/requisites/RequisitesENG.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Requisites/RequisitesENG.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/requisites/RequisitesUKR.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Requisites/RequisitesUKR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/requisites/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Requisites/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about/eng.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about/ukr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/finSupport/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/finSupport/eng.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/finSupport/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/finSupport/ukr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Styles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Styles.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,11 +76,11 @@
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\Gallery" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\pages\api\data\patrons" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\DonationsFeature\components\DFHeader" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\Feature\components" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public" />
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\WarStats" />
     </key>
   </component>
   <component name="RunManager">
@@ -119,7 +122,7 @@
       <workItem from="1651442389617" duration="9423000" />
       <workItem from="1651460135554" duration="3141000" />
       <workItem from="1651497692727" duration="1838000" />
-      <workItem from="1651573660378" duration="59956000" />
+      <workItem from="1651573660378" duration="70582000" />
     </task>
     <servers />
   </component>
@@ -240,11 +243,11 @@
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="0" y="0" width="582" height="672" key="find.popup/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1650499059041" />
-    <state x="298" y="150" width="672" height="677" key="run.anything.popup" timestamp="1651625194095">
+    <state x="298" y="150" width="672" height="677" key="run.anything.popup" timestamp="1651749522679">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="298" y="150" width="672" height="677" key="run.anything.popup/0.0.1280.672/686.-1080.1920.1080@0.0.1280.672" timestamp="1651220284141" />
-    <state x="298" y="150" width="672" height="677" key="run.anything.popup/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1651625194095" />
+    <state x="298" y="150" width="672" height="677" key="run.anything.popup/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1651749522679" />
     <state x="303" y="0" width="672" height="670" key="search.everywhere.popup" timestamp="1651621520484">
       <screen x="0" y="0" width="1280" height="672" />
     </state>

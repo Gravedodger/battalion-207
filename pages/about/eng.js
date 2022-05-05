@@ -2,6 +2,7 @@ import React from 'react';
 import styles from "/styles/Styles.module.css";
 import Head from "next/head";
 import Header from "/components/Header/Header";
+import Gallery from "../../components/Gallery";
 import { Center, Container, Box, Image, Text, useColorModeValue } from '@chakra-ui/react';
 
 const AboutPageEng = () => {
@@ -50,6 +51,17 @@ const AboutPageEng = () => {
                             region and beyond.
                         </Text>
                     </Container>
+                </Box>
+            </Center>
+
+            <Center mt='5%'>
+                <Box>
+                    <Box textAlign='center' mb='5%'>
+                        <Text fontSize='32px' color='#c59d5f' fontWeight='600' >
+                            Battalion Gallery
+                        </Text>
+                    </Box>
+                    <Gallery/>
                 </Box>
             </Center>
         </main>
