@@ -100,7 +100,7 @@
         margin-bottom: 2rem;
     }
     .aboutText {
-        width: 23rem;
+        width: 100%;
         font-size: 15px;
         line-height: 1.4rem;
     }
@@ -116,7 +116,7 @@
         margin: 0 0 2rem -0.8rem;
     }
     .aboutText {
-        width: 15rem;
+        width: 100%;
         font-size: 11px;
         line-height: 1rem;
     }
@@ -160,10 +160,10 @@
     .contacts {
         display: flex;
         flex-direction: column;
-        width: 80%;
+        width: 95%;
         align-items: center;
         justify-content: center;
-        margin: 0 20% 0 10%;
+        margin: 0 11% 0 11%;
     }
     .contactsLogoContainer {
         width: 60%;
@@ -171,13 +171,14 @@
     }
     .contactsInfo {
         width: 100%;
+        margin: 0;
         align-items: center;
         justify-content: center;
     }
     .contactsItem {
         display: flex;
         width: 100%;
-        margin-bottom: 0;
+        margin: 0;
         flex-direction: column;
         font-size: 11px;
         align-items: center;

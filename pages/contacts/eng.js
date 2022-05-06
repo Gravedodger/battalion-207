@@ -4,7 +4,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Header from "/components/Header/Header";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
-import { Center, TableContainer, Table, Tbody, Tr, Td, Image, Text, useColorModeValue } from '@chakra-ui/react';
+import { Center, Box, TableContainer, Table, Tbody, Tr, Td, Image, Text, useColorModeValue } from '@chakra-ui/react';
 
 const ContactsPageEng = () => {
     const textColor = useColorModeValue('#222222', '#fff');
@@ -21,10 +21,10 @@ const ContactsPageEng = () => {
             <Header pageTitle="Contact information" />
 
             <Center>
-                <div className={styles.contacts}>
-                    <div className={styles.contactsLogoContainer}>
+                <Box className={styles.contacts}>
+                    <Box className={styles.contactsLogoContainer}>
                         <Image src='/logo.png' alt="battalion logo" />
-                    </div>
+                    </Box>
 
                     <TableContainer className={styles.contactsInfo}>
                         <Table overflow='hidden'>
@@ -91,7 +91,7 @@ const ContactsPageEng = () => {
                             </Tbody>
                         </Table>
                     </TableContainer>
-                </div>
+                </Box>
             </Center>
         </main>
     </>

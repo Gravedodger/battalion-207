@@ -4,11 +4,14 @@ import Head from "next/head";
 import Header from "/components/Header/Header";
 import PopoverItem from "/components/Popover/Popover";
 import PopoverItemCrypto from "/components/Popover/PopoverItemCrypto";
-import { Center, Image, GridItem, Grid, Box, Text } from '@chakra-ui/react';
 import { PayPalEUR, PayPalGBP, PayPalUSD } from "/components/PayPalButtons";
 import { EurRequisitesUkr, GbpRequisitesUkr, UahRequisitesUkr, UsdRequisitesUkr } from "/components/Requisites/RequisitesUKR";
+import { Center, Image, GridItem, Grid, Box, Text, Link, useColorModeValue } from '@chakra-ui/react';
 
 const FinSupportPageUkr = () => {
+    const textColor = useColorModeValue('#222222', '#fffffff0');
+    const linkColor = useColorModeValue('#c59d5f', '#c59d5f');
+
     const USD = <Image src='/usd-round.png' className={styles.currencyIcn} objectFit='fill' alt='USD' />;
     const ppUSD = <PayPalUSD />;
     const usdReq = <UsdRequisitesUkr />
@@ -38,16 +41,57 @@ const FinSupportPageUkr = () => {
 
         <Header pageTitle="Фінансова підтримка" />
 
-        <Center className={styles.finSupportMain}>
-            <Box>
-                <Text>
-
+        <Center className={styles.finSupportMain}
+                display='flex'
+                flexDirection='column'
+                alignItems='center'
+                justifyContent='center'
+        >
+            <Box w={{ lg: '70%', md: '70%', sm: '68%', base: '68%'}}
+                 textAlign='justify'
+                 fontSize={{ lg: '18px', md: '16px', sm: '14px', base: '11px' }}
+                 fontWeight={500}
+                 letterSpacing='1px'
+            >
+                <Text mb='1rem' color={textColor}>
+                    Виконання оперативних задач батальйону вимагає належного фінансового забезпечення для закупівлі
+                    необхідного екіпірування, будівельних та витратних матеріалів, а також для своєчасного поповнення
+                    таких стратегічних запасів, як питна вода, їжа, паливо тощо.
+                </Text>
+                <Text mb='1rem' color={textColor}>
+                    Розуміючи це, та зважаючи на надважливі задачі покладені на батальйон, наші бійці без зволікань
+                    витрачали власні кошти, заощадження та, навіть, жертвували власні автомобілі та іншу дороговартісну
+                    техніку задля максимальної бойової спроможності своїх підрозділів та батальйону загалом. Саме їх
+                    самопожертва, разом із феноменальною підтримкою від волонтерів та місцевого населення, дозволило
+                    нам досягти надзвичайного успіху, як в обороні міста Києва, так і під час виконання подальших бойових
+                    задач.
+                </Text>
+                <Text mb='1rem' color={textColor}>
+                    Однак, враховуючи протяжність нашого спротиву російсько-окупаційній навалі, збільшення чисельності
+                    батальйону, понесені матеріально-технічні втрати, та стабільно високий рівень складності поставлених
+                    задач, ми вимушені просити фінансової підтримки від небайдужих людей із цивілізованих країн.
+                </Text>
+                <Text mb='1rem' color={textColor}>
+                    Мабуть вже ні в кого не виникає сумнівів, що в планах путіна Україна - це лише початок на шляху його
+                    орди до поневолення та знищення всіх ненависних для більшості росіян "Європейських цінностей":
+                    свободи, особистої честі та гідності, а також будь-якої самоідентичності поза рамок неосвічених
+                    путінських фантазій. Але саме на цьому шляху стоять Українські воїни із усім народом України.
+                </Text>
+                <Text mb='1rem' fontWeight={700} color={textColor}>
+                    Якщо маєте можливість і бажання допомогти нам у нашій непростій але надважливій боротьбі за наш
+                    спальний мир та свободу, оберіть зручну для Вас валюту щоб дізнатися доступні
+                    опції переказу Вашої допомоги. Ми також будемо щиро раді будь-якій іншій допомозі із закупівлею
+                    речей із <Link color={linkColor}><a href='/items/ukr'>списку нагальної необхідності</a></Link>.
+                </Text>
+                <Text fontWeight={700} color={textColor}>
+                    Наш керівник тилового забезпечення та волонтери на зв'язку у будь-який зручний для Вас час!
                 </Text>
             </Box>
 
-            <Grid ml={{ md: '1rem', sm: '2.2rem', base: '3rem' }}
+            <Grid mt={{ lg: '5rem', md: '4rem', sm: '3rem', base: '2rem' }}
+                ml={{ md: '1rem', sm: '2.2rem', base: '3rem' }}
                   templateColumns={{ lg: 'repeat(3, 1fr)', md: 'repeat(3, 1fr)', sm: 'repeat(2, 1fr)', base: 'repeat(2, 1fr)' }}
-                  gap={{ base: 2, lg: 10, md: 8, sm: 2 }}>
+                  gap={{ base: 4, lg: 10, md: 8, sm: 4 }}>
 
                 <GridItem w={{ lg: '90%', md: '80%', sm: '60%', base: '50%' }}>
                     {/*   USD   */}

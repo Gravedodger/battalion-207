@@ -22,24 +22,19 @@
     display: flex;
     width: 100%;
     margin-bottom: 3%;
-    text-align: left;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .popItem {
-    float: left;
     width: 35%;
-    margin-right: 10%;
     margin-bottom: 4%;
     font-size: 14px;
     font-weight: 800;
 }
 
 .popDetails {
-    float: right;
-    text-align: center;
 }
 
 .popDivider {

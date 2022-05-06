@@ -1,14 +1,17 @@
 import React from 'react';
 import styles from "/styles/FinSupport.module.css";
-import { Center, Image, GridItem, Grid, Box, Text } from '@chakra-ui/react';
 import Head from "next/head";
 import Header from "/components/Header/Header";
 import PopoverItem from "/components/Popover/Popover";
 import PopoverItemCrypto from "/components/Popover/PopoverItemCrypto";
 import { PayPalEUR, PayPalGBP, PayPalUSD } from "/components/PayPalButtons";
 import { EurRequisitesEng, GbpRequisitesEng,  UahRequisitesEng, UsdRequisitesEng } from '/components/Requisites/index';
+import {Center, Image, GridItem, Grid, Box, Text, useColorModeValue, Link} from '@chakra-ui/react';
 
 const FinSupportPageEng = () => {
+    const textColor = useColorModeValue('#222222', '#fffffff0');
+    const linkColor = useColorModeValue('#c59d5f', '#c59d5f');
+
     const USD = <Image src='/usd-round.png' className={styles.currencyIcn} objectFit='fill' alt='USD' />;
     const ppUSD = <PayPalUSD />;
     const usdReq = <UsdRequisitesEng />
@@ -38,16 +41,57 @@ const FinSupportPageEng = () => {
 
         <Header pageTitle="Financial support" />
 
-        <Center>
-            <Box>
-                <Text>
-
+        <Center className={styles.finSupportMain}
+                display='flex'
+                flexDirection='column'
+                alignItems='center'
+                justifyContent='center'
+        >
+            <Box w={{ lg: '70%', md: '70%', sm: '68%', base: '68%'}}
+                 textAlign='justify'
+                 fontSize={{ lg: '18px', md: '16px', sm: '14px', base: '11px' }}
+                 fontWeight={500}
+                 letterSpacing='1px'
+            >
+                <Text mb='1rem' color={textColor}>
+                    Execution of the Battalion's operational assignments requires an adequate financial support to ensure
+                    its ability to purchase the required equipment and construction materials, as well
+                    as for the timely replenishment of such strategic stocks as drinking water, food, fuel, etc.
+                </Text>
+                <Text mb='1rem' color={textColor}>
+                    Realizing there necessities, combined with the importance of the Battalion's assignments, our
+                    serviceman without hesitation spent their own money and savings, some even volunteered their personal
+                    cars and other expensive equipment in order to maximize the combat capability of their units and the
+                    Battalion as a whole. Their sacrifice, along with the phenomenal support from volunteers and from the
+                    locals, ensured our ability to achieve extraordinary success, both in the defense of Kyiv and in
+                    carrying out further combat missions.
+                </Text>
+                <Text mb='1rem' color={textColor}>
+                    However, given the length of our resistance to the russian brutal invasion, the increase in the
+                    Battalion's numbers, material and technical losses, and a consistently high level of complexity of
+                    our assignments, we now find ourselves having to ask for financial support from the civilized
+                    part of the world's population.
+                </Text>
+                <Text mb='1rem' color={textColor}>
+                    Putin's plans on sending his orkish hordes beyond Ukraine and his desire to undermine
+                    "European values" sincerely despised by most russians: freedom, personal honor and dignity, along
+                    with any personal, as well as national self-identification beyond the narrow borders drawn by
+                    Putin's uneducated fantasies. Nevertheless, in their path stand Ukrainian soldiers alongside the
+                    entire Ukrainian nation.
+                </Text>
+                <Text mb='1rem' fontWeight={700} color={textColor}>
+                    If You have the financial ability and desire to support us in our difficult yet crucial struggle
+                    for our common peace and freedom, please choose below the currency most convenient for You to discover
+                    some of the options of transferring your donations to us. We also will be sincerely grateful for
+                    any assistance acquiring any of the items from our <Link color={linkColor}><a href='/items/ukr'>
+                    list of most urgent necessities</a></Link>.
                 </Text>
             </Box>
 
-            <Grid ml={{ md: '1rem', sm: '2.2rem', base: '3rem' }}
-                templateColumns={{ lg: 'repeat(3, 1fr)', md: 'repeat(3, 1fr)', sm: 'repeat(2, 1fr)', base: 'repeat(2, 1fr)' }}
-                gap={{ base: 2, lg: 10, md: 8, sm: 2 }}>
+            <Grid mt={{ lg: '5rem', md: '4rem', sm: '3rem', base: '2rem' }}
+                  ml={{ md: '1rem', sm: '2.2rem', base: '3rem' }}
+                  templateColumns={{ lg: 'repeat(3, 1fr)', md: 'repeat(3, 1fr)', sm: 'repeat(2, 1fr)', base: 'repeat(2, 1fr)' }}
+                  gap={{ base: 4, lg: 10, md: 8, sm: 4 }}>
 
                 <GridItem w={{ lg: '90%', md: '80%', sm: '60%', base: '50%' }}>
                     {/*   USD   */}
