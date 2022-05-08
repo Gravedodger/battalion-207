@@ -13,7 +13,7 @@ export default function Home() {
     return <>
         <Head>
             <title>Battalion-207</title>
-            <meta name="description" content="Battalion-207 needs and requirements"/>
+            <meta name="description" content="Battalion-207 needs and requirements" />
             <link rel="icon" href="/favicon.ico"/>
         </Head>
 
