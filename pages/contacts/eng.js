@@ -1,5 +1,5 @@
 import React  from 'react';
-import styles from "/styles/Styles.module.css";
+import styles from "/styles/Contacts.module.css";
 import Head from "next/head";
 import Link from "next/link";
 import Header from "/components/Header/Header";
@@ -8,6 +8,7 @@ import { Center, Box, TableContainer, Table, Tbody, Tr, Td, Image, Text, useColo
 
 const ContactsPageEng = () => {
     const textColor = useColorModeValue('#222222', '#fff');
+    const labelColor = useColorModeValue('#222222', '#c59d5f');
 
     return <>
         <Head>
@@ -31,7 +32,7 @@ const ContactsPageEng = () => {
                             <Tbody>
                                 <Tr className={styles.contactsItem}>
                                     <Td>
-                                        <Text fontWeight={600} color={textColor}>
+                                        <Text fontWeight={600} color={labelColor}>
                                             Battalion command:
                                         </Text>
                                     </Td>
@@ -44,7 +45,7 @@ const ContactsPageEng = () => {
 
                                 <Tr className={styles.contactsItem}>
                                     <Td>
-                                        <Text fontWeight={600} color={textColor}>
+                                        <Text fontWeight={600} color={labelColor}>
                                             Contact person:
                                         </Text>
                                     </Td>
@@ -61,7 +62,7 @@ const ContactsPageEng = () => {
 
                                 <Tr className={styles.contactsItem}>
                                     <Td>
-                                        <Text fontWeight={600} color={textColor}>
+                                        <Text fontWeight={600} color={labelColor}>
                                             Contact tel:
                                         </Text>
                                     </Td>
@@ -76,7 +77,7 @@ const ContactsPageEng = () => {
 
                                 <Tr className={styles.contactsItem}>
                                     <Td>
-                                        <Text fontWeight={600} color={textColor}>
+                                        <Text fontWeight={600} color={labelColor}>
                                             Email:
                                         </Text>
                                     </Td>

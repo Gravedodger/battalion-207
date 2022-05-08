@@ -54,10 +54,13 @@ const AboutPageEng = () => {
                 </Box>
             </Center>
 
-            <Center mt='5%'>
+            <Center mt='8%'>
                 <Box>
                     <Box textAlign='center' mb='5%'>
-                        <Text fontSize='32px' color='#c59d5f' fontWeight='600' >
+                        <Text fontSize={{ lg: '32px', md: '30px', sm: '22px', base: '20px' }}
+                              color='#c59d5f'
+                              fontWeight='600'
+                        >
                             Battalion Gallery
                         </Text>
                     </Box>

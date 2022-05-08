@@ -1,5 +1,5 @@
 import React  from 'react';
-import styles from "/styles/Styles.module.css";
+import styles from "/styles/Contacts.module.css";
 import Head from "next/head";
 import Link from "next/link";
 import Header from "/components/Header/Header"
@@ -8,6 +8,7 @@ import { Center, TableContainer, Table, Tbody, Tr, Td, Image, Text, useColorMode
 
 const ContactsPageUkr = () => {
     const textColor = useColorModeValue('#222222', '#fff');
+    const labelColor = useColorModeValue('#222222', '#c59d5f');
 
     return <>
         <Head>
@@ -31,7 +32,7 @@ const ContactsPageUkr = () => {
                             <Tbody>
                                 <Tr className={styles.contactsItem}>
                                     <Td>
-                                        <Text fontWeight={600} color={textColor}>
+                                        <Text fontWeight={600} color={labelColor}>
                                             Підпорядкування:
                                         </Text>
                                     </Td>
@@ -44,12 +45,12 @@ const ContactsPageUkr = () => {
 
                                 <Tr className={styles.contactsItem}>
                                     <Td>
-                                        <Text fontWeight={600} color={textColor}>
+                                        <Text fontWeight={600} color={labelColor}>
                                             Контактна особа:
                                         </Text>
                                     </Td>
                                     <Td>
-                                        <Text display='flex' alignItems='center'color={textColor} justifyContent='space=between'>
+                                        <Text display='flex' alignItems='center' color={textColor} justifyContent='space=between'>
                                             <Text color={textColor} className={styles.contactsItemLink}>Святослав Малишевський</Text>
                                             <Link href="https://www.facebook.com/sviatoslav.malyshevskyi" passHref
                                                   target="_blank" rel="noopener noreferrer">
@@ -61,7 +62,7 @@ const ContactsPageUkr = () => {
 
                                 <Tr className={styles.contactsItem}>
                                     <Td>
-                                        <Text fontWeight={600} color={textColor}>
+                                        <Text fontWeight={600} color={labelColor}>
                                             Контактний телефон:
                                         </Text>
                                     </Td>
@@ -74,7 +75,7 @@ const ContactsPageUkr = () => {
 
                                 <Tr className={styles.contactsItem}>
                                     <Td>
-                                        <Text fontWeight={600} color={textColor}>
+                                        <Text fontWeight={600} color={labelColor}>
                                             Листування:
                                         </Text>
                                     </Td>

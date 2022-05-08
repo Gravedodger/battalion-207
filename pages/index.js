@@ -22,7 +22,9 @@ export default function Home() {
                 <Container display="flex" maxW="x1" flexDir="column" justifyContent="center" alignItems="center">
                     <Box w='100%'>
                         <IconButton
-                            position='relative' left='80%' mt='2%'
+                            position='relative'
+                            left='80%'
+                            mt='2rem'
                             fontSize='40px'
                             variant="ghost"
                             aria-label="Toggle theme"

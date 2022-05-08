@@ -1,5 +1,4 @@
 import React from 'react';
-import './Gallery.module.css';
 import Pagination from "../Pagination";
 import { SimpleGrid, Center, Stack, Box, Text, Image } from '@chakra-ui/react';
 
@@ -73,13 +72,12 @@ class Gallery extends React.Component {
         return (
             <Box mb='10%'>
 
-
                 <Center>
                     <SimpleGrid autoFlow={true}
                                 maxChildWidth='20%' columns={{ lg: 3, md: 2, sm: 1 }}
                                 spacing={{ lg: '20px', md: '15px', sm: '20px' }} w='80%' alignItems='center'>
                         {this.state.pageOfItems.map(item =>
-                            <Box key={item.id}>
+                            <Box key={item.id} mb={{ sm: '1rem', base: '1rem' }}>
                                 <Image src={item.src} alt={item.alt} w='100%'/>
                             </Box>
                         )}

@@ -15,7 +15,7 @@ const Header = ({ pageTitle }) => {
         <Flex
             alignItems='center'
             justifyContent='space-around'
-            mb='5%' pt={4} pb={4}
+            mb='5%' mt={{ lg: '2.6rem', md: '2rem', sm: '1.5rem', base: '1rem' }} pb={4}
             zIndex={1}
             backgroundColor={bgColor}
         >

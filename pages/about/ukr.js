@@ -6,7 +6,7 @@ import Gallery from "../../components/Gallery";
 import { Center, Container, Box, Image, Text, useColorModeValue } from '@chakra-ui/react';
 
 const AboutPageUkr = () => {
-    const textColor = useColorModeValue('#222222', '#fff');
+    const textColor = useColorModeValue('#222222', '#ffffff');
 
     return <>
         <Head>
@@ -51,10 +51,13 @@ const AboutPageUkr = () => {
                 </Box>
             </Center>
 
-            <Center mt='5%'>
+            <Center mt={{ lg: '7rem', md: '3rem', sm: '2rem', base: '2rem' }}>
                 <Box>
-                    <Box textAlign='center' mb='5%'>
-                        <Text fontSize='32px' color='#c59d5f' fontWeight='600' >
+                    <Box textAlign='center' mb={{ lg: '3rem', md: '2rem', sm: '2rem', base: '1rem' }}>
+                        <Text fontSize={{ lg: '36px', md: '30px', sm: '22px', base: '20px' }}
+                              color='#c59d5f'
+                              fontWeight={{ lg: 700, md: 700, sm: 600, base: 600 }}
+                        >
                             Галерея батальйону
                         </Text>
                     </Box>

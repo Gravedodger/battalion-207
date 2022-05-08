@@ -3,14 +3,14 @@ import { Grid,GridItem } from '@chakra-ui/react';
 import WarItem from "./WarItem";
 
 const WarListENG = () => {
-    return <Grid ml='5%'
+    return <Grid
         templateColumns={{ lg: 'repeat(4, 1fr)', md: 'repeat(3, 1fr)', sm: 'repeat(2, 1fr)', base: 'repeat(2, 1fr)' }}
         gap={{ lg: 10, md: 8, sm: 4 }}>
 
         <GridItem w='100%'>
             <WarItem
                 warIcon='/icnPersonnel.png'
-                warCount='24,500'
+                warCount='25,500'
                 warInfoENG='Personnel'
             />
         </GridItem>
@@ -18,7 +18,7 @@ const WarListENG = () => {
         <GridItem w='90%'>
             <WarItem
                 warIcon='/icnTank.png'
-                warCount='1,077'
+                warCount='1,130'
                 warInfoENG='Tanks'
             />
         </GridItem>
@@ -26,7 +26,7 @@ const WarListENG = () => {
         <GridItem w='100%'>
             <WarItem
                 warIcon='/icnAV.png'
-                warCount='2,610'
+                warCount='2,741'
                 warInfoENG='Armored vehicles'
             />
         </GridItem>
@@ -34,7 +34,7 @@ const WarListENG = () => {
         <GridItem w='90%'>
             <WarItem
                 warIcon='/icnJet.png'
-                warCount='194'
+                warCount='199'
                 warInfoENG='Airplanes'
             />
         </GridItem>
@@ -42,7 +42,7 @@ const WarListENG = () => {
         <GridItem w='90%'>
             <WarItem
                 warIcon='/icnHelicopter.png'
-                warCount='155'
+                warCount='156'
                 warInfoENG='Helicopters'
             />
         </GridItem>
@@ -50,7 +50,7 @@ const WarListENG = () => {
         <GridItem w='90%'>
             <WarItem
                 warIcon='/icnUAV.png'
-                warCount='303'
+                warCount='360'
                 warInfoENG='UAV'
             />
         </GridItem>
@@ -58,7 +58,7 @@ const WarListENG = () => {
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icnAirDef.png'
-                warCount='81'
+                warCount='86'
                 warInfoENG='Air defense'
             />
         </GridItem>
@@ -66,7 +66,7 @@ const WarListENG = () => {
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icnArtillery.png'
-                warCount='491'
+                warCount='509'
                 warInfoENG='Artillery'
             />
         </GridItem>
@@ -74,7 +74,7 @@ const WarListENG = () => {
         <GridItem w='90%'>
             <WarItem
                 warIcon='/icnMLRS.png'
-                warCount='163'
+                warCount='179'
                 warInfoENG='Rocket Launchers'
             />
         </GridItem>
@@ -82,7 +82,7 @@ const WarListENG = () => {
         <GridItem w='90%'>
             <WarItem
                 warIcon='/icnTruck.png'
-                warCount='1,867'
+                warCount='1,961'
                 warInfoENG='Vehicles'
             />
         </GridItem>
@@ -90,7 +90,7 @@ const WarListENG = () => {
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icnShip.png'
-                warCount='10'
+                warCount='12'
                 warInfoENG='Naval vessels'
             />
         </GridItem>
@@ -98,7 +98,7 @@ const WarListENG = () => {
         <GridItem w='80%'>
             <WarItem
                 warIcon='/excavator.png'
-                warCount='38'
+                warCount='39'
                 warInfoENG='Special equipment'
             />
         </GridItem>
