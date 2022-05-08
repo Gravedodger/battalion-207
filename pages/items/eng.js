@@ -42,7 +42,7 @@ const ItemsPageEng = () => {
 
             <Center>
                 <Box>
-                    <Card item={item}/>
+                    <Card item={item} />
                 </Box>
             </Center>
         </main>

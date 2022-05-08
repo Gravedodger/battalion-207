@@ -26,14 +26,14 @@ const Header = ({ pageTitle }) => {
             <Box>
                 <Text
                     ml={{ base: 2, sm: 2 }}
-                    mb={{ base: 2, lg: 2, md: 4, sm: 3 }}
-                    fontSize={{ lg: '5xl', md: '4xl', sm: '2xl' }}
+                    mb={{ lg: '10px', md: '10px', sm: '5px', base: '5px' }}
+                    fontSize={{ lg: '4xl', md: '3xl', sm: '2xl' }}
                     fontWeight={600}
                     color={textColor}
                 >
                     {pageTitle}
                 </Text>
-                <div className="underline" />
+                <div className="underline" mb={{ lg: '1rem', md: '1rem', sm: '1rem', base: '1rem' }} />
             </Box>
 
             <Box>

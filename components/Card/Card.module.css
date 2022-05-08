@@ -32,6 +32,7 @@
 
 .itemInfo header {
     display: flex;
+    margin: 0 1rem 0 1rem;
     align-items: center;
     justify-content: space-between;
     border-bottom: 0.5px dotted var(--clr-grey-5);
@@ -46,9 +47,10 @@
 }
 
 .itemText {
-    margin-bottom: 0;
+    /*width: 330px;*/
+    margin: 0 1rem 0 1rem;
     padding-top: 1rem;
-    width: 330px;
+    text-align: justify;
 }
 
 @media screen and (min-width: 768px) {
