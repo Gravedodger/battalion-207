@@ -1,0 +1,5 @@
+deployment:
+  tasks:
+    - export https://www.battalion207.kyiv.ua/home/example/public_html/
+    - /bin/cp -R images https://www.battalion207.kyiv.ua/
+    - yarn build
