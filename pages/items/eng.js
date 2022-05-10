@@ -21,8 +21,11 @@ const ItemsPageEng = () => {
     return <>
         <Head>
             <meta lang="en" />
+            <meta charSet="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+            <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
             <meta name="description" content="Battalion-207 specific requirements" />
-            <link rel="icon" href="/favicon.ico" />
+            <link rel="icon" href="./../../public/favicon.ico" />
             <title>Battalion-207 || Required Items</title>
         </Head>
 

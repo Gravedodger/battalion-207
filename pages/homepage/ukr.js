@@ -9,8 +9,11 @@ const HomePageUkr = () => {
     return <>
         <Head>
             <meta lang="uk" />
+            <meta charSet="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+            <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
             <meta name="description" content="Батальйон-207 навігаційне меню" />
-            <link rel="icon" href="/favicon.ico" />
+            <link rel="icon" href="./../../public/favicon.ico" />
             <title>Батальйон-207 || Меню</title>
         </Head>
 

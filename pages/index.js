@@ -12,9 +12,12 @@ export default function Home() {
 
     return <>
         <Head>
-            <title>Battalion-207</title>
+            <meta charSet="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+            <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
             <meta name="description" content="Battalion-207 needs and requirements" />
-            <link rel="icon" href="/favicon.ico"/>
+            <link rel="icon" href="./../public/favicon.ico"/>
+            <title>Battalion-207</title>
         </Head>
 
         <main className='main'>
