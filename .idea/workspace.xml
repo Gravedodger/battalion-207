@@ -11,9 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16cc5659-9977-4949-ba87-ebf4e6bd80d7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/WarStats/WarStatsENG.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/WarStatsENG.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/WarStats/WarStatsUKR.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/WarStatsUKR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/WarStats/components/WarListUKR.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/WarListUKR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/WarStats/components/warListENG.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/warListENG.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +126,7 @@
       <workItem from="1652094965640" duration="3795000" />
       <workItem from="1652129924690" duration="512000" />
       <workItem from="1652133873290" duration="1974000" />
-      <workItem from="1652145435040" duration="2460000" />
+      <workItem from="1652145435040" duration="2664000" />
     </task>
     <servers />
   </component>
