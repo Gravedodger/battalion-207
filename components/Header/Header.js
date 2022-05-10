@@ -38,7 +38,7 @@ const Header = ({ pageTitle }) => {
 
             <Box>
                 <IconButton
-                    fontSize={{ lg: '40px', md: '30px', sm: '30px' }}
+                    fontSize='40px'
                     variant="ghost"
                     aria-label="Toggle theme"
                     cursor='pointer'
