@@ -12,9 +12,10 @@
   },
   "license": "MIT",
   "scripts": {
-    "dev": "node server.js",
+    "dev": "next dev",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "@chakra-ui/icons": "^1.1.7",
