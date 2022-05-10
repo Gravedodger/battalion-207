@@ -17,7 +17,6 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   distDir: 'build',
-  assetPrefix: isProd ? 'https://cdn.battalion207.kyiv.ua' : '',
 }
 
 module.exports = nextConfig;
