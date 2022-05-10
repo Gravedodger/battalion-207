@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="ftp.battalion207.kyiv.ua">
+    <serverData>
+      <paths name="ftp.battalion207.kyiv.ua">
+        <serverdata>
+          <mappings>
+            <mapping deploy="https://battalion207.kyiv.ua/" local="$PROJECT_DIR$" web="/" />
+            <mapping local="" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

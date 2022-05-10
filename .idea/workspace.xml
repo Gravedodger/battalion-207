@@ -11,8 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16cc5659-9977-4949-ba87-ebf4e6bd80d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.cpanel.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cpanel.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +50,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="17.9.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pages/reports" />
     <property name="list.type.of.created.stylesheet" value="Less" />
@@ -57,19 +68,19 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\pages\reports" />
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\Gallery\img" />
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public" />
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public\images\currency" />
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\Gallery" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\pages\api\data\patrons" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\DonationsFeature\components\DFHeader" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\Feature\components" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\pages\reports" />
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\Gallery\img" />
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public" />
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public\images\currency" />
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components" />
     </key>
   </component>
   <component name="RunManager">
@@ -114,7 +125,10 @@
       <workItem from="1651573660378" duration="89037000" />
       <workItem from="1652021026540" duration="15595000" />
       <workItem from="1652041955704" duration="354000" />
-      <workItem from="1652094965640" duration="1121000" />
+      <workItem from="1652094965640" duration="3795000" />
+      <workItem from="1652129924690" duration="512000" />
+      <workItem from="1652133873290" duration="1974000" />
+      <workItem from="1652145435040" duration="1142000" />
     </task>
     <servers />
   </component>
@@ -137,10 +151,18 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="234" y="0" key="#Deployment" timestamp="1652134432935">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="234" y="0" key="#Deployment/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1652134432935" />
     <state x="478" y="248" key="#ESLint" timestamp="1650406196556">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="478" y="248" key="#ESLint/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1650406196556" />
+    <state x="317" y="32" key="#Options" timestamp="1652134445918">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="317" y="32" key="#Options/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1652134445918" />
     <state x="97" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1650938547308">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
@@ -223,6 +245,11 @@
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1650663960132" />
+    <state x="478" y="236" key="WebDeployment.AddServerDialog.v.1" timestamp="1652134035312">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="478" y="236" key="WebDeployment.AddServerDialog.v.1/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1652134035312" />
+    <state x="478" y="236" key="WebDeployment.AddServerDialog.v.1/0.0.1280.672@0.0.1280.672" timestamp="1652116442501" />
     <state x="245" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1650771712200">
       <screen x="0" y="0" width="1280" height="672" />
     </state>

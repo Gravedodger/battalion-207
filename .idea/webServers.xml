@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="59c574a7-71d1-4daa-a723-ce49330b39ea" name="ftp.battalion207.kyiv.ua" url="http://ftp.battalion207.kyiv.ua">
+        <fileTransfer host="ftp.battalion207.kyiv.ua" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
