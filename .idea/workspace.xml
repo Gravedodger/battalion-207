@@ -12,7 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="16cc5659-9977-4949-ba87-ebf4e6bd80d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/DonationsFeature/components/DFBody/DFBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/DonationsFeature/components/DFBody/DFBody.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/WarStats/components/WarItemIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/WarItemIcon.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +127,7 @@
       <workItem from="1652145435040" duration="4922000" />
       <workItem from="1652319828183" duration="6763000" />
       <workItem from="1652538845862" duration="48000" />
-      <workItem from="1652539253426" duration="14038000" />
+      <workItem from="1652539253426" duration="14528000" />
     </task>
     <servers />
   </component>
