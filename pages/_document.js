@@ -2,6 +2,7 @@ import React from 'react';
 import theme from '/styles/theme';
 import { ColorModeScript } from '@chakra-ui/react';
 import NextDocument, { Head, Html, Main, NextScript } from 'next/document';
+import Script from "next/script";
 
 class Document extends NextDocument {
     static getInitialProps(ctx) {
@@ -15,6 +16,16 @@ class Document extends NextDocument {
                     <meta charSet="UTF-8" />
                     <meta name="theme-color" content="#ffffff" />
                     <link rel="manifest" href="/public/manifest.json" />
+                    <Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
+                    <Script strategy="lazyOnload"  dangerouslySetInnerHTML={{
+                        __html: `window.dataLayer = window.dataLayer || [];
+                                 function gtag(){dataLayer.push(arguments);}
+                                 gtag('js', new Date());
+                                 gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+                                 page_path: window.location.pathname,
+                                 });
+                                  `,
+                    }}/>
                 </Head>
                 <body>
                 <ColorModeScript initialColorMode={theme.config.initialColorMode} />

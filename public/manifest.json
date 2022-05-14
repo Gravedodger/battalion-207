@@ -2,7 +2,7 @@
   "app_name": "Battalion 207 Needs and Requirements",
   "short_name": "battalion-207",
   "description": "Needs and requirements of the Battalion 207 of the Ukrainian Territorial Defense",
-  "start_url": "/",
+  "start_url": "../",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "display": "standalone",
