@@ -156,7 +156,6 @@ const PurchasedFeatureUKR = ({ titleUKR, totalUKR }) => {
                         <Box display='flex' alignItems='center' mt='30px'>
                             <Text color={textColor} fontSize='18px' fontWeight={700}>
                                 {totalUKR}
-                                {totalENG}
                             </Text>
                             <Text ml='40px' color='#09A205' fontSize='20px' fontWeight={700}>₴ 62,832.42</Text>
                         </Box>
@@ -193,7 +192,6 @@ const PurchasedFeatureUKR = ({ titleUKR, totalUKR }) => {
                         <Box display='flex' alignItems='center' mt='30px'>
                             <Text color={textColor} fontSize='18px' fontWeight={700}>
                                 {totalUKR}
-                                {totalENG}
                             </Text>
                             <Text ml='40px' color='#09A205' fontSize='20px' fontWeight={700}>₴ 3,147.9</Text>
                         </Box>
