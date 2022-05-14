@@ -10,7 +10,7 @@ class Document extends NextDocument {
 
     render() {
         return (
-            <Html>
+            <Html lang="uk">
                 <Head>
                     <meta charSet="UTF-8" />
                 </Head>
