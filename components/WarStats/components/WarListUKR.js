@@ -1,6 +1,6 @@
 import React from 'react';
-import { Grid, GridItem } from '@chakra-ui/react';
 import WarItem from "./WarItem";
+import { Grid, GridItem } from '@chakra-ui/react';
 
 const WarListUKR = () => {
     return <Grid ml={{ lg: '5rem', md: '5rem', sm: '3rem', base: '4rem' }}
@@ -11,84 +11,84 @@ const WarListUKR = () => {
         <GridItem w='100%'>
             <WarItem
                 warIcon='/icnPersonnel.png'
-                warCount='~ 26,350'
+                warCount='27,200'
                 warInfoUKR='Особовий склад'
             />
         </GridItem>
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icnTank.png'
-                warCount='1,185'
+                warCount='1,218'
                 warInfoUKR='Танки'
             />
         </GridItem>
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icnAV.png'
-                warCount='2,856'
+                warCount='2,934'
                 warInfoUKR='Броньовані машини'
             />
         </GridItem>
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icnJet.png'
-                warCount='199'
+                warCount='200'
                 warInfoUKR='Літаки'
             />
         </GridItem>
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icnHelicopter.png'
-                warCount='160'
+                warCount='163'
                 warInfoUKR='Helicopters'
             />
         </GridItem>
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icnUAV.png'
-                warCount='390'
+                warCount='411'
                 warInfoUKR='БПЛА'
             />
         </GridItem>
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icnAirDef.png'
-                warCount='87'
+                warCount='88'
                 warInfoUKR='Засоби ППО'
             />
         </GridItem>
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icnArtillery.png'
-                warCount='528'
+                warCount='551'
                 warInfoUKR='Арт. системи'
             />
         </GridItem>
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icnMLRS.png'
-                warCount='185'
+                warCount='195'
                 warInfoUKR='РСЗВ'
             />
         </GridItem>
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icnTruck.png'
-                warCount='1,997'
+                warCount='2,059'
                 warInfoUKR='Автотехніка'
             />
         </GridItem>
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icnShip.png'
-                warCount='12'
+                warCount='13'
                 warInfoUKR='Кораблі'
             />
         </GridItem>
         <GridItem w='80%'>
             <WarItem
                 warIcon='/excavator.png'
-                warCount='41'
+                warCount='42'
                 warInfoUKR='Спеціальна техніка'
             />
         </GridItem>

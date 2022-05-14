@@ -20,7 +20,7 @@ const PurchasedFeatureUKR = () => {
                     </Tab>
                 </TabList>
 
-                <TabPanels h={{ lg:'550px', md: '500px', sm: '450px', base: '450px' }}>
+                <TabPanels>
 
                     {/*     APRIL    */}
                     <TabPanel p={{ lg: 4, md: 4, sm: 2, base: 1 }} fontSize={{lg: '18px', md: '16px', sm: '15px', base: '14px' }}>

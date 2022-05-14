@@ -25,8 +25,7 @@ const ReportsPageUkr = () => {
             <Header pageTitle="Звітність" />
             <WarStatsUKR />
         </Box>
-        <Box className={styles.featuresContainer}
-        >
+        <Box className={styles.featuresContainer}>
             <DonationsFeature titleUKR='Останні надходження' totalUKR='Загалом:' />
             <PurchasedFeatureUKR titleUKR='Останні закупівлі' totalUKR='Загалом'/>
         </Box>

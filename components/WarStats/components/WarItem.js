@@ -9,7 +9,7 @@ const WarItem = ({ warIcon, warCount, warInfoUKR, warInfoENG }) => {
         <Box>
             <Box mt='1rem' mr='2rem'
                  display='flex'
-                 alighItems='center'
+                 alignItems='center'
                  justifyContent='space-between'>
                 <WarItemIcon icon={warIcon} />
                 <WarItemCount count={warCount} />
