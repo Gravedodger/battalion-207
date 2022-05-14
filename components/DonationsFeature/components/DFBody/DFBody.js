@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from '../DonationsFeature.module.css';
+import styles from '../../DonationsFeature.module.css';
 import {Tabs, Tab, TabList, TabPanels, TabPanel, Text, Box, useColorModeValue} from '@chakra-ui/react';
 
 const DFBody = ({ totalUkr, totalEng }) => {

@@ -11,7 +11,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16cc5659-9977-4949-ba87-ebf4e6bd80d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/DonationsFeature/components/DFBody/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/PurchasedFeature/PurchasedFeature.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/PurchasedFeature/PurchasedFeatureENG.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/PurchasedFeature/PurchasedFeatureUKR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/PurchasedFeature/components/PurchasedHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/PurchasedFeature/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/smaly.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/smaly.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/DonationsFeature/DonationsFeature.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/DonationsFeature/DonationsFeature.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/DonationsFeature/components/DFBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/DonationsFeature/components/DFBody/DFBody.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/DonationsFeature/components/DFHeader/DFHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/DonationsFeature/components/DFHeader/DFHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/WarStats/WarStatsENG.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/WarStatsENG.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/WarStats/WarStatsUKR.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/WarStatsUKR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/WarStats/components/WarListUKR.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/WarListUKR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/WarStats/components/warListENG.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/warListENG.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/reports/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/reports/eng.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/reports/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/reports/ukr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Styles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Styles.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +81,6 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public" />
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\Gallery" />
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\pages\api\data\patrons" />
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\DonationsFeature\components\DFHeader" />
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\Feature\components" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\pages\reports" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\Gallery\img" />
@@ -77,9 +88,16 @@
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public\images\currency" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\PurchasedFeature\components" />
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\PurchasedFeature\components\PurchasedHeader" />
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\PurchasedFeature\components\PurchasedBody" />
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\DonationsFeature\components\DFBody" />
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration name="DFBody.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/components/DonationsFeature/components/DFBody.js" working-dir="$PROJECT_DIR$/components/DonationsFeature/components">
+    <configuration name="DFBody.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/components/DonationsFeature/components/DFBody/DFBody.js" working-dir="$PROJECT_DIR$/components/DonationsFeature/components">
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -123,7 +141,10 @@
       <workItem from="1652094965640" duration="3795000" />
       <workItem from="1652129924690" duration="512000" />
       <workItem from="1652133873290" duration="1974000" />
-      <workItem from="1652145435040" duration="4485000" />
+      <workItem from="1652145435040" duration="4922000" />
+      <workItem from="1652319828183" duration="6763000" />
+      <workItem from="1652538845862" duration="48000" />
+      <workItem from="1652539253426" duration="6442000" />
     </task>
     <servers />
   </component>

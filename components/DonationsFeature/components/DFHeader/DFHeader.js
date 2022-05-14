@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../../DonationsFeature.module.css';
-import {Box, Text, useColorModeValue} from '@chakra-ui/react';
+import { Box, Text, useColorModeValue } from '@chakra-ui/react';
 
 const DFHeader = ({ titleUkr, titleEng }) => {
     const textColor = useColorModeValue('#000', '#c59d5f')
