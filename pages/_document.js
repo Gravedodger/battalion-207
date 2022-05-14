@@ -13,6 +13,7 @@ class Document extends NextDocument {
             <Html lang="uk">
                 <Head>
                     <meta charSet="UTF-8" />
+                    <meta name="theme-color" content="#ffffff" />
                     <link rel="manifest" href="/public/manifest.json" />
                 </Head>
                 <body>
