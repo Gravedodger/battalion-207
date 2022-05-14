@@ -3,7 +3,7 @@ import styles from './PurchasedFeature.module.css';
 import PurchasedHeader from "./components/PurchasedHeader";
 import { Box, Container, Tab, TabList, TabPanel, TabPanels, Tabs, Text, useColorModeValue } from '@chakra-ui/react';
 
-const PurchasedFeatureUKR = ({ titleENG, totalENG }) => {
+const PurchasedFeatureUKR = () => {
     const textColor = useColorModeValue('#222222', '#c59d5f');
     const bgColor = useColorModeValue('rgba(229,180,180,0.82)', 'rgba(112,128,144,0.45)')
 
