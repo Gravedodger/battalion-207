@@ -1,21 +1,22 @@
 import React from 'react';
 import styles from './PurchasedFeature.module.css';
-import {Box, Tab, TabList, TabPanel, TabPanels, Tabs, Text, useColorModeValue} from '@chakra-ui/react';
 import PurchasedHeader from "./components/PurchasedHeader";
+import { Box, Container, Tab, TabList, TabPanel, TabPanels, Tabs, Text, useColorModeValue } from '@chakra-ui/react';
 
-const PurchasedFeatureUKR = ({ titleENG, titleUKR }) => {
+const PurchasedFeatureUKR = ({ titleENG, totalENG }) => {
     const textColor = useColorModeValue('#222222', '#c59d5f');
+    const bgColor = useColorModeValue('rgba(229,180,180,0.82)', 'rgba(112,128,144,0.45)')
 
-    return <>
-        <Box>
-            <PurchasedHeader titleEng={titleENG} titleUkr={titleUKR}/>
+    return (
+        <Container className={styles.purchasedContainer} backgroundColor={bgColor}>
+            <PurchasedHeader titleEng={titleENG} />
             <Tabs>
                 <TabList>
                     <Tab p={{ lg: 4, md: 3, sm: 2, base: 2 }} fontSize={{ lg: '18px', sm: '14px', base: '12px' }}>
                         April
                     </Tab>
                     <Tab p={{ lg: 4, md: 3, sm: 2, base: 2 }} fontSize={{ lg: '18px', sm: '14px', base: '12px' }}>
-                        MAy
+                        May
                     </Tab>
                 </TabList>
 
@@ -26,7 +27,7 @@ const PurchasedFeatureUKR = ({ titleENG, titleUKR }) => {
                         <Text mt='1rem' color={textColor}>01.04.2022</Text>
                         <Text mt='0.2rem' color='#09A205'>
                             + Fuel A-95 => ₴ 1,436.86
-                        </Text>````````````````````````````````````````````````````````````````````````````````````````````````
+                        </Text>
 
                         <Text mt='1rem' color={textColor}>02.04.2022</Text>
                         <Text mt='0.2rem' color='#09A205'>
@@ -36,17 +37,31 @@ const PurchasedFeatureUKR = ({ titleENG, titleUKR }) => {
                         <Text mt='1rem' color={textColor}>03.04.2022</Text>
                         <Text mt='0.2rem' color='#09A205'>
                             + 3x Rainproof ponchos => ₴ 3,022.60
+                        </Text>
+                        <Text mt='0.2rem' color='#09A205'>
                             + 100m 2x1 electric cable & food => ₴ 1,636.07
+                        </Text>
+                        <Text mt='0.2rem' color='#09A205'>
                             + Accounting journals => ₴ 367.60
+                        </Text>
+                        <Text mt='0.2rem' color='#09A205'>
                             + Sharp shovel => ₴ 549
+                        </Text>
+                        <Text mt='0.2rem' color='#09A205'>
                             + Sharp shovel => ₴ 549
+                        </Text>
+                        <Text mt='0.2rem' color='#09A205'>
                             + Tactical shovel Skif => ₴ 1,600
                         </Text>
 
                         <Text mt='1rem' color={textColor}>04.04.2022</Text>
                         <Text mt='0.2rem' color='#09A205'>
                             + Fuel A-95 => ₴ 400.22
+                        </Text>
+                        <Text mt='0.2rem' color='#09A205'>
                             + Collimator sight Hawke RD1 => ₴ 4,300
+                        </Text>
+                        <Text mt='0.2rem' color='#09A205'>
                             + Mobile phone HTC Desire 600 => ₴ 1,000
                         </Text>
 
@@ -58,13 +73,19 @@ const PurchasedFeatureUKR = ({ titleENG, titleUKR }) => {
                         <Text mt='1rem' color={textColor}>07.04.2022</Text>
                         <Text mt='0.2rem' color='#09A205'>
                             + Fuel A-95 => ₴ 1,260.51
+                        </Text>
+                        <Text mt='0.2rem' color='#09A205'>
                             + Pistol holder => ₴ 432
                         </Text>
 
                         <Text mt='1rem' color={textColor}>08.04.2022</Text>
                         <Text mt='0.2rem' color='#09A205'>
                             + Car jack (2t.) => ₴ 1,570
+                        </Text>
+                        <Text mt='0.2rem' color='#09A205'>
                             + 2x wrenches (3.5t) => ₴ 2,831.96
+                        </Text>
+                        <Text mt='0.2rem' color='#09A205'>
                             + 200m 2x1 electric cable => ₴ 2,640
                         </Text>
 
@@ -76,6 +97,8 @@ const PurchasedFeatureUKR = ({ titleENG, titleUKR }) => {
                         <Text mt='1rem' color={textColor}>12.04.2022</Text>
                         <Text mt='0.2rem' color='#09A205'>
                             + Fuel A-95 => ₴ 1,035
+                        </Text>
+                        <Text mt='0.2rem' color='#09A205'>
                             + 10x water bottles => ₴ 2,575
                         </Text>
 
@@ -87,18 +110,24 @@ const PurchasedFeatureUKR = ({ titleENG, titleUKR }) => {
                         <Text mt='1rem' color={textColor}>14.04.2022</Text>
                         <Text mt='0.2rem' color='#09A205'>
                             + Fuel A-95 => ₴ 862.50
+                        </Text>
+                        <Text mt='0.2rem' color='#09A205'>
                             + Fuel A-95 => ₴ 711.20
                         </Text>
 
                         <Text mt='1rem' color={textColor}>15.04.2022</Text>
                         <Text mt='0.2rem' color='#09A205'>
                             + Fuel A-95 => ₴ 973.10
+                        </Text>
+                        <Text mt='0.2rem' color='#09A205'>
                             + Table for HQ => ₴ 888
                         </Text>
 
                         <Text mt='1rem' color={textColor}>16.04.2022</Text>
                         <Text mt='0.2rem' color='#09A205'>
                             + Fuel A-95 => ₴ 510
+                        </Text>
+                        <Text mt='0.2rem' color='#09A205'>
                             + 50m thick plastic wrap => ₴ 1,683
                         </Text>
 
@@ -110,7 +139,11 @@ const PurchasedFeatureUKR = ({ titleENG, titleUKR }) => {
                         <Text mt='1rem' color={textColor}>19.04.2022</Text>
                         <Text mt='0.2rem' color='#09A205'>
                             + Fuel A-95 => ₴ 403.60
+                        </Text>
+                        <Text mt='0.2rem' color='#09A205'>
                             + Fuel A-95 => ₴ 711.20
+                        </Text>
+                        <Text mt='0.2rem' color='#09A205'>
                             + 50m thick plastic wrap & 1,000 sandbags => ₴ 6,696.62
                         </Text>
 
@@ -167,8 +200,8 @@ const PurchasedFeatureUKR = ({ titleENG, titleUKR }) => {
                     </TabPanel>
                 </TabPanels>
             </Tabs>
-        </Box>
-    </>
+        </Container>
+    );
 }
 
 export default PurchasedFeatureUKR;

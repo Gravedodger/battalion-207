@@ -1,14 +1,15 @@
 import React from 'react';
 import styles from './PurchasedFeature.module.css';
-import {Box, Tab, TabList, TabPanel, TabPanels, Tabs, Text, useColorModeValue} from '@chakra-ui/react';
 import PurchasedHeader from "./components/PurchasedHeader";
+import { Box, Container, Tab, TabList, TabPanel, TabPanels, Tabs, Text, useColorModeValue} from '@chakra-ui/react';
 
-const PurchasedFeatureUKR = ({ titleENG, titleUKR, totalUKR, totalENG }) => {
+const PurchasedFeatureUKR = ({ titleUKR, totalUKR }) => {
     const textColor = useColorModeValue('#222222', '#c59d5f');
+    const bgColor = useColorModeValue('rgba(229,180,180,0.82)', 'rgba(112,128,144,0.45)')
 
-    return <>
-        <Box>
-            <PurchasedHeader titleEng={titleENG} titleUkr={titleUKR}/>
+    return (
+        <Container className={styles.purchasedContainer} backgroundColor={bgColor}>
+            <PurchasedHeader titleUkr={titleUKR} />
             <Tabs>
                 <TabList>
                     <Tab p={{ lg: 4, md: 3, sm: 2, base: 2 }} fontSize={{ lg: '18px', sm: '14px', base: '12px' }}>
@@ -26,7 +27,7 @@ const PurchasedFeatureUKR = ({ titleENG, titleUKR, totalUKR, totalENG }) => {
                         <Text mt='1rem' color={textColor}>01.04.2022</Text>
                         <Text mt='0.2rem' color='#09A205'>
                             + Бензин A-95 => ₴ 1,436.86
-                        </Text>````````````````````````````````````````````````````````````````````````````````````````````````
+                        </Text>
 
                         <Text mt='1rem' color={textColor}>02.04.2022</Text>
                         <Text mt='0.2rem' color='#09A205'>
@@ -36,17 +37,31 @@ const PurchasedFeatureUKR = ({ titleENG, titleUKR, totalUKR, totalENG }) => {
                         <Text mt='1rem' color={textColor}>03.04.2022</Text>
                         <Text mt='0.2rem' color='#09A205'>
                             + 3x Дощовики => ₴ 3,022.60
+                        </Text>
+                        <Text mt='0.2rem' color='#09A205'>
                             + 100m 2x1 електричний кабель & солодощі => ₴ 1,636.07
+                        </Text>
+                        <Text mt='0.2rem' color='#09A205'>
                             + Канцелярія => ₴ 367.60
+                        </Text>
+                        <Text mt='0.2rem' color='#09A205'>
                             + Штикова лопата => ₴ 549
+                        </Text>
+                        <Text mt='0.2rem' color='#09A205'>
                             + Штикова лопата => ₴ 549
+                        </Text>
+                        <Text mt='0.2rem' color='#09A205'>
                             + Тактична лопата Skif => ₴ 1,600
                         </Text>
 
                         <Text mt='1rem' color={textColor}>04.04.2022</Text>
                         <Text mt='0.2rem' color='#09A205'>
                             + Бензин A95 => ₴ 400.22
+                        </Text>
+                        <Text mt='0.2rem' color='#09A205'>
                             + Коліматорний приціл Hawke RD1 => ₴ 4,300
+                        </Text>
+                        <Text mt='0.2rem' color='#09A205'>
                             + Мобільний телефон HTC Desire 600 => ₴ 1,000
                         </Text>
 
@@ -58,13 +73,19 @@ const PurchasedFeatureUKR = ({ titleENG, titleUKR, totalUKR, totalENG }) => {
                         <Text mt='1rem' color={textColor}>07.04.2022</Text>
                         <Text mt='0.2rem' color='#09A205'>
                             + Бензин A-95 => ₴ 1,260.51
+                        </Text>
+                        <Text mt='0.2rem' color='#09A205'>
                             + Кобура => ₴ 432
                         </Text>
 
                         <Text mt='1rem' color={textColor}>08.04.2022</Text>
                         <Text mt='0.2rem' color='#09A205'>
                             + Домкрат (2t.) => ₴ 1,570
+                        </Text>
+                        <Text mt='0.2rem' color='#09A205'>
                             + 2x лебідки (3.5t) => ₴ 2,831.96
+                        </Text>
+                        <Text mt='0.2rem' color='#09A205'>
                             + 200м 2x1 електричний кабель => ₴ 2,640
                         </Text>
 
@@ -76,6 +97,8 @@ const PurchasedFeatureUKR = ({ titleENG, titleUKR, totalUKR, totalENG }) => {
                         <Text mt='1rem' color={textColor}>12.04.2022</Text>
                         <Text mt='0.2rem' color='#09A205'>
                             + Бензин A-95 => ₴ 1,035
+                        </Text>
+                        <Text mt='0.2rem' color='#09A205'>
                             + 10x бутлі для води => ₴ 2,575
                         </Text>
 
@@ -87,18 +110,24 @@ const PurchasedFeatureUKR = ({ titleENG, titleUKR, totalUKR, totalENG }) => {
                         <Text mt='1rem' color={textColor}>14.04.2022</Text>
                         <Text mt='0.2rem' color='#09A205'>
                             + Бензин A-95 => ₴ 862.50
+                        </Text>
+                        <Text mt='0.2rem' color='#09A205'>
                             + Бензин A-95 => ₴ 711.20
                         </Text>
 
                         <Text mt='1rem' color={textColor}>15.04.2022</Text>
                         <Text mt='0.2rem' color='#09A205'>
                             + Бензин A-95 => ₴ 973.10
+                        </Text>
+                        <Text mt='0.2rem' color='#09A205'>
                             + Стіл для штабу => ₴ 888
                         </Text>
 
                         <Text mt='1rem' color={textColor}>16.04.2022</Text>
                         <Text mt='0.2rem' color='#09A205'>
                             + Бензин A-95 => ₴ 510
+                        </Text>
+                        <Text mt='0.2rem' color='#09A205'>
                             + 50м щільна плівка => ₴ 1,683
                         </Text>
 
@@ -110,7 +139,11 @@ const PurchasedFeatureUKR = ({ titleENG, titleUKR, totalUKR, totalENG }) => {
                         <Text mt='1rem' color={textColor}>19.04.2022</Text>
                         <Text mt='0.2rem' color='#09A205'>
                             + Бензин A-95 => ₴ 403.60
+                        </Text>
+                        <Text mt='0.2rem' color='#09A205'>
                             + Бензин A-95 => ₴ 711.20
+                        </Text>
+                        <Text mt='0.2rem' color='#09A205'>
                             + 50м щільна плівка & 1,000 мішки для піска => ₴ 6,696.62
                         </Text>
 
@@ -166,10 +199,9 @@ const PurchasedFeatureUKR = ({ titleENG, titleUKR, totalUKR, totalENG }) => {
                         </Box>
                     </TabPanel>
                 </TabPanels>
-
             </Tabs>
-        </Box>
-    </>
+        </Container>
+    );
 }
 
 export default PurchasedFeatureUKR;

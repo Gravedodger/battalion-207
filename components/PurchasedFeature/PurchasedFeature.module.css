@@ -18,6 +18,14 @@
     font-weight: 600;
 }
 
+.PurchasedNav {
+    display: flex;
+    width: 80%;
+    margin: 1rem 2rem;
+    justify-self: center;
+    justify-content: space-between;
+}
+
 /* minor style changes for the scrollbar */
 .purchasedList::-webkit-scrollbar {
     width: 0.25rem;

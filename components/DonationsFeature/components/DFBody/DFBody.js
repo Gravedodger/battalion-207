@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from '../../DonationsFeature.module.css';
-import {Tabs, Tab, TabList, TabPanels, TabPanel, Text, Box, useColorModeValue} from '@chakra-ui/react';
+import { Tabs, Tab, TabList, TabPanels, TabPanel, Text, Box, useColorModeValue } from '@chakra-ui/react';
 
 const DFBody = ({ totalUkr, totalEng }) => {
     const textColor = useColorModeValue('#222222', '#c59d5f');
