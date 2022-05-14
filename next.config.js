@@ -1,9 +1,5 @@
-/**
- * @type {import('next').NextConfig}
-**/
-
 const nextConfig = {
-  basePath: '',
+  basePath: './',
   images: {
     domains: [
       'localhost'

@@ -13,6 +13,7 @@ class Document extends NextDocument {
             <Html lang="uk">
                 <Head>
                     <meta charSet="UTF-8" />
+                    <link rel="manifest" href="/public/manifest.json" />
                 </Head>
                 <body>
                 <ColorModeScript initialColorMode={theme.config.initialColorMode} />
