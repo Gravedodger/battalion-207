@@ -12,12 +12,11 @@
   <component name="ChangeListManager">
     <list default="true" id="16cc5659-9977-4949-ba87-ebf4e6bd80d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/DonationsFeature/DonationsFeature.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/DonationsFeature/DonationsFeature.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/PurchasedFeature/PurchasedFeature.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/PurchasedFeature/PurchasedFeature.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/PurchasedFeature/PurchasedFeatureENG.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/PurchasedFeature/PurchasedFeatureENG.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/PurchasedFeature/PurchasedFeatureUKR.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/PurchasedFeature/PurchasedFeatureUKR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/WarStats/WarStatsENG.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/WarStatsENG.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/WarStats/WarStatsUKR.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/WarStatsUKR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/WarStats/components/WarItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/WarItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/WarStats/components/WarListUKR.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/WarListUKR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/WarStats/components/warListENG.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/warListENG.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/reports/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/reports/eng.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/reports/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/reports/ukr.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/Styles.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Styles.module.css" afterDir="false" />
     </list>
@@ -134,7 +133,7 @@
       <workItem from="1652145435040" duration="4922000" />
       <workItem from="1652319828183" duration="6763000" />
       <workItem from="1652538845862" duration="48000" />
-      <workItem from="1652539253426" duration="10077000" />
+      <workItem from="1652539253426" duration="13881000" />
     </task>
     <servers />
   </component>
@@ -273,10 +272,10 @@
     </state>
     <state x="298" y="150" width="672" height="677" key="run.anything.popup/0.0.1280.672/686.-1080.1920.1080@0.0.1280.672" timestamp="1651220284141" />
     <state x="298" y="150" width="672" height="677" key="run.anything.popup/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1652558983243" />
-    <state x="303" y="0" width="672" height="670" key="search.everywhere.popup" timestamp="1651781480945">
+    <state x="303" y="0" width="672" height="670" key="search.everywhere.popup" timestamp="1652562556890">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="303" y="0" width="672" height="670" key="search.everywhere.popup/0.0.1280.672/686.-1080.1920.1080@0.0.1280.672" timestamp="1651216405472" />
-    <state x="303" y="0" width="672" height="670" key="search.everywhere.popup/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1651781480945" />
+    <state x="303" y="0" width="672" height="670" key="search.everywhere.popup/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1652562556890" />
   </component>
 </project>

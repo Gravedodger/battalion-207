@@ -26,6 +26,8 @@
 
 .featuresContainer {
     display: flex;
+    margin-left: 12%;
+    margin-right: 12%;
     align-items: flex-start;
     justify-content: space-between;
 }

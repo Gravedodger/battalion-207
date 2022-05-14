@@ -1,7 +1,8 @@
 .purchasedContainer {
     display: flex;
     width: 50%;
-    margin: 6rem auto 5rem auto;
+    margin: 6rem auto 3rem auto;
+    padding-bottom: 2rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;

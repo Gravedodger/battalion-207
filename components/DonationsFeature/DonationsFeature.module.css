@@ -1,7 +1,8 @@
 .DFCardContainer {
     display: flex;
     width: 50%;
-    margin: 6rem auto 5rem auto;
+    margin: 6rem auto 0 auto;
+    padding-bottom: 3rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;
