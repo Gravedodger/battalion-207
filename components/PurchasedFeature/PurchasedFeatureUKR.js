@@ -3,13 +3,13 @@ import styles from './PurchasedFeature.module.css';
 import PurchasedHeader from "./components/PurchasedHeader";
 import { Box, Container, Tab, TabList, TabPanel, TabPanels, Tabs, Text, useColorModeValue} from '@chakra-ui/react';
 
-const PurchasedFeatureUKR = ({ titleUKR, totalUKR }) => {
+const PurchasedFeatureUKR = () => {
     const textColor = useColorModeValue('#222222', '#c59d5f');
     const bgColor = useColorModeValue('rgba(229,180,180,0.82)', 'rgba(112,128,144,0.45)')
 
     return (
         <Container className={styles.purchasedContainer} backgroundColor={bgColor}>
-            <PurchasedHeader titleUkr={titleUKR} />
+            <PurchasedHeader titleUkr='Закупівлі' />
             <Tabs>
                 <TabList>
                     <Tab p={{ lg: 4, md: 3, sm: 2, base: 2 }} fontSize={{ lg: '18px', sm: '14px', base: '12px' }}>

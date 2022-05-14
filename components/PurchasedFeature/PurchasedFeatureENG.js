@@ -9,7 +9,7 @@ const PurchasedFeatureUKR = ({ titleENG, totalENG }) => {
 
     return (
         <Container className={styles.purchasedContainer} backgroundColor={bgColor}>
-            <PurchasedHeader titleEng={titleENG} />
+            <PurchasedHeader titleEng='Purchases' />
             <Tabs>
                 <TabList>
                     <Tab p={{ lg: 4, md: 3, sm: 2, base: 2 }} fontSize={{ lg: '18px', sm: '14px', base: '12px' }}>
@@ -155,7 +155,7 @@ const PurchasedFeatureUKR = ({ titleENG, totalENG }) => {
                         {/*     Total for April     */}
                         <Box display='flex' alignItems='center' mt='30px'>
                             <Text color={textColor} fontSize='18px' fontWeight={700}>
-                                {totalEng}
+                                Total:
                             </Text>
                             <Text ml='40px' color='#09A205' fontSize='20px' fontWeight={700}>₴ 62,832.42</Text>
                         </Box>
@@ -191,7 +191,7 @@ const PurchasedFeatureUKR = ({ titleENG, totalENG }) => {
                         {/*     Total for May     */}
                         <Box display='flex' alignItems='center' mt='30px'>
                             <Text color={textColor} fontSize='18px' fontWeight={700}>
-                                {totalEng}
+                                Total:
                             </Text>
                             <Text ml='40px' color='#09A205' fontSize='20px' fontWeight={700}>₴  </Text>
                         </Box>
