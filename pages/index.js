@@ -3,7 +3,7 @@ import styles from '../styles/Starter.module.css';
 import Head from 'next/head';
 import { MoonIcon } from "@chakra-ui/icons";
 import { LightBulbIcon } from "../components/Icons";
-import { Center, Flex, Box, Container, IconButton, useColorMode, Text, Image, Link, useColorModeValue } from '@chakra-ui/react';
+import { Center, Flex, Box, Container, IconButton, useColorMode, Text, Link, Image, useColorModeValue } from '@chakra-ui/react';
 
 export default function Home() {
     const { toggleColorMode } = useColorMode();
@@ -16,7 +16,7 @@ export default function Home() {
             <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
             <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
             <meta name="description" content="Battalion-207 needs and requirements" />
-            <link rel="icon" href="public/favicon.ico"/>
+            <link rel="icon" href="./../public/favicon.ico"/>
             <title>Battalion-207</title>
         </Head>
 
@@ -42,14 +42,13 @@ export default function Home() {
                           spacing={20} gap={10}
                           justifyContent='center' alignItems='center' flexDirection='column'>
                         <Box className={styles.starterLogoContainer}>
-                            <Image src='/logo.png' alt="main logo" objectFit='contain' boxSize="90%"/>
+                            <Image src='/logo.png' alt="main logo" objectFit='contain' boxSize="90%" layout='fill'/>
                         </Box>
 
                         <Flex className={styles.starterFlagWrap} justifyContent='center' alignItems='center'>
                             <Box className={styles.starterFlagContainer}>
                                 <Text fontSize={{ lg: 'lg', md: 'md', sm: 'sm' }} textAlign="center"
-                                      color={textColor} className={styles.flagLabel}
-                                >
+                                      color={textColor} className={styles.flagLabel}>
                                     Українською
                                 </Text>
 
@@ -74,7 +73,11 @@ export default function Home() {
 
                                 <Box className={styles.starterEngFlag}>
                                     <Link href="homepage/eng">
-                                        <Image src='/UK-US_flag.png' objectFit='contain' alt="Flags of US/UK" />
+                                        <Image
+                                            src='/UK-US_flag.png'
+                                            objectFit='contain'
+                                            alt="Flags of US/UK"
+                                        />
                                     </Link>
                                 </Box>
                             </Box>

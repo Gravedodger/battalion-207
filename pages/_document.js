@@ -11,7 +11,9 @@ class Document extends NextDocument {
     render() {
         return (
             <Html>
-                <Head />
+                <Head>
+                    <meta charSet="UTF-8" />
+                </Head>
                 <body>
                 <ColorModeScript initialColorMode={theme.config.initialColorMode} />
                 <Main />
