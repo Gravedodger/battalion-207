@@ -27,7 +27,7 @@ const DFBody = ({ totalUkr, totalEng }) => {
 
             <TabPanels h={{ lg:'550px', md: '500px', sm: '450px', base: '450px' }}>
                 <TabPanel p={{ lg: 4, md: 4, sm: 2, base: 1 }} fontSize={{lg: '18px', md: '16px', sm: '15px', base: '14px' }}>
-                    <Text mt='1rem' color={textColor}>06.04.2022</Text>
+                    <Text mt='1rem' color={textColor} textDecoration='underline'>06.04.2022</Text>
                     <Text mt='0.2rem' color='#09A205'>
                         + ₴ 1,000 => Yuliana N.
                     </Text>
@@ -38,12 +38,12 @@ const DFBody = ({ totalUkr, totalEng }) => {
                         + ₴ 1,000 => an unknown person
                     </Text>
 
-                    <Text mt='1rem' color={textColor}>08.04.2022</Text>
+                    <Text mt='1rem' color={textColor} textDecoration='underline'>08.04.2022</Text>
                     <Text mt='0.2rem' color='#09A205'>
                         + ₴ 2,000 => Hanna K.
                     </Text>
 
-                    <Text mt='1rem' color={textColor}>12.04.2022</Text>
+                    <Text mt='1rem' color={textColor} textDecoration='underline'>12.04.2022</Text>
                     <Text mt='0.2rem' color='#09A205'>
                         + ₴ 1,000 => Ivan D.
                     </Text>
@@ -57,7 +57,7 @@ const DFBody = ({ totalUkr, totalEng }) => {
                         + ₴ 1,000 => Tetiana B.
                     </Text>
 
-                    <Text mt='1rem' color={textColor}>13.04.2022</Text>
+                    <Text mt='1rem' color={textColor} textDecoration='underline'>13.04.2022</Text>
                     <Text mt='0.2rem' color='#09A205'>
                         + ₴ 555 => Pavlo M.
                     </Text>
@@ -73,27 +73,27 @@ const DFBody = ({ totalUkr, totalEng }) => {
                 </TabPanel>
 
                 <TabPanel p={{ lg: 4, md: 4, sm: 2, base: 1 }} fontSize={{lg: '18px', md: '16px', sm: '15px', base: '14px' }}>
-                    <Text mt='1rem' color={textColor}>07.04.2022</Text>
+                    <Text mt='1rem' color={textColor} textDecoration='underline'>07.04.2022</Text>
                     <Text mt='0.2rem' color='#09A205'>
                         + $ 100 => Kamil I.
                     </Text>
 
-                    <Text mt='1rem' color={textColor}>12.04.2022</Text>
+                    <Text mt='1rem' color={textColor} textDecoration='underline'>12.04.2022</Text>
                     <Text mt='0.2rem' color='#09A205'>
                         + $ 300 => Hanna K.
                     </Text>
 
-                    <Text mt='1rem' color={textColor}>13.04.2022</Text>
+                    <Text mt='1rem' color={textColor} textDecoration='underline'>13.04.2022</Text>
                     <Text mt='0.2rem' color='#09A205'>
                         + $200 => Margus H.
                     </Text>
 
-                    <Text mt='1rem' color={textColor}>18.04.2022</Text>
+                    <Text mt='1rem' color={textColor} textDecoration='underline'>18.04.2022</Text>
                     <Text mt='0.2rem' color='#09A205'>
                         + $260 => Niklas L.
                     </Text>
 
-                    <Text mt='1rem' color={textColor}>19.04.2022</Text>
+                    <Text mt='1rem' color={textColor} textDecoration='underline'>19.04.2022</Text>
                     <Text mt='0.2rem' color='#09A205'>
                         + $103 => Simon D.
                     </Text>
@@ -109,11 +109,11 @@ const DFBody = ({ totalUkr, totalEng }) => {
                 </TabPanel>
 
                 <TabPanel p={{ lg: 4, md: 4, sm: 2, base: 1 }} fontSize={{lg: '18px', md: '16px', sm: '15px', base: '14px' }}>
-                    <Text mt='1rem' color={textColor}>11.04.2022</Text>
+                    <Text mt='1rem' color={textColor} textDecoration='underline'>11.04.2022</Text>
                     <Text mt='0.2rem' color='#09A205'>
                         + € 50 => an unknown person
                     </Text>
-                    <Text mt='1rem' color={textColor}>12.04.2022</Text>
+                    <Text mt='1rem' color={textColor} textDecoration='underline'>12.04.2022</Text>
                     <Text mt='0.2rem' color='#09A205'>
                         + € 150 => Kadri V.
                     </Text>
