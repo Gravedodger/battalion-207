@@ -85,17 +85,17 @@ const DFBody = ({ totalUkr, totalEng }) => {
 
                     <Text mt='1rem' color={textColor} textDecoration='underline'>13.04.2022</Text>
                     <Text mt='0.2rem' color='#09A205'>
-                        + $200 => Margus H.
+                        + $ 200 => Margus H.
                     </Text>
 
                     <Text mt='1rem' color={textColor} textDecoration='underline'>18.04.2022</Text>
                     <Text mt='0.2rem' color='#09A205'>
-                        + $260 => Niklas L.
+                        + $ 260 => Niklas L.
                     </Text>
 
                     <Text mt='1rem' color={textColor} textDecoration='underline'>19.04.2022</Text>
                     <Text mt='0.2rem' color='#09A205'>
-                        + $103 => Simon D.
+                        + $ 103 => Simon D.
                     </Text>
 
                     {/*     Total USD     */}
