@@ -11,16 +11,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16cc5659-9977-4949-ba87-ebf4e6bd80d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/PopoverPurchases/PopoverPurchases.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/PopoverPurchases/PopoverPurchasesItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/A-95--01-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/A-95--04-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/A-95--06-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/A-95--07-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/A-95--10-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/A-95--12-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/A-95--14-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/A-95--15-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/A-95--16-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/A-95--17-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/A-95--19-04.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Modal/ModalContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Modal/ModalContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Popover/Popover.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/PopoverFinSupport/PopoverFinSupport.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Popover/Popover.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/PopoverFinSupport/PopoverFinSupport.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Popover/PopoverItemCrypto.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/PopoverFinSupport/PopoverItemCrypto.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/PurchasedFeature/PurchasedFeatureENG.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/PurchasedFeature/PurchasedFeatureENG.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/finSupport/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/finSupport/eng.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/finSupport/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/finSupport/ukr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/PurchasedFeature/PurchasedFeatureUKR.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/PurchasedFeature/PurchasedFeatureUKR.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +64,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="17.9.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages/reports" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -72,19 +76,19 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\pages\reports" />
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\Gallery\img" />
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public" />
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public\images\currency" />
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\PurchasedFeature\components" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\PurchasedFeature\components\PurchasedHeader" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\PurchasedFeature\components\PurchasedBody" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\DonationsFeature\components\DFBody" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public" />
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\pages\reports" />
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\Gallery\img" />
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public\images\currency" />
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components" />
     </key>
   </component>
   <component name="RunManager">
@@ -136,7 +140,7 @@
       <workItem from="1652319828183" duration="6763000" />
       <workItem from="1652538845862" duration="48000" />
       <workItem from="1652539253426" duration="23186000" />
-      <workItem from="1652709042764" duration="7445000" />
+      <workItem from="1652709042764" duration="11058000" />
     </task>
     <servers />
   </component>
@@ -275,10 +279,10 @@
     </state>
     <state x="298" y="150" width="672" height="677" key="run.anything.popup/0.0.1280.672/686.-1080.1920.1080@0.0.1280.672" timestamp="1651220284141" />
     <state x="298" y="150" width="672" height="677" key="run.anything.popup/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1652558983243" />
-    <state x="303" y="0" width="672" height="670" key="search.everywhere.popup" timestamp="1652562556890">
+    <state x="303" y="0" width="672" height="670" key="search.everywhere.popup" timestamp="1652721948017">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="303" y="0" width="672" height="670" key="search.everywhere.popup/0.0.1280.672/686.-1080.1920.1080@0.0.1280.672" timestamp="1651216405472" />
+    <state x="303" y="0" width="672" height="670" key="search.everywhere.popup/0.0.1280.672/686.-1080.1920.1080@0.0.1280.672" timestamp="1652721948017" />
     <state x="303" y="0" width="672" height="670" key="search.everywhere.popup/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1652562556890" />
   </component>
 </project>

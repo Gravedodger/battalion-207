@@ -9,7 +9,7 @@ const PurchasedFeatureENG = () => {
     const bgColor = useColorModeValue('rgba(229,180,180,0.82)', 'rgba(112,128,144,0.45)');
 
     const itemId1 = <Text mt='0.2rem' color='#09A205'>+ Fuel A-95 => ₴ 1,436.86</Text>;
-    const itemId1Pic = <Image src='logo.png' alt='fuel purchase proof'/>;
+    const itemId1Pic = <Image src='./public/A-95--01.04.jpg' alt='fuel purchase proof'/>;
 
     const itemId2 = <Text mt='0.2rem' color='#09A205'>+ Pistol holder & 2x knives => ₴ 1,358.20</Text>;
     const itemId2Pic = <Image src='logo.png' alt='items purchase proof'/>;
