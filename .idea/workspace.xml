@@ -11,11 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16cc5659-9977-4949-ba87-ebf4e6bd80d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/components/PopoverPurchases/PopoverPurchases.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/PopoverPurchases/PopoverPurchasesItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/WarStats/WarStatsENG.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/WarStatsENG.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/WarStats/WarStatsUKR.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/WarStatsUKR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/WarStats/components/WarListUKR.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/WarListUKR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/WarStats/components/warListENG.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/warListENG.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Modal/ModalContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Modal/ModalContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Popover/Popover.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/PopoverFinSupport/PopoverFinSupport.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Popover/Popover.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/PopoverFinSupport/PopoverFinSupport.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Popover/PopoverItemCrypto.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/PopoverFinSupport/PopoverItemCrypto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/PurchasedFeature/PurchasedFeatureENG.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/PurchasedFeature/PurchasedFeatureENG.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/finSupport/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/finSupport/eng.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/finSupport/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/finSupport/ukr.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +136,7 @@
       <workItem from="1652319828183" duration="6763000" />
       <workItem from="1652538845862" duration="48000" />
       <workItem from="1652539253426" duration="23186000" />
-      <workItem from="1652709042764" duration="268000" />
+      <workItem from="1652709042764" duration="7445000" />
     </task>
     <servers />
   </component>
@@ -170,10 +175,10 @@
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="97" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1650938547308" />
-    <state x="365" y="139" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1651626429404">
+    <state x="365" y="139" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1652713525534">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="365" y="139" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.672/686.-1080.1920.1080@0.0.1280.672" timestamp="1651445437186" />
+    <state x="365" y="139" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.672/686.-1080.1920.1080@0.0.1280.672" timestamp="1652713525534" />
     <state x="365" y="139" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1651626429404" />
     <state x="372" y="84" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1652021785333">
       <screen x="0" y="0" width="1280" height="672" />

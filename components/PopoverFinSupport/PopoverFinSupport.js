@@ -1,12 +1,12 @@
 import React  from 'react';
-import styles from '/components/Popover/Popover.module.css';
+import styles from '/components/PopoverFinSupport/PopoverFinSupport.module.css';
 import {
     Popover, PopoverTrigger, PopoverContent, PopoverHeader, PopoverBody, Box, PopoverFooter, PopoverArrow,
     PopoverCloseButton, Text, Flex, useColorModeValue
 } from '@chakra-ui/react';
 import CopyContents from "../CopyContents/CopyContents";
 
-const PopoverItem = ({   trigger, title, payPal, directDepositLabel, PayoneerLabel,
+const PopoverFinSupportItem = ({   trigger, title, payPal, directDepositLabel, PayoneerLabel,
                          PayPalLabel, gratitude, requisites, ukraine }) => {
     const textColor = useColorModeValue('#222222', '#c59d5f');
 
@@ -26,6 +26,7 @@ const PopoverItem = ({   trigger, title, payPal, directDepositLabel, PayoneerLab
                     </Text>
                 </PopoverHeader>
                 <PopoverCloseButton />
+
                 <PopoverBody className={styles.popBody}>
                     <Flex className={styles.popFlex} ml='-5px' mr='15px'>
                         <Text className={styles.popItem} color={textColor}>{PayPalLabel}</Text>
@@ -56,4 +57,4 @@ const PopoverItem = ({   trigger, title, payPal, directDepositLabel, PayoneerLab
     );
 }
 
-export default PopoverItem;
+export default PopoverFinSupportItem;

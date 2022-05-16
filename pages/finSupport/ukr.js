@@ -2,8 +2,8 @@ import React  from 'react';
 import styles from "/styles/FinSupport.module.css";
 import Head from "next/head";
 import Header from "/components/Header/Header";
-import PopoverItem from "/components/Popover/Popover";
-import PopoverItemCrypto from "/components/Popover/PopoverItemCrypto";
+import PopoverFinSupportItem from "/components/PopoverFinSupport/PopoverFinSupport";
+import PopoverItemCrypto from "/components/PopoverFinSupport/PopoverItemCrypto";
 import { PayPalEUR, PayPalGBP, PayPalUSD } from "/components/PayPalButtons";
 import { EurRequisitesUkr, GbpRequisitesUkr, UahRequisitesUkr, UsdRequisitesUkr } from "/components/Requisites/RequisitesUKR";
 import { Center, Image, GridItem, Grid, Box, Text, Link, useColorModeValue } from '@chakra-ui/react';
@@ -98,7 +98,7 @@ const FinSupportPageUkr = () => {
 
                 <GridItem w={{ lg: '90%', md: '80%', sm: '60%', base: '50%' }}>
                     {/*   USD   */}
-                    <PopoverItem
+                    <PopoverFinSupportItem
                         title='USD опції:'
                         trigger={USD}
                         PayPalLabel='Використати PayPal:'
@@ -113,7 +113,7 @@ const FinSupportPageUkr = () => {
 
                 <GridItem w={{ lg: '90%', md: '80%', sm: '60%', base: '50%' }}>
                     {/*   GBP   */}
-                    <PopoverItem
+                    <PopoverFinSupportItem
                         title='GBP опції:'
                         trigger={GBP}
                         PayPalLabel='Використати PayPal:'
@@ -128,7 +128,7 @@ const FinSupportPageUkr = () => {
 
                 <GridItem w={{ lg: '90%', md: '80%', sm: '60%', base: '50%' }}>
                     {/*   EUR   */}
-                    <PopoverItem
+                    <PopoverFinSupportItem
                         title='EUR опції:'
                         trigger={EUR}
                         PayPalLabel='Використати PayPal:'
@@ -143,7 +143,7 @@ const FinSupportPageUkr = () => {
 
                 <GridItem w={{ lg: '90%', md: '80%', sm: '60%', base: '50%' }}>
                     {/*   UAH   */}
-                    <PopoverItem
+                    <PopoverFinSupportItem
                         title='Гривневі опції:'
                         trigger={UAH}
                         PayoneerLabel='Використати Payoneer:'

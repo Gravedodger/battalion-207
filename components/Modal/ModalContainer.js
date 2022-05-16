@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import styles from '/components/Popover/Popover.module.css';
+import styles from '/components/PopoverFinSupport/PopoverFinSupport.module.css';
 import {Box, Text, Button, useColorModeValue} from '@chakra-ui/react';
 import { useDisclosure } from '@chakra-ui/react';
 import { Modal, ModalOverlay, ModalContent, ModalHeader, ModalFooter, ModalBody, ModalCloseButton } from '@chakra-ui/react'

@@ -1,5 +1,5 @@
 import React  from 'react';
-import styles from '/components/Popover/Popover.module.css';
+import styles from '/components/PopoverFinSupport/PopoverFinSupport.module.css';
 import { Popover, PopoverTrigger, PopoverContent, PopoverHeader, PopoverBody, Box, PopoverFooter, PopoverArrow,
     PopoverCloseButton, Text } from '@chakra-ui/react';
 
