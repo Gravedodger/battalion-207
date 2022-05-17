@@ -1,7 +1,18 @@
 import React from 'react';
 import styles from './PurchasedFeature.module.css';
 import PurchasedHeader from "./components/PurchasedHeader";
-import { Box, Container, Tab, TabList, TabPanel, TabPanels, Tabs, Text, useColorModeValue} from '@chakra-ui/react';
+import {
+    Box,
+    Container,
+    Image,
+    Tab,
+    TabList,
+    TabPanel,
+    TabPanels,
+    Tabs,
+    Text,
+    useColorModeValue
+} from '@chakra-ui/react';
 import PopoverPurchasesItem from "../PopoverPurchases/PopoverPurchasesItem";
 
 const PurchasedFeatureUKR = () => {
@@ -9,86 +20,121 @@ const PurchasedFeatureUKR = () => {
     const bgColor = useColorModeValue('rgba(229,180,180,0.82)', 'rgba(112,128,144,0.45)');
 
     const itemId1 = <Text mt='0.2rem' color='#09A205'>+ Бензин A-95 => ₴ 1,436.86</Text>;
+    const itemId1Pic = <Image src='/A-95--01-04.jpg' alt='fuel purchase proof' />;
 
     const itemId2 = <Text mt='0.2rem' color='#09A205'>+ Кобура & 2x тактичні ножі => ₴ 1,358.20</Text>;
+    const itemId2Pic = <Image src='/PistolHolder_&_Knives--02-04.jpg' alt='items purchase proof'/>;
 
     const itemId3 = <Text mt='0.2rem' color='#09A205'>+ 3x Дощовики => ₴ 3,022.60</Text>;
+    const itemId3Pic = <Image src='/Ponchos--03-04.jpg' alt='items purchase proof'/>;
 
     const itemId4 = <Text mt='0.2rem' color='#09A205'>+ 100m електричний кабель => ₴ 1,500</Text>;
+    const itemId4Pic = <Image src='/Cable_&_food.jpg' alt='items purchase proof'/>;
 
     const itemId5 = <Text mt='0.2rem' color='#09A205'>+ Штикова лопата => ₴ 549</Text>;
+    const itemId5Pic = <Image src='/ShovelSharp_&_journals--03-04.jpg' alt='items purchase proof'/>;
 
     const itemId6 = <Text mt='0.2rem' color='#09A205'>+ Штикова лопата => ₴ 549</Text>;
+    const itemId6Pic = <Image src='/ShovelSharp--03-04.jpg' alt='items purchase proof'/>;
 
     const itemId7 = <Text mt='0.2rem' color='#09A205'>+ Тактична лопата Skif => ₴ 1,600</Text>;
+    const itemId7Pic = <Image src='/SkifShovel--03-04.jpg' alt='items purchase proof'/>;
 
     const itemId8 = <Text mt='0.2rem' color='#09A205'>+ Бензин A-95 => ₴ 400.22</Text>;
+    const itemId8Pic = <Image src='/A-95--04-04.jpg' alt='fuel purchase proof'/>;
 
     const itemId9 = <Text mt='0.2rem' color='#09A205'>+ Коліматорний приціл Hawke RD1 => ₴ 4,300</Text>;
+    const itemId9Pic = <Image src='' alt='items purchase proof'/>;
 
     const itemId10 = <Text mt='0.2rem' color='#09A205'>+ Мобільний телефон HTC Desire 600 => ₴ 1,000</Text>;
+    const itemId10Pic = <Image src='' alt='items purchase proof'/>;
 
     const itemId11 = <Text mt='0.2rem' color='#09A205'>+ 800x мішки для піска =>  ₴ 7,200</Text>;
+    const itemId11Pic = <Image src='/Sandbags--06-04.jpg' alt='items purchase proof'/>;
 
     const itemId12 = <Text mt='0.2rem' color='#09A205'>+ Бензин A-95 => ₴ 1,260.51</Text>;
+    const itemId12Pic = <Image src='/A-95--07-04.jpg' alt='items purchase proof'/>;
 
     const itemId13 = <Text mt='0.2rem' color='#09A205'>+ Кобура => ₴ 432</Text>;
+    const itemId13Pic = <Image src='/PistolHolder--07-04.jpg' alt='items purchase proof'/>;
 
     const itemId14 = <Text mt='0.2rem' color='#09A205'>+ Домкрат (2t.) => ₴ 1,570</Text>;
+    const itemId14Pic = <Image src='/Domkrat--08-04.jpg' alt='items purchase proof'/>;
 
     const itemId15 = <Text mt='0.2rem' color='#09A205'>+ 2x лебідки (3.5t) => ₴ 2,831.96</Text> ;
+    const itemId15Pic = <Image src='/Wrenches--08-04.jpg' alt='items purchase proof'/>;
 
     const itemId16 = <Text mt='0.2rem' color='#09A205'>+ 200м електричний кабель => ₴ 2,640</Text>;
+    const itemId16Pic = <Image src='logo.png' alt='items purchase proof'/>;
 
     const itemId17 = <Text mt='0.2rem' color='#09A205'>+ 3x бутлі для води => ₴ 760</Text>;
+    const itemId17Pic = <Image src='logo.png' alt='items purchase proof'/>;
 
     const itemId18 = <Text mt='0.2rem' color='#09A205'>+ Бензин A-95 => ₴ 1,035</Text>;
+    const itemId18Pic = <Image src='logo.png' alt='items purchase proof' />;
 
     const itemId19 = <Text mt='0.2rem' color='#09A205'>+ 10x бутлі для води => ₴ 2,575</Text>;
+    const itemId19Pic = <Image src='logo.png' alt='items purchase proof' />;
 
     const itemId20 = <Text mt='0.2rem' color='#09A205'>+ 50м щільна плівка => ₴ 2,060</Text>;
+    const itemId20Pic = <Image src='/Plastic&Tape&Sandbags--13-04.jpg' alt='items purchase proof'/>;
 
     const itemId21 = <Text mt='0.2rem' color='#09A205'>+ 1,000x мішки для піску => ₴ 10,800</Text>;
+    const itemId21Pic = <Image src='/Plastic&Tape&Sandbags--13-04.jpg' alt='items purchase proof'/>;
 
     const itemId22 = <Text mt='0.2rem' color='#09A205'>+ 2x алюмінієва стрічка => ₴ 545.40</Text>;
+    const itemId22Pic = <Image src='/Plastic&Tape&Sandbags--13-04.jpg' alt='items purchase proof'/>;
 
     const itemId23 = <Text mt='0.2rem' color='#09A205'>+ Бензин A-95 => ₴ 862.50</Text>;
+    const itemId23Pic = <Image src='/A-95--14-04.jpg' alt='items purchase proof' />;
 
     const itemId24 = <Text mt='0.2rem' color='#09A205'>+ Бензин A-95 => ₴ 711.20</Text>;
+    const itemId24Pic = <Image src='/A-95--15-04.jpg' alt='items purchase proof' />;
 
     const itemId25 = <Text mt='0.2rem' color='#09A205'>+ Бензин A-95 => ₴ 973.10</Text>;
+    const itemId25Pic = <Image src='/A-95--15-04.jpg' alt='items purchase proof' />;
 
     const itemId26 = <Text mt='0.2rem' color='#09A205'>+ Стіл для штабу => ₴ 888</Text>;
+    const itemId26Pic = <Image src='/Table-for-HQ--15-04.jpg' alt='items purchase proof'/>;
 
-    const itemId27 = ;
+    const itemId27 = <Text mt='0.2rem' color='#09A205'>+ Бензин A-95 => ₴ 510</Text>;
+    const itemId27Pic = <Image src='/A-95--16-04.jpg' alt='items purchase proof' />;
 
-    const itemId28 = ;
+    const itemId28 = <Text mt='0.2rem' color='#09A205'>+ 50м щільна плівка => ₴ 1,683</Text>;
+    const itemId28Pic = <Image src='Plastic--16-04.jpg' alt='items purchase proof' />;
 
-    const itemId29 = ;
+    const itemId29 = <Text mt='0.2rem' color='#09A205'>+ Бензин A-95 => ₴ 1,035</Text>;
+    const itemId29Pic = <Image src='/A-95--17-04.jpg' alt='items purchase proof' />;
 
-    const itemId29 = ;
+    const itemId30 = <Text mt='0.2rem' color='#09A205'>+ Бензин A-95 => ₴ 403.60</Text>;
+    const itemId30Pic = <Image src='/A-95--19-04.jpg' alt='items purchase proof' />;
 
-    const itemId30 = ;
+    const itemId31 = <Text mt='0.2rem' color='#09A205'>+ Бензин A-95 => ₴ 711.20</Text>;
+    const itemId31Pic = <Image src='A-95--19-04.jpg' alt='items purchase proof' />;
 
-    const itemId31 = ;
+    const itemId32 = <Text mt='0.2rem' color='#09A205'>+ 1,000 мішки для піска => ₴ 5,970</Text>;
+    const itemId32Pic = <Image src='/Sandbags_&_Plastic.jpg' alt='items purchase proof'/>;
 
-    const itemId32 = ;
+    const itemId33 = <Text mt='0.2rem' color='#09A205'>+ 50м щільна плівка => ₴ 726.62</Text>;
+    const itemId33Pic = <Image src='logo.png' alt='items purchase proof' />;
 
-    const itemId33 = ;
+    const itemId34 = <Text mt='0.2rem' color='#09A205'>+ Бензин A-95 => ₴ 722</Text>;
+    const itemId34Pic = <Image src='logo.png' alt='items purchase proof' />;
 
-    const itemId34 = ;
+    const itemId35 = <Text mt='0.2rem' color='#09A205'>+ Бензин A-95 => ₴ 415.40</Text>;
+    const itemId35Pic = <Image src='logo.png' alt='items purchase proof' />;
 
-    const itemId35 = ;
+    const itemId36 = <Text mt='0.2rem' color='#09A205'>+ Бензин A-95 => ₴ 395.70</Text>;
+    const itemId36Pic = <Image src='logo.png' alt='items purchase proof' />;
 
-    const itemId36 = ;
+    const itemId37 = <Text mt='0.2rem' color='#09A205'>+ Бензин A-95 => ₴ 754</Text>;
+    const itemId37Pic = <Image src='logo.png' alt='items purchase proof' />;
 
-    const itemId37 = ;
+    const itemId38 = <Text mt='0.2rem' color='#09A205'>+ Бензин A-95 => ₴ 791.40</Text>;
+    const itemId38Pic = <Image src='logo.png' alt='items purchase proof' />;
 
-    const itemId38 = ;
-
-
-
-
+    const itemId39 = <Text mt='0.2rem' color='#09A205'> + Бензин A-95 => ₴ 791.40</Text>;
+    const itemId39Pic = <Image src='' alt='fuel purchase proof' />
     return (
         <Container className={styles.purchasedContainer} backgroundColor={bgColor}>
             <PurchasedHeader titleUkr='Закупівлі' />
@@ -161,38 +207,21 @@ const PurchasedFeatureUKR = () => {
                         <PopoverPurchasesItem trigger={itemId25} title='Бензин A-95' purchaseProof={itemId25Pic} />
                         <PopoverPurchasesItem trigger={itemId26} title='Стіл для штабу' purchaseProof={itemId26Pic} />
 
-
                         <Text mt='1rem' color={textColor} textDecoration='underline'>16.04.2022</Text>
-                        <Text mt='0.2rem' color='#09A205'>
-                            + Бензин A-95 => ₴ 510
-                        </Text>
-                        <Text mt='0.2rem' color='#09A205'>
-                            + 50м щільна плівка => ₴ 1,683
-                        </Text>
+                        <PopoverPurchasesItem trigger={itemId27} title='Бензин A-95' purchaseProof={itemId27Pic} />
+                        <PopoverPurchasesItem trigger={itemId28} title='Щільна плівка' purchaseProof={itemId28Pic} />
 
                         <Text mt='1rem' color={textColor} textDecoration='underline'>17.04.2022</Text>
-                        <Text mt='0.2rem' color='#09A205'>
-                            + Бензин A-95 => ₴ 1,035
-                        </Text>
+                        <PopoverPurchasesItem trigger={itemId29} title='Бензин A-95' purchaseProof={itemId29Pic} />
 
                         <Text mt='1rem' color={textColor} textDecoration='underline'>19.04.2022</Text>
-                        <Text mt='0.2rem' color='#09A205'>
-                            + Бензин A-95 => ₴ 403.60
-                        </Text>
-                        <Text mt='0.2rem' color='#09A205'>
-                            + Бензин A-95 => ₴ 711.20
-                        </Text>
-                        <Text mt='0.2rem' color='#09A205'>
-                            + 1,000 мішки для піска => ₴ 5,970
-                        </Text>
-                        <Text mt='0.2rem' color='#09A205'>
-                            + 50м щільна плівка => ₴ 726.62
-                        </Text>
+                        <PopoverPurchasesItem trigger={itemId30} title='Бензин A-95' purchaseProof={itemId30Pic} />
+                        <PopoverPurchasesItem trigger={itemId31} title='Бензин A-95' purchaseProof={itemId31Pic} />
+                        <PopoverPurchasesItem trigger={itemId32} title='Мішки для піска' purchaseProof={itemId32Pic} />
+                        <PopoverPurchasesItem trigger={itemId33} title='Щільна плівка' purchaseProof={itemId33Pic} />
 
                         <Text mt='1rem' color={textColor} textDecoration='underline'>29.04.2022</Text>
-                        <Text mt='0.2rem' color='#09A205'>
-                            + Бензин A-95 => ₴ 722
-                        </Text>
+                        <PopoverPurchasesItem trigger={itemId34} title='Бензин A-95' purchaseProof={itemId34Pic} />
 
                         {/*     Total for April     */}
                         <Box display='flex' alignItems='center' mt='30px'>
@@ -206,29 +235,21 @@ const PurchasedFeatureUKR = () => {
                     {/*     MAY    */}
                     <TabPanel p={{ lg: 4, md: 4, sm: 2, base: 1 }} fontSize={{lg: '18px', md: '16px', sm: '15px', base: '14px' }}>
                         <Text mt='1rem' color={textColor} textDecoration='underline'>01.05.2022</Text>
-                        <Text mt='0.2rem' color='#09A205'>
-                            + Бензин A-95 => ₴ 415.40
-                        </Text>
+                        <PopoverPurchasesItem trigger={itemId35} title='Бензин A-95' purchaseProof={itemId35Pic} />
 
                         <Text mt='1rem' color={textColor} textDecoration='underline'>06.05.2022</Text>
-                        <Text mt='0.2rem' color='#09A205'>
-                            + Бензин A-95 => ₴ 395.70
-                        </Text>
+                        <PopoverPurchasesItem trigger={itemId36} title='Бензин A-95' purchaseProof={itemId36Pic} />
 
                         <Text mt='1rem' color={textColor} textDecoration='underline'>07.07.2022</Text>
-                        <Text mt='0.2rem' color='#09A205'>
-                            + Бензин A-95 => ₴ 754
-                        </Text>
+                        <PopoverPurchasesItem trigger={itemId37} title='Бензин A-95' purchaseProof={itemId37} />
+
 
                         <Text mt='1rem' color={textColor} textDecoration='underline'>10.05.2022</Text>
-                        <Text mt='0.2rem' color='#09A205'>
-                            + Бензин A-95 => ₴ 791.40
-                        </Text>
+                        <PopoverPurchasesItem trigger={itemId38} title='Бензин A-95' purchaseProof={itemId38Pic} />
+
 
                         <Text mt='1rem' color={textColor} textDecoration='underline'>13.05.2022</Text>
-                        <Text mt='0.2rem' color='#09A205'>
-                            + Бензин A-95 => ₴ 791.40
-                        </Text>
+                        <PopoverPurchasesItem trigger={itemId39} title='Бензин A-95' purchaseProof={itemId39Pic} />
 
                         {/*     Total for May     */}
                         <Box display='flex' alignItems='center' mt='30px'>

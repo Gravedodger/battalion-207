@@ -11,17 +11,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16cc5659-9977-4949-ba87-ebf4e6bd80d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/A-95--01-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/A-95--04-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/A-95--06-05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/A-95--07-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/A-95--10-05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/A-95--12-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/A-95--14-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/A-95--15-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/A-95--16-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/A-95--17-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/A-95--19-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Anti-rain_ponchos 03-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Cable--08-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Cable_&amp;_food--03-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Domkrat--08-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/PistolHolder--07-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/PistolHolder_&amp;_Knives--02-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Plastic&amp;Tape&amp;Sandbags--13-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Plastic--16-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Ponchos--03-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Sandbags--06-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Sandbags_&amp;_Plastic--19-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ShovelSharp--03-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ShovelSharp_&amp;_journals--03-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/SkifShovel--03-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Table-for-HQ--15-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Wrenches--08-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Лебідки-08-04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/smaly.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/smaly.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/PurchasedFeature/PurchasedFeatureENG.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/PurchasedFeature/PurchasedFeatureENG.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/PurchasedFeature/PurchasedFeatureUKR.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/PurchasedFeature/PurchasedFeatureUKR.js" afterDir="false" />
@@ -76,19 +83,19 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\PurchasedFeature\components" />
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\PurchasedFeature\components\PurchasedHeader" />
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\PurchasedFeature\components\PurchasedBody" />
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\DonationsFeature\components\DFBody" />
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\pages\reports" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\Gallery\img" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public\images\currency" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\PurchasedFeature\components" />
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\PurchasedFeature\components\PurchasedHeader" />
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\PurchasedFeature\components\PurchasedBody" />
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\DonationsFeature\components\DFBody" />
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public" />
     </key>
   </component>
   <component name="RunManager">
@@ -140,7 +147,8 @@
       <workItem from="1652319828183" duration="6763000" />
       <workItem from="1652538845862" duration="48000" />
       <workItem from="1652539253426" duration="23186000" />
-      <workItem from="1652709042764" duration="11058000" />
+      <workItem from="1652709042764" duration="13763000" />
+      <workItem from="1652779965034" duration="2495000" />
     </task>
     <servers />
   </component>
