@@ -6,7 +6,7 @@ import WarListENG from "./components/warListENG";
 const WarStatsENG = () => {
     return (
         <Center p={0} flexDirection='column'>
-            <WarHeader titleENG="Enemy losses on" date='16.05.2022' />
+            <WarHeader titleENG="Enemy losses on" date='17.05.2022' />
             <WarListENG />
         </Center>
     );

@@ -11,27 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16cc5659-9977-4949-ba87-ebf4e6bd80d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Anti-rain_ponchos 03-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Cable--08-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Cable_&amp;_food--03-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Domkrat--08-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/PistolHolder--07-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/PistolHolder_&amp;_Knives--02-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Plastic&amp;Tape&amp;Sandbags--13-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Plastic--16-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Ponchos--03-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Sandbags--06-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Sandbags_&amp;_Plastic--19-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ShovelSharp--03-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ShovelSharp_&amp;_journals--03-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/SkifShovel--03-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Table-for-HQ--15-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Wrenches--08-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Лебідки-08-04.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/smaly.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/smaly.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/PurchasedFeature/PurchasedFeatureENG.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/PurchasedFeature/PurchasedFeatureENG.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/PurchasedFeature/PurchasedFeatureUKR.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/PurchasedFeature/PurchasedFeatureUKR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/WarStats/WarStatsENG.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/WarStatsENG.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/WarStats/WarStatsUKR.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/WarStatsUKR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/WarStats/components/WarListUKR.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/WarListUKR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/WarStats/components/warListENG.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/warListENG.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +132,7 @@
       <workItem from="1652538845862" duration="48000" />
       <workItem from="1652539253426" duration="23186000" />
       <workItem from="1652709042764" duration="13763000" />
-      <workItem from="1652779965034" duration="2495000" />
+      <workItem from="1652779965034" duration="3094000" />
     </task>
     <servers />
   </component>
