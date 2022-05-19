@@ -2,11 +2,12 @@ import React from 'react';
 import styles from "/styles/Styles.module.css";
 import Head from "next/head";
 import Header from "/components/Header/Header";
-import Gallery from "../../components/Gallery";
+import Gallery from "/components/Gallery";
+import DandD from "/components/D&D";
 import { Center, Container, Box, Image, Text, useColorModeValue } from '@chakra-ui/react';
 
 const AboutPageUkr = () => {
-    const textColor = useColorModeValue('#222222', '#ffffff');
+    const textColor = useColorModeValue('#222222', '#fff');
 
     return <>
         <Head>
@@ -15,7 +16,7 @@ const AboutPageUkr = () => {
             <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
             <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
             <meta name="description" content="Battalion-207 інформація про батальйон" />
-            <link rel="icon" href="./../../public/favicon.ico" />
+            <link rel="icon" href="/favicon.ico" />
             <title>Battalion-207 || Про Батальйон</title>
         </Head>
 
@@ -67,6 +68,8 @@ const AboutPageUkr = () => {
                     <Gallery/>
                 </Box>
             </Center>
+
+            <DandD />
         </main>
     </>
 }

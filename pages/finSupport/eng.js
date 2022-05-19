@@ -4,32 +4,33 @@ import Head from "next/head";
 import Header from "/components/Header/Header";
 import PopoverFinSupportItem from "/components/PopoverFinSupport/PopoverFinSupport";
 import PopoverItemCrypto from "/components/PopoverFinSupport/PopoverItemCrypto";
+import DandD from "/components/D&D";
 import { PayPalEUR, PayPalGBP, PayPalUSD } from "/components/PayPalButtons";
 import { EurRequisitesEng, GbpRequisitesEng,  UahRequisitesEng, UsdRequisitesEng } from '/components/Requisites/index';
-import {Center, Image, GridItem, Grid, Box, Text, useColorModeValue, Link} from '@chakra-ui/react';
+import { Center, Image, GridItem, Grid, Box, Text, useColorModeValue, Link } from '@chakra-ui/react';
 
 const FinSupportPageEng = () => {
     const textColor = useColorModeValue('#222222', '#fffffff0');
     const linkColor = useColorModeValue('#c59d5f', '#c59d5f');
 
-    const USD = <Image src='/usd-round.png' className={styles.currencyIcn} objectFit='fill' alt='USD' />;
+    const USD = <Image src='/currency/usd-round.png' className={styles.currencyIcn} objectFit='fill' alt='USD' />;
     const ppUSD = <PayPalUSD />;
     const usdReq = <UsdRequisitesEng />
 
-    const GBP = <Image src='/pound-round.png' className={styles.currencyIcn} objectFit='fill' alt='GBP' />;
+    const GBP = <Image src='/currency/pound-round.png' className={styles.currencyIcn} objectFit='fill' alt='GBP' />;
     const ppGBP = <PayPalGBP />
     const gbpReq = <GbpRequisitesEng />
 
-    const EUR = <Image src='/euro-round.png' className={styles.currencyIcn} objectFit='fill' alt='EUR' />;
+    const EUR = <Image src='/currency/euro-round.png' className={styles.currencyIcn} objectFit='fill' alt='EUR' />;
     const ppEUR = <PayPalEUR />
     const eurReq = <EurRequisitesEng />
 
-    const UAH = <Image src='/hryvna-round.png' className={styles.currencyIcn} objectFit='fill' alt='UAH' />;
+    const UAH = <Image src='/currency/hryvna-round.png' className={styles.currencyIcn} objectFit='fill' alt='UAH' />;
     const uahReq = <UahRequisitesEng />
 
-    const Bitcoin = <Image src='/bitcoin-round.png' className={styles.currencyIcn} objectFit='fill' alt='Bitcoin' />
+    const Bitcoin = <Image src='/currency/bitcoin-round.png' className={styles.currencyIcn} objectFit='fill' alt='Bitcoin' />
 
-    const Ethereum = <Image src='/ethereum-round.png' className={styles.currencyIcn} objectFIt='fill' alt='Bitcoin' />
+    const Ethereum = <Image src='/currency/ethereum-round.png' className={styles.currencyIcn} objectFIt='fill' alt='Bitcoin' />
 
     return <>
         <Head>
@@ -38,7 +39,7 @@ const FinSupportPageEng = () => {
             <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
             <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
             <meta name="description" content="Battalion-207 bank account requisites" />
-            <link rel="icon" href="./../../public/favicon.ico" />
+            <link rel="icon" href="/favicon.ico" />
             <title>Battalion-207 || Requisites</title>
         </Head>
 
@@ -176,6 +177,8 @@ const FinSupportPageEng = () => {
                     />
                 </GridItem>
             </Grid>
+
+            <DandD />
         </Center>
     </>
 }

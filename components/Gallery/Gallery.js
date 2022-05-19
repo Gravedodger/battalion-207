@@ -13,47 +13,47 @@ class Gallery extends React.Component {
             {
                 id: 1,
                 alt: 'Battalion photo',
-                src: '/featured-1.jpg'
+                src: '/gallery/featured-1.jpg'
             },
             {
                 id: 2,
                 alt: 'Battalion photo',
-                src: '/featured-2.jpg'
+                src: '/gallery/featured-2.jpg'
             },
             {
                 id: 3,
                 alt: 'Battalion photo',
-                src: '/featured-3.jpg'
+                src: '/gallery/featured-3.jpg'
             },
             {
                 id: 4,
                 alt: 'Battalion photo',
-                src: '/featured-4.jpg'
+                src: '/gallery/featured-4.jpg'
             },
             {
                 id: 5,
                 alt: 'Battalion photo',
-                src: '/featured-5.jpg'
+                src: '/gallery/featured-5.jpg'
             },
             {
                 ig: 6,
                 alt: 'Battalion photo',
-                src: '/featured-6.jpg'
+                src: '/gallery/featured-6.jpg'
             },
             {
                 id: 7,
                 alt: 'Battalion photo',
-                src: '/featured-7.jpg'
+                src: '/gallery/featured-7.jpg'
             },
             {
                 id: 8,
                 alt: 'Battalion photo',
-                src: '/featured-8.jpg'
+                src: '/gallery/featured-8.jpg'
             },
             {
                 id: 9,
                 alt: 'Battalion photo',
-                src: '/Gutsul.jpg'
+                src: '/gallery/Gutsul.jpg'
             }
         ]
 

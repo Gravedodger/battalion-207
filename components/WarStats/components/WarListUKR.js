@@ -10,84 +10,84 @@ const WarListUKR = () => {
 
         <GridItem w='100%'>
             <WarItem
-                warIcon='/icnPersonnel.png'
+                warIcon='/icons/icnPersonnel.png'
                 warCount='28,300'
                 warInfoUKR='Особовий склад'
             />
         </GridItem>
         <GridItem w='80%'>
             <WarItem
-                warIcon='/icnTank.png'
+                warIcon='/icons/icnTank.png'
                 warCount='1,251'
                 warInfoUKR='Танки'
             />
         </GridItem>
         <GridItem w='80%'>
             <WarItem
-                warIcon='/icnAV.png'
+                warIcon='/icons/icnAV.png'
                 warCount='3,043'
                 warInfoUKR='Броньовані машини'
             />
         </GridItem>
         <GridItem w='80%'>
             <WarItem
-                warIcon='/icnJet.png'
+                warIcon='/icons/icnJet.png'
                 warCount='202'
                 warInfoUKR='Літаки'
             />
         </GridItem>
         <GridItem w='80%'>
             <WarItem
-                warIcon='/icnHelicopter.png'
+                warIcon='/icons/icnHelicopter.png'
                 warCount='167'
                 warInfoUKR='Helicopters'
             />
         </GridItem>
         <GridItem w='80%'>
             <WarItem
-                warIcon='/icnUAV.png'
+                warIcon='/icons/icnUAV.png'
                 warCount='441'
                 warInfoUKR='БПЛА'
             />
         </GridItem>
         <GridItem w='80%'>
             <WarItem
-                warIcon='/icnAirDef.png'
+                warIcon='/icons/icnAirDef.png'
                 warCount='91'
                 warInfoUKR='Засоби ППО'
             />
         </GridItem>
         <GridItem w='80%'>
             <WarItem
-                warIcon='/icnArtillery.png'
+                warIcon='/icons/icnArtillery.png'
                 warCount='586'
                 warInfoUKR='Арт. системи'
             />
         </GridItem>
         <GridItem w='80%'>
             <WarItem
-                warIcon='/icnMLRS.png'
+                warIcon='/icons/icnMLRS.png'
                 warCount='199'
                 warInfoUKR='РСЗВ'
             />
         </GridItem>
         <GridItem w='80%'>
             <WarItem
-                warIcon='/icnTruck.png'
+                warIcon='/icons/icnTruck.png'
                 warCount='2,137'
                 warInfoUKR='Автотехніка'
             />
         </GridItem>
         <GridItem w='80%'>
             <WarItem
-                warIcon='/icnShip.png'
+                warIcon='/icons/icnShip.png'
                 warCount='13'
                 warInfoUKR='Кораблі'
             />
         </GridItem>
         <GridItem w='80%'>
             <WarItem
-                warIcon='/excavator.png'
+                warIcon='/icons/excavator.png'
                 warCount='43'
                 warInfoUKR='Спеціальна техніка'
             />

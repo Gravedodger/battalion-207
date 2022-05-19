@@ -3,6 +3,7 @@ import styles from "/styles/Contacts.module.css";
 import Head from "next/head";
 import Link from "next/link";
 import Header from "/components/Header/Header"
+import DandD from "/components/D&D";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { Center, TableContainer, Table, Tbody, Tr, Td, Image, Text, useColorModeValue } from '@chakra-ui/react';
 
@@ -17,7 +18,7 @@ const ContactsPageUkr = () => {
             <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
             <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
             <meta name="description" content="Батальйон 207 контактна інформація" />
-            <link rel="icon" href="./../../public/favicon.ico" />
+            <link rel="icon" href="/favicon.ico" />
             <title>Battalion-207 || Контакти</title>
         </Head>
 
@@ -93,6 +94,8 @@ const ContactsPageUkr = () => {
                     </TableContainer>
                 </div>
             </Center>
+
+            <DandD />
         </main>
     </>
 }

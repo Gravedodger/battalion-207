@@ -5,6 +5,7 @@ import Head from "next/head";
 import Header from "/components/Header/Header";
 import Card from "/components/Card/Card";
 import Categories from "/components/Categories/Categories";
+import DandD from "/components/D&D";
 import { Center, Box, Tooltip } from '@chakra-ui/react';
 
 const ItemsPageUkr = () => {
@@ -25,7 +26,7 @@ const ItemsPageUkr = () => {
             <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
             <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
             <meta name="description" content="Battalion-207 нагальна необхіждність" />
-            <link rel="icon" href="./../../public/favicon.ico" />
+            <link rel="icon" href="/public/favicon.ico" />
             <title>Батальйон-207 || Нагальна необхідність</title>
         </Head>
 
@@ -51,6 +52,8 @@ const ItemsPageUkr = () => {
                     <Card item={item} />
                 </Box>
             </Center>
+
+            <DandD />
         </main>
     </>
 }

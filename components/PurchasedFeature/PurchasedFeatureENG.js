@@ -9,120 +9,121 @@ const PurchasedFeatureENG = () => {
     const bgColor = useColorModeValue('rgba(229,180,180,0.82)', 'rgba(112,128,144,0.45)');
 
     const itemId1 = <Text mt='0.2rem' color='#09A205'>+ Fuel A-95 => ₴ 1,436.86</Text>;
-    const itemId1Pic = <Image src='/A-95--01-04.jpg' alt='fuel purchase proof' />;
+    const itemId1Pic = <Image src='/Fuel/A-95--01-04.jpg' alt='fuel purchase proof' />;
 
     const itemId2 = <Text mt='0.2rem' color='#09A205'>+ Pistol holder & 2x knives => ₴ 1,358.20</Text>;
-    const itemId2Pic = <Image src='/PistolHolder_&_Knives--02-04.jpg' alt='items purchase proof'/>;
+    const itemId2Pic = <Image src='/Purchased/PistolHolder_&_Knives--02-04.jpg' alt='items purchase proof' />;
 
     const itemId3 = <Text mt='0.2rem' color='#09A205'>+ 3x Rainproof ponchos => ₴ 3,022.60</Text>;
-    const itemId3Pic = <Image src='/Ponchos--03-04.jpg' alt='items purchase proof'/>;
+    const itemId3Pic = <Image src='/Purchased/Ponchos--03-04.jpg' alt='items purchase proof' />;
 
     const itemId4 = <Text mt='0.2rem' color='#09A205'>+ 100m 2x1 electric cable => ₴ 1,500</Text>;
-    const itemId4Pic = <Image src='/Cable_&_food.jpg' alt='items purchase proof'/>;
+    const itemId4Pic = <Image src='/Purchased/Cable_&_food.jpg' alt='items purchase proof' />;
 
     const itemId5 = <Text mt='0.2rem' color='#09A205'>+ Sharp shovel => ₴ 549</Text>;
-    const itemId5Pic = <Image src='/ShovelSharp_&_journals--03-04.jpg' alt='items purchase proof'/>;
+    const itemId5Pic = <Image src='/Purchased/ShovelSharp_&_journals--03-04.jpg' alt='items purchase proof' />;
 
     const itemId6 = <Text mt='0.2rem' color='#09A205'>+ Sharp shovel => ₴ 549</Text>;
-    const itemId6Pic = <Image src='/ShovelSharp--03-04.jpg' alt='items purchase proof'/>;
+    const itemId6Pic = <Image src='/Purchased/ShovelSharp--03-04.jpg' alt='items purchase proof' />;
 
     const itemId7 = <Text mt='0.2rem' color='#09A205'>+ Tactical shovel Skif => ₴ 1,600</Text>;
-    const itemId7Pic = <Image src='/SkifShovel--03-04.jpg' alt='items purchase proof'/>;
+    const itemId7Pic = <Image src='/Purchased/SkifShovel--03-04.jpg' alt='items purchase proof' />;
 
     const itemId8 = <Text mt='0.2rem' color='#09A205'>+ Fuel A-95 => ₴ 400.22</Text>;
-    const itemId8Pic = <Image src='/A-95--04-04.jpg' alt='fuel purchase proof'/>;
+    const itemId8Pic = <Image src='/Fuel/A-95--04-04.jpg' alt='fuel purchase proof' />;
 
     const itemId9 = <Text mt='0.2rem' color='#09A205'>+ Collimator sight Hawke RD1 => ₴ 4,300</Text>;
-    const itemId9Pic = <Image src='' alt='items purchase proof'/>;
+    const itemId9Pic = <Image src='' alt='items purchase proof' />;
 
     const itemId10 = <Text mt='0.2rem' color='#09A205'>+ Mobile phone HTC Desire 600 => ₴ 1,000</Text>;
-    const itemId10Pic = <Image src='' alt='items purchase proof'/>;
+    const itemId10Pic = <Image src='' alt='items purchase proof' />;
 
     const itemId11 = <Text mt='0.2rem' color='#09A205'>+ 800x sandbags =>  ₴ 7,200</Text>;
-    const itemId11Pic = <Image src='/Sandbags--06-04.jpg' alt='items purchase proof'/>;
+    const itemId11Pic = <Image src='/Purchased/Sandbags--06-04.jpg' alt='items purchase proof' />;
 
     const itemId12 = <Text mt='0.2rem' color='#09A205'>+ Fuel A-95 => ₴ 1,260.51</Text>;
-    const itemId12Pic = <Image src='/A-95--07-04.jpg' alt='items purchase proof'/>;
+    const itemId12Pic = <Image src='/Fuel/A-95--07-04.jpg' alt='items purchase proof' />;
 
     const itemId13 = <Text mt='0.2rem' color='#09A205'>+ Pistol holder => ₴ 432</Text>;
-    const itemId13Pic = <Image src='/PistolHolder--07-04.jpg' alt='items purchase proof'/>;
+    const itemId13Pic = <Image src='/Purchased/PistolHolder--07-04.jpg' alt='items purchase proof' />;
 
     const itemId14 = <Text mt='0.2rem' color='#09A205'>+ Car jack (2t.) => ₴ 1,570</Text>;
-    const itemId14Pic = <Image src='/Domkrat--08-04.jpg' alt='items purchase proof'/>;
+    const itemId14Pic = <Image src='/Purchased/Domkrat--08-04.jpg' alt='items purchase proof' />;
 
     const itemId15 = <Text mt='0.2rem' color='#09A205'>+ 2x wrenches (3.5t) => ₴ 2,831.96</Text>;
-    const itemId15Pic = <Image src='/Wrenches--08-04.jpg' alt='items purchase proof'/>;
+    const itemId15Pic = <Image src='/Purchased/Wrenches--08-04.jpg' alt='items purchase proof' />;
 
     const itemId16 = <Text mt='0.2rem' color='#09A205'>+ 200m 2x1 electric cable => ₴ 2,640</Text>;
-    const itemId16Pic = <Image src='logo.png' alt='items purchase proof'/>;
+    const itemId16Pic = <Image src='logo.png' alt='items purchase proof' />;
 
     const itemId17 = <Text mt='0.2rem' color='#09A205'>+ 3x water bottles => ₴ 760</Text>;
-    const itemId17Pic = <Image src='logo.png' alt='items purchase proof'/>;
+    const itemId17Pic = <Image src='/Purchased/3-water-bottles.png' alt='items purchase proof' />;
 
     const itemId18 = <Text mt='0.2rem' color='#09A205'>+ Fuel A-95 => ₴ 1,035</Text>;
-    const itemId18Pic = <Image src='logo.png' alt='items purchase proof'/>;
+    const itemId18Pic = <Image src='logo.png' alt='items purchase proof' />;
 
     const itemId19 = <Text mt='0.2rem' color='#09A205'>+ 10x water bottles => ₴ 2,575</Text>;
-    const itemId19Pic = <Image src='logo.png' alt='items purchase proof'/>;
+    const itemId19Pic = <Image src='/Purchased/10-water-bottles.png' alt='items purchase proof' />;
 
     const itemId20 = <Text mt='0.2rem' color='#09A205'>+ 1,000x sandbags => ₴ 10,800</Text>;
-    const itemId20Pic = <Image src='/Plastic&Tape&Sandbags--13-04.jpg' alt='items purchase proof'/>;
+    const itemId20Pic = <Image src='/Purchased/Plastic&Tape&Sandbags--13-04.jpg' alt='items purchase proof' />;
 
     const itemId21 = <Text mt='0.2rem' color='#09A205'>+ 2x aluminium tape => ₴ 545.40</Text>;
-    const itemId21Pic = <Image src='/Plastic&Tape&Sandbags--13-04.jpg' alt='items purchase proof'/>;
+    const itemId21Pic = <Image src='/Purchased/Plastic&Tape&Sandbags--13-04.jpg' alt='items purchase proof' />;
 
     const itemId22 = <Text mt='0.2rem' color='#09A205'>+ 50m thick plastic wrap => ₴ 2,060</Text>;
-    const itemId22Pic = <Image src='/Plastic&Tape&Sandbags--13-04.jpg' alt='items purchase proof'/>;
+    const itemId22Pic = <Image src='/Purchased/Plastic&Tape&Sandbags--13-04.jpg' alt='items purchase proof' />;
 
     const itemId23 = <Text mt='0.2rem' color='#09A205'>+ Fuel A-95 => ₴ 862.50</Text>;
-    const itemId23Pic = <Image src='/A-95--14-04.jpg' alt='items purchase proof'/>;
+    const itemId23Pic = <Image src='/Fuel/A-95--14-04.jpg' alt='items purchase proof' />;
 
     const itemId24 = <Text mt='0.2rem' color='#09A205'>+ Fuel A-95 => ₴ 711.20</Text>;
-    const itemId24Pic = <Image src='/A-95--15-04.jpg' alt='items purchase proof'/>;
+    const itemId24Pic = <Image src='/Fuel/A-95--15-04.jpg' alt='items purchase proof' />;
 
     const itemId25 = <Text mt='0.2rem' color='#09A205'>+ Fuel A-95 => ₴ 973.10</Text>;
-    const itemId25Pic = <Image src='/A-95--15-04.jpg' alt='items purchase proof'/>;
+    const itemId25Pic = <Image src='/Fuel/A-95--15-04.jpg' alt='items purchase proof' />;
 
     const itemId26 = <Text mt='0.2rem' color='#09A205'>+ Table for HQ => ₴ 888</Text>;
-    const itemId26Pic = <Image src='/Table-for-HQ--15-04.jpg' alt='items purchase proof'/>;
+    const itemId26Pic = <Image src='/Purchased/Table-for-HQ--15-04.jpg' alt='items purchase proof' />;
 
     const itemId27 = <Text mt='0.2rem' color='#09A205'>+ Fuel A-95 => ₴ 510</Text>;
-    const itemId27Pic = <Image src='/A-95--16-04.jpg' alt='items purchase proof'/>;
+    const itemId27Pic = <Image src='/Fuel/A-95--16-04.jpg' alt='items purchase proof' />;
 
     const itemId28 = <Text mt='0.2rem' color='#09A205'>+ 50m thick plastic wrap => ₴ 1,683</Text>;
-    const itemId28Pic = <Image src='Plastic--16-04.jpg' alt='items purchase proof'/>;
+    const itemId28Pic = <Image src='/Purchased/Plastic--16-04.jpg' alt='items purchase proof' />;
 
     const itemId29 = <Text mt='0.2rem' color='#09A205'>+ Fuel A-95 => ₴ 1,035</Text>;
-    const itemId29Pic = <Image src='/A-95--17-04.jpg' alt='items purchase proof'/>;
+    const itemId29Pic = <Image src='/Fuel/A-95--17-04.jpg' alt='items purchase proof' />;
 
     const itemId30 = <Text mt='0.2rem' color='#09A205'>+ Fuel A-95 => ₴ 403.60</Text>;
-    const itemId30Pic = <Image src='/A-95--19-04.jpg' alt='items purchase proof'/>;
+    const itemId30Pic = <Image src='/Fuel/A-95--19-04.jpg' alt='items purchase proof' />;
 
     const itemId31 = <Text mt='0.2rem' color='#09A205'>+ Fuel A-95 => ₴ 711.20</Text>;
-    const itemId31Pic = <Image src='A-95--19-04.jpg' alt='items purchase proof'/>;
+    const itemId31Pic = <Image src='/Fuel/A-95--19-04.jpg' alt='items purchase proof' />;
 
     const itemId32 = <Text mt='0.2rem' color='#09A205'>+ 50m thick plastic wrap & 1,000 sandbags => ₴ 6,696.62</Text>;
-    const itemId32Pic = <Image src='/Sandbags_&_Plastic.jpg' alt='items purchase proof'/>;
+    const itemId32Pic = <Image src='/Purchased/Sandbags_&_Plastic.jpg' alt='items purchase proof' />;
 
     const itemId33 = <Text mt='0.2rem' color='#09A205'>+ Fuel A-95 => ₴ 722</Text>;
-    const itemId33Pic = <Image src='logo.png' alt='items purchase proof'/>;
+    const itemId33Pic = <Image src='logo.png' alt='items purchase proof' />;
 
     const itemId34 = <Text mt='0.2rem' color='#09A205'>+ Fuel A-95 => ₴ 415.40</Text>;
-    const itemId34Pic = <Image src='logo.png' alt='items purchase proof'/>;
+    const itemId34Pic = <Image src='logo.png' alt='items purchase proof' />;
 
     const itemId35 = <Text mt='0.2rem' color='#09A205'>+ Fuel A-95 => ₴ 395.70</Text>;
-    const itemId35Pic = <Image src='logo.png' alt='items purchase proof'/>;
+    const itemId35Pic = <Image src='/Fuel/A-95--06-05.jpg' alt='items purchase proof' />;
 
     const itemId36 = <Text mt='0.2rem' color='#09A205'>+ Fuel A-95 => ₴ 754</Text>
-    const itemId36Pic = <Image src='logo.png' alt='items purchase proof'/>;
+    const itemId36Pic = <Image src='logo.png' alt='items purchase proof' />;
 
     const itemId37 = <Text mt='0.2rem' color='#09A205'>+ Fuel A-95 => ₴ 791.40</Text>
-    const itemId37Pic = <Image src='logo.png' alt='items purchase proof'/>;
+    const itemId37Pic = <Image src='/Fuel/A-95--10-05.jpg' alt='items purchase proof' />;
 
     const itemId38 = <Text mt='0.2rem' color='#09A205'>+ Fuel A-95 => ₴ 791.40</Text>
-    const itemId38Pic = <Image src='logo.png' alt='items purchase proof'/>;
+    const itemId38Pic = <Image src='logo.png' alt='items purchase proof' />;
 
     const itemId39 = <Text mt='0.2rem' color='#09A205'> + Бензин A-95 => ₴ 791.40</Text>;
+    const itemId39Pic = <Image src='logo.png' alt='items purchase proof' />;
 
     return (
         <Container className={styles.purchasedContainer} backgroundColor={bgColor}>

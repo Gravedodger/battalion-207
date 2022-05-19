@@ -1,9 +1,10 @@
 import React from "react";
-import styles from '../styles/Starter.module.css';
+import styles from '/styles/Starter.module.css';
 import Head from 'next/head';
 import { MoonIcon } from "@chakra-ui/icons";
-import { LightBulbIcon } from "../components/Icons";
+import { LightBulbIcon } from "/components/Icons";
 import { Center, Flex, Box, Container, IconButton, useColorMode, Text, Link, Image, useColorModeValue } from '@chakra-ui/react';
+import DandD from "/components/D&D";
 
 export default function Home() {
     const { toggleColorMode } = useColorMode();
@@ -16,7 +17,7 @@ export default function Home() {
             <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
             <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
             <meta name="description" content="Battalion-207 needs and requirements" />
-            <link rel="icon" href="./../public/favicon.ico"/>
+            <link rel="icon" href="/favicon.ico"/>
             <title>Battalion-207</title>
         </Head>
 
@@ -55,7 +56,7 @@ export default function Home() {
                                 <Box className={styles.starterUkrFlag}>
                                     <Link href='homepage/ukr'>
                                         <Image
-                                            src='/flagUkraine-with-coat.png'
+                                            src='/flags/flagUkraine-with-coat.png'
                                             alt="Flag of Ukraine"
                                             objectFit='contain'
                                         />
@@ -74,7 +75,7 @@ export default function Home() {
                                 <Box className={styles.starterEngFlag}>
                                     <Link href="homepage/eng">
                                         <Image
-                                            src='/UK-US_flag.png'
+                                            src='/flags/UK-US_flag.png'
                                             objectFit='contain'
                                             alt="Flags of US/UK"
                                         />

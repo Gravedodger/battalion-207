@@ -3,6 +3,7 @@ import styles from '/styles/Homepage.module.css';
 import NextLink from 'next/link';
 import Head from "next/head";
 import Header from "/components/Header/Header";
+import DandD from "/components/D&D";
 import { VStack, Center, StackDivider, Link, Image } from '@chakra-ui/react'
 
 const homePageEng = () => {
@@ -13,7 +14,7 @@ const homePageEng = () => {
             <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
             <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
             <meta name="description" content="Battalion-207 nav menu" />
-            <link rel="icon" href="./../../public/favicon.ico" />
+            <link rel="icon" href="/favicon.ico" />
             <title>Battalion-207 || Navigation</title>
         </Head>
 
@@ -63,6 +64,8 @@ const homePageEng = () => {
                     </VStack>
                 </div>
             </Center>
+
+            <DandD />
         </main>
     </>
 }

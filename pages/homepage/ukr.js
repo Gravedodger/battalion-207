@@ -3,7 +3,8 @@ import styles from '/styles/Homepage.module.css';
 import NextLink from 'next/link';
 import Head from "next/head";
 import Header from "/components/Header/Header";
-import { VStack, Center, StackDivider, Image, Link } from '@chakra-ui/react'
+import DandD from "/components/D&D";
+import { VStack, Center, StackDivider, Image, Link } from '@chakra-ui/react';
 
 const HomePageUkr = () => {
     return <>
@@ -13,7 +14,7 @@ const HomePageUkr = () => {
             <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
             <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
             <meta name="description" content="Батальйон-207 навігаційне меню" />
-            <link rel="icon" href="./../../public/favicon.ico" />
+            <link rel="icon" href="/favicon.ico" />
             <title>Батальйон-207 || Меню</title>
         </Head>
 
@@ -63,6 +64,8 @@ const HomePageUkr = () => {
                     </VStack>
                 </div>
             </Center>
+
+            <DandD />
         </main>
     </>
 }
