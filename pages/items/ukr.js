@@ -6,9 +6,9 @@ import Header from "/components/Header/Header";
 import Card from "/components/Card/Card";
 import Categories from "/components/Categories/Categories";
 import DandD from "/components/D&D";
-import { Center, Box, Tooltip } from '@chakra-ui/react';
+import { Center, Box, Flex, Tooltip, Text } from '@chakra-ui/react';
 
-const ItemsPageUkr = () => {
+const ItemsPageUkr = ({progressValueNum}) => {
     const [item, setItem]= useState(items);
     const filterItems = [...new Set(items.map((Val) => Val.category))];
 

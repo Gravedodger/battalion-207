@@ -18,6 +18,7 @@ const DandD = () => {
                 href='https://www.facebook.com/sviatoslav.malyshevskyi'
                 target='_blank'
                 noopener='true'
+                noreferrer='true'
             >
                 <Text color={textColor}
                       fontSize={{ lg: "18px", md: "16px", sm: "14px", base: "12px" }}

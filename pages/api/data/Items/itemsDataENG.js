@@ -6,6 +6,7 @@ const cardsENG = [
         requiredAmount: 250, i: 'units',
         img: '/items/id-1-opt.png',
         desc: '30 round magazines for AK-74 5.45 cal.',
+        show: 'show',
     },
     {
         id: 2,
@@ -337,11 +338,11 @@ const cardsENG = [
     },
     {
         id: 40,
-        title: 'Sand bag',
+        title: 'Sandbag',
         category: 'Misc supplies' && 'CRITICAL NEED',
         requiredAmount: 3000, i: 'units',
         img: '/items/id-43-opt.png',
-        desc: 'Durable plastic sand bags for the construction of fortifications, barricading doors and windows in ' +
+        desc: 'Durable plastic sandbags for the construction of fortifications, barricading doors and windows in ' +
             'civilian houses, protection of wheels on vehicles, etc.',
     },
     {
@@ -416,6 +417,14 @@ const cardsENG = [
         requiredAmount: 30, i: 'units',
         img: '/items/id-2-opt.png',
         desc: 'Oil for cleaning and maintenance of weapons',
+    },
+    {
+        id: 55,
+        title: 'Collimator sight',
+        category: 'Weapons',
+        requiredAmount: 20, i: 'units',
+        img: '/items/id-55-opt.png',
+        desc: 'Collimator sights for our patrol teams',
     },
 ];
 

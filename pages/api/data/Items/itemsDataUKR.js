@@ -413,6 +413,14 @@ const cardsUKR = [
         img: '/items/id-2-opt.png',
         desc: 'Балони з мастилом для чищення зброї',
     },
+    {
+        id: 55,
+        title: 'Коліматоний приціл',
+        category: 'Weapons',
+        requiredAmount: 20, i: 'units',
+        img: '/items/id-55-opt.png',
+        desc: 'Коліматорні приціли для наших патрулей',
+    },
 ];
 
 export default cardsUKR;
