@@ -11,7 +11,7 @@ const Card = ({ item }) => {
                 return (
                     <article key={Val.id} className={styles.cardItem}>
 
-                        <Image objectFit='contain' className={styles.photo} src={Val.img} alt={Val.title} />
+                        <Image lazy="true" objectFit='contain' className={styles.photo} src={Val.img} alt={Val.title} />
 
                         <Box flexDirection='column' className={styles.itemInfo}>
                             <header>

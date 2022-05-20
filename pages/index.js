@@ -43,7 +43,7 @@ export default function Home() {
                           spacing={20} gap={10}
                           justifyContent='center' alignItems='center' flexDirection='column'>
                         <Box className={styles.starterLogoContainer}>
-                            <Image src='/logo.png' alt="main logo" objectFit='contain' boxSize="90%" layout='fill'/>
+                            <Image src='/logo.WebP' lazy='true' alt="main logo" objectFit='contain' boxSize="90%" layout='fill'/>
                         </Box>
 
                         <Flex className={styles.starterFlagWrap} justifyContent='center' alignItems='center'>
@@ -56,9 +56,10 @@ export default function Home() {
                                 <Box className={styles.starterUkrFlag}>
                                     <Link href='homepage/ukr'>
                                         <Image
-                                            src='/flags/flagUkraine-with-coat.png'
+                                            src='/flags/flagUkraine-with-coat.WebP'
                                             alt="Flag of Ukraine"
                                             objectFit='contain'
+                                            lazy='true'
                                         />
                                     </Link>
                                 </Box>
@@ -75,9 +76,10 @@ export default function Home() {
                                 <Box className={styles.starterEngFlag}>
                                     <Link href="homepage/eng">
                                         <Image
-                                            src='/flags/UK-US_flag.png'
+                                            src='/flags/UK-US_flag.WebP'
                                             objectFit='contain'
                                             alt="Flags of US/UK"
+                                            lazy='true'
                                         />
                                     </Link>
                                 </Box>

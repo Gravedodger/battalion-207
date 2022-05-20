@@ -28,7 +28,7 @@ const ContactsPageUkr = () => {
             <Center>
                 <div className={styles.contacts}>
                     <div className={styles.contactsLogoContainer}>
-                        <Image src='/logo.png' alt="battalion logo" />
+                        <Image src='/logo.WebP' alt="battalion logo" />
                     </div>
 
                     <TableContainer className={styles.contactsInfo}>

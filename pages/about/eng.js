@@ -26,7 +26,7 @@ const AboutPageEng = () => {
             <Center>
                 <Box className={styles.aboutArticle}>
                     <div className={styles.articleLogoContainer}>
-                        <Image objectFit='fill' src='/logo.WebP' alt="battalion logo" />
+                        <Image objectFit='fill' src='/logo.WebP' alt="battalion logo" lazy='true' />
                     </div>
 
                     <Container className={styles.articleTxtContainer}>

@@ -24,7 +24,7 @@ const HomePageUkr = () => {
             <Center>
                 <div className={styles.homepageContainer}>
                     <div className={styles.homepageLogoWrap}>
-                        <Image src='/logo.png' alt='Battalion 207 logo' />
+                        <Image src='/logo.WebP' lazy='true' alt='Battalion 207 logo' />
                     </div>
 
                     <VStack className={styles.homepageNav}

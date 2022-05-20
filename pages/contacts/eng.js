@@ -28,7 +28,7 @@ const ContactsPageEng = () => {
             <Center>
                 <Box className={styles.contacts}>
                     <Box className={styles.contactsLogoContainer}>
-                        <Image src='/logo.png' alt="battalion logo" />
+                        <Image src='/logo.WebP' alt="battalion logo" />
                     </Box>
 
                     <TableContainer className={styles.contactsInfo}>
