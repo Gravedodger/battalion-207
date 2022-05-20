@@ -12,21 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="16cc5659-9977-4949-ba87-ebf4e6bd80d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Card/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Card/Card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/PurchasedFeature/PurchasedFeatureENG.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/PurchasedFeature/PurchasedFeatureENG.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/PurchasedFeature/PurchasedFeatureUKR.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/PurchasedFeature/PurchasedFeatureUKR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/WarStats/components/WarItemIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/WarItemIcon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/WarStats/components/WarListUKR.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/WarListUKR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/WarStats/components/warListENG.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/warListENG.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about/eng.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about/ukr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contacts/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contacts/eng.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contacts/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contacts/ukr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/finSupport/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/finSupport/eng.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/finSupport/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/finSupport/ukr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/homepage/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/homepage/eng.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/homepage/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/homepage/ukr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +131,7 @@
       <workItem from="1652709042764" duration="13763000" />
       <workItem from="1652779965034" duration="3133000" />
       <workItem from="1652902183942" duration="14713000" />
-      <workItem from="1653030817193" duration="9403000" />
+      <workItem from="1653030817193" duration="9653000" />
     </task>
     <servers />
   </component>

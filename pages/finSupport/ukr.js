@@ -25,7 +25,7 @@ const FinSupportPageUkr = () => {
     const ppEUR = <PayPalEUR />
     const eurReq = <EurRequisitesUkr />
 
-    const UAH = <Image src='/currency/hryvna-round.png' className={styles.currencyIcn} lazy='true' objectFit='fill' alt='UAH' />;
+    const UAH = <Image src='/currency/hryvna-round.WebP' className={styles.currencyIcn} lazy='true' objectFit='fill' alt='UAH' />;
     const uahReq = <UahRequisitesUkr />
 
     const Bitcoin = <Image src='/currency/bitcoin-round.WebP' className={styles.currencyIcn} lazy='true' objectFit='fill' alt='Bitcoin' />
