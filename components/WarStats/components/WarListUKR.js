@@ -11,28 +11,28 @@ const WarListUKR = () => {
         <GridItem w='100%'>
             <WarItem
                 warIcon='/icons/icnPersonnel.png'
-                warCount='28,300'
+                warCount='28,500'
                 warInfoUKR='Особовий склад'
             />
         </GridItem>
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icons/icnTank.png'
-                warCount='1,251'
+                warCount='1,254'
                 warInfoUKR='Танки'
             />
         </GridItem>
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icons/icnAV.png'
-                warCount='3,043'
+                warCount='3,063'
                 warInfoUKR='Броньовані машини'
             />
         </GridItem>
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icons/icnJet.png'
-                warCount='202'
+                warCount='203'
                 warInfoUKR='Літаки'
             />
         </GridItem>
@@ -46,21 +46,21 @@ const WarListUKR = () => {
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icons/icnUAV.png'
-                warCount='441'
+                warCount='455'
                 warInfoUKR='БПЛА'
             />
         </GridItem>
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icons/icnAirDef.png'
-                warCount='91'
+                warCount='93'
                 warInfoUKR='Засоби ППО'
             />
         </GridItem>
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icons/icnArtillery.png'
-                warCount='586'
+                warCount='595'
                 warInfoUKR='Арт. системи'
             />
         </GridItem>
@@ -74,7 +74,7 @@ const WarListUKR = () => {
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icons/icnTruck.png'
-                warCount='2,137'
+                warCount='2,157'
                 warInfoUKR='Автотехніка'
             />
         </GridItem>
