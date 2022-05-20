@@ -1,6 +1,6 @@
 import React from 'react';
 import Pagination from "../Pagination";
-import { SimpleGrid, Center, Stack, Box, Text, Image } from '@chakra-ui/react';
+import { SimpleGrid, Center, Box, Image } from '@chakra-ui/react';
 
 class Gallery extends React.Component {
     constructor() {
@@ -13,47 +13,47 @@ class Gallery extends React.Component {
             {
                 id: 1,
                 alt: 'Battalion photo',
-                src: '/gallery/featured-1.jpg'
+                src: '/gallery/featured-1.WebP'
             },
             {
                 id: 2,
                 alt: 'Battalion photo',
-                src: '/gallery/featured-2.jpg'
+                src: '/gallery/featured-2.WebP'
             },
             {
                 id: 3,
                 alt: 'Battalion photo',
-                src: '/gallery/featured-3.jpg'
+                src: '/gallery/featured-3.WebP'
             },
             {
                 id: 4,
                 alt: 'Battalion photo',
-                src: '/gallery/featured-4.jpg'
+                src: '/gallery/featured-4.WebP'
             },
             {
                 id: 5,
                 alt: 'Battalion photo',
-                src: '/gallery/featured-5.jpg'
+                src: '/gallery/featured-5.WebP'
             },
             {
                 ig: 6,
                 alt: 'Battalion photo',
-                src: '/gallery/featured-6.jpg'
+                src: '/gallery/featured-6.WebP'
             },
             {
                 id: 7,
                 alt: 'Battalion photo',
-                src: '/gallery/featured-7.jpg'
+                src: '/gallery/featured-7.WebP'
             },
             {
                 id: 8,
                 alt: 'Battalion photo',
-                src: '/gallery/featured-8.jpg'
+                src: '/gallery/featured-8.WebP'
             },
             {
                 id: 9,
                 alt: 'Battalion photo',
-                src: '/gallery/Gutsul.jpg'
+                src: '/gallery/Gutsul.WebP'
             }
         ]
 
@@ -71,14 +71,13 @@ class Gallery extends React.Component {
     render() {
         return (
             <Box mb='10%'>
-
                 <Center>
                     <SimpleGrid autoFlow={true}
-                                maxChildWidth='20%' columns={{ lg: 3, md: 2, sm: 1 }}
+                                maxchildwidth='20%' columns={{ lg: 3, md: 2, sm: 1 }}
                                 spacing={{ lg: '20px', md: '15px', sm: '20px' }} w='80%' alignItems='center'>
                         {this.state.pageOfItems.map(item =>
-                            <Box key={item.id} mb={{ sm: '1rem', base: '1rem' }}>
-                                <Image src={item.src} alt={item.alt} w='100%'/>
+                            <Box mb={{ sm: '1rem', base: '1rem' }}>
+                                <Image lazy="true" key={item.id} src={item.src} alt={item.alt} w='100%'/>
                             </Box>
                         )}
 

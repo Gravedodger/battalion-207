@@ -4,7 +4,7 @@ const cardsUKR = [
         title: 'Магазин для АК-74',
         category: 'Зброя',
         requiredAmount: 250, i: 'од.',
-        img: '/items/id-1-opt.png',
+        img: '/items/id-1-opt.WebP',
         desc: 'Магазини на 30 набоїв калібру 5.45 для автомату АК-74',
     },
     {
@@ -12,7 +12,7 @@ const cardsUKR = [
         title: 'ПБС (Глушник)',
         category: 'Зброя',
         requiredAmount: 20, i: 'од.',
-        img: '/items/id-3-opt.png',
+        img: '/items/id-3-opt.WebP',
         desc: 'Прибори безшумної стрільби (глушники) для автомату АК-74',
     },
     {
@@ -20,7 +20,7 @@ const cardsUKR = [
         title: 'Комерційне авто 4x4',
         category: 'Авто' && 'КРИТИЧНА НЕОБХІДНІСТЬ',
         requiredAmount: 3, i: 'од.',
-        img: '/items/id-53-opt.png',
+        img: '/items/id-53-opt.WebP',
         desc: 'Вмісткий автомобіль із повним приводом (4х4) - запорока мобільності батальйону та його можливість ' +
             'звільнити особисті автомобілі наших бійців для допомоги з евакуаціією місцевого населення та інших ' +
             'гуманітарних ініциатив',
@@ -30,7 +30,7 @@ const cardsUKR = [
         title: 'Паливо',
         category: 'Витратні матеріали' && 'КРИТИЧНА НЕОБХІДНІСТЬ',
         requiredAmount: '~1000', i: 'л.',
-        img: '/items/id-54-opt.png',
+        img: '/items/id-54-opt.WebP',
         desc: 'Ефективність виконання оперативних і гуманітарних завдань батальйону залежить від постачання близько ' +
             '1,000 літрів бензину А-95 та 3,000 літрів дизельного палива. Відсутність палива призводить до зменшення ' +
             'можливостей щодо евакуації цивільного населення, що ставить під загрозу їх життя',
@@ -40,7 +40,7 @@ const cardsUKR = [
         title: 'Планка «Пікатіні»',
         category: 'Зброя',
         requiredAmount: 20, i: 'од.',
-        img: '/items/id-4-opt.png',
+        img: '/items/id-4-opt.WebP',
         desc: 'Кріплення для встановлення додаткового обладнання, як оптичні приціли, ліхтарі, тощо.',
     },
     {
@@ -48,7 +48,7 @@ const cardsUKR = [
         title: 'Планка «Ластівчин хвіст»',
         category: 'Зброя',
         requiredAmount: 5, i: 'од.',
-        img: '/items/id-5-opt.png',
+        img: '/items/id-5-opt.WebP',
         desc: 'Кріплення для швидкого встановлення додаткового обладнання, як оптичні приціли, ліхтарі, тощо',
     },
     {
@@ -56,7 +56,7 @@ const cardsUKR = [
         title: 'Кріплення для оптики на кулемет',
         category: 'Зброя',
         requiredAmount: 1, i: 'од.',
-        img: '/items/id-6-opt.png',
+        img: '/items/id-6-opt.WebP',
         desc: 'Кріплення для встановлення оптики на кулемет 50 калібру',
     },
     {
@@ -64,7 +64,7 @@ const cardsUKR = [
         title: 'Бронежилет',
         category: 'Екіпіровка',
         requiredAmount: 40, i: 'од.',
-        img: '/items/id-7-opt.png',
+        img: '/items/id-7-opt.WebP',
         desc: 'Бронежилети з передньою і задньою пластинами рівня захисту 4+',
     },
     {
@@ -72,7 +72,7 @@ const cardsUKR = [
         title: 'Балістичний шолом',
         category: 'Екіпіровка',
         requiredAmount: 50, i: 'од.',
-        img: '/items/id-8-opt.png',
+        img: '/items/id-8-opt.WebP',
         desc: 'Кевларові балістичні шоломи',
     },
     {
@@ -80,7 +80,7 @@ const cardsUKR = [
         title: 'Розгрузка',
         category: 'Екіпіровка',
         requiredAmount: 100, i: 'од.',
-        img: '/items/id-9-opt.png',
+        img: '/items/id-9-opt.WebP',
         desc: 'Розгрузки з системою M.O.L.L.E',
     },
     {
@@ -88,7 +88,7 @@ const cardsUKR = [
         title: 'Підсумок для магазинів',
         category: 'Екіпіровка',
         requiredAmount: 150, i: 'од.',
-        img: '/items/id-10-opt.png',
+        img: '/items/id-10-opt.WebP',
         desc: 'Підсумки для магазинів AK-74 5.45 кал. з системою M.O.L.LE',
     },
     {
@@ -96,7 +96,7 @@ const cardsUKR = [
         title: 'Сумка скидання магазинів',
         category: 'Екіпіровка',
         requiredAmount: 150, i: 'од.',
-        img: '/items/id-11-opt.png',
+        img: '/items/id-11-opt.WebP',
         desc: 'Сумки для скидання магазинів з системою M.O.L.L.E',
     },
     {
@@ -104,7 +104,7 @@ const cardsUKR = [
         title: 'Військова форма піксель',
         category: 'Одяг',
         requiredAmount: 100, i: 'од.',
-        img: '/items/id-12-opt.png',
+        img: '/items/id-12-opt.WebP',
         desc: 'Військова форма піксель, розміри 50-56',
     },
     {
@@ -112,7 +112,7 @@ const cardsUKR = [
         title: 'Військове звуття',
         category: 'Одяг',
         requiredAmount: 100, i: 'од.',
-        img: '/items/id-13-opt.png',
+        img: '/items/id-13-opt.WebP',
         desc: 'Військове взуття, розміри 41 – 46',
     },
     {
@@ -120,7 +120,7 @@ const cardsUKR = [
         title: 'Тапочки гумові',
         category: 'Одяг',
         requiredAmount: 20, i: 'од.',
-        img: '/items/id-14-opt.png',
+        img: '/items/id-14-opt.WebP',
         desc: 'Гумові тапочки для підтримання особистої гігієничної безпеки',
     },
     {
@@ -128,7 +128,7 @@ const cardsUKR = [
         title: 'Балаклава (зимова)',
         category: 'Одяг',
         requiredAmount: 100, i: 'од.',
-        img: '/items/id-15-opt.png',
+        img: '/items/id-15-opt.WebP',
         desc: 'Утепленні зимові балаклави темних кольорів',
     },
     {
@@ -136,7 +136,7 @@ const cardsUKR = [
         title: 'Балаклава (літня)',
         category: 'Одяг',
         requiredAmount: 100, i: 'од.',
-        img: '/items/id-16-opt.png',
+        img: '/items/id-16-opt.WebP',
         desc: 'Тонкі літні балаклави',
     },
     {
@@ -144,7 +144,7 @@ const cardsUKR = [
         title: 'Термобілизна',
         category: 'Одяг',
         requiredAmount: 40, i: 'од.',
-        img: '/items/id-17-opt.png',
+        img: '/items/id-17-opt.WebP',
         desc: 'Чоловіча термобілизна, розміри 48, 54, 56, 60',
     },
     {
@@ -152,7 +152,7 @@ const cardsUKR = [
         title: 'Індивідуальна аптечка',
         category: 'Медичні засоби',
         requiredAmount: 150, i: 'од.',
-        img: '/items/id-18-opt.png',
+        img: '/items/id-18-opt.WebP',
         desc: 'Індивідуальні аптечки (комплект) з системою M.O.L.L.E',
     },
     {
@@ -160,7 +160,7 @@ const cardsUKR = [
         title: 'Турнікет',
         category: 'Медичні засоби',
         requiredAmount: 300, i: 'од.',
-        img: '/items/id-19-opt.png',
+        img: '/items/id-19-opt.WebP',
         desc: 'Турнікети, бажано військової якості. Кожен боєць має мати на собі 2 таких турнікета.',
     },
     {
@@ -168,7 +168,7 @@ const cardsUKR = [
         title: 'Джгут',
         category: 'Медичні засоби',
         requiredAmount: 300, i: 'од.',
-        img: '/items/id-20-opt.png',
+        img: '/items/id-20-opt.WebP',
         desc: 'Класичні резинові джгути з фіксатором. Кожен боєць має мати на собі два таких джгути для надання допомоги' +
             'іншим чи навіть самому собі',
     },
@@ -177,7 +177,7 @@ const cardsUKR = [
         title: 'Ноші',
         category: 'Медичні засоби',
         requiredAmount: 150, i: 'од.',
-        img: '/items/id-21-opt.png',
+        img: '/items/id-21-opt.WebP',
         desc: "М'які медичні ноші для швидкої евакуації поранених",
     },
     {
@@ -185,7 +185,7 @@ const cardsUKR = [
         title: 'Металевий посуд',
         category: 'Кухня',
         requiredAmount: 100, i: 'од.',
-        img: '/items/id-22-opt.png',
+        img: '/items/id-22-opt.WebP',
         desc: 'Індивідуальній посуд для кожного бійця, для підтримання загальної гігієни',
     },
     {
@@ -193,7 +193,7 @@ const cardsUKR = [
         title: 'Каструля',
         category: 'Кухня',
         requiredAmount: 6, i: 'од.',
-        img: '/items/id-23-opt.png',
+        img: '/items/id-23-opt.WebP',
         desc: 'Великі каструлі (виварки) 40л з ручками та кришками для приготування їжі',
     },
     {
@@ -201,7 +201,7 @@ const cardsUKR = [
         title: 'Термобокс',
         category: 'Кухня',
         requiredAmount: 7, i: 'од.',
-        img: '/items/id-24-opt.png',
+        img: '/items/id-24-opt.WebP',
         desc: 'Великі (бажано) термобокси для зберігання в помірному холоді будь чого (навідь для частин кінцівок)',
     },
     {
@@ -209,7 +209,7 @@ const cardsUKR = [
         title: 'LED-стрічка',
         category: 'Електроніка',
         requiredAmount: 20, i: 'од.',
-        img: '/items/id-25-opt.png',
+        img: '/items/id-25-opt.WebP',
         desc: 'LED-стрічки на 12V для менш помітного забезпечення світлом',
     },
     {
@@ -217,7 +217,7 @@ const cardsUKR = [
         title: 'Акумулятор',
         category: 'Електроніка',
         requiredAmount: 10, i: 'од.',
-        img: '/items/id-26-opt.png',
+        img: '/items/id-26-opt.WebP',
         desc: "Акумулятори на 12V для роботи та зарядки більшості наших приборів зв'язку та нагляду",
     },
     {
@@ -225,7 +225,7 @@ const cardsUKR = [
         title: 'Тепловізор',
         category: 'Електроніка',
         requiredAmount: 6, i: 'од.',
-        img: '/items/id-27-opt.png',
+        img: '/items/id-27-opt.WebP',
         desc: 'Військові тепловізори для нагляду, патрулювання та виконання інших завдань в темну пору доби',
     },
     {
@@ -233,7 +233,7 @@ const cardsUKR = [
         title: 'Прилад нічного бачення',
         category: 'Електроніка',
         requiredAmount: 6, i: 'од.',
-        img: '/items/id-28-opt.png',
+        img: '/items/id-28-opt.WebP',
         desc: 'Військові тепловізори для нагляду та патрулювання в темну пору доби',
     },
     {
@@ -241,7 +241,7 @@ const cardsUKR = [
         title: 'Дальномір',
         category: 'Електроніка' && 'КРИТИЧНА НЕОБХІДНІСТЬ',
         requiredAmount: 3, i: 'од.',
-        img: '/items/id-29-opt.png',
+        img: '/items/id-29-opt.WebP',
         desc: 'Військові дальномери здатні точно вимірювати дистанцію до 2х км.',
     },
     {
@@ -249,7 +249,7 @@ const cardsUKR = [
         title: 'Сонячна батарея',
         category: 'Електроніка',
         requiredAmount: 10, i: 'од.',
-        img: '/items/id-30-opt.png',
+        img: '/items/id-30-opt.WebP',
         desc: 'Компактні сонячні батареї на 12V для додаткового та гарантованого забезпечення нас електроенергією',
     },
     {
@@ -257,7 +257,7 @@ const cardsUKR = [
         title: 'Генератор',
         category: 'Електроніка' && 'КРИТИЧНА НЕОБХІДНІСТЬ',
         requiredAmount: 3, i: 'од.',
-        img: '/items/id-31-opt.png',
+        img: '/items/id-31-opt.WebP',
         desc: "Дизельні генератори потужністю не менше 5,5 кВт для заряджання усіх приборів зв'язку, нагляду " +
             "та (особливо) зігрівання",
     },
@@ -266,7 +266,7 @@ const cardsUKR = [
         title: 'Кирка',
         category: 'Інструменти',
         requiredAmount: 5, i: 'од.',
-        img: '/items/id-32-opt.png',
+        img: '/items/id-32-opt.WebP',
         desc: 'Металеві кірки для спорудження фортефікаційних споруд',
     },
     {
@@ -274,7 +274,7 @@ const cardsUKR = [
         title: 'Лом',
         category: 'Інструменти',
         requiredAmount: 4, i: 'од.',
-        img: '/items/id-33-opt.png',
+        img: '/items/id-33-opt.WebP',
         desc: 'Металеві ломи для спорудження фортефікаційних споруд',
     },
     {
@@ -282,7 +282,7 @@ const cardsUKR = [
         title: 'Топор',
         category: 'Інструменти',
         requiredAmount: 4, i: 'од.',
-        img: '/items/id-34-opt.png',
+        img: '/items/id-34-opt.WebP',
         desc: 'Топори високої якості для спорудження фортефікаційних споруд',
     },
     {
@@ -290,7 +290,7 @@ const cardsUKR = [
         title: 'Молоток',
         category: 'Інструменти',
         requiredAmount: 2, i: 'од.',
-        img: '/items/id-35-opt.png',
+        img: '/items/id-35-opt.WebP',
         desc: 'Молотки високої якості для спорудження фортефікаційних споруд',
     },
     {
@@ -298,7 +298,7 @@ const cardsUKR = [
         title: 'Шуруповерт',
         category: 'Інструменти',
         requiredAmount: 3, i: 'од.',
-        img: '/items/id-36-opt.png',
+        img: '/items/id-36-opt.WebP',
         desc: 'Електричні шуруповерти для спорудження фортефікаційних споруд та складських стелажів',
     },
     {
@@ -306,7 +306,7 @@ const cardsUKR = [
         title: 'Кувалда',
         category: 'Інструменти',
         requiredAmount: 2, i: 'од.',
-        img: '/items/id-37-opt.png',
+        img: '/items/id-37-opt.WebP',
         desc: 'Кувалди високої якості для спорудження фортефікаційних споруд та для догляду за технікою',
     },
     {
@@ -314,7 +314,7 @@ const cardsUKR = [
         title: 'Шурупи',
         category: 'Інструменти',
         requiredAmount: 1000, i: 'од.',
-        img: '/items/id-39-opt.png',
+        img: '/items/id-39-opt.WebP',
         desc: 'Шурупи для спорудження фортефікаційних споруд та складських стелажів',
     },
     {
@@ -322,7 +322,7 @@ const cardsUKR = [
         title: 'Бензинова пила',
         category: 'Інструменти',
         requiredAmount: 2, i: 'од.',
-        img: '/items/id-40-opt.png',
+        img: '/items/id-40-opt.WebP',
         desc: 'Бензинові пили для спорудження фортефікаційних споруд',
     },
     {
@@ -330,7 +330,7 @@ const cardsUKR = [
         title: 'Звичайна пила',
         category: 'Інструменти',
         requiredAmount: 2, i: 'од.',
-        img: '/items/id-41-opt.png',
+        img: '/items/id-41-opt.WebP',
         desc: 'Звичайні зубчасті пили для спорудження фортефікаційних споруд',
     },
     {
@@ -338,7 +338,7 @@ const cardsUKR = [
         title: 'Поліетиленовий мішок',
         category: 'Витратні матеріали' && 'КРИТИЧНА НЕОБХІДНІСТЬ',
         requiredAmount: 3000, i: 'од.',
-        img: '/items/id-43-opt.png',
+        img: '/items/id-43-opt.WebP',
         desc: 'Мішки для піска для спорудження фортефікаційних споруд',
     },
     {
@@ -346,7 +346,7 @@ const cardsUKR = [
         title: 'Плівка',
         category: 'Витратні матеріали' && 'КРИТИЧНА НЕОБХІДНІСТЬ',
         requiredAmount: 12, i: 'од.',
-        img: '/items/id-44-opt.png',
+        img: '/items/id-44-opt.WebP',
         desc: 'Щільна поліетиленова плівка для спорудження фортефікаційних споруд та затемнення вікон',
     },
     {
@@ -354,7 +354,7 @@ const cardsUKR = [
         title: 'Каністра',
         category: 'Ємності',
         requiredAmount: 10, i: 'од.',
-        img: '/items/id-45-opt.png',
+        img: '/items/id-45-opt.WebP',
         desc: 'Паливні каністри для зберігання стратегічного запасу палива',
     },
     {
@@ -362,7 +362,7 @@ const cardsUKR = [
         title: 'Бутль',
         category: 'Ємності',
         requiredAmount: 10, i: 'од.',
-        img: '/items/id-46-opt.png',
+        img: '/items/id-46-opt.WebP',
         desc: 'Бутлі для зберігання стратегічного запасу питної води',
     },
     {
@@ -370,7 +370,7 @@ const cardsUKR = [
         title: 'Маскувальна сітка',
         category: 'Інструменти',
         requiredAmount: 100, i: 'од.',
-        img: '/items/id-48-opt.png',
+        img: '/items/id-48-opt.WebP',
         desc: 'Маскувальні сітки для спорудження фортефікаційних споруд, маскування нашої та цивільної техніки',
     },
     {
@@ -378,7 +378,7 @@ const cardsUKR = [
         title: 'Котушка',
         category: 'Інструменти',
         requiredAmount: 2, i: 'од.',
-        img: '/items/id-49-opt.png',
+        img: '/items/id-49-opt.WebP',
         desc: 'Котушки для швидкого розмотування електричного кабелю',
     },
     {
@@ -386,7 +386,7 @@ const cardsUKR = [
         title: 'Газовий балон',
         category: 'Витратні матеріали',
         requiredAmount: 10, i: 'од.',
-        img: '/items/id-50-opt.png',
+        img: '/items/id-50-opt.WebP',
         desc: 'Газові балони для побутових газових приладів',
     },
     {
@@ -394,7 +394,7 @@ const cardsUKR = [
         title: 'Питна вода',
         category: 'Іжа/Напої',
         requiredAmount: 100, i: 'од.',
-        img: '/items/id-51-opt.png',
+        img: '/items/id-51-opt.WebP',
         desc: 'Питна вода для повсякдневного використання',
     },
     {
@@ -402,7 +402,7 @@ const cardsUKR = [
         title: 'Кабель',
         category: 'Електроніка' && 'КРИТИЧНА НЕОБХІДНІСТЬ',
         requiredAmount: 300, i: 'од.',
-        img: '/items/id-52-opt.png',
+        img: '/items/id-52-opt.WebP',
         desc: 'Двужильний кабель, 300 м. для забезпеення електроенергією та дистанційного підриву противотанкових мін',
     },
     {
@@ -410,15 +410,15 @@ const cardsUKR = [
         title: 'Мастило',
         category: 'Зброя',
         requiredAmount: 30, i: 'од.',
-        img: '/items/id-2-opt.png',
+        img: '/items/id-2-opt.WebP',
         desc: 'Балони з мастилом для чищення зброї',
     },
     {
         id: 55,
         title: 'Коліматоний приціл',
-        category: 'Weapons',
+        category: 'Зброя',
         requiredAmount: 20, i: 'units',
-        img: '/items/id-55-opt.png',
+        img: '/items/id-55-opt.WebP',
         desc: 'Коліматорні приціли для наших патрулей',
     },
 ];

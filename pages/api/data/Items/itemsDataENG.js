@@ -4,7 +4,7 @@ const cardsENG = [
         title: 'Magazine',
         category: 'Weapons',
         requiredAmount: 250, i: 'units',
-        img: '/items/id-1-opt.png',
+        img: '/items/id-1-opt.WebP',
         desc: '30 round magazines for AK-74 5.45 cal.',
         show: 'show',
     },
@@ -13,7 +13,7 @@ const cardsENG = [
         title: 'Muffler for AK-74',
         category: 'Weapons',
         requiredAmount: 20, i: 'units',
-        img: '/items/id-3-opt.png',
+        img: '/items/id-3-opt.WebP',
         desc: 'Shot sound suppressors (mufflers) for AK-74 5.45 cal.',
     },
     {
@@ -21,7 +21,7 @@ const cardsENG = [
         title: '4x4 vehicle',
         category: 'Vehicles' && 'CRITICAL NEED',
         requiredAmount: 3, i: 'units',
-        img: '/items/id-53-opt.png',
+        img: '/items/id-53-opt.WebP',
         desc: 'A 4x4 cargo vehicles are required for the battalion mobility, freeing up personal cars we currently use ' +
             'for evacuation of locals ans other humanitarian initiatives',
     },
@@ -30,7 +30,7 @@ const cardsENG = [
         title: 'Fuel',
         category: 'Misc supplies' && 'CRITICAL NEED',
         requiredAmount: 1000, i: 'litres',
-        img: '/items/id-54-opt.png',
+        img: '/items/id-54-opt.WebP',
         desc: 'A 1,000 litres of A-95 petrol and 3,000 litres of Diesel are required by the battalion in order to ' +
             'be able to carry out both its military and humanitarian tasks. The lack of fuel results in a diminished ' +
             'ability to evacuate local civilians, thus endangering their lives.',
@@ -40,7 +40,7 @@ const cardsENG = [
         title: 'Picatinny Rail Tactical Mount',
         category: 'Weapons',
         requiredAmount: 20, i: 'units',
-        img: '/items/id-4-opt.png',
+        img: '/items/id-4-opt.WebP',
         desc: 'Brace for installation of additional equipment such as optical sights, lights, etc.',
     },
     {
@@ -48,7 +48,7 @@ const cardsENG = [
         title: 'Dovetail Rail Tactical Mount',
         category: 'Weapons',
         requiredAmount: 5, i: 'units',
-        img: '/items/id-5-opt.png',
+        img: '/items/id-5-opt.WebP',
         desc: 'Brace for the rapid installation of additional equipment such as optical sights, lights, etc.',
     },
     {
@@ -56,7 +56,7 @@ const cardsENG = [
         title: 'Machine gun optics and brace',
         category: 'Weapons',
         requiredAmount: 1, i: 'unit',
-        img: '/items/id-6-opt.png',
+        img: '/items/id-6-opt.WebP',
         desc: 'Optical sights and an installation brace for it for a 50 cal. machine gun',
     },
     {
@@ -64,7 +64,7 @@ const cardsENG = [
         title: 'Body armor',
         category: 'Equipment',
         requiredAmount: 40, i: 'units',
-        img: '/items/id-7-opt.png',
+        img: '/items/id-7-opt.WebP',
         desc: 'Body armor with front and rear ballistic plates (pref. with kevlar) with protection level 4+',
     },
     {
@@ -72,7 +72,7 @@ const cardsENG = [
         title: 'Ballistic helmets',
         category: 'Equipment',
         requiredAmount: 50, i: 'units',
-        img: '/items/id-8-opt.png',
+        img: '/items/id-8-opt.WebP',
         desc: 'Kevlar ballistic helmets with protection level 4+',
     },
     {
@@ -80,7 +80,7 @@ const cardsENG = [
         title: 'Vest unloading',
         category: 'Equipment',
         requiredAmount: 100, i: 'units',
-        img: '/items/id-9-opt.png',
+        img: '/items/id-9-opt.WebP',
         desc: 'Tactical vest unloading with the M.O.L.L.E system',
     },
     {
@@ -88,7 +88,7 @@ const cardsENG = [
         title: 'Magazine pouch',
         category: 'Equipment',
         requiredAmount: 150, i: 'units',
-        img: '/items/id-10-opt.png',
+        img: '/items/id-10-opt.WebP',
         desc: 'Pouch for AK-74 magazines with the M.O.L.L.E system',
     },
     {
@@ -96,7 +96,7 @@ const cardsENG = [
         title: 'Dump bag',
         category: 'Equipment',
         requiredAmount: 150, i: 'units',
-        img: '/items/id-11-opt.png',
+        img: '/items/id-11-opt.WebP',
         desc: 'Dump bags for used AK-74 magazines with the M.O.L.L.E system',
     },
     {
@@ -104,7 +104,7 @@ const cardsENG = [
         title: 'Military uniform',
         category: 'Clothes',
         requiredAmount: 100, i: 'units',
-        img: '/items/id-12-opt.png',
+        img: '/items/id-12-opt.WebP',
         desc: 'Military uniform (pref. pixelated), sizes L - XL (Ukrainian military sizes 50 = 56)',
     },
     {
@@ -112,7 +112,7 @@ const cardsENG = [
         title: 'Military boots',
         category: 'Clothes',
         requiredAmount: 100, i: 'units',
-        img: '/items/id-13-opt.png',
+        img: '/items/id-13-opt.WebP',
         desc: 'Military boots, sizes 42 – 46',
     },
     {
@@ -120,7 +120,7 @@ const cardsENG = [
         title: 'Rubber slippers',
         category: 'Clothes',
         requiredAmount: 20, i: 'units',
-        img: '/items/id-14-opt.png',
+        img: '/items/id-14-opt.WebP',
         desc: 'Rubber slippers to maintain personal hygiene',
     },
     {
@@ -128,7 +128,7 @@ const cardsENG = [
         title: 'Balaclava (winter)',
         category: 'Clothes',
         requiredAmount: 100, i: 'units',
-        img: '/items/id-15-opt.png',
+        img: '/items/id-15-opt.WebP',
         desc: 'Warm winter balaclavas, preferably of dark colors',
     },
     {
@@ -136,7 +136,7 @@ const cardsENG = [
         title: 'Balaclava (summer)',
         category: 'Clothes',
         requiredAmount: 100, i: 'units',
-        img: '/items/id-16-opt.png',
+        img: '/items/id-16-opt.WebP',
         desc: 'Thin summer balaclavas',
     },
     {
@@ -144,7 +144,7 @@ const cardsENG = [
         title: 'Thermal underwear',
         category: 'Clothes',
         requiredAmount: 40, i: 'units',
-        img: '/items/id-17-opt.png',
+        img: '/items/id-17-opt.WebP',
         desc: "Man's thermal underwear sizes L - XL (Ukrainian military sizes 48, 54, 56, 60)",
     },
     {
@@ -152,7 +152,7 @@ const cardsENG = [
         title: 'Individual first aid kit',
         category: 'Medical supplies',
         requiredAmount: 150, i: 'units',
-        img: '/items/id-18-opt.png',
+        img: '/items/id-18-opt.WebP',
         desc: 'Individual first aid kits with the M.O.L.L.E system',
     },
     {
@@ -160,7 +160,7 @@ const cardsENG = [
         title: 'Tourniquet',
         category: 'Medical supplies',
         requiredAmount: 300, i: 'units',
-        img: '/items/id-19-opt.png',
+        img: '/items/id-19-opt.WebP',
         desc: 'Military-quality tourniquets. Each soldier is required to have 2 such tourniquets on himself at all times',
     },
     {
@@ -168,7 +168,7 @@ const cardsENG = [
         title: 'Rubber tourniquets',
         category: 'Medical supplies',
         requiredAmount: 300, i: 'units',
-        img: '/items/id-20-opt.png',
+        img: '/items/id-20-opt.WebP',
         desc: 'Classic rubber medical harness with a fixation clamp. Each soldier must have a minimum of two such ' +
             'harnesses to provide aid to others or even to use for his own injuries.',
     },
@@ -177,7 +177,7 @@ const cardsENG = [
         title: 'Medical stretcher',
         category: 'Medical supplies',
         requiredAmount: 150, i: 'units',
-        img: '/items/id-21-opt.png',
+        img: '/items/id-21-opt.WebP',
         desc: 'Soft medical stretchers for the rapid evacuation of the wounded',
     },
     {
@@ -185,7 +185,7 @@ const cardsENG = [
         title: 'Metal utensils',
         category: 'Kitchen',
         requiredAmount: 100, i: 'units',
-        img: '/items/id-22-opt.png',
+        img: '/items/id-22-opt.WebP',
         desc: 'Individual metal utensils (pref. incl. fork, spoon and a deep plate) for soldiers to help maintain' +
             'general hygiene',
     },
@@ -194,7 +194,7 @@ const cardsENG = [
         title: 'Large boiling pan',
         category: 'Kitchen',
         requiredAmount: 6, i: 'units',
-        img: '/items/id-23-opt.png',
+        img: '/items/id-23-opt.WebP',
         desc: '40-liter boiling pans with handles and lids for cooking',
     },
     {
@@ -202,7 +202,7 @@ const cardsENG = [
         title: 'Thermal box',
         category: 'Kitchen',
         requiredAmount: 7, i: 'units',
-        img: '/items/id-24-opt.png',
+        img: '/items/id-24-opt.WebP',
         desc: 'Thermal boxes (pref. large) for storing anything in a moderate cold (including parts of limbs)',
     },
     {
@@ -210,7 +210,7 @@ const cardsENG = [
         title: 'LED strip',
         category: 'Electronics',
         requiredAmount: 20, i: 'units',
-        img: '/items/id-25-opt.png',
+        img: '/items/id-25-opt.WebP',
         desc: '12V LED strips for a less visible lighting',
     },
     {
@@ -218,7 +218,7 @@ const cardsENG = [
         title: 'Battery',
         category: 'Electronics',
         requiredAmount: 10, i: 'units',
-        img: '/items/id-26-opt.png',
+        img: '/items/id-26-opt.WebP',
         desc: '12V rechargeable batteries (pref. with large capacity) for the operation and charging of most of our ' +
             'communication and surveillance devices',
     },
@@ -227,7 +227,7 @@ const cardsENG = [
         title: 'Thermal image device',
         category: 'Electronics',
         requiredAmount: 6, i: 'units',
-        img: '/items/id-27-opt.png',
+        img: '/items/id-27-opt.WebP',
         desc: 'Military thermal imagers for surveillance, patrol and other tasks to be performed in the dark',
     },
     {
@@ -235,7 +235,7 @@ const cardsENG = [
         title: 'Night vision device',
         category: 'Electronics',
         requiredAmount: 6, i: 'units',
-        img: '/items/id-28-opt.png',
+        img: '/items/id-28-opt.WebP',
         desc: 'Military night vision devices for surveillance and patrol in the dark',
     },
     {
@@ -243,7 +243,7 @@ const cardsENG = [
         title: 'Rangefinder',
         category: 'Electronics' && 'CRITICAL NEED',
         requiredAmount: 3, i: 'units',
-        img: '/items/id-29-opt.png',
+        img: '/items/id-29-opt.WebP',
         desc: 'Military rangefinders able to accurately measure distances of up to 2 km.',
     },
     {
@@ -251,7 +251,7 @@ const cardsENG = [
         title: 'Solar panel',
         category: 'Electronics',
         requiredAmount: 10, i: 'units',
-        img: '/items/id-30-opt.png',
+        img: '/items/id-30-opt.WebP',
         desc: '12V military-grade solar panels for additional and guaranteed supply of electricity',
     },
     {
@@ -259,7 +259,7 @@ const cardsENG = [
         title: 'Power generator',
         category: 'Electronics' && 'CRITICAL NEED',
         requiredAmount: 3, i: 'units',
-        img: '/items/id-31-opt.png',
+        img: '/items/id-31-opt.WebP',
         desc: 'Diesel power generators with a capacity of at least 5.5 kW for charging all of our devices used to ' +
             'maintain communication, surveillance and (especially) to keep warm',
     },
@@ -268,7 +268,7 @@ const cardsENG = [
         title: 'Pick',
         category: 'Tools',
         requiredAmount: 5, i: 'units',
-        img: '/items/id-32-opt.png',
+        img: '/items/id-32-opt.WebP',
         desc: 'Durable metal mining picks for the construction of fortifications',
     },
     {
@@ -276,7 +276,7 @@ const cardsENG = [
         title: 'Crowbar',
         category: 'Tools',
         requiredAmount: 4, i: 'units',
-        img: '/items/id-33-opt.png',
+        img: '/items/id-33-opt.WebP',
         desc: 'Metal crowbar for the construction of fortifications',
     },
     {
@@ -284,7 +284,7 @@ const cardsENG = [
         title: 'Axe',
         category: 'Tools',
         requiredAmount: 4, i: 'units',
-        img: '/items/id-34-opt.png',
+        img: '/items/id-34-opt.WebP',
         desc: 'Durable axes for the construction of fortifications',
     },
     {
@@ -292,7 +292,7 @@ const cardsENG = [
         title: 'Hammer',
         category: 'Tools',
         requiredAmount: 2, i: 'units',
-        img: '/items/id-35-opt.png',
+        img: '/items/id-35-opt.WebP',
         desc: 'Durable hammers for the construction of fortifications',
     },
     {
@@ -300,7 +300,7 @@ const cardsENG = [
         title: 'Electric screwdriver',
         category: 'Tools',
         requiredAmount: 2, i: 'units',
-        img: '/items/id-36-opt.png',
+        img: '/items/id-36-opt.WebP',
         desc: 'Electric screwdrivers for the construction of fortifications and storage racks',
     },
     {
@@ -308,7 +308,7 @@ const cardsENG = [
         title: 'Sledgehammer',
         category: 'Tools',
         requiredAmount: 1, i: 'unit',
-        img: '/items/id-37-opt.png',
+        img: '/items/id-37-opt.WebP',
         desc: 'Durable sledgehammers for the construction of fortifications as well as for taking care ' +
             'of some older equipment',
     },
@@ -317,7 +317,7 @@ const cardsENG = [
         title: 'Screws',
         category: 'Tools',
         requiredAmount: 1000, i: 'units',
-        img: '/items/id-39-opt.png',
+        img: '/items/id-39-opt.WebP',
         desc: 'Screws for the construction of fortifications and storage racks',
     },
     {
@@ -325,7 +325,7 @@ const cardsENG = [
         title: 'Gasoline saw',
         category: 'Tools',
         requiredAmount: 2, i: 'units',
-        img: '/items/id-40-opt.png',
+        img: '/items/id-40-opt.WebP',
         desc: 'Gasoline saws for the construction of fortifications',
     },
     {
@@ -333,7 +333,7 @@ const cardsENG = [
         title: 'Manual saw',
         category: 'Tools',
         requiredAmount: 2, i: 'units',
-        img: '/items/id-41-opt.png',
+        img: '/items/id-41-opt.WebP',
         desc: 'Ordinary manual saws for the construction of fortifications',
     },
     {
@@ -341,7 +341,7 @@ const cardsENG = [
         title: 'Sandbag',
         category: 'Misc supplies' && 'CRITICAL NEED',
         requiredAmount: 3000, i: 'units',
-        img: '/items/id-43-opt.png',
+        img: '/items/id-43-opt.WebP',
         desc: 'Durable plastic sandbags for the construction of fortifications, barricading doors and windows in ' +
             'civilian houses, protection of wheels on vehicles, etc.',
     },
@@ -350,7 +350,7 @@ const cardsENG = [
         title: 'Dense film',
         category: 'Misc supplies' && 'CRITICAL NEED',
         requiredAmount: 12, i: 'units',
-        img: '/items/id-44-opt.png',
+        img: '/items/id-44-opt.WebP',
         desc: 'Dense polyethylene film for the construction of fortifications, darkening of windows and for covering ' +
             'broken windows in civilian houses',
     },
@@ -359,7 +359,7 @@ const cardsENG = [
         title: 'Fuel canister',
         category: 'Holds',
         requiredAmount: 10, i: 'units',
-        img: '/items/id-45-opt.png',
+        img: '/items/id-45-opt.WebP',
         desc: 'Fuel canisters to store fuel required for power generators',
     },
     {
@@ -367,7 +367,7 @@ const cardsENG = [
         title: 'Water canister',
         category: 'Holds',
         requiredAmount: 10, i: 'units',
-        img: '/items/id-46-opt.png',
+        img: '/items/id-46-opt.WebP',
         desc: 'Water canisters for strategic drinking water storage',
     },
     {
@@ -375,7 +375,7 @@ const cardsENG = [
         title: 'Camouflage net',
         category: 'Misc supplies',
         requiredAmount: 100, i: 'units',
-        img: '/items/id-48-opt.png',
+        img: '/items/id-48-opt.WebP',
         desc: 'Camouflage nets for the construction of fortifications, disguising our and civilian vehicles',
     },
     {
@@ -383,7 +383,7 @@ const cardsENG = [
         title: 'Coil for hoses',
         category: 'Tools',
         requiredAmount: 2, i: 'units',
-        img: '/items/id-49-opt.png',
+        img: '/items/id-49-opt.WebP',
         desc: 'Coils for a rapid unwinding of electrical cable',
     },
     {
@@ -391,7 +391,7 @@ const cardsENG = [
         title: 'Gas cylinders',
         category: 'Misc supplies',
         requiredAmount: 10, i: 'units',
-        img: '/items/id-50-opt.png',
+        img: '/items/id-50-opt.WebP',
         desc: 'Gas cylinders for household gas appliances',
     },
     {
@@ -399,7 +399,7 @@ const cardsENG = [
         title: 'Drinking water',
         category: 'Food/Drink',
         requiredAmount: 100, i: 'units',
-        img: '/items/id-51-opt.png',
+        img: '/items/id-51-opt.WebP',
         desc: 'Drinking water for everyday use',
     },
     {
@@ -407,7 +407,7 @@ const cardsENG = [
         title: 'Power cable',
         category: 'Electronics' && 'CRITICAL NEED',
         requiredAmount: 300, i: 'units',
-        img: '/items/id-52-opt.png',
+        img: '/items/id-52-opt.WebP',
         desc: '300 metres of two-core power cable for power supply and remote detonation of anti-tank mines',
     },
     {
@@ -415,7 +415,7 @@ const cardsENG = [
         title: 'Oil',
         category: 'Weapons',
         requiredAmount: 30, i: 'units',
-        img: '/items/id-2-opt.png',
+        img: '/items/id-2-opt.WebP',
         desc: 'Oil for cleaning and maintenance of weapons',
     },
     {
@@ -423,7 +423,7 @@ const cardsENG = [
         title: 'Collimator sight',
         category: 'Weapons',
         requiredAmount: 20, i: 'units',
-        img: '/items/id-55-opt.png',
+        img: '/items/id-55-opt.WebP',
         desc: 'Collimator sights for our patrol teams',
     },
 ];
