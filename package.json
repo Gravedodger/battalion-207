@@ -1,8 +1,9 @@
 {
   "name": "battalion-207",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
-  "homepage": "http://www.battalion207.kyiv.ua",
+  "keywords": [ "war", "Ukraine", "battalion", "needs", "requirements", "support", "independence" ],
+  "homepage": "https://www.battalion207.kyiv.ua",
   "author": {
     "name": "Sviatoslav Malyshevskyi",
     "email": "s.malyshevskyi.development@gmail.com"

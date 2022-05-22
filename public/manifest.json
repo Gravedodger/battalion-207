@@ -1,31 +1,35 @@
 {
+  "author": "Sviatoslav Malyshevskyi",
   "app_name": "Battalion 207 Needs and Requirements",
   "short_name": "battalion-207",
   "description": "Needs and requirements of the Battalion 207 of the Ukrainian Territorial Defense",
-  "start_url": "../",
-  "theme_color": "#ffffff",
+  "start_url": "./",
+  "license": "MIT",
+  "version": "1.0.0",
+  "theme_color": "#c59d5f",
   "background_color": "#ffffff",
   "display": "standalone",
+  "orientation": "portrait-primary",
   "icons": [
     {
       "src": "favicon.ico",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/icon"
     },
     {
       "src": "favicon.ico",
       "sizes": "256x256",
-      "type": "image/png"
+      "type": "image/icon"
     },
     {
       "src": "favicon.ico",
       "sizes": "384x384",
-      "type": "image/png"
+      "type": "image/icon"
     },
     {
       "src": "favicon.ico",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/icon"
     }
   ]
 }

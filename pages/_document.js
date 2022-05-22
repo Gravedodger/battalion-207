@@ -2,7 +2,7 @@ import React from 'react';
 import theme from '/styles/theme';
 import Script from "next/script";
 import { ColorModeScript } from '@chakra-ui/react';
-import NextDocument, {Head, Html, Main, NextScript} from 'next/document';
+import NextDocument, { Head, Html, Main, NextScript } from 'next/document';
 
 class Document extends NextDocument {
     static getInitialProps(ctx) {
@@ -14,7 +14,8 @@ class Document extends NextDocument {
             <Html lang="uk">
                 <Head>
                     <meta charSet="UTF-8" />
-                    <meta name="theme-color" content="#ffffff" />
+                    <meta name="theme-color" content="#c59d5f" />
+                    <link rel="manifest" href="/manifest.json"/>
                     <link rel="manifest" href="/public/manifest.json" />
                     <Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
                     <Script strategy="lazyOnload"  dangerouslySetInnerHTML={{
