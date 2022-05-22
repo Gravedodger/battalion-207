@@ -15,7 +15,9 @@ class Document extends NextDocument {
                 <Head>
                     <meta charSet="UTF-8" />
                     <meta name="theme-color" content="#c59d5f" />
-                    <link rel="manifest" href="/manifest.json"/>
+                    <meta name="apple-mobile-web-app-status-bar" content="#c59d5f" />
+                    <link rel="manifest" href="/manifest.json" />
+                    <link rel="apple-touch-icon" href="/favicon.ico" />
                     <link rel="manifest" href="/public/manifest.json" />
                     <Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
                     <Script strategy="lazyOnload"  dangerouslySetInnerHTML={{

@@ -2,7 +2,15 @@
   "name": "battalion-207",
   "version": "1.0.0",
   "private": true,
-  "keywords": [ "war", "Ukraine", "battalion", "needs", "requirements", "support", "independence" ],
+  "keywords": [
+    "war",
+    "Ukraine",
+    "battalion",
+    "needs",
+    "requirements",
+    "support",
+    "independence"
+  ],
   "homepage": "https://www.battalion207.kyiv.ua",
   "author": {
     "name": "Sviatoslav Malyshevskyi",
@@ -31,5 +39,7 @@
     "react-useanimations": "^2.0.8",
     "styled-components": "^5.3.5"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "next-offline": "^5.0.5"
+  }
 }

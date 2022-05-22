@@ -1,3 +1,5 @@
+const withOffline = require("next-offline");
+
 const nextConfig = {
   basePath: "",
   images: {
@@ -14,4 +16,4 @@ const nextConfig = {
   },
 }
 
-module.exports = nextConfig;
+module.exports = withOffline(nextConfig);
