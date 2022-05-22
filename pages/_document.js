@@ -18,6 +18,12 @@ class Document extends NextDocument {
                     <meta name="apple-mobile-web-app-status-bar" content="#c59d5f" />
                     <link rel="manifest" href="/manifest.json" />
                     <link rel="apple-touch-icon" href="/favicon.ico" />
+
+                    <link rel="preconnect" href="https://fonts.googleapis.com" />
+                    <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+                    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
+                          rel="stylesheet" />
+
                     <link rel="manifest" href="/public/manifest.json" />
                     <Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
                     <Script strategy="lazyOnload"  dangerouslySetInnerHTML={{
