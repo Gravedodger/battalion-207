@@ -1,7 +1,7 @@
 const withOffline = require("next-offline");
 
 const nextConfig = {
-  basePath: "/",
+  basePath: "",
   images: {
     domains: [
       'localhost'
