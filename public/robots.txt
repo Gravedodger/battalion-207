@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://battalion207.kyiv.ua/pages/sitemap.xml.js

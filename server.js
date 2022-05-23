@@ -13,12 +13,10 @@ app.prepare()
         createServer((req, res) => {
             const parsedUrl = parse(req.url, true)
             const rootStaticFiles = [
-                '/manifest.json',
-                '/sitemap.xml.js',
+                '/public/manifest.json',
+                '/pages/sitemap.xml.js',
                 '/favicon.ico',
-                // '/robots.txt',
-                // '/browserconfig.xml',
-                // '/site.webmanifest',
+                '/public/robots.txt',
             ]
             if (rootStaticFiles.indexOf(parsedUrl.pathname) > -1) {
                 const path = join(__dirname, 'static', parsedUrl.pathname)
