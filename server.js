@@ -14,7 +14,7 @@ app.prepare()
             const parsedUrl = parse(req.url, true)
             const rootStaticFiles = [
                 '/manifest.json',
-                // '/sitemap.xml',
+                '/sitemap.xml.js',
                 '/favicon.ico',
                 // '/robots.txt',
                 // '/browserconfig.xml',
