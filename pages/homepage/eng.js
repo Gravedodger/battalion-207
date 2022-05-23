@@ -24,11 +24,11 @@ const homePageEng = () => {
             <Center>
                 <div className={styles.homepageContainer}>
                     <div className={styles.homepageLogoWrap}>
-                        <Image src='/logo.WebP' lazy='true' alt='main logo'/>
+                        <Image src='/logo.WebP' lazy='true' alt='main logo' />
                     </div>
 
                     <VStack className={styles.homepageNav}
-                            divider={<StackDivider borderColor='#c59d5f'/>}
+                            divider={<StackDivider borderColor='#c59d5f' />}
                             spacing={4}
                             align='center' >
 

@@ -64,7 +64,6 @@ const HomePageUkr = () => {
                     </VStack>
                 </div>
             </Center>
-
             <DandD />
         </main>
     </>

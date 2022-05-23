@@ -8,7 +8,8 @@ const DandD = () => {
 
     return (
         <Center position='relative'
-                bottom={{ lg: '-19rem', md: '-7rem', sm: '-3rem', base: '-3rem' }}
+                bottom={0}
+                mt='6rem'
                 alignItems='center'
                 flexDirection='column'
         >
