@@ -64,6 +64,7 @@ h1, h2, h3, h4 {
   text-transform: capitalize;
   line-height: 1.25;
   margin-bottom: 0.75rem;
+  font-family: 'Comfortaa', cursive;
 }
 
 h1 { font-size: 3rem; }
@@ -74,6 +75,7 @@ h4 { font-size: 0.875rem; }
 p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-5);
+  font-family: 'Comfortaa', cursive;
 }
 
 @media screen and (min-width: 800px) {
