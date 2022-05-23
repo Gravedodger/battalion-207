@@ -1,32 +1,34 @@
-const express = require("express");
-const path = require("path");
-const next = require("next");
+const { createServer } = require('http')
+const { parse } = require('url')
+const next = require('next')
+const { join } = require('path')
 
-const dev = process.env.NODE_ENV !== "production";
-const app = next({ dev });
-const handle = app.getRequestHandler();
+const port = parseInt(process.env.PORT, 10) || 3000
+const dev = process.env.NODE_ENV !== 'production'
+const app = next({ dev })
+const handle = app.getRequestHandler()
 
-app
-    .prepare()
+app.prepare()
     .then(() => {
-        const server = express();
-
-        // requests to /service-worker.js
-        server.get(
-            "/index.js",
-            express.static(path.join(__dirname, ".next"))
-        );
-
-        // all other requests
-        server.get("*", (req, res) => {
-            return handle(req, res);
-        });
-        server.listen(3000, (err) => {
-            if (err) throw err;
-            console.log("> Ready on http://localhost:3000");
-        });
+        createServer((req, res) => {
+            const parsedUrl = parse(req.url, true)
+            const rootStaticFiles = [
+                '/manifest.json',
+                // '/sitemap.xml',
+                '/favicon.ico',
+                // '/robots.txt',
+                // '/browserconfig.xml',
+                // '/site.webmanifest',
+            ]
+            if (rootStaticFiles.indexOf(parsedUrl.pathname) > -1) {
+                const path = join(__dirname, 'static', parsedUrl.pathname)
+                app.serveStatic(req, res, path)
+            } else {
+                handle(req, res, parsedUrl)
+            }
+        })
+            .listen(port, (err) => {
+                if (err) throw err
+                console.log(`> Ready on http://localhost:${port}`)
+            })
     })
-    .catch((ex) => {
-        console.error(ex.stack);
-        process.exit(1);
-    });
