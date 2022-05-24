@@ -61,6 +61,8 @@ export default function Custom404() {
                     </Flex>
                 </Container>
             </Center>
+
+            <DandD />
         </main>
     </>
 }
