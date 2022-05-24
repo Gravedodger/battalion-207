@@ -4,9 +4,11 @@ import NextLink from 'next/link';
 import Head from "next/head";
 import Header from "/components/Header/Header";
 import DandD from "/components/D&D";
-import { VStack, Center, StackDivider, Image, Link } from '@chakra-ui/react';
+import {VStack, Center, StackDivider, Image, Link, Flex, Text, useColorModeValue} from '@chakra-ui/react';
 
 const HomePageUkr = () => {
+    const textColor = useColorModeValue('#222222', '#fff');
+
     return <>
         <Head>
             <meta lang="uk" />
@@ -44,11 +46,19 @@ const HomePageUkr = () => {
                             </Link>
                         </NextLink>
 
-                        <NextLink href='../reports/ukr' passHref>
-                            <Link className={styles.homepageNavItem}>
-                                Звітність
-                            </Link>
-                        </NextLink>
+                        <Flex alignItems='center'>
+                            <NextLink href='../reports/ukr' passHref>
+                                <Link className={styles.homepageNavItem}>
+                                    Звітність
+                                </Link>
+                            </NextLink>
+                            <Text ml='1rem' mr='1rem' mt='4px' fontSize='20px' color={textColor}>/</Text>
+                            <NextLink href='../FAQ/ukr' passHref>
+                                <Link className={styles.homepageNavItem}>
+                                    FAQ
+                                </Link>
+                            </NextLink>
+                        </Flex>
 
                         <NextLink href='../finSupport/ukr' passHref>
                             <Link className={styles.homepageNavItem}>
