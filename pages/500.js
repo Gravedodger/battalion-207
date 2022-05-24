@@ -2,10 +2,10 @@ import React from "react";
 import styles from '/styles/Starter.module.css';
 import Head from 'next/head';
 import Link from 'next/link';
+import DandD from "/components/D&D";
 import { MoonIcon } from "@chakra-ui/icons";
 import { LightBulbIcon } from "/components/Icons";
 import { Center, Flex, Box, Container, IconButton, useColorMode, Text, Image, useColorModeValue } from '@chakra-ui/react';
-import DandD from "/components/D&D";
 
 export default function Custom500() {
     const { toggleColorMode } = useColorMode();

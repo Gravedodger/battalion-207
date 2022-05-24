@@ -26,4 +26,5 @@ Available scripts:
     "build" - initiates React build for production;
     "start"
     "lint"
+    "server"
 ```
