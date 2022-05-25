@@ -11,13 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16cc5659-9977-4949-ba87-ebf4e6bd80d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/FAQ/eng.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/FAQ/ukr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/FAQ.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/smaly.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/smaly.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/homepage/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/homepage/eng.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/homepage/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/homepage/ukr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/FAQ/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/FAQ/eng.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/FAQ/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/FAQ/ukr.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +136,7 @@
       <workItem from="1653030817193" duration="10296000" />
       <workItem from="1653127676432" duration="2105000" />
       <workItem from="1653251025061" duration="11837000" />
-      <workItem from="1653418664947" duration="10464000" />
+      <workItem from="1653418664947" duration="16755000" />
     </task>
     <servers />
   </component>
