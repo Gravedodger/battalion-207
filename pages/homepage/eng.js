@@ -46,7 +46,7 @@ const homePageEng = () => {
                             </Link>
                         </NextLink>
 
-                        <Flex alignItems='center'>
+                        <Flex alignItems='center' justifyContent='space-around'>
                             <NextLink href='../reports/eng' passHref>
                                 <Link className={styles.homepageNavItem}>
                                     Reports
