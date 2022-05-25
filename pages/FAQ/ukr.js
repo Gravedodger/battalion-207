@@ -32,7 +32,8 @@ const FAQukr = () => {
         <div className='main'>
             <Header pageTitle='Відповіді на деякі запитання' />
             <Center>
-                <Accordion defaultIndex={[0]} allowMultiple width='100%' m='0 25% 5% 25%'>
+                <Accordion defaultIndex={[0]} allowMultiple width='100%'
+                           m={{ lg: '0 25% 5% 25%', sm: '0 10% 5% 10%', base: '0 5% 5% 5%'}}>
 
                     {/*   QUESTION / ANSWER 1   */}
                     <AccordionItem>
@@ -41,7 +42,7 @@ const FAQukr = () => {
                                 <Box flex='1' textAlign='left'>
                                     <Text color={textColor}
                                           className={styles.accordionButton}
-                                          fontSize={{ lg: '22px', md: '18px', sm: '16px', base: '15px' }}
+                                          fontSize={{ lg: '22px', md: '18px', sm: '12px', base: '11px' }}
                                           lineHeight={1.6}
                                     >
                                         "Що таке ТРО та чим воно відрізняється від "звичайної" армії?"
@@ -51,22 +52,22 @@ const FAQukr = () => {
                             </AccordionButton>
                         </h2>
                         <AccordionPanel pb={4}>
-                            <Text color={textColor} fontSize={{ lg: '16px', md: '15px', sm: '14px', base: '13px' }} mb={2} textAlign='justify'>
+                            <Text color={textColor} fontSize={{ lg: '16px', md: '15px', sm: '10px', base: '9px' }} mb={2} textAlign='justify'>
                                 Сили територіальної оборони (ТРО) - окремий рід військ у складі Збройних сил України (ЗСУ).
                                 Командування підрозділами ТРО здійснює безпосередньо Головнокомандувач ЗСУ, у межах завдань
                                 передбачених Законом України "Про основи національного спротиву".
                             </Text>
-                            <Text color={textColor} fontSize={{ lg: '16px', md: '15px', sm: '14px', base: '13px' }} mb={2} textAlign='justify'>
+                            <Text color={textColor} fontSize={{ lg: '16px', md: '15px', sm: '10px', base: '9px' }} mb={2} textAlign='justify'>
                                 Реагуючи на жалюгідну спробу окупації України схибленим східним сусідом нашої країни,
                                 були внесені необхідні пправки до закону, що дозволили силам ТРО виконувати бойові
                                 завдання за межами їх області.
                             </Text>
-                            <Text color={textColor} fontSize={{ lg: '16px', md: '15px', sm: '14px', base: '13px' }} mb={2} textAlign='justify'>
+                            <Text color={textColor} fontSize={{ lg: '16px', md: '15px', sm: '10px', base: '9px' }} mb={2} textAlign='justify'>
                                 Особовий склад сил ТРО комплектується насамперед з громадян України, що вже мають
                                 бойовий досвід, та з добровольців, які найкраще проявили себе у перший місяц загальнонаціонального
                                 спротиву російській навалі.
                             </Text>
-                            <Text color={textColor} fontSize={{ lg: '16px', md: '15px', sm: '14px', base: '13px' }} mb={2} textAlign='justify'>
+                            <Text color={textColor} fontSize={{ lg: '16px', md: '15px', sm: '10px', base: '9px' }} mb={2} textAlign='justify'>
                                 На сьогодні, сили ТРО - це страшний сон окупата. Постійно тренуючись, здобуваючи
                                 унікальний бойовий досвід та маючи можливість приймати відповідальі рашення на найнижчому
                                 рівні робить кожного бійця сил ТРО унікальним професіоналом із захисту України.
@@ -81,7 +82,7 @@ const FAQukr = () => {
                                 <Box flex='1' textAlign='left'>
                                     <Text color={textColor}
                                           className={styles.accordionButton}
-                                          fontSize={{ lg: '22px', md: '18px', sm: '16px', base: '15px' }}
+                                          fontSize={{ lg: '22px', md: '18px', sm: '12px', base: '11px' }}
                                           lineHeight={1.6}
                                     >
                                         "Чому вам стільки всього потрібно, невже ЗСУ недостатньо вас забезпечує?"
@@ -91,7 +92,7 @@ const FAQukr = () => {
                             </AccordionButton>
                         </h2>
                         <AccordionPanel pb={4}>
-                            <Text color={textColor} fontSize={{ lg: '16px', md: '15px', sm: '14px', base: '13px' }}>
+                            <Text color={textColor} fontSize={{ lg: '16px', md: '15px', sm: '10px', base: '9px' }} mb={2} textAlign='justify'>
                                 Створення сил ТРО розпочалося незадовго до повномасштабної війни, що не дозволило ЗСУ
                                 зробити необхідні бюджетні асигнування та закупівлі навіть для мінімальної комплектації
                                 бійців ТРО, не включаючи додаткових бійців що були залучені поза планом. ЗСУ зосереджено на
@@ -109,7 +110,7 @@ const FAQukr = () => {
                                 <Box flex='1' textAlign='left'>
                                     <Text color={textColor}
                                           className={styles.accordionButton}
-                                          fontSize={{ lg: '22px', md: '18px', sm: '16px', base: '15px' }}
+                                          fontSize={{ lg: '22px', md: '18px', sm: '12px', base: '11px' }}
                                           lineHeight={1.6}
                                     >
                                         "Звідки я знаю, що моя фінансова або будь-яка інша допомога батальйону буде
@@ -120,13 +121,13 @@ const FAQukr = () => {
                             </AccordionButton>
                         </h2>
                         <AccordionPanel pb={4}>
-                            <Text color={textColor} fontSize={{ lg: '16px', md: '15px', sm: '14px', base: '13px' }}>
+                            <Text color={textColor} fontSize={{ lg: '16px', md: '15px', sm: '10px', base: '9px' }} mb={2} textAlign='justify'>
                                 Командування батальйону та наші волонтери докладають всі зусилля для надання якомога
                                 прозорішої звітності відносно витрат та закупівель. Нажаль, ведення бойових дій та
                                 необхідність придбання деяких використаних речей деколи унеможливлює надання повноцінної
                                 звітності.
                             </Text>
-                            <Text color={textColor} fontSize={{ lg: '16px', md: '15px', sm: '14px', base: '13px' }}>
+                            <Text color={textColor} fontSize={{ lg: '16px', md: '15px', sm: '10px', base: '9px' }} mb={2} textAlign='justify'>
                                 Кожен член нашої команди максимально зацікавлений у нашій спільній перемозі і довів
                                 свою чесність своїми справами. Якщо у будь-який час у Вас виникнуть підозри щодо
                                 належного використання коштів чи речей наданих батальйону - дуже просимо Вас одразу
@@ -142,7 +143,7 @@ const FAQukr = () => {
                     {/*            <Box flex='1' textAlign='left'>*/}
                     {/*                <Text color={textColor}*/}
                     {/*                      className={styles.accordionButton}*/}
-                    {/*                      fontSize={{ lg: '22px', md: '18px', sm: '16px', base: '15px' }}*/}
+                    {/*fontSize={{ lg: '22px', md: '18px', sm: '12px', base: '11px' }}*/}
                     {/*                      lineHeight={1.6}*/}
                     {/*                >*/}
                     {/*                    Питання 4*/}
@@ -152,7 +153,7 @@ const FAQukr = () => {
                     {/*        </AccordionButton>*/}
                     {/*    </h2>*/}
                     {/*    <AccordionPanel pb={4}>*/}
-                    {/*        <Text color={textColor} fontSize={{ lg: '16px', md: '15px', sm: '14px', base: '13px' }}>*/}
+                    {/*<Text color={textColor} fontSize={{ lg: '16px', md: '15px', sm: '10px', base: '9px' }} mb={2} textAlign='justify'>*/}
                     {/*            Відповідь 4*/}
                     {/*        </Text>*/}
                     {/*    </AccordionPanel>*/}
@@ -165,7 +166,7 @@ const FAQukr = () => {
                     {/*            <Box flex='1' textAlign='left'>*/}
                     {/*                <Text color={textColor}*/}
                     {/*                      className={styles.accordionButton}*/}
-                    {/*                      fontSize={{ lg: '22px', md: '18px', sm: '16px', base: '15px' }}*/}
+                    {/*fontSize={{ lg: '22px', md: '18px', sm: '12px', base: '11px' }}*/}
                     {/*                      lineHeight={1.6}*/}
                     {/*                >*/}
                     {/*                    Питання 5*/}
@@ -175,7 +176,7 @@ const FAQukr = () => {
                     {/*        </AccordionButton>*/}
                     {/*    </h2>*/}
                     {/*    <AccordionPanel pb={4}>*/}
-                    {/*        <Text color={textColor} fontSize={{ lg: '16px', md: '15px', sm: '14px', base: '13px' }}>*/}
+                    {/*<Text color={textColor} fontSize={{ lg: '16px', md: '15px', sm: '10px', base: '9px' }} mb={2} textAlign='justify'>*/}
                     {/*            Відповідь 5*/}
                     {/*        </Text>*/}
                     {/*    </AccordionPanel>*/}

@@ -35,22 +35,22 @@ const homePageEng = () => {
                             align='center' >
 
                         <NextLink href='../about/eng' passHref>
-                            <Link className={styles.homepageNavItem}>
+                            <Text color={textColor} className={styles.homepageNavItem}>
                                 About
-                            </Link>
+                            </Text>
                         </NextLink>
 
                         <NextLink href='../items/eng' passHref>
-                            <Link className={styles.homepageNavItem}>
+                            <Text color={textColor} className={styles.homepageNavItem}>
                                 Items
-                            </Link>
+                            </Text>
                         </NextLink>
 
-                        <Flex alignItems='center' justifyContent='space-around'>
+                        <Flex alignItems='center' width={{ sm: '160px', base: '160px' }} mr={{ lg: '6rem' }}>
                             <NextLink href='../reports/eng' passHref>
-                                <Link className={styles.homepageNavItem}>
+                                <Text color={textColor} className={styles.homepageNavItem}>
                                     Reports
-                                </Link>
+                                </Text>
                             </NextLink>
                             <Text ml={{ lg: '1rem', sm: '15px', base: '10px' }}
                                   mr={{ lg: '1rem', sm: '15px', base: '10px' }}
@@ -59,22 +59,22 @@ const homePageEng = () => {
                                   color={textColor}
                             >/</Text>
                             <NextLink href='../FAQ/eng' passHref>
-                                <Link className={styles.homepageNavItem}>
+                                <Text color={textColor} className={styles.homepageNavItem}>
                                     FAQ
-                                </Link>
+                                </Text>
                             </NextLink>
                         </Flex>
 
                         <NextLink href='../finSupport/eng' passHref>
-                            <Link className={styles.homepageNavItem}>
+                            <Text color={textColor} className={styles.homepageNavItem}>
                                 Financial Support
-                            </Link>
+                            </Text>
                         </NextLink>
 
                         <NextLink href='../contacts/eng' passHref>
-                            <Link className={styles.homepageNavItem}>
+                            <Text color={textColor} className={styles.homepageNavItem}>
                                 Contacts
-                            </Link>
+                            </Text>
                         </NextLink>
                     </VStack>
                 </div>

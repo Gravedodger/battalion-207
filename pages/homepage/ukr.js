@@ -4,7 +4,7 @@ import NextLink from 'next/link';
 import Head from "next/head";
 import Header from "/components/Header/Header";
 import DandD from "/components/D&D";
-import {VStack, Center, StackDivider, Image, Link, Flex, Text, useColorModeValue} from '@chakra-ui/react';
+import { VStack, Center, StackDivider, Image, Link, Flex, Text, useColorModeValue } from '@chakra-ui/react';
 
 const HomePageUkr = () => {
     const textColor = useColorModeValue('#222222', '#fff');
@@ -35,45 +35,51 @@ const HomePageUkr = () => {
                             align='center' >
 
                         <NextLink href='../about/ukr' passHref>
-                            <Link className={styles.homepageNavItem}>
+                            <Text color={textColor} className={styles.homepageNavItem}>
                                 Про Батальйон
-                            </Link>
+                            </Text>
                         </NextLink>
 
                         <NextLink href='../items/ukr' passHref>
-                            <Link className={styles.homepageNavItem}>
+                            <Text color={textColor} className={styles.homepageNavItem}>
                                 Нагальна необхідність
-                            </Link>
+                            </Text>
                         </NextLink>
 
-                        <Flex alignItems='center'>
+                        <Flex alignItems='center' width={{ sm: '160px', base: '160px' }} mr={{ lg: '6rem' }}>
                             <NextLink href='../reports/ukr' passHref>
-                                <Link className={styles.homepageNavItem}>
+                                <Text color={textColor} className={styles.homepageNavItem}>
                                     Звітність
-                                </Link>
+                                </Text>
                             </NextLink>
-                            <Text ml='1rem' mr='1rem' mt='4px' fontSize='20px' color={textColor}>/</Text>
+                            <Text ml={{ lg: '1rem', sm: '15px', base: '10px' }}
+                                  mr={{ lg: '1rem', sm: '15px', base: '10px' }}
+                                  mt='4px'
+                                  fontSize='20px'
+                                  color={textColor}
+                            >/</Text>
                             <NextLink href='../FAQ/ukr' passHref>
-                                <Link className={styles.homepageNavItem}>
+                                <Text color={textColor} className={styles.homepageNavItem}>
                                     FAQ
-                                </Link>
+                                </Text>
                             </NextLink>
                         </Flex>
 
                         <NextLink href='../finSupport/ukr' passHref>
-                            <Link className={styles.homepageNavItem}>
+                            <Text color={textColor} className={styles.homepageNavItem}>
                                 Фінансова допомога
-                            </Link>
+                            </Text>
                         </NextLink>
 
                         <NextLink href='../contacts/ukr' passHref>
-                            <Link className={styles.homepageNavItem}>
+                            <Text color={textColor} className={styles.homepageNavItem}>
                                 Контактна інформація
-                            </Link>
+                            </Text>
                         </NextLink>
                     </VStack>
                 </div>
             </Center>
+
             <DandD />
         </main>
     </>
