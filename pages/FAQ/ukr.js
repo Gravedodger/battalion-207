@@ -137,7 +137,7 @@ const FAQukr = () => {
                     </AccordionItem>
 
                     {/*   QUESTION / ANSWER 4   */}
-                    {/*<AccordionItem>*/}
+                    {/*<AccordionCustomItem>*/}
                     {/*    <h2>*/}
                     {/*        <AccordionButton className={styles.accordionButton} pt='20px' pb='20px'>*/}
                     {/*            <Box flex='1' textAlign='left'>*/}
@@ -157,10 +157,10 @@ const FAQukr = () => {
                     {/*            Відповідь 4*/}
                     {/*        </Text>*/}
                     {/*    </AccordionPanel>*/}
-                    {/*</AccordionItem>*/}
+                    {/*</AccordionCustomItem>*/}
 
                     {/*   QUESTION / ANSWER 5   */}
-                    {/*<AccordionItem>*/}
+                    {/*<AccordionCustomItem>*/}
                     {/*    <h2>*/}
                     {/*        <AccordionButton className={styles.accordionButton} pt='20px' pb='20px'>*/}
                     {/*            <Box flex='1' textAlign='left'>*/}
@@ -180,7 +180,7 @@ const FAQukr = () => {
                     {/*            Відповідь 5*/}
                     {/*        </Text>*/}
                     {/*    </AccordionPanel>*/}
-                    {/*</AccordionItem>*/}
+                    {/*</AccordionCustomItem>*/}
                 </Accordion>
             </Center>
 

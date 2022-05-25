@@ -32,6 +32,7 @@
     "@chakra-ui/react": "^1.8.8",
     "@emotion/react": "11",
     "@emotion/styled": "11",
+    "formik": "^2.2.9",
     "framer-motion": "6",
     "next": "12.1.5",
     "prop-types": "^15.8.1",

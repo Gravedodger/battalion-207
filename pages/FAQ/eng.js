@@ -33,10 +33,9 @@ const FAQeng = () => {
             <Header pageTitle='Frequently Asked Questions' />
             <Center>
                 <Accordion defaultIndex={[0]} allowMultiple width='100%'
-                           m={{ lg: '0 25% 5% 25%', sm: '0 10% 5% 10%', base: '0 5% 5% 5%'}}
-                >
+                           m={{ lg: '0 25% 5% 25%', sm: '0 10% 5% 10%', base: '0 5% 5% 5%'}}>
 
-                    {/*   QUESTION / ANSWER 1   */}
+                    {/*QUESTION / ANSWER 1*/}
                     <AccordionItem>
                         <h2>
                             <AccordionButton className={styles.accordionButton} pt='20px' pb='20px'>
@@ -143,7 +142,7 @@ const FAQeng = () => {
                     </AccordionItem>
 
                     {/*   QUESTION / ANSWER 4   */}
-                    {/*<AccordionItem>*/}
+                    {/*<AccordionCustomItem>*/}
                     {/*    <h2>*/}
                     {/*        <AccordionButton className={styles.accordionButton} pt='20px' pb='20px'>*/}
                     {/*            <Box flex='1' textAlign='left'>*/}
@@ -163,10 +162,10 @@ const FAQeng = () => {
                     {/*            Answer 4*/}
                     {/*        </Text>*/}
                     {/*    </AccordionPanel>*/}
-                    {/*</AccordionItem>*/}
+                    {/*</AccordionCustomItem>*/}
 
                     {/*   QUESTION / ANSWER 5   */}
-                    {/*<AccordionItem>*/}
+                    {/*<AccordionCustomItem>*/}
                     {/*    <h2>*/}
                     {/*        <AccordionButton className={styles.accordionButton} pt='20px' pb='20px'>*/}
                     {/*            <Box flex='1' textAlign='left'>*/}
@@ -186,7 +185,7 @@ const FAQeng = () => {
                     {/*            Answer 5*/}
                     {/*        </Text>*/}
                     {/*    </AccordionPanel>*/}
-                    {/*</AccordionItem>*/}
+                    {/*</AccordionCustomItem>*/}
                 </Accordion>
             </Center>
 
