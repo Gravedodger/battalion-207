@@ -42,7 +42,7 @@ const FAQeng = () => {
                                     <Text w='90%'
                                           color={textColor}
                                           className={styles.accordionButton}
-                                          fontSize={{ lg: '22px', md: '18px', sm: '16px', base: '15px' }}
+                                          fontSize={{ lg: '22px', md: '18px', sm: '12px', base: '11px' }}
                                           lineHeight={1.6}
                                     >
                                         "What is the Ukrainian Territorial Defence Forces and how is it different from
@@ -53,24 +53,24 @@ const FAQeng = () => {
                             </AccordionButton>
                         </h2>
                         <AccordionPanel pb={4}>
-                            <Text color={textColor} fontSize={{ lg: '16px', md: '15px', sm: '14px', base: '13px' }} mb={2} textAlign='justify'>
+                            <Text color={textColor} fontSize={{ lg: '16px', md: '15px', sm: '10px', base: '9px' }} mb={2} textAlign='justify'>
                                 The Territorial Defence Forces (TDF) is a separate component of the Armed Forces of Ukraine.
                                 TDF were formed as a result of reorganization of the Territorial Defence Battalions,
                                 which were volunteer militias created during the War in Donbass that started in 2014.
                                 Command of TDF units is carried out directly by the Commander-in-Chief of the Armed Forces
                                 of Ukraine within the limits provided by the Law of Ukraine "On the basis of national resistance".
                             </Text>
-                            <Text color={textColor} fontSize={{ lg: '16px', md: '15px', sm: '14px', base: '13px' }} mb={2} textAlign='justify'>
+                            <Text color={textColor} fontSize={{ lg: '16px', md: '15px', sm: '10px', base: '9px' }} mb={2} textAlign='justify'>
                                 In response to the pathetic attempt by our frantic eastern neighbour to occupy Ukraine,
                                 the necessary amendments to the law were made, permitting the TDF to carry out combat operations
                                 outside their home regions of Ukraine.
                             </Text>
-                            <Text color={textColor} fontSize={{ lg: '16px', md: '15px', sm: '14px', base: '13px' }} mb={2} textAlign='justify'>
+                            <Text color={textColor} fontSize={{ lg: '16px', md: '15px', sm: '10px', base: '9px' }} mb={2} textAlign='justify'>
                                 The TDF personnel are composed of the citizens of Ukraine, primarily who already have
                                 combat experience, and of the volunteers who performed best in hte first month of the
                                 nationwide resistance to the russian invasion.
                             </Text>
-                            <Text color={textColor} fontSize={{ lg: '16px', md: '15px', sm: '14px', base: '13px' }} mb={2} textAlign='justify'>
+                            <Text color={textColor} fontSize={{ lg: '16px', md: '15px', sm: '10px', base: '9px' }} mb={2} textAlign='justify'>
                                 Currently, the TDF units are russia's worst nightmare. Constant training, gaining unique
                                 combat experience, local knowledge, and the ability to make responsible decisions at the
                                 lowest possible level of the military hierarchy - all makes each soldies of the TDF a unique
@@ -86,7 +86,7 @@ const FAQeng = () => {
                                 <Box flex='1' textAlign='left'>
                                     <Text color={textColor}
                                           className={styles.accordionButton}
-                                          fontSize={{ lg: '22px', md: '18px', sm: '16px', base: '15px' }}
+                                          fontSize={{ lg: '22px', md: '18px', sm: '12px', base: '11px' }}
                                           lineHeight={1.6}
                                     >
                                         "How come you require so much, aren't the Armed Forces not providing enough to
@@ -97,7 +97,7 @@ const FAQeng = () => {
                             </AccordionButton>
                         </h2>
                         <AccordionPanel pb={4}>
-                            <Text color={textColor} fontSize={{ lg: '16px', md: '15px', sm: '14px', base: '13px' }}>
+                            <Text color={textColor} fontSize={{ lg: '16px', md: '15px', sm: '10px', base: '9px' }}>
                                 TDF were established shortly before the full-scale war started, thus the Armed Forces of
                                 Ukraine lacked the time to make the necessary budget allocations and purchases even for the
                                 minimum staffing of the TDF units, not including additional soldiers called upon on February 24th.
@@ -116,7 +116,7 @@ const FAQeng = () => {
                                 <Box flex='1' textAlign='left'>
                                     <Text color={textColor}
                                           className={styles.accordionButton}
-                                          fontSize={{ lg: '22px', md: '18px', sm: '16px', base: '15px' }}
+                                          fontSize={{ lg: '22px', md: '18px', sm: '12px', base: '11px' }}
                                           lineHeight={1.6}
                                     >
                                         "How do I know that my financial or any other assistance to the battalion will
@@ -127,12 +127,12 @@ const FAQeng = () => {
                             </AccordionButton>
                         </h2>
                         <AccordionPanel pb={4}>
-                            <Text color={textColor} fontSize={{ lg: '16px', md: '15px', sm: '14px', base: '13px' }}>
+                            <Text color={textColor} fontSize={{ lg: '16px', md: '15px', sm: '10px', base: '9px' }}>
                                 The battalion command and our volunteers make every effort to provide transparent reporting
                                 on our spending and procurement. Unfortunately, constant fighting and the need to
                                 sometimes purchase used items makes it impossible to provide "perfect" reporting.
                             </Text>
-                            <Text color={textColor} fontSize={{ lg: '16px', md: '15px', sm: '14px', base: '13px' }}>
+                            <Text color={textColor} fontSize={{ lg: '16px', md: '15px', sm: '10px', base: '9px' }}>
                                 Nonetheless, each member of our team is most interested in our common victory and proved
                                 himself many times over. If at any time you find yourself being concerned how your aid had been
                                 used - please immediately notify us via the e-mail or by any other means convenient to you!
