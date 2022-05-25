@@ -12,10 +12,10 @@
   <component name="ChangeListManager">
     <list default="true" id="16cc5659-9977-4949-ba87-ebf4e6bd80d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/FAQ/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/FAQ/ukr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/homepage/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/homepage/eng.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/homepage/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/homepage/ukr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Homepage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Homepage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/WarStats/WarStatsENG.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/WarStatsENG.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/WarStats/WarStatsUKR.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/WarStatsUKR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/WarStats/components/WarListUKR.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/WarListUKR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/WarStats/components/warListENG.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/warListENG.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +137,7 @@
       <workItem from="1653030817193" duration="10296000" />
       <workItem from="1653127676432" duration="2105000" />
       <workItem from="1653251025061" duration="11837000" />
-      <workItem from="1653418664947" duration="21858000" />
+      <workItem from="1653418664947" duration="23155000" />
     </task>
     <servers />
   </component>
@@ -254,6 +254,10 @@
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1650663960132" />
+    <state x="443" y="35" key="VCS.ChangeListViewerDialog" timestamp="1653490350709">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="443" y="35" key="VCS.ChangeListViewerDialog/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1653490350709" />
     <state x="478" y="236" key="WebDeployment.AddServerDialog.v.1" timestamp="1652134035312">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
