@@ -52,7 +52,12 @@ const homePageEng = () => {
                                     Reports
                                 </Link>
                             </NextLink>
-                            <Text ml='1rem' mr='1rem' mt='4px' fontSize='20px' color={textColor}>/</Text>
+                            <Text ml={{ lg: '1rem', sm: '15px', base: '10px' }}
+                                  mr={{ lg: '1rem', sm: '15px', base: '10px' }}
+                                  mt='4px'
+                                  fontSize='20px'
+                                  color={textColor}
+                            >/</Text>
                             <NextLink href='../FAQ/eng' passHref>
                                 <Link className={styles.homepageNavItem}>
                                     FAQ
