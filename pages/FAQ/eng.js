@@ -32,7 +32,9 @@ const FAQeng = () => {
         <main className='main'>
             <Header pageTitle='Frequently Asked Questions' />
             <Center>
-                <Accordion defaultIndex={[0]} allowMultiple width='100%' m='0 25% 5% 25%'>
+                <Accordion defaultIndex={[0]} allowMultiple width='100%'
+                           m={{ lg: '0 25% 5% 25%', sm: '0 10% 5% 10%', base: '0 5% 5% 5%'}}
+                >
 
                     {/*   QUESTION / ANSWER 1   */}
                     <AccordionItem>
