@@ -4,12 +4,25 @@ import theme from '../styles/theme';
 import PropTypes from 'prop-types';
 import { ChakraProvider } from "@chakra-ui/react";
 import ScrollToTop from "../components/ScrollToTop";
+import { motion } from 'framer-motion';
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps, router }) {
   return (
       <ChakraProvider theme={theme}>
           <ScrollToTop />
-          <Component {...pageProps} />
+          <motion.div key={router.route} initial="pageInitial" animate="pageAnimate" variants={{
+              pageInitial: {
+                  opacity: 0
+              },
+              pageAnimate: {
+                  opacity: 1
+              },
+          }} transition={{
+              type: "spring",
+              default: {duration: 0.8},
+          }}>
+              <Component {...pageProps} />
+          </motion.div>
       </ChakraProvider>
   );
 }

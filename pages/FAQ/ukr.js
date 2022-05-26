@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from '/styles/FAQ.module.css';
 import Head from "next/head";
 import Header from "/components/Header";

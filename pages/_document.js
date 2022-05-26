@@ -12,19 +12,7 @@ class Document extends NextDocument {
         return (
             <Html lang="uk">
                 <Head>
-                    <meta charSet="UTF-8" />
-                    <meta name="theme-color" content="#fff" />
-                    <meta name="apple-mobile-web-app-status-bar" content="#fff" />
-                    <link rel="manifest" href="/manifest.json" />
-                    <link rel="apple-touch-icon" href="/favicon.ico" />
-
-                    <link rel="preconnect" href="https://fonts.googleapis.com" />
-                    <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="rue" />
-                    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
-                          rel="stylesheet" />
-
-                    <link rel="manifest" href="/public/manifest.json" />
-
+                    {/*   G-Tag   */}
                     <NextScript
                         src="https://www.googletagmanager.com/gtag/js?id=G-JX837M7B8E"
                         strategy="afterInteractive"
@@ -38,7 +26,19 @@ class Document extends NextDocument {
                         gtag('config', 'G-JX837M7B8E');
                         `}
                     </NextScript>
-                    <title></title>
+
+                    <meta charSet="UTF-8" />
+                    <meta name="theme-color" content="#fff" />
+                    <meta name="apple-mobile-web-app-status-bar" content="#fff" />
+                    <link rel="manifest" href="/manifest.json" />
+                    <link rel="apple-touch-icon" href="/favicon.ico" />
+
+                    <link rel="preconnect" href="https://fonts.googleapis.com" />
+                    <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="rue" />
+                    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
+                          rel="stylesheet" />
+
+                    <link rel="manifest" href="/public/manifest.json" />
                 </Head>
                 <body>
                 <ColorModeScript initialColorMode={theme.config.initialColorMode} />
