@@ -1,13 +1,13 @@
 import React from 'react';
 import styles from "/styles/FinSupport.module.css";
 import Head from "next/head";
-import Header from "/components/Header/Header";
-import PopoverFinSupportItem from "/components/PopoverFinSupport/PopoverFinSupport";
-import PopoverItemCrypto from "/components/PopoverFinSupport/PopoverItemCrypto";
 import DandD from "/components/D&D";
+import Header from "/components/Header/Header";
+import PopoverItemCrypto from "/components/PopoverFinSupport/PopoverItemCrypto";
+import PopoverFinSupportItem from "/components/PopoverFinSupport/PopoverFinSupport";
 import { PayPalEUR, PayPalGBP, PayPalUSD } from "/components/PayPalButtons";
-import { EurRequisitesEng, GbpRequisitesEng,  UahRequisitesEng, UsdRequisitesEng } from '/components/Requisites/index';
 import { Center, Image, GridItem, Grid, Box, Text, useColorModeValue, Link } from '@chakra-ui/react';
+import { EurRequisitesEng, GbpRequisitesEng,  UahRequisitesEng, UsdRequisitesEng } from '/components/Requisites/index';
 
 const FinSupportPageEng = () => {
     const textColor = useColorModeValue('#222222', '#fffffff0');

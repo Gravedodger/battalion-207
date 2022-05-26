@@ -1,11 +1,11 @@
 import React from "react";
 import styles from '/styles/Starter.module.css';
-import Head from 'next/head';
 import Link from 'next/link';
+import Head from 'next/head';
+import DandD from "/components/D&D";
 import { MoonIcon } from "@chakra-ui/icons";
 import { LightBulbIcon } from "/components/Icons";
 import { Center, Flex, Box, Container, IconButton, useColorMode, Text, Image, useColorModeValue } from '@chakra-ui/react';
-import DandD from "/components/D&D";
 
 export default function Custom404() {
     const { toggleColorMode } = useColorMode();
@@ -53,9 +53,7 @@ export default function Custom404() {
                         </Box>
                         <Box>
                             <Link href="/">
-                                <a>
-                                    Повернутися на головну сторінку / Go back to the start page
-                                </a>
+                                <a>Повернутися на головну сторінку / Go back to the start page</a>
                             </Link>
                         </Box>
                     </Flex>

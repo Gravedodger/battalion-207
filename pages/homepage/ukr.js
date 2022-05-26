@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from '/styles/Homepage.module.css';
-import NextLink from 'next/link';
 import Head from "next/head";
-import Header from "/components/Header/Header";
 import DandD from "/components/D&D";
+import Header from "/components/Header/Header";
+import NextLink from 'next/link';
 import { VStack, Center, StackDivider, Image, Link, Flex, Text, useColorModeValue } from '@chakra-ui/react';
 
 const HomePageUkr = () => {

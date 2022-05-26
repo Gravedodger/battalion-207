@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from "/styles/Styles.module.css";
+import Gallery from "/components/Gallery";
 import Head from "next/head";
 import Header from "/components/Header/Header";
-import Gallery from "/components/Gallery";
 import DandD from "/components/D&D";
 import { Center, Container, Box, Image, Text, useColorModeValue } from '@chakra-ui/react';
 

@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
+import items from "/api/data/Items/itemsDataENG";
 import styles from '/styles/Styles.module.css';
-import items from "/pages/api/data/Items/itemsDataENG";
 import Head from "next/head";
-import Header from "/components/Header/Header";
 import Card from "/components/Card/Card";
-import Categories from "/components/Categories/Categories";
 import DandD from "/components/D&D";
+import Header from "/components/Header/Header";
+import Categories from "/components/Categories/Categories";
 import { Center, Box, Tooltip } from '@chakra-ui/react';
 
 const ItemsPageEng = () => {

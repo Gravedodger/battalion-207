@@ -2,8 +2,8 @@ import React  from 'react';
 import styles from "/styles/Contacts.module.css";
 import Head from "next/head";
 import Link from "next/link";
-import Header from "/components/Header/Header";
 import DandD from "/components/D&D";
+import Header from "/components/Header/Header";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { Center, Box, TableContainer, Table, Tbody, Tr, Td, Image, Text, useColorModeValue } from '@chakra-ui/react';
 

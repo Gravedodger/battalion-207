@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
+import items from "/api/data/Items/itemsDataUKR";
 import styles from '/styles/Styles.module.css';
-import items from "../api/data/Items/itemsDataUKR";
 import Head from "next/head";
-import Header from "/components/Header/Header";
 import Card from "/components/Card/Card";
-import Categories from "/components/Categories/Categories";
 import DandD from "/components/D&D";
-import { Center, Box, Flex, Tooltip, Text } from '@chakra-ui/react';
+import Header from "/components/Header/Header";
+import Categories from "/components/Categories/Categories";
+import { Center, Box, Tooltip } from '@chakra-ui/react';
 
 const ItemsPageUkr = ({progressValueNum}) => {
     const [item, setItem]= useState(items);

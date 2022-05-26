@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styles from '/styles/FAQ.module.css';
 import Head from "next/head";
-import Header from "/components/Header";
 import DandD from "/components/D&D";
+import Header from "/components/Header";
 import {
     Center,
     Box,
@@ -135,52 +135,6 @@ const FAQukr = () => {
                             </Text>
                         </AccordionPanel>
                     </AccordionItem>
-
-                    {/*   QUESTION / ANSWER 4   */}
-                    {/*<AccordionCustomItem>*/}
-                    {/*    <h2>*/}
-                    {/*        <AccordionButton className={styles.accordionButton} pt='20px' pb='20px'>*/}
-                    {/*            <Box flex='1' textAlign='left'>*/}
-                    {/*                <Text color={textColor}*/}
-                    {/*                      className={styles.accordionButton}*/}
-                    {/*fontSize={{ lg: '22px', md: '18px', sm: '12px', base: '11px' }}*/}
-                    {/*                      lineHeight={1.6}*/}
-                    {/*                >*/}
-                    {/*                    Питання 4*/}
-                    {/*                </Text>*/}
-                    {/*            </Box>*/}
-                    {/*            <AccordionIcon />*/}
-                    {/*        </AccordionButton>*/}
-                    {/*    </h2>*/}
-                    {/*    <AccordionPanel pb={4}>*/}
-                    {/*<Text color={textColor} fontSize={{ lg: '16px', md: '15px', sm: '10px', base: '9px' }} mb={2} textAlign='justify'>*/}
-                    {/*            Відповідь 4*/}
-                    {/*        </Text>*/}
-                    {/*    </AccordionPanel>*/}
-                    {/*</AccordionCustomItem>*/}
-
-                    {/*   QUESTION / ANSWER 5   */}
-                    {/*<AccordionCustomItem>*/}
-                    {/*    <h2>*/}
-                    {/*        <AccordionButton className={styles.accordionButton} pt='20px' pb='20px'>*/}
-                    {/*            <Box flex='1' textAlign='left'>*/}
-                    {/*                <Text color={textColor}*/}
-                    {/*                      className={styles.accordionButton}*/}
-                    {/*fontSize={{ lg: '22px', md: '18px', sm: '12px', base: '11px' }}*/}
-                    {/*                      lineHeight={1.6}*/}
-                    {/*                >*/}
-                    {/*                    Питання 5*/}
-                    {/*                </Text>*/}
-                    {/*            </Box>*/}
-                    {/*            <AccordionIcon />*/}
-                    {/*        </AccordionButton>*/}
-                    {/*    </h2>*/}
-                    {/*    <AccordionPanel pb={4}>*/}
-                    {/*<Text color={textColor} fontSize={{ lg: '16px', md: '15px', sm: '10px', base: '9px' }} mb={2} textAlign='justify'>*/}
-                    {/*            Відповідь 5*/}
-                    {/*        </Text>*/}
-                    {/*    </AccordionPanel>*/}
-                    {/*</AccordionCustomItem>*/}
                 </Accordion>
             </Center>
 
