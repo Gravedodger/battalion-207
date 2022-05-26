@@ -14,8 +14,8 @@ class Document extends NextDocument {
             <Html lang="uk">
                 <Head>
                     <meta charSet="UTF-8" />
-                    <meta name="theme-color" content="#c59d5f" />
-                    <meta name="apple-mobile-web-app-status-bar" content="#c59d5f" />
+                    <meta name="theme-color" content="#fff" />
+                    <meta name="apple-mobile-web-app-status-bar" content="#fff" />
                     <link rel="manifest" href="/manifest.json" />
                     <link rel="apple-touch-icon" href="/favicon.ico" />
 
@@ -25,16 +25,21 @@ class Document extends NextDocument {
                           rel="stylesheet" />
 
                     <link rel="manifest" href="/public/manifest.json" />
-                    <Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
-                    <Script strategy="lazyOnload"  dangerouslySetInnerHTML={{
-                        __html: `window.dataLayer = window.dataLayer || [];
-                                 function gtag(){dataLayer.push(arguments);}
-                                 gtag('js', new Date());
-                                 gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
-                                 page_path: window.location.pathname,
-                                 });
-                                  `,
-                    }}/>
+
+                    <Script
+                        src="https://www.googletagmanager.com/gtag/js?id=G-JX837M7B8E"
+                        strategy="afterInteractive"
+                    />
+                    <Script id="google-analytics" strategy="afterInteractive">
+                        {`
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){window.dataLayer.push(arguments);}
+                        gtag('js', new Date());
+
+                        gtag('config', 'G-JX837M7B8E');
+                        `}
+                    </Script>
+
                 </Head>
                 <body>
                 <ColorModeScript initialColorMode={theme.config.initialColorMode} />

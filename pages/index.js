@@ -5,6 +5,7 @@ import { MoonIcon } from "@chakra-ui/icons";
 import { LightBulbIcon } from "/components/Icons";
 import { Center, Flex, Box, Container, IconButton, useColorMode, Text, Link, Image, useColorModeValue } from '@chakra-ui/react';
 import DandD from "/components/D&D";
+import Script from "next/script";
 
 export default function Home() {
     const { toggleColorMode } = useColorMode();
