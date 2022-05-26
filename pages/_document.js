@@ -1,6 +1,5 @@
 import React from 'react';
 import theme from '/styles/theme';
-import Script from "next/script";
 import { ColorModeScript } from '@chakra-ui/react';
 import NextDocument, { Head, Html, Main, NextScript } from 'next/document';
 
@@ -26,11 +25,11 @@ class Document extends NextDocument {
 
                     <link rel="manifest" href="/public/manifest.json" />
 
-                    <Script
+                    <NextScript
                         src="https://www.googletagmanager.com/gtag/js?id=G-JX837M7B8E"
                         strategy="afterInteractive"
                     />
-                    <Script id="google-analytics" strategy="afterInteractive">
+                    <NextScript id="google-analytics" strategy="afterInteractive">
                         {`
                         window.dataLayer = window.dataLayer || [];
                         function gtag(){window.dataLayer.push(arguments);}
@@ -38,8 +37,8 @@ class Document extends NextDocument {
 
                         gtag('config', 'G-JX837M7B8E');
                         `}
-                    </Script>
-
+                    </NextScript>
+                    <title></title>
                 </Head>
                 <body>
                 <ColorModeScript initialColorMode={theme.config.initialColorMode} />
