@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import items from "/api/data/Items/itemsDataUKR";
+import items from "../api/data/Items/itemsDataUKR";
 import styles from '/styles/Styles.module.css';
 import Head from "next/head";
 import Card from "/components/Card/Card";
