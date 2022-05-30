@@ -6,7 +6,7 @@ import WarListUKR from "./components/WarListUKR";
 const WarStatsUKR = () => {
     return (
         <Center m={0} p={0} flexDirection='column'>
-            <WarHeader titleUKR="Втарти ворога станом на" date='29.05.2022' />
+            <WarHeader titleUKR="Втарти ворога станом на" date='30.05.2022' />
             <WarListUKR />
         </Center>
     );
