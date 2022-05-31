@@ -6,6 +6,7 @@ const cardsUKR = [
         requiredAmount: 250, i: 'од.',
         img: '/items/id-1-opt.WebP',
         desc: 'Магазини на 30 набоїв калібру 5.45 для автомату АК-74',
+        stat: '-100', color: 'green',
     },
     {
         id: 2,
@@ -14,6 +15,7 @@ const cardsUKR = [
         requiredAmount: 20, i: 'од.',
         img: '/items/id-3-opt.WebP',
         desc: 'Прибори безшумної стрільби (глушники) для автомату АК-74',
+        stat: '-3', color: 'green',
     },
     {
         id: 53,
@@ -24,6 +26,7 @@ const cardsUKR = [
         desc: 'Вмісткий автомобіль із повним приводом (4х4) - запорука мобільності батальйону та його можливість ' +
             'звільнити особисті автомобілі наших бійців для допомоги з евакуаціією місцевого населення та інших ' +
             'гуманітарних ініціатив',
+        stat: '0', color: 'yellow',
     },
     {
         id: 54,
@@ -34,6 +37,7 @@ const cardsUKR = [
         desc: 'Ефективність виконання оперативних і гуманітарних завдань батальйону залежить від постачання близько ' +
             '1,000 літрів бензину А-95 та 3,000 літрів дизельного палива. Відсутність палива призводить до зменшення ' +
             'можливостей щодо евакуації цивільного населення, що ставить під загрозу їх життя',
+        stat: '-200', color: 'green',
     },
     {
         id: 3,
@@ -42,6 +46,7 @@ const cardsUKR = [
         requiredAmount: 20, i: 'од.',
         img: '/items/id-4-opt.WebP',
         desc: 'Кріплення для встановлення додаткового обладнання, як оптичні приціли, ліхтарі, тощо.',
+        stat: '-3', color: 'green',
     },
     {
         id: 4,
@@ -50,6 +55,7 @@ const cardsUKR = [
         requiredAmount: 5, i: 'од.',
         img: '/items/id-5-opt.WebP',
         desc: 'Кріплення для швидкого встановлення додаткового обладнання, як оптичні приціли, ліхтарі, тощо',
+        stat: '-1', color: 'green',
     },
     {
         id: 5,
@@ -58,6 +64,7 @@ const cardsUKR = [
         requiredAmount: 1, i: 'од.',
         img: '/items/id-6-opt.WebP',
         desc: 'Кріплення для встановлення оптики на кулемет 50 калібру',
+        stat: '0', color: 'yellow',
     },
     {
         id: 6,
@@ -66,6 +73,7 @@ const cardsUKR = [
         requiredAmount: 40, i: 'од.',
         img: '/items/id-7-opt.WebP',
         desc: 'Бронежилети з передньою і задньою пластинами рівня захисту 4+',
+        stat: '-100', color: 'green',
     },
     {
         id: 7,
@@ -74,6 +82,7 @@ const cardsUKR = [
         requiredAmount: 50, i: 'од.',
         img: '/items/id-8-opt.WebP',
         desc: 'Кевларові балістичні шоломи',
+        stat: '-100', color: 'green',
     },
     {
         id: 8,
@@ -82,6 +91,7 @@ const cardsUKR = [
         requiredAmount: 100, i: 'од.',
         img: '/items/id-9-opt.WebP',
         desc: 'Розгрузки з системою M.O.L.L.E',
+        stat: '-12', color: 'green',
     },
     {
         id: 9,
@@ -90,6 +100,7 @@ const cardsUKR = [
         requiredAmount: 150, i: 'од.',
         img: '/items/id-10-opt.WebP',
         desc: 'Підсумки для магазинів AK-74 5.45 кал. з системою M.O.L.LE',
+        stat: '-10', color: 'green',
     },
     {
         id: 10,
@@ -98,6 +109,7 @@ const cardsUKR = [
         requiredAmount: 150, i: 'од.',
         img: '/items/id-11-opt.WebP',
         desc: 'Сумки для скидання магазинів з системою M.O.L.L.E',
+        stat: '-10', color: 'green',
     },
     {
         id: 11,
@@ -106,6 +118,7 @@ const cardsUKR = [
         requiredAmount: 100, i: 'од.',
         img: '/items/id-12-opt.WebP',
         desc: 'Військова форма піксель, розміри 50-56',
+        stat: '-120', color: 'green',
     },
     {
         id: 12,
@@ -114,6 +127,7 @@ const cardsUKR = [
         requiredAmount: 100, i: 'од.',
         img: '/items/id-13-opt.WebP',
         desc: 'Військове взуття, розміри 41 – 46',
+        stat: '-120', color: 'green',
     },
     {
         id: 13,
@@ -122,6 +136,7 @@ const cardsUKR = [
         requiredAmount: 20, i: 'од.',
         img: '/items/id-14-opt.WebP',
         desc: 'Гумові тапочки для підтримання особистої гігієничної безпеки',
+        stat: '-4', color: 'green',
     },
     {
         id: 14,
@@ -130,6 +145,7 @@ const cardsUKR = [
         requiredAmount: 100, i: 'од.',
         img: '/items/id-15-opt.WebP',
         desc: 'Утепленні зимові балаклави темних кольорів',
+        stat: '-20', color: 'green',
     },
     {
         id: 15,
@@ -138,6 +154,7 @@ const cardsUKR = [
         requiredAmount: 100, i: 'од.',
         img: '/items/id-16-opt.WebP',
         desc: 'Тонкі літні балаклави',
+        stat: '-20', color: 'green',
     },
     {
         id: 16,
@@ -146,6 +163,7 @@ const cardsUKR = [
         requiredAmount: 40, i: 'од.',
         img: '/items/id-17-opt.WebP',
         desc: 'Чоловіча термобілизна, розміри 48, 54, 56, 60',
+        stat: '-40', color: 'green',
     },
     {
         id: 17,
@@ -154,6 +172,7 @@ const cardsUKR = [
         requiredAmount: 150, i: 'од.',
         img: '/items/id-18-opt.WebP',
         desc: 'Індивідуальні аптечки (комплект) з системою M.O.L.L.E',
+        stat: '-5', color: 'green',
     },
     {
         id: 18,
@@ -162,6 +181,7 @@ const cardsUKR = [
         requiredAmount: 300, i: 'од.',
         img: '/items/id-19-opt.WebP',
         desc: 'Турнікети, бажано військової якості. Кожен боєць має мати на собі 2 таких турнікета.',
+        stat: '-80', color: 'green',
     },
     {
         id: 19,
@@ -171,6 +191,7 @@ const cardsUKR = [
         img: '/items/id-20-opt.WebP',
         desc: 'Класичні резинові джгути з фіксатором. Кожен боєць має мати на собі два таких джгути для надання допомоги' +
             'іншим чи навіть самому собі',
+        stat: '-60', color: 'green',
     },
     {
         id: 20,
@@ -179,6 +200,7 @@ const cardsUKR = [
         requiredAmount: 150, i: 'од.',
         img: '/items/id-21-opt.WebP',
         desc: "М'які медичні ноші для швидкої евакуації поранених",
+        stat: '-3', color: 'green',
     },
     {
         id: 21,
@@ -187,6 +209,7 @@ const cardsUKR = [
         requiredAmount: 100, i: 'од.',
         img: '/items/id-22-opt.WebP',
         desc: 'Індивідуальній посуд для кожного бійця, для підтримання загальної гігієни',
+        stat: '0', color: 'yellow',
     },
     {
         id: 22,
@@ -195,6 +218,7 @@ const cardsUKR = [
         requiredAmount: 6, i: 'од.',
         img: '/items/id-23-opt.WebP',
         desc: 'Великі каструлі (виварки) 40л з ручками та кришками для приготування їжі',
+        stat: '-2', color: 'green',
     },
     {
         id: 23,
@@ -203,6 +227,7 @@ const cardsUKR = [
         requiredAmount: 7, i: 'од.',
         img: '/items/id-24-opt.WebP',
         desc: 'Великі (бажано) термобокси для зберігання в помірному холоді будь чого (навідь для частин кінцівок)',
+        stat: '0', color: 'yellow',
     },
     {
         id: 24,
@@ -211,6 +236,7 @@ const cardsUKR = [
         requiredAmount: 20, i: 'од.',
         img: '/items/id-25-opt.WebP',
         desc: 'LED-стрічки на 12V для менш помітного забезпечення світлом',
+        stat: '0', color: 'yellow',
     },
     {
         id: 25,
@@ -219,6 +245,7 @@ const cardsUKR = [
         requiredAmount: 10, i: 'од.',
         img: '/items/id-26-opt.WebP',
         desc: "Акумулятори на 12V для роботи та зарядки більшості наших приборів зв'язку та нагляду",
+        stat: '-3', color: 'green',
     },
     {
         id: 26,
@@ -227,6 +254,7 @@ const cardsUKR = [
         requiredAmount: 6, i: 'од.',
         img: '/items/id-27-opt.WebP',
         desc: 'Військові тепловізори для нагляду, патрулювання та виконання інших завдань в темну пору доби',
+        stat: '-1', color: 'green',
     },
     {
         id: 27,
@@ -235,6 +263,7 @@ const cardsUKR = [
         requiredAmount: 6, i: 'од.',
         img: '/items/id-28-opt.WebP',
         desc: 'Військові тепловізори для нагляду та патрулювання в темну пору доби',
+        stat: '-1', color: 'green',
     },
     {
         id: 28,
@@ -243,6 +272,7 @@ const cardsUKR = [
         requiredAmount: 3, i: 'од.',
         img: '/items/id-29-opt.WebP',
         desc: 'Військові дальномери здатні точно вимірювати дистанцію до 2х км.',
+        stat: '0', color: 'yellow',
     },
     {
         id: 29,
@@ -251,6 +281,7 @@ const cardsUKR = [
         requiredAmount: 10, i: 'од.',
         img: '/items/id-30-opt.WebP',
         desc: 'Компактні сонячні батареї на 12V для додаткового та гарантованого забезпечення нас електроенергією',
+        stat: '0', color: 'yellow',
     },
     {
         id: 30,
@@ -260,6 +291,7 @@ const cardsUKR = [
         img: '/items/id-31-opt.WebP',
         desc: "Дизельні генератори потужністю не менше 5,5 кВт для заряджання усіх приборів зв'язку, нагляду " +
             "та (особливо) зігрівання",
+        stat: '-3', color: 'green',
     },
     {
         id: 31,
@@ -268,6 +300,7 @@ const cardsUKR = [
         requiredAmount: 5, i: 'од.',
         img: '/items/id-32-opt.WebP',
         desc: 'Металеві кірки для спорудження фортефікаційних споруд',
+        stat: '-5', color: 'green',
     },
     {
         id: 32,
@@ -276,6 +309,7 @@ const cardsUKR = [
         requiredAmount: 4, i: 'од.',
         img: '/items/id-33-opt.WebP',
         desc: 'Металеві ломи для спорудження фортефікаційних споруд',
+        stat: '-5', color: 'green',
     },
     {
         id: 33,
@@ -284,6 +318,7 @@ const cardsUKR = [
         requiredAmount: 4, i: 'од.',
         img: '/items/id-34-opt.WebP',
         desc: 'Топори високої якості для спорудження фортефікаційних споруд',
+        stat: '-5', color: 'green',
     },
     {
         id: 34,
@@ -292,6 +327,7 @@ const cardsUKR = [
         requiredAmount: 2, i: 'од.',
         img: '/items/id-35-opt.WebP',
         desc: 'Молотки високої якості для спорудження фортефікаційних споруд',
+        stat: '-5', color: 'green',
     },
     {
         id: 35,
@@ -300,6 +336,7 @@ const cardsUKR = [
         requiredAmount: 3, i: 'од.',
         img: '/items/id-36-opt.WebP',
         desc: 'Електричні шуруповерти для спорудження фортефікаційних споруд та складських стелажів',
+        stat: '-1', color: 'green',
     },
     {
         id: 36,
@@ -308,6 +345,7 @@ const cardsUKR = [
         requiredAmount: 2, i: 'од.',
         img: '/items/id-37-opt.WebP',
         desc: 'Кувалди високої якості для спорудження фортефікаційних споруд та для догляду за технікою',
+        stat: '-2', color: 'green',
     },
     {
         id: 37,
@@ -316,6 +354,7 @@ const cardsUKR = [
         requiredAmount: 1000, i: 'од.',
         img: '/items/id-39-opt.WebP',
         desc: 'Шурупи для спорудження фортефікаційних споруд та складських стелажів',
+        stat: '-400', color: 'green',
     },
     {
         id: 38,
@@ -324,6 +363,7 @@ const cardsUKR = [
         requiredAmount: 2, i: 'од.',
         img: '/items/id-40-opt.WebP',
         desc: 'Бензинові пили для спорудження фортефікаційних споруд',
+        stat: '-2', color: 'green',
     },
     {
         id: 39,
@@ -332,6 +372,7 @@ const cardsUKR = [
         requiredAmount: 2, i: 'од.',
         img: '/items/id-41-opt.WebP',
         desc: 'Звичайні зубчасті пили для спорудження фортефікаційних споруд',
+        stat: '-5', color: 'green',
     },
     {
         id: 40,
@@ -340,6 +381,7 @@ const cardsUKR = [
         requiredAmount: 3000, i: 'од.',
         img: '/items/id-43-opt.WebP',
         desc: 'Мішки для піска для спорудження фортефікаційних споруд',
+        stat: '-4000', color: 'green',
     },
     {
         id: 41,
@@ -348,6 +390,7 @@ const cardsUKR = [
         requiredAmount: 12, i: 'од.',
         img: '/items/id-44-opt.WebP',
         desc: 'Щільна поліетиленова плівка для спорудження фортефікаційних споруд та затемнення вікон',
+        stat: '-250', color: 'green',
     },
     {
         id: 42,
@@ -356,6 +399,7 @@ const cardsUKR = [
         requiredAmount: 10, i: 'од.',
         img: '/items/id-45-opt.WebP',
         desc: 'Паливні каністри для зберігання стратегічного запасу палива',
+        stat: '-15', color: 'green',
     },
     {
         id: 43,
@@ -364,6 +408,7 @@ const cardsUKR = [
         requiredAmount: 10, i: 'од.',
         img: '/items/id-46-opt.WebP',
         desc: 'Бутлі для зберігання стратегічного запасу питної води',
+        stat: '-15', color: 'green',
     },
     {
         id: 44,
@@ -372,6 +417,7 @@ const cardsUKR = [
         requiredAmount: 100, i: 'од.',
         img: '/items/id-48-opt.WebP',
         desc: 'Маскувальні сітки для спорудження фортефікаційних споруд, маскування нашої та цивільної техніки',
+        stat: '-25', color: 'green',
     },
     {
         id: 45,
@@ -380,6 +426,7 @@ const cardsUKR = [
         requiredAmount: 2, i: 'од.',
         img: '/items/id-49-opt.WebP',
         desc: 'Котушки для швидкого розмотування електричного кабелю',
+        stat: '0', color: 'yellow',
     },
     {
         id: 46,
@@ -388,6 +435,7 @@ const cardsUKR = [
         requiredAmount: 10, i: 'од.',
         img: '/items/id-50-opt.WebP',
         desc: 'Газові балони для побутових газових приладів',
+        stat: '-10', color: 'green',
     },
     {
         id: 47,
@@ -396,6 +444,7 @@ const cardsUKR = [
         requiredAmount: 100, i: 'од.',
         img: '/items/id-51-opt.WebP',
         desc: 'Питна вода для повсякдневного використання',
+        stat: '-250', color: 'green',
     },
     {
         id: 48,
@@ -404,6 +453,7 @@ const cardsUKR = [
         requiredAmount: 300, i: 'од.',
         img: '/items/id-52-opt.WebP',
         desc: 'Двужильний кабель, 300 м. для забезпеення електроенергією та дистанційного підриву противотанкових мін',
+        stat: '-100', color: 'green',
     },
     {
         id: 49,
@@ -412,6 +462,7 @@ const cardsUKR = [
         requiredAmount: 30, i: 'од.',
         img: '/items/id-2-opt.WebP',
         desc: 'Балони з мастилом для чищення зброї',
+        stat: '-15', color: 'green',
     },
     {
         id: 55,
@@ -420,6 +471,7 @@ const cardsUKR = [
         requiredAmount: 20, i: 'units',
         img: '/items/id-55-opt.WebP',
         desc: 'Коліматорні приціли для наших патрулей',
+        stat: '-5', color: 'green',
     },
 ];
 

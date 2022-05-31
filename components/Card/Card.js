@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '/components/Card/Card.module.css';
 import { Box, Image, Text, useColorModeValue } from '@chakra-ui/react';
+import { Stat, StatLabel, StatNumber, StatHelpText, StatArrow, StatGroup } from '@chakra-ui/react'
 
 const Card = ({ item }) => {
     const textColor = useColorModeValue('#222222', '#c59d5f');
@@ -19,9 +20,22 @@ const Card = ({ item }) => {
                                     {Val.title}
                                 </Text>
 
-                                <Text fontSize='lg' fontWeight={600} color={textColor} className={styles.requiredAmount}>
-                                    {Val.requiredAmount} {Val.i}
-                                </Text>
+                                <StatGroup>
+                                    <Stat>
+                                        <StatNumber
+                                            fontSize='lg'
+                                            fontWeight={600}
+                                            color={textColor}
+                                            className={styles.requiredAmount}
+                                        >
+                                            {Val.requiredAmount} {Val.i}
+                                        </StatNumber>
+                                        <StatHelpText>
+                                            <StatArrow type='decrease' color={Val.color} />
+                                            {Val.stat}
+                                        </StatHelpText>
+                                    </Stat>
+                                </StatGroup>
                             </header>
 
                             <Text className={styles.itemText}>

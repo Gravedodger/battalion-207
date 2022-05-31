@@ -6,7 +6,7 @@ const cardsENG = [
         requiredAmount: 250, i: 'units',
         img: '/items/id-1-opt.WebP',
         desc: '30 round magazines for AK-74 5.45 cal.',
-        show: 'show',
+        stat: '-100', color: 'green',
     },
     {
         id: 2,
@@ -15,6 +15,7 @@ const cardsENG = [
         requiredAmount: 20, i: 'units',
         img: '/items/id-3-opt.WebP',
         desc: 'Shot sound suppressors (mufflers) for AK-74 5.45 cal.',
+        stat: '-3', color: 'green',
     },
     {
         id: 53,
@@ -24,16 +25,18 @@ const cardsENG = [
         img: '/items/id-53-opt.WebP',
         desc: 'A 4x4 cargo vehicles are required for the battalion mobility, freeing up personal cars we currently use ' +
             'for evacuation of locals ans other humanitarian initiatives',
+        stat: '0', color: 'yellow',
     },
     {
         id: 54,
         title: 'Fuel',
         category: 'Misc supplies' && 'CRITICAL NEED',
-        requiredAmount: 1000, i: 'litres',
+        requiredAmount: 4000, i: 'litres',
         img: '/items/id-54-opt.WebP',
         desc: 'A 1,000 litres of A-95 petrol and 3,000 litres of Diesel are required by the battalion in order to ' +
             'be able to carry out both its military and humanitarian tasks. The lack of fuel results in a diminished ' +
             'ability to evacuate local civilians, thus endangering their lives.',
+        stat: '-200', color: 'green',
     },
     {
         id: 3,
@@ -42,6 +45,7 @@ const cardsENG = [
         requiredAmount: 20, i: 'units',
         img: '/items/id-4-opt.WebP',
         desc: 'Brace for installation of additional equipment such as optical sights, lights, etc.',
+        stat: '-3', color: 'green',
     },
     {
         id: 4,
@@ -50,6 +54,7 @@ const cardsENG = [
         requiredAmount: 5, i: 'units',
         img: '/items/id-5-opt.WebP',
         desc: 'Brace for the rapid installation of additional equipment such as optical sights, lights, etc.',
+        stat: '-1', color: 'green',
     },
     {
         id: 5,
@@ -58,6 +63,7 @@ const cardsENG = [
         requiredAmount: 1, i: 'unit',
         img: '/items/id-6-opt.WebP',
         desc: 'Optical sights and an installation brace for it for a 50 cal. machine gun',
+        stat: '0', color: 'yellow',
     },
     {
         id: 6,
@@ -66,6 +72,7 @@ const cardsENG = [
         requiredAmount: 40, i: 'units',
         img: '/items/id-7-opt.WebP',
         desc: 'Body armor with front and rear ballistic plates (pref. with kevlar) with protection level 4+',
+        stat: '-100', color: 'green',
     },
     {
         id: 7,
@@ -74,6 +81,7 @@ const cardsENG = [
         requiredAmount: 50, i: 'units',
         img: '/items/id-8-opt.WebP',
         desc: 'Kevlar ballistic helmets with protection level 4+',
+        stat: '-100', color: 'green',
     },
     {
         id: 8,
@@ -82,6 +90,7 @@ const cardsENG = [
         requiredAmount: 100, i: 'units',
         img: '/items/id-9-opt.WebP',
         desc: 'Tactical vest unloading with the M.O.L.L.E system',
+        stat: '-12', color: 'green',
     },
     {
         id: 9,
@@ -90,6 +99,7 @@ const cardsENG = [
         requiredAmount: 150, i: 'units',
         img: '/items/id-10-opt.WebP',
         desc: 'Pouch for AK-74 magazines with the M.O.L.L.E system',
+        stat: '-10', color: 'green',
     },
     {
         id: 10,
@@ -98,6 +108,7 @@ const cardsENG = [
         requiredAmount: 150, i: 'units',
         img: '/items/id-11-opt.WebP',
         desc: 'Dump bags for used AK-74 magazines with the M.O.L.L.E system',
+        stat: '-10', color: 'green',
     },
     {
         id: 11,
@@ -106,6 +117,7 @@ const cardsENG = [
         requiredAmount: 100, i: 'units',
         img: '/items/id-12-opt.WebP',
         desc: 'Military uniform (pref. pixelated), sizes L - XL (Ukrainian military sizes 50 = 56)',
+        stat: '-120', color: 'green',
     },
     {
         id: 12,
@@ -114,6 +126,7 @@ const cardsENG = [
         requiredAmount: 100, i: 'units',
         img: '/items/id-13-opt.WebP',
         desc: 'Military boots, sizes 42 – 46',
+        stat: '-120', color: 'green',
     },
     {
         id: 13,
@@ -122,6 +135,7 @@ const cardsENG = [
         requiredAmount: 20, i: 'units',
         img: '/items/id-14-opt.WebP',
         desc: 'Rubber slippers to maintain personal hygiene',
+        stat: '-4', color: 'green',
     },
     {
         id: 14,
@@ -130,6 +144,7 @@ const cardsENG = [
         requiredAmount: 100, i: 'units',
         img: '/items/id-15-opt.WebP',
         desc: 'Warm winter balaclavas, preferably of dark colors',
+        stat: '-20', color: 'green',
     },
     {
         id: 15,
@@ -138,6 +153,7 @@ const cardsENG = [
         requiredAmount: 100, i: 'units',
         img: '/items/id-16-opt.WebP',
         desc: 'Thin summer balaclavas',
+        stat: '-20', color: 'green',
     },
     {
         id: 16,
@@ -146,6 +162,7 @@ const cardsENG = [
         requiredAmount: 40, i: 'units',
         img: '/items/id-17-opt.WebP',
         desc: "Man's thermal underwear sizes L - XL (Ukrainian military sizes 48, 54, 56, 60)",
+        stat: '-40', color: 'green',
     },
     {
         id: 17,
@@ -154,6 +171,7 @@ const cardsENG = [
         requiredAmount: 150, i: 'units',
         img: '/items/id-18-opt.WebP',
         desc: 'Individual first aid kits with the M.O.L.L.E system',
+        stat: '-5', color: 'green',
     },
     {
         id: 18,
@@ -162,6 +180,7 @@ const cardsENG = [
         requiredAmount: 300, i: 'units',
         img: '/items/id-19-opt.WebP',
         desc: 'Military-quality tourniquets. Each soldier is required to have 2 such tourniquets on himself at all times',
+        stat: '-80', color: 'green',
     },
     {
         id: 19,
@@ -171,6 +190,7 @@ const cardsENG = [
         img: '/items/id-20-opt.WebP',
         desc: 'Classic rubber medical harness with a fixation clamp. Each soldier must have a minimum of two such ' +
             'harnesses to provide aid to others or even to use for his own injuries.',
+        stat: '-60', color: 'green',
     },
     {
         id: 20,
@@ -179,6 +199,7 @@ const cardsENG = [
         requiredAmount: 150, i: 'units',
         img: '/items/id-21-opt.WebP',
         desc: 'Soft medical stretchers for the rapid evacuation of the wounded',
+        stat: '-3', color: 'green',
     },
     {
         id: 21,
@@ -188,6 +209,7 @@ const cardsENG = [
         img: '/items/id-22-opt.WebP',
         desc: 'Individual metal utensils (pref. incl. fork, spoon and a deep plate) for soldiers to help maintain' +
             'general hygiene',
+        stat: '0', color: 'yellow',
     },
     {
         id: 22,
@@ -196,6 +218,7 @@ const cardsENG = [
         requiredAmount: 6, i: 'units',
         img: '/items/id-23-opt.WebP',
         desc: '40-liter boiling pans with handles and lids for cooking',
+        stat: '-2', color: 'green',
     },
     {
         id: 23,
@@ -204,6 +227,7 @@ const cardsENG = [
         requiredAmount: 7, i: 'units',
         img: '/items/id-24-opt.WebP',
         desc: 'Thermal boxes (pref. large) for storing anything in a moderate cold (including parts of limbs)',
+        stat: '0', color: 'yellow',
     },
     {
         id: 24,
@@ -212,6 +236,7 @@ const cardsENG = [
         requiredAmount: 20, i: 'units',
         img: '/items/id-25-opt.WebP',
         desc: '12V LED strips for a less visible lighting',
+        stat: '0', color: 'yellow',
     },
     {
         id: 25,
@@ -221,6 +246,7 @@ const cardsENG = [
         img: '/items/id-26-opt.WebP',
         desc: '12V rechargeable batteries (pref. with large capacity) for the operation and charging of most of our ' +
             'communication and surveillance devices',
+        stat: '-3', color: 'green',
     },
     {
         id: 26,
@@ -229,6 +255,7 @@ const cardsENG = [
         requiredAmount: 6, i: 'units',
         img: '/items/id-27-opt.WebP',
         desc: 'Military thermal imagers for surveillance, patrol and other tasks to be performed in the dark',
+        stat: '-1', color: 'green',
     },
     {
         id: 27,
@@ -237,6 +264,7 @@ const cardsENG = [
         requiredAmount: 6, i: 'units',
         img: '/items/id-28-opt.WebP',
         desc: 'Military night vision devices for surveillance and patrol in the dark',
+        stat: '-1', color: 'green',
     },
     {
         id: 28,
@@ -245,6 +273,7 @@ const cardsENG = [
         requiredAmount: 3, i: 'units',
         img: '/items/id-29-opt.WebP',
         desc: 'Military rangefinders able to accurately measure distances of up to 2 km.',
+        stat: '0', color: 'yellow',
     },
     {
         id: 29,
@@ -253,15 +282,17 @@ const cardsENG = [
         requiredAmount: 10, i: 'units',
         img: '/items/id-30-opt.WebP',
         desc: '12V military-grade solar panels for additional and guaranteed supply of electricity',
+        stat: '0', color: 'yellow',
     },
     {
         id: 30,
         title: 'Power generator',
         category: 'Electronics' && 'CRITICAL NEED',
-        requiredAmount: 3, i: 'units',
+        requiredAmount: 2, i: 'units',
         img: '/items/id-31-opt.WebP',
         desc: 'Diesel power generators with a capacity of at least 5.5 kW for charging all of our devices used to ' +
             'maintain communication, surveillance and (especially) to keep warm',
+        stat: '-3', color: 'green',
     },
     {
         id: 31,
@@ -270,6 +301,7 @@ const cardsENG = [
         requiredAmount: 5, i: 'units',
         img: '/items/id-32-opt.WebP',
         desc: 'Durable metal mining picks for the construction of fortifications',
+        stat: '-5', color: 'green',
     },
     {
         id: 32,
@@ -278,6 +310,7 @@ const cardsENG = [
         requiredAmount: 4, i: 'units',
         img: '/items/id-33-opt.WebP',
         desc: 'Metal crowbar for the construction of fortifications',
+        stat: '-5', color: 'green',
     },
     {
         id: 33,
@@ -286,6 +319,7 @@ const cardsENG = [
         requiredAmount: 4, i: 'units',
         img: '/items/id-34-opt.WebP',
         desc: 'Durable axes for the construction of fortifications',
+        stat: '-5', color: 'green',
     },
     {
         id: 34,
@@ -294,6 +328,7 @@ const cardsENG = [
         requiredAmount: 2, i: 'units',
         img: '/items/id-35-opt.WebP',
         desc: 'Durable hammers for the construction of fortifications',
+        stat: '-5', color: 'green',
     },
     {
         id: 35,
@@ -302,6 +337,7 @@ const cardsENG = [
         requiredAmount: 2, i: 'units',
         img: '/items/id-36-opt.WebP',
         desc: 'Electric screwdrivers for the construction of fortifications and storage racks',
+        stat: '-1', color: 'green',
     },
     {
         id: 36,
@@ -311,6 +347,7 @@ const cardsENG = [
         img: '/items/id-37-opt.WebP',
         desc: 'Durable sledgehammers for the construction of fortifications as well as for taking care ' +
             'of some older equipment',
+        stat: '-2', color: 'green',
     },
     {
         id: 37,
@@ -319,6 +356,7 @@ const cardsENG = [
         requiredAmount: 1000, i: 'units',
         img: '/items/id-39-opt.WebP',
         desc: 'Screws for the construction of fortifications and storage racks',
+        stat: '-400', color: 'green',
     },
     {
         id: 38,
@@ -327,6 +365,7 @@ const cardsENG = [
         requiredAmount: 2, i: 'units',
         img: '/items/id-40-opt.WebP',
         desc: 'Gasoline saws for the construction of fortifications',
+        stat: '-2', color: 'green',
     },
     {
         id: 39,
@@ -335,6 +374,7 @@ const cardsENG = [
         requiredAmount: 2, i: 'units',
         img: '/items/id-41-opt.WebP',
         desc: 'Ordinary manual saws for the construction of fortifications',
+        stat: '-5', color: 'green',
     },
     {
         id: 40,
@@ -344,15 +384,17 @@ const cardsENG = [
         img: '/items/id-43-opt.WebP',
         desc: 'Durable plastic sandbags for the construction of fortifications, barricading doors and windows in ' +
             'civilian houses, protection of wheels on vehicles, etc.',
+        stat: '-4000', color: 'green',
     },
     {
         id: 41,
         title: 'Dense film',
         category: 'Misc supplies' && 'CRITICAL NEED',
-        requiredAmount: 12, i: 'units',
+        requiredAmount: 250, i: 'metres',
         img: '/items/id-44-opt.WebP',
         desc: 'Dense polyethylene film for the construction of fortifications, darkening of windows and for covering ' +
             'broken windows in civilian houses',
+        stat: '-250', color: 'green',
     },
     {
         id: 42,
@@ -361,6 +403,7 @@ const cardsENG = [
         requiredAmount: 10, i: 'units',
         img: '/items/id-45-opt.WebP',
         desc: 'Fuel canisters to store fuel required for power generators',
+        stat: '-15', color: 'green',
     },
     {
         id: 43,
@@ -369,6 +412,7 @@ const cardsENG = [
         requiredAmount: 10, i: 'units',
         img: '/items/id-46-opt.WebP',
         desc: 'Water canisters for strategic drinking water storage',
+        stat: '-15', color: 'green',
     },
     {
         id: 44,
@@ -377,6 +421,7 @@ const cardsENG = [
         requiredAmount: 100, i: 'units',
         img: '/items/id-48-opt.WebP',
         desc: 'Camouflage nets for the construction of fortifications, disguising our and civilian vehicles',
+        stat: '-25', color: 'green',
     },
     {
         id: 45,
@@ -385,6 +430,7 @@ const cardsENG = [
         requiredAmount: 2, i: 'units',
         img: '/items/id-49-opt.WebP',
         desc: 'Coils for a rapid unwinding of electrical cable',
+        stat: '0', color: 'yellow',
     },
     {
         id: 46,
@@ -393,22 +439,25 @@ const cardsENG = [
         requiredAmount: 10, i: 'units',
         img: '/items/id-50-opt.WebP',
         desc: 'Gas cylinders for household gas appliances',
+        stat: '-10', color: 'green',
     },
     {
         id: 47,
         title: 'Drinking water',
         category: 'Food/Drink',
-        requiredAmount: 100, i: 'units',
+        requiredAmount: 1000, i: 'litres',
         img: '/items/id-51-opt.WebP',
         desc: 'Drinking water for everyday use',
+        stat: '-250', color: 'green',
     },
     {
         id: 48,
         title: 'Power cable',
         category: 'Electronics' && 'CRITICAL NEED',
-        requiredAmount: 300, i: 'units',
+        requiredAmount: 300, i: 'meters',
         img: '/items/id-52-opt.WebP',
         desc: '300 metres of two-core power cable for power supply and remote detonation of anti-tank mines',
+        stat: '-100', color: 'green',
     },
     {
         id: 49,
@@ -417,6 +466,7 @@ const cardsENG = [
         requiredAmount: 30, i: 'units',
         img: '/items/id-2-opt.WebP',
         desc: 'Oil for cleaning and maintenance of weapons',
+        stat: '-15', color: 'green',
     },
     {
         id: 55,
@@ -425,6 +475,7 @@ const cardsENG = [
         requiredAmount: 20, i: 'units',
         img: '/items/id-55-opt.WebP',
         desc: 'Collimator sights for our patrol teams',
+        stat: '-5', color: 'green',
     },
 ];
 
