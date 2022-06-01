@@ -10,10 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16cc5659-9977-4949-ba87-ebf4e6bd80d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/DonationsFeature/components/DFBody/DFBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/DonationsFeature/components/DFBody/DFBody.js" afterDir="false" />
-    </list>
+    <list default="true" id="16cc5659-9977-4949-ba87-ebf4e6bd80d7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,7 +138,7 @@
       <workItem from="1653831207698" duration="134000" />
       <workItem from="1653941156386" duration="2038000" />
       <workItem from="1653955290682" duration="3747000" />
-      <workItem from="1654080800790" duration="1735000" />
+      <workItem from="1654080800790" duration="1810000" />
     </task>
     <servers />
   </component>

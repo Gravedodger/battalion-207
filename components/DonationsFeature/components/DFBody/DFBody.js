@@ -25,7 +25,7 @@ const DFBody = ({ totalUkr, totalEng }) => {
                 </Tab>
             </TabList>
 
-            <TabPanels h={{ lg:'550px', md: '500px', sm: '450px', base: '450px' }}>
+            <TabPanels h={{ lg:'650px', md: '550px', sm: '450px', base: '450px' }}>
                 <TabPanel p={{ lg: 4, md: 4, sm: 2, base: 1 }} fontSize={{lg: '18px', md: '16px', sm: '15px', base: '14px' }}>
                     <Text mt='1rem' color={textColor} textDecoration='underline'>06.04.2022</Text>
                     <Text mt='0.2rem' color='#09A205'>
