@@ -62,13 +62,29 @@ const DFBody = ({ totalUkr, totalEng }) => {
                         + ₴ 555 => Pavlo M.
                     </Text>
 
+                    <Text mt='1rem' color={textColor} textDecoration='underline'>26.05.2022</Text>
+                    <Text mt='0.2rem' color='#09A205'>
+                        + ₴ 10,000 => Darina P.
+                    </Text>
+                    <Text mt='0.2rem' color='#09A205'>
+                        + ₴ 5,000 => Aliona Fr.
+                    </Text>
+
+                    <Text mt='1rem' color={textColor} textDecoration='underline'>27.05.2022</Text>
+                    <Text mt='0.2rem' color='#09A205'>
+                        + ₴ 500 => Hanna T.
+                    </Text>
+                    <Text mt='0.2rem' color='#09A205'>
+                        + ₴ 500 => an unknown person
+                    </Text>
+
                     {/*     Total UAH     */}
                     <Box display='flex' alignItems='center' mt='30px'>
                         <Text color={textColor} fontSize='18px' fontWeight={700}>
                             {totalUkr}
                             {totalEng}
                         </Text>
-                        <Text ml='40px' color='#09A205' fontSize='20px' fontWeight={700}>₴ 10,905</Text>
+                        <Text ml='40px' color='#09A205' fontSize='20px' fontWeight={700}>₴ 26,405</Text>
                     </Box>
                 </TabPanel>
 
