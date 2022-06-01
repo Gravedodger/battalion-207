@@ -1,8 +1,9 @@
 import React from 'react';
 import { ReturnButton } from "../Icons";
 import { MoonIcon } from "@chakra-ui/icons";
+import { InfoOutlineIcon } from "@chakra-ui/icons";
 import { LightBulbIcon } from '../Icons';
-import { Box, Flex, IconButton, Text, useColorMode, useColorModeValue } from '@chakra-ui/react';
+import { Box, Flex, IconButton, Text, useColorMode, Link, useColorModeValue } from '@chakra-ui/react';
 
 const Header = ({ pageTitle }) => {
     const themeIcon = useColorModeValue(<MoonIcon />, <LightBulbIcon />);
@@ -37,6 +38,13 @@ const Header = ({ pageTitle }) => {
             </Box>
 
             <Box>
+                <Link href='/requisitesSimple' passHref>
+                    <InfoOutlineIcon
+                        fontSize={{ lg: '40px', md: '35px', sm: '30px', base: '30px' }}
+                        variant="ghost" aria-label="Quick link to financial support page"
+                        cursor='pointer' color='#222222' mr='3rem' ml='-3rem'
+                    />
+                </Link>
                 <IconButton
                     fontSize={{ lg: '40px', md: '35px', sm: '30px', base: '30px' }}
                     variant="ghost"

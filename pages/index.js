@@ -1,7 +1,7 @@
 import React from "react";
 import Head from 'next/head';
 import styles from '/styles/Starter.module.css';
-import { MoonIcon } from "@chakra-ui/icons";
+import {InfoOutlineIcon, MoonIcon} from "@chakra-ui/icons";
 import { LightBulbIcon } from "/components/Icons";
 import { Center, Flex, Box, Container, IconButton, useColorMode, Text, Link, Image, useColorModeValue } from '@chakra-ui/react';
 
@@ -23,20 +23,29 @@ export default function Home() {
         <main className='main'>
             <Center>
                 <Container display="flex" maxW="x1" flexDir="column" justifyContent="center" alignItems="center">
-                    <Box w='100%'>
-                        <IconButton
-                            position='relative'
-                            left='80%'
-                            mt='2rem'
-                            fontSize='40px'
-                            variant="ghost"
-                            aria-label="Toggle theme"
-                            cursor='pointer'
-                            icon={themeIcon}
-                            onClick={toggleColorMode}
-                            color='#c59d5f'
-                        />
-                    </Box>
+                   <Flex alignItems='center'
+                         position='relative'
+                         left='24%'
+                         mt='2rem'>
+                       <Link href='/requisitesSimple' passHref>
+                           <InfoOutlineIcon
+                               fontSize={{ lg: '40px', md: '35px', sm: '30px', base: '30px' }}
+                               variant="ghost" aria-label="Quick link to financial support page"
+                               cursor='pointer' color='#222222' mr='3rem' ml='-3rem'
+                           />
+                       </Link>
+                       <Box w='100%'>
+                           <IconButton
+                               fontSize='40px'
+                               variant="ghost"
+                               aria-label="Toggle theme"
+                               cursor='pointer'
+                               icon={themeIcon}
+                               onClick={toggleColorMode}
+                               color='#c59d5f'
+                           />
+                       </Box>
+                   </Flex>
 
                     <Flex className={styles.starterWrap} flexWrap='wrap'
                           spacing={20} gap={10}

@@ -10,7 +10,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16cc5659-9977-4949-ba87-ebf4e6bd80d7" name="Default Changelist" comment="" />
+    <list default="true" id="16cc5659-9977-4949-ba87-ebf4e6bd80d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/requisitesSimple.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/smaly.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/smaly.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/DonationsFeature/components/DFBody/DFBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/DonationsFeature/components/DFBody/DFBody.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,19 +69,19 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public\currency" />
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public\gallery" />
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public\flags" />
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public\Purchased" />
-      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public\items" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\pages\reports" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components\Gallery\img" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public\images\currency" />
       <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\pages" />
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public\currency" />
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public\gallery" />
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public\flags" />
+      <recent name="C:\Users\smaly\OneDrive\Desktop\battalion-207\public\Purchased" />
     </key>
   </component>
   <component name="RunManager">
@@ -138,7 +146,9 @@
       <workItem from="1653831207698" duration="134000" />
       <workItem from="1653941156386" duration="2038000" />
       <workItem from="1653955290682" duration="3747000" />
-      <workItem from="1654080800790" duration="1810000" />
+      <workItem from="1654080800790" duration="3165000" />
+      <workItem from="1654102659599" duration="5832000" />
+      <workItem from="1654120035027" duration="3599000" />
     </task>
     <servers />
   </component>

@@ -235,3 +235,9 @@ p {
   background-color: #c59d5f;
   opacity: 0.7;
 }
+
+.bankName {
+  font-size: 22px !important;
+  font-weight: 700;
+  margin-right: 20px;
+}
