@@ -84,7 +84,7 @@ const DFBody = ({ totalUkr, totalEng }) => {
                             {totalUkr}
                             {totalEng}
                         </Text>
-                        <Text ml='40px' color='#09A205' fontSize='20px' fontWeight={700}>₴ 26,405</Text>
+                        <Text ml='40px' color='#09A205' fontSize='20px' fontWeight={700}>₴ 26,905</Text>
                     </Box>
                 </TabPanel>
 
