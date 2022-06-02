@@ -11,13 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16cc5659-9977-4949-ba87-ebf4e6bd80d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/requisitesSimple.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/smaly.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/smaly.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/DonationsFeature/components/DFBody/DFBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/DonationsFeature/components/DFBody/DFBody.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/requisitesSimple.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/requisitesSimple.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +143,7 @@
       <workItem from="1653955290682" duration="3747000" />
       <workItem from="1654080800790" duration="3165000" />
       <workItem from="1654102659599" duration="5832000" />
-      <workItem from="1654120035027" duration="3599000" />
+      <workItem from="1654120035027" duration="4933000" />
     </task>
     <servers />
   </component>
@@ -286,11 +281,11 @@
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="0" y="0" width="582" height="672" key="find.popup/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1650499059041" />
-    <state x="298" y="150" width="672" height="677" key="run.anything.popup" timestamp="1653956025754">
+    <state x="298" y="150" width="672" height="677" key="run.anything.popup" timestamp="1654124980095">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="298" y="150" width="672" height="677" key="run.anything.popup/0.0.1280.672/686.-1080.1920.1080@0.0.1280.672" timestamp="1651220284141" />
-    <state x="298" y="150" width="672" height="677" key="run.anything.popup/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1653956025754" />
+    <state x="298" y="150" width="672" height="677" key="run.anything.popup/0.0.1280.672/735.-1200.1920.1200@0.0.1280.672" timestamp="1654124980095" />
     <state x="303" y="0" width="672" height="670" key="search.everywhere.popup" timestamp="1652721948017">
       <screen x="0" y="0" width="1280" height="672" />
     </state>

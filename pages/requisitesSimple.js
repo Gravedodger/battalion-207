@@ -51,25 +51,25 @@ export default function requisitesSimple() {
                         </Box>
 
                         <Box fontSize='20px'>
-                            <Text mb='1rem'>
+                            <Text mb='1rem' color='textColor'>
                                 <span className='bankName'>Monobank:</span>
                                     5375 4141 0238 3246
                             </Text>
-                            <Text mb='1rem'>
+                            <Text mb='1rem' color='textColor'>
                                 <span className='bankName'>PrivatBank:</span>
                                     5363 5423 0841 7279
                             </Text>
-                            <Text mb='1rem'>
+                            <Text mb='1rem' color='textColor'>
                                 <span className='bankName'>Sportbank:</span>
                                     4149 3900 0130 3998
                             </Text>
-                            <Text mb='1rem'>
+                            <Text mb='1rem' color='textColor'>
                                 <span className='bankName'>Oschadbank:</span>
                                     5167 8032 0425 5561
                             </Text>
                             <Link href='/finSupport/ukr' cursor='pointer'>
                                 <Flex cursor='pointer' alignItems='center'>
-                                    <Text className='bankName'>PayPal, Payoneer, Bitcoin, etc.</Text>
+                                    <Text className='bankName' color='textColor'>PayPal, Payoneer, Bitcoin, etc.</Text>
                                     <ExternalLinkIcon color='inherit' fontSize='16px'/>
                                 </Flex>
                             </Link>
