@@ -12,7 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="16cc5659-9977-4949-ba87-ebf4e6bd80d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/requisitesSimple.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/requisitesSimple.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/WarStats/components/WarListUKR.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/WarListUKR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/WarStats/components/warListENG.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/warListENG.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +144,8 @@
       <workItem from="1653955290682" duration="3747000" />
       <workItem from="1654080800790" duration="3165000" />
       <workItem from="1654102659599" duration="5832000" />
-      <workItem from="1654120035027" duration="4933000" />
+      <workItem from="1654120035027" duration="5011000" />
+      <workItem from="1654166916318" duration="191000" />
     </task>
     <servers />
   </component>
