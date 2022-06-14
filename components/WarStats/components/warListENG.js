@@ -10,7 +10,7 @@ const WarListENG = () => {
         <GridItem w='100%'>
             <WarItem
                 warIcon='/icons/icnPersonnel.WebP'
-                warCount='30,850'
+                warCount='32,500'
                 warInfoENG='Personnel'
             />
         </GridItem>
@@ -18,7 +18,7 @@ const WarListENG = () => {
         <GridItem w='90%'>
             <WarItem
                 warIcon='/icons/icnTank.WebP'
-                warCount='1,363'
+                warCount='1,434'
                 warInfoENG='Tanks'
             />
         </GridItem>
@@ -26,7 +26,7 @@ const WarListENG = () => {
         <GridItem w='100%'>
             <WarItem
                 warIcon='/icons/icnAV.WebP'
-                warCount='3,354'
+                warCount='3,503'
                 warInfoENG='Armored vehicles'
             />
         </GridItem>
@@ -34,7 +34,7 @@ const WarListENG = () => {
         <GridItem w='90%'>
             <WarItem
                 warIcon='/icons/icnJet.WebP'
-                warCount='210'
+                warCount='213'
                 warInfoENG='Airplanes'
             />
         </GridItem>
@@ -42,7 +42,7 @@ const WarListENG = () => {
         <GridItem w='90%'>
             <WarItem
                 warIcon='/icons/icnHelicopter.WebP'
-                warCount='175'
+                warCount='179'
                 warInfoENG='Helicopters'
             />
         </GridItem>
@@ -50,7 +50,7 @@ const WarListENG = () => {
         <GridItem w='90%'>
             <WarItem
                 warIcon='/icons/icnUAV.WebP'
-                warCount='521'
+                warCount='588'
                 warInfoENG='UAV'
             />
         </GridItem>
@@ -58,7 +58,7 @@ const WarListENG = () => {
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icons/icnAirDef.WebP'
-                warCount='95'
+                warCount='97'
                 warInfoENG='Air defense'
             />
         </GridItem>
@@ -66,7 +66,7 @@ const WarListENG = () => {
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icons/icnArtillery.WebP'
-                warCount='661'
+                warCount='721'
                 warInfoENG='Artillery'
             />
         </GridItem>
@@ -74,7 +74,7 @@ const WarListENG = () => {
         <GridItem w='90%'>
             <WarItem
                 warIcon='/icons/icnMLRS.WebP'
-                warCount='207'
+                warCount='229'
                 warInfoENG='Rocket Launchers'
             />
         </GridItem>
@@ -82,7 +82,7 @@ const WarListENG = () => {
         <GridItem w='90%'>
             <WarItem
                 warIcon='/icons/icnTruck.WebP'
-                warCount='2,325'
+                warCount='2,473'
                 warInfoENG='Vehicles'
             />
         </GridItem>
@@ -98,7 +98,7 @@ const WarListENG = () => {
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icons/excavator.WebP'
-                warCount='51'
+                warCount='54'
                 warInfoENG='Special equipment'
             />
         </GridItem>
