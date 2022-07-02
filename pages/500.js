@@ -10,7 +10,7 @@ import { Center, Flex, Box, Container, IconButton, useColorMode, Text, Image, us
 export default function Custom500() {
     const { toggleColorMode } = useColorMode();
     const themeIcon = useColorModeValue(<MoonIcon/>, <LightBulbIcon/>);
-    const textColor = useColorModeValue('#222222', '#fff');
+    const textColor = useColorModeValue('#222222', '#ffffff');
 
     return <>
         <Head>
@@ -40,11 +40,22 @@ export default function Custom500() {
                         />
                     </Box>
 
-                    <Flex className={styles.starterWrap} flexWrap='wrap'
-                          spacing={20} gap={10}
-                          justifyContent='center' alignItems='center' flexDirection='column'>
+                    <Flex className={styles.starterWrap}
+                          flexWrap='wrap'
+                          spacing={20}
+                          gap={10}
+                          justifyContent='center'
+                          alignItems='center'
+                          flexDirection='column'
+                    >
                         <Box className={styles.starterLogoContainer}>
-                            <Image src='/logo.WebP' lazy='true' alt="main logo" objectFit='contain' boxSize="90%" layout='fill'/>
+                            <Image src='/logo.WebP'
+                                   lazy='true'
+                                   alt="main logo"
+                                   objectFit='contain'
+                                   boxSize="90%"
+                                   layout='fill'
+                            />
                         </Box>
 
                         <Box mb='2rem'>

@@ -1,15 +1,16 @@
 import React from 'react';
 import styles from './PopoverPurchases.module.css';
-import {
-    Popover, PopoverTrigger, PopoverContent, PopoverHeader, PopoverBody, Box, PopoverFooter, PopoverArrow,
-    PopoverCloseButton, Text, Flex, useColorModeValue
-} from '@chakra-ui/react';
+import { Popover, PopoverTrigger, PopoverContent, PopoverHeader,
+    PopoverBody, Box, PopoverArrow, PopoverCloseButton, Text, useColorModeValue } from '@chakra-ui/react';
 
 const PopoverPurchasesItem = ({ trigger, title, purchaseProof }) => {
     const textColor = useColorModeValue('#222222', '#c59d5f');
 
     return (
-        <Popover placement='bottom-start' closeOnBlur={true} className='popTrigger'>
+        <Popover placement='bottom-start'
+                 closeOnBlur={true}
+                 className='popTrigger'
+        >
             <PopoverTrigger>
                 <Box cursor='pointer'>
                     {trigger}

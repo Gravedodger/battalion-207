@@ -5,7 +5,7 @@ import { Grid, GridItem } from '@chakra-ui/react';
 const WarListENG = () => {
     return <Grid
         templateColumns={{ lg: 'repeat(4, 1fr)', md: 'repeat(3, 1fr)', sm: 'repeat(2, 1fr)', base: 'repeat(2, 1fr)' }}
-        gap={{ lg: 10, md: 8, sm: 4 }}>
+        gap={{ lg: 10, md: 8, sm: 4 }} >
 
         <GridItem w='100%'>
             <WarItem

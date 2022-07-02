@@ -7,8 +7,11 @@ const DFHeader = ({ titleUkr, titleEng }) => {
 
     return (
         <Box className='DFHeaderContainer'>
-            <Text className={styles.DFHeaderText} color={textColor}>
-                {titleUkr} {titleEng}
+            <Text className={styles.DFHeaderText}
+                  color={textColor}
+            >
+                {titleUkr}
+                {titleEng}
             </Text>
         </Box>
     );

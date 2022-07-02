@@ -1,4 +1,4 @@
-import React, { useContext, useRef, useState } from 'react';
+import React, { useState } from 'react';
 import { Button, Tooltip } from "@chakra-ui/react";
 
 export default function CopyContents() {
@@ -12,9 +12,17 @@ export default function CopyContents() {
 
         return <div>
             <Tooltip label='click to copy' aria-label='Copy tooltip'>
-                <Button py={5} px={4} id='emailAddress' backgroundColor='#c59d5f' border='#c59d5f'
-                        borderRadius={50} fontSize='11px' fontWeight={600} color='#fff'
-                        onClick={copy}>
+                <Button id='emailAddress'
+                        py={5}
+                        px={4}
+                        backgroundColor='#c59d5f'
+                        border='#c59d5f'
+                        borderRadius={50}
+                        fontSize='11px'
+                        fontWeight={600}
+                        color='#ffffff'
+                        onClick={copy}
+                >
                     s.malyshevskyi.08@aberdeen.ac.uk
                 </Button>
             </Tooltip>

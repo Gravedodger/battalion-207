@@ -3,8 +3,8 @@ import Pagination from "../Pagination";
 import { SimpleGrid, Center, Box, Image } from '@chakra-ui/react';
 
 class Gallery extends React.Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
 
         // const galleryItems = [...Array(150).keys()].map(
         //     i => ({ id: (i + 1), name: 'Item ' + (i+1) }));
@@ -73,15 +73,26 @@ class Gallery extends React.Component {
             <Box mb='10%'>
                 <Center>
                     <SimpleGrid autoFlow={true}
-                                maxchildwidth='20%' columns={{ lg: 3, md: 2, sm: 1 }}
-                                spacing={{ lg: '20px', md: '15px', sm: '20px' }} w='80%' alignItems='center'>
+                                maxchildwidth='20%'
+                                columns={{ lg: 3, md: 2, sm: 1 }}
+                                spacing={{ lg: '20px', md: '15px', sm: '20px' }}
+                                w='80%'
+                                alignItems='center'
+                    >
                         {this.state.pageOfItems.map(item =>
                             <Box mb={{ sm: '1rem', base: '1rem' }}>
-                                <Image lazy="true" key={item.id} src={item.src} alt={item.alt} w='100%'/>
+                                <Image lazy="true"
+                                       key={item.id}
+                                       src={item.src}
+                                       alt={item.alt}
+                                       w='100%'
+                                />
                             </Box>
                         )}
 
-                        <Pagination items={this.state.galleryItems} onChangePage={this.onChangePage} />
+                        <Pagination items={this.state.galleryItems}
+                                    onChangePage={this.onChangePage}
+                        />
                     </SimpleGrid>
                 </Center>
             </Box>

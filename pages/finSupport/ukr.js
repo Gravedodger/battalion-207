@@ -13,24 +13,48 @@ const FinSupportPageUkr = () => {
     const textColor = useColorModeValue('#222222', '#fffffff0');
     const linkColor = useColorModeValue('#c59d5f', '#c59d5f');
 
-    const USD = <Image src='/currency/usd-round.WebP' className={styles.currencyIcn} lazy='true' objectFit='fill' alt='USD' />;
+    const USD = <Image src='/currency/usd-round.WebP'
+                       className={styles.currencyIcn}
+                       lazy='true'
+                       objectFit='fill'
+                       alt='USD' />;
     const ppUSD = <PayPalUSD />;
     const usdReq = <UsdRequisitesUkr />
 
-    const GBP = <Image src='/currency/pound-round.WebP' className={styles.currencyIcn} lazy='true' objectFit='fill' alt='GBP' />;
+    const GBP = <Image src='/currency/pound-round.WebP'
+                       className={styles.currencyIcn}
+                       lazy='true'
+                       objectFit='fill'
+                       alt='GBP' />;
     const ppGBP = <PayPalGBP />
     const gbpReq = <GbpRequisitesUkr />
 
-    const EUR = <Image src='/currency/euro-round.WebP' className={styles.currencyIcn} lazy='true' objectFit='fill' alt='EUR' />;
+    const EUR = <Image src='/currency/euro-round.WebP'
+                       className={styles.currencyIcn}
+                       lazy='true'
+                       objectFit='fill'
+                       alt='EUR' />;
     const ppEUR = <PayPalEUR />
     const eurReq = <EurRequisitesUkr />
 
-    const UAH = <Image src='/currency/hryvna-round.WebP' className={styles.currencyIcn} lazy='true' objectFit='fill' alt='UAH' />;
+    const UAH = <Image src='/currency/hryvna-round.WebP'
+                       className={styles.currencyIcn}
+                       lazy='true'
+                       objectFit='fill'
+                       alt='UAH' />;
     const uahReq = <UahRequisitesUkr />
 
-    const Bitcoin = <Image src='/currency/bitcoin-round.WebP' className={styles.currencyIcn} lazy='true' objectFit='fill' alt='Bitcoin' />
+    const Bitcoin = <Image src='/currency/bitcoin-round.WebP'
+                           className={styles.currencyIcn}
+                           lazy='true'
+                           objectFit='fill'
+                           alt='Bitcoin' />
 
-    const Ethereum = <Image src='/currency/ethereum-round.WebP' className={styles.currencyIcn} lazy='true' objectFIt='fill' alt='Bitcoin' />
+    const Ethereum = <Image src='/currency/ethereum-round.WebP'
+                            className={styles.currencyIcn}
+                            lazy='true'
+                            objectFIt='fill'
+                            alt='Bitcoin' />
 
     return <>
         <Head>

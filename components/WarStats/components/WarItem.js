@@ -1,5 +1,5 @@
 import React from 'react';
-import {Box, Grid} from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
 import WarItemIcon from "./WarItemIcon";
 import WarItemCount from "./WarItemCount";
 import WarItemInfo from "./WarItemInfo";

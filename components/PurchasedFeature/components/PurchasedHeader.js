@@ -8,7 +8,8 @@ const PurchasedHeader = ({ titleUkr, titleEng }) => {
     return (
         <Box className={styles.purchasedHeaderContainer}>
             <Text className={styles.purchasedHeaderText} color={textColor}>
-                {titleUkr} {titleEng}
+                {titleUkr}
+                {titleEng}
             </Text>
         </Box>
     );

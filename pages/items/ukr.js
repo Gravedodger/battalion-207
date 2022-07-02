@@ -33,7 +33,9 @@ const ItemsPageUkr = ({progressValueNum}) => {
         <main className='main'>
             <Header pageTitle='Нагальна необхідність' />
 
-            <Box display='flex' alignItems='center' justifyContent='center'
+            <Box display='flex'
+                 alignItems='center'
+                 justifyContent='center'
                  mt={{ lg: '-4rem', md: '-2.5rem', sm: '-2.5rem', base: '-2rem' }}
                  mb={{ lg: '2rem', md: '1rem', sm: '1rem', base: '1rem' }}
             >

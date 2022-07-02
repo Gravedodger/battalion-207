@@ -1,19 +1,30 @@
-import React, { useContext, useState } from 'react';
+import React from 'react';
 import styles from '/components/PopoverFinSupport/PopoverFinSupport.module.css';
-import {Box, Text, Button, useColorModeValue} from '@chakra-ui/react';
 import { useDisclosure } from '@chakra-ui/react';
+import {Box, Text, Button, useColorModeValue} from '@chakra-ui/react';
 import { Modal, ModalOverlay, ModalContent, ModalHeader, ModalFooter, ModalBody, ModalCloseButton } from '@chakra-ui/react'
 
-const ModalContainer = ({
-                            requisitesText, title, account, accountNumber, iban, ibanNumber, recipient,
-                            recipientDetails, bank, bankDetails, swift, swiftDetails, purpose, purposeDetails  }) => {
+const ModalContainer = (
+    {
+        requisitesText, title, account, accountNumber, iban, ibanNumber, recipient,
+        recipientDetails, bank, bankDetails, swift, swiftDetails, purpose, purposeDetails
+    }) => {
     const textColor = useColorModeValue('#222222', '#fff');
     const titleColor = useColorModeValue('#222222', '#c59d5f');
     const { isOpen, onOpen, onClose } = useDisclosure();
 
     return <>
-        <Button py={5} px={7} mr={8} backgroundColor='#c59d5f' border='#c59d5f' borderRadius={50} fontSize='11px'
-                fontWeight={600} color='#fff' onClick={onOpen}>
+        <Button py={5}
+                px={7}
+                mr={8}
+                backgroundColor='#c59d5f'
+                border='#c59d5f'
+                borderRadius={50}
+                fontSize='11px'
+                fontWeight={600}
+                color='#ffffff'
+                onClick={onOpen}
+        >
                 {requisitesText}
         </Button>
 
@@ -22,14 +33,24 @@ const ModalContainer = ({
             <ModalOverlay />
 
             <ModalContent>
-                <ModalHeader color={titleColor} className={styles.popTitle}>{title}</ModalHeader>
+                <ModalHeader color={titleColor}
+                             className={styles.popTitle}
+                >
+                    {title}
+                </ModalHeader>
 
                 <ModalCloseButton />
 
                 <ModalBody>
                     <Box>
-                        <Box className={styles.popFlex} pt='1rem' textAlign='center'>
-                            <Text color={titleColor} className={styles.popItem} mr='40px'>
+                        <Box className={styles.popFlex}
+                             pt='1rem'
+                             textAlign='center'
+                        >
+                            <Text color={titleColor}
+                                  className={styles.popItem}
+                                  mr='40px'
+                            >
                                 {account}
                             </Text>
                             <Text color={textColor} className={styles.popDetails}>
@@ -40,10 +61,16 @@ const ModalContainer = ({
                         <Box className={styles.popDivider} />
 
                         <Box className={styles.popFlex} textAlign='center'>
-                            <Text color={titleColor} className={styles.popItem} mr='5px'>
+                            <Text color={titleColor}
+                                  className={styles.popItem}
+                                  mr='5px'
+                            >
                                 {iban}
                             </Text>
-                            <Text color={textColor} className={styles.popDetails} pr='2rem'>
+                            <Text color={textColor}
+                                  className={styles.popDetails}
+                                  pr='2rem'
+                            >
                                 {ibanNumber}
                             </Text>
                         </Box>
@@ -51,10 +78,15 @@ const ModalContainer = ({
                         <Box className={styles.popDivider} />
 
                         <Box className={styles.popFlex}>
-                            <Text color={titleColor} className={styles.popItem} mr='-65px'>
+                            <Text color={titleColor}
+                                  className={styles.popItem}
+                                  mr='-65px'
+                            >
                                 {recipient}
                             </Text>
-                            <Text color={textColor} className={styles.popDetails}>
+                            <Text color={textColor}
+                                  className={styles.popDetails}
+                            >
                                 {recipientDetails}
                             </Text>
                         </Box>
@@ -62,10 +94,16 @@ const ModalContainer = ({
                         <Box className={styles.popDivider} />
 
                         <Box className={styles.popFlex}>
-                            <Text color={titleColor} className={styles.popItem} ml='26px' mr='10px'>
+                            <Text color={titleColor}
+                                  className={styles.popItem}
+                                  ml='26px'
+                                  mr='10px'
+                            >
                                 {bank}
                             </Text>
-                            <Text color={textColor} className={styles.popDetails}>
+                            <Text color={textColor}
+                                  className={styles.popDetails}
+                            >
                                 {bankDetails}
                             </Text>
                         </Box>
@@ -73,7 +111,11 @@ const ModalContainer = ({
                         <Box className={styles.popDivider} />
 
                         <Box className={styles.popFlex}>
-                            <Text color={titleColor} className={styles.popItem} ml='-20px' mr='-5px'>
+                            <Text color={titleColor}
+                                  className={styles.popItem}
+                                  ml='-20px'
+                                  mr='-5px'
+                            >
                                 {swift}
                             </Text>
                             <Text color={textColor} className={styles.popDetails}>
@@ -83,17 +125,33 @@ const ModalContainer = ({
 
                         <Box className={styles.popDivider} />
 
-                        <Box display='flex' flexDirection='column'>
-                            <Text color={titleColor} className={styles.popItem} ml='30px' w='100%'>
+                        <Box display='flex'
+                             flexDirection='column'
+                        >
+                            <Text color={titleColor}
+                                  className={styles.popItem}
+                                  ml='30px'
+                                  w='100%'
+                            >
                                 {purpose}
                             </Text>
-                            <Text color={textColor} display='inline' maxW='80%' ml='10%'>{purposeDetails}</Text>
+                            <Text color={textColor}
+                                  display='inline'
+                                  maxW='80%'
+                                  ml='10%'
+                            >
+                                {purposeDetails}
+                            </Text>
                         </Box>
                     </Box>
                 </ModalBody>
 
                 <ModalFooter>
-                    <Button colorScheme='blue' mr={3} mb={1} onClick={onClose}>
+                    <Button colorScheme='blue'
+                            mr={3}
+                            mb={1}
+                            onClick={onClose}
+                    >
                         Close
                     </Button>
                 </ModalFooter>

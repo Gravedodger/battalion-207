@@ -26,28 +26,35 @@ const homePageEng = () => {
             <Center>
                 <div className={styles.homepageContainer}>
                     <div className={styles.homepageLogoWrap}>
-                        <Image src='/logo.WebP' lazy='true' alt='main logo' />
+                        <Image src='/logo.WebP'
+                               lazy='true'
+                               alt='main logo'
+                        />
                     </div>
 
                     <VStack className={styles.homepageNav}
                             divider={<StackDivider borderColor='#c59d5f' />}
                             spacing={4}
-                            align='center' >
+                            align='center'
+                    >
 
-                        <NextLink href='../about/eng' passHref>
+                        <NextLink href='../about/eng' passhref="true">
                             <Text color={textColor} className={styles.homepageNavItem}>
                                 About
                             </Text>
                         </NextLink>
 
-                        <NextLink href='../items/eng' passHref>
+                        <NextLink href='../items/eng' passhref="true">
                             <Text color={textColor} className={styles.homepageNavItem}>
                                 Items
                             </Text>
                         </NextLink>
 
-                        <Flex alignItems='center' width={{ sm: '160px', base: '160px' }} mr={{ lg: '6rem' }}>
-                            <NextLink href='../reports/eng' passHref>
+                        <Flex alignItems='center'
+                              width={{ sm: '160px', base: '160px' }}
+                              mr={{ lg: '6rem' }}
+                        >
+                            <NextLink href='../reports/eng' passhref="true">
                                 <Text color={textColor} className={styles.homepageNavItem}>
                                     Reports
                                 </Text>
@@ -58,20 +65,20 @@ const homePageEng = () => {
                                   fontSize='20px'
                                   color={textColor}
                             >/</Text>
-                            <NextLink href='../FAQ/eng' passHref>
+                            <NextLink href='../FAQ/eng' passhref="true">
                                 <Text color={textColor} className={styles.homepageNavItem}>
                                     FAQ
                                 </Text>
                             </NextLink>
                         </Flex>
 
-                        <NextLink href='../finSupport/eng' passHref>
+                        <NextLink href='../finSupport/eng' passhref="true">
                             <Text color={textColor} className={styles.homepageNavItem}>
                                 Financial Support
                             </Text>
                         </NextLink>
 
-                        <NextLink href='../contacts/eng' passHref>
+                        <NextLink href='../contacts/eng' passhref="true">
                             <Text color={textColor} className={styles.homepageNavItem}>
                                 Contacts
                             </Text>

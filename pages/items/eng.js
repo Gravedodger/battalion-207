@@ -33,7 +33,12 @@ const ItemsPageEng = () => {
         <main className='main'>
             <Header pageTitle='Required Items' />
 
-            <Box display='flex' alignItems='center' justifyContent='center' mt='-3%' mb='3%'>
+            <Box display='flex'
+                 alignItems='center'
+                 justifyContent='center'
+                 mt='-3%'
+                 mb='3%'
+            >
                 <Tooltip label='Choose categories'>
                     <Categories
                         filterFunction={filterFunction}

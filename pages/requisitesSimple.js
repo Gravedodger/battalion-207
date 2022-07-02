@@ -24,7 +24,12 @@ export default function requisitesSimple() {
 
         <main className='main'>
             <Center>
-                <Container display="flex" maxW="x1" flexDir="column" justifyContent="center" alignItems="center">
+                <Container display="flex"
+                           maxW="x1"
+                           flexDir="column"
+                           justifyContent="center"
+                           alignItems="center"
+                >
                     <Box w='100%'>
                         <IconButton
                             position='relative'
@@ -40,14 +45,22 @@ export default function requisitesSimple() {
                         />
                     </Box>
 
-                    <Flex className={styles.starterWrap} flexWrap='wrap'
-                          spacing={20} gap={10}
+                    <Flex className={styles.starterWrap}
+                          flexWrap='wrap'
+                          spacing={20}
+                          gap={10}
                           justifyContent='center'
                           alignItems='center'
                           flexDirection={{ lg: 'row', md: 'row', sm: 'column', base: 'column' }}
                     >
                         <Box className={styles.starterLogoContainer}>
-                            <Image src='/logo.WebP' lazy='true' alt="main logo" objectFit='contain' boxSize='65%' layout='fill'/>
+                            <Image src='/logo.WebP'
+                                   lazy='true'
+                                   alt="main logo"
+                                   objectFit='contain'
+                                   boxSize='65%'
+                                   layout='fill'
+                            />
                         </Box>
 
                         <Box fontSize='20px'>
@@ -76,10 +89,11 @@ export default function requisitesSimple() {
                         </Box>
                     </Flex>
 
-                    <Box cursor='pointer' mt='4rem'
+                    <Box cursor='pointer'
+                         mt='4rem'
                          fontSize={{ lg: '18px', md: '18px', sm: '15px', base: '15px' }}
                     >
-                        <Link href="/" passHref>
+                        <Link href="/" passhref="true">
                             <Box>
                                 <ChevronLeftIcon fontSize='30px' />
                                 Перейти до сайту батальйону / Visit the battalion's website
@@ -88,7 +102,6 @@ export default function requisitesSimple() {
                     </Box>
                 </Container>
             </Center>
-
             <DandD />
         </main>
     </>

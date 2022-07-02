@@ -13,7 +13,12 @@ const DandD = () => {
                 alignItems='center'
                 flexDirection='column'
         >
-            <Text fontSize='12px' mt='10px' color={textColor}>Designed and developed by:</Text>
+            <Text fontSize='12px'
+                  mt='10px'
+                  color={textColor}
+            >
+                Designed and developed by:
+            </Text>
             <Link
                 display='flex'
                 href='https://www.facebook.com/sviatoslav.malyshevskyi'
@@ -23,7 +28,8 @@ const DandD = () => {
             >
                 <Text color={textColor}
                       fontSize={{ lg: "18px", md: "16px", sm: "14px", base: "12px" }}
-                      fontWeight={600}>
+                      fontWeight={600}
+                >
                     S
                 </Text>
 
@@ -37,7 +43,8 @@ const DandD = () => {
                 <Text
                     color={textColor}
                     fontSize={{ lg: "18px", md: "16px", sm: "14px", base: "12px" }}
-                    fontWeight={600}>
+                    fontWeight={600}
+                >
                     M
                 </Text>
             </Link>

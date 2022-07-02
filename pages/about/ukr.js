@@ -2,8 +2,8 @@ import React from 'react';
 import styles from "/styles/Styles.module.css";
 import Gallery from "/components/Gallery";
 import Head from "next/head";
-import Header from "/components/Header/Header";
 import DandD from "/components/D&D";
+import Header from "/components/Header/Header";
 import { Center, Container, Box, Image, Text, useColorModeValue } from '@chakra-ui/react';
 
 const AboutPageUkr = () => {

@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '/components/Card/Card.module.css';
 import { Box, Image, Text, useColorModeValue } from '@chakra-ui/react';
-import { Stat, StatLabel, StatNumber, StatHelpText, StatArrow, StatGroup } from '@chakra-ui/react'
+import { Stat, StatNumber, StatHelpText, StatArrow, StatGroup } from '@chakra-ui/react'
 
 const Card = ({ item }) => {
     const textColor = useColorModeValue('#222222', '#c59d5f');
@@ -12,11 +12,20 @@ const Card = ({ item }) => {
                 return (
                     <article key={Val.id} className={styles.cardItem}>
 
-                        <Image lazy="true" objectFit='contain' className={styles.photo} src={Val.img} alt={Val.title} />
+                        <Image lazy="true"
+                               objectFit='contain'
+                               className={styles.photo}
+                               src={Val.img}
+                               alt={Val.title}
+                        />
 
                         <Box flexDirection='column' className={styles.itemInfo}>
                             <header>
-                                <Text fontSize='xl' fontWeight={600} color={textColor} className={styles.cardTitle}>
+                                <Text fontSize='xl'
+                                      fontWeight={600}
+                                      color={textColor}
+                                      className={styles.cardTitle}
+                                >
                                     {Val.title}
                                 </Text>
 

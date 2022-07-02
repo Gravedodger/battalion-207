@@ -2,8 +2,8 @@ import React from "react";
 import '/styles/globals.css';
 import theme from '/styles/theme';
 import PropTypes from 'prop-types';
-import ScrollToTop from "/components/ScrollToTop";
 import { motion } from 'framer-motion';
+import ScrollToTop from "/components/ScrollToTop";
 import { ChakraProvider } from "@chakra-ui/react";
 
 function MyApp({ Component, pageProps, router }) {

@@ -10,7 +10,6 @@ import { Center, Flex, Box, Container, IconButton, useColorMode, Text, Image, us
 export default function Custom404() {
     const { toggleColorMode } = useColorMode();
     const themeIcon = useColorModeValue(<MoonIcon/>, <LightBulbIcon/>);
-    const textColor = useColorModeValue('#222222', '#fff');
 
     return <>
         <Head>
@@ -24,7 +23,12 @@ export default function Custom404() {
 
         <main className='main'>
             <Center>
-                <Container display="flex" maxW="x1" flexDir="column" justifyContent="center" alignItems="center">
+                <Container display="flex"
+                           maxW="x1"
+                           flexDir="column"
+                           justifyContent="center"
+                           alignItems="center"
+                >
                     <Box w='100%'>
                         <IconButton
                             position='relative'
@@ -40,11 +44,22 @@ export default function Custom404() {
                         />
                     </Box>
 
-                    <Flex className={styles.starterWrap} flexWrap='wrap'
-                          spacing={20} gap={10}
-                          justifyContent='center' alignItems='center' flexDirection='column'>
+                    <Flex className={styles.starterWrap}
+                          flexWrap='wrap'
+                          spacing={20}
+                          gap={10}
+                          justifyContent='center'
+                          alignItems='center'
+                          flexDirection='column'
+                    >
                         <Box className={styles.starterLogoContainer}>
-                            <Image src='/logo.WebP' lazy='true' alt="main logo" objectFit='contain' boxSize="90%" layout='fill'/>
+                            <Image src='/logo.WebP'
+                                   lazy='true'
+                                   alt="main logo"
+                                   objectFit='contain'
+                                   boxSize="90%"
+                                   layout='fill'
+                            />
                         </Box>
 
                         <Box mb='2rem'>

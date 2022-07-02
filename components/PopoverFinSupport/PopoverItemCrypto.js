@@ -1,12 +1,15 @@
 import React  from 'react';
 import styles from '/components/PopoverFinSupport/PopoverFinSupport.module.css';
-import { Popover, PopoverTrigger, PopoverContent, PopoverHeader, PopoverBody, Box, PopoverFooter, PopoverArrow,
-    PopoverCloseButton, Text } from '@chakra-ui/react';
+import { Popover, PopoverTrigger, PopoverContent, PopoverHeader,
+    PopoverBody, Box, PopoverFooter, PopoverArrow, PopoverCloseButton, Text } from '@chakra-ui/react';
 
 const PopoverItemCrypto = ({ trigger, title, wallet, gratitude, ukraine }) => {
 
     return (
-        <Popover placement='bottom-start' closeOnBlur={true}  className='popTrigger'>
+        <Popover placement='bottom-start'
+                 closeOnBlur={true}
+                 className='popTrigger'
+        >
             <PopoverTrigger>
                 <Box cursor='pointer'>
                     {trigger}

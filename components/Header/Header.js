@@ -1,8 +1,8 @@
 import React from 'react';
 import { ReturnButton } from "../Icons";
+import { LightBulbIcon } from '../Icons';
 import { MoonIcon } from "@chakra-ui/icons";
 import { InfoOutlineIcon } from "@chakra-ui/icons";
-import { LightBulbIcon } from '../Icons';
 import { Box, Flex, IconButton, Text, useColorMode, Link, useColorModeValue } from '@chakra-ui/react';
 
 const Header = ({ pageTitle }) => {
@@ -16,7 +16,8 @@ const Header = ({ pageTitle }) => {
         <Flex
             alignItems='center'
             justifyContent='space-around'
-            mb='5%' mt={{ lg: '2.6rem', md: '2rem', sm: '1.5rem', base: '1rem' }} pb={4}
+            mb='5%' mt={{ lg: '2.6rem', md: '2rem', sm: '1.5rem', base: '1rem' }}
+            pb={4}
             zIndex={1}
             backgroundColor={bgColor}
         >
@@ -38,11 +39,15 @@ const Header = ({ pageTitle }) => {
             </Box>
 
             <Box>
-                <Link href='/requisitesSimple' passHref>
+                <Link href='/requisitesSimple' passhref="true">
                     <InfoOutlineIcon
                         fontSize={{ lg: '40px', md: '35px', sm: '30px', base: '30px' }}
-                        variant="ghost" aria-label="Quick link to financial support page"
-                        cursor='pointer' color='#222222' mr='3rem' ml='-3rem'
+                        variant="ghost"
+                        aria-label="Quick link to financial support page"
+                        cursor='pointer'
+                        color='#222222'
+                        mr='3rem'
+                        ml='-3rem'
                     />
                 </Link>
                 <IconButton

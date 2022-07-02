@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from '/components/Categories/Categories.module.css';
 import cardsUKR from "/pages/api/data/Items/itemsDataUKR";
 import { FilterIcon } from "../Icons";
 import { Menu, Tooltip, MenuList, MenuButton, MenuItemOption, useColorModeValue } from "@chakra-ui/react";
@@ -24,7 +23,11 @@ const Categories = ({ filterItems, setItem, filterFunction }) => {
                 />
             </Tooltip>
 
-            <MenuList display='flex' flexDirection='column' borderColor={borderColor} borderWidth='3px'>
+            <MenuList display='flex'
+                      flexDirection='column'
+                      borderColor={borderColor}
+                      borderWidth='3px'
+            >
                 {filterItems.map((Val, id) => {
                     return (
                         <MenuItemOption

@@ -1,18 +1,7 @@
 import React from 'react';
 import styles from './PurchasedFeature.module.css';
 import PurchasedHeader from "./components/PurchasedHeader";
-import {
-    Box,
-    Container,
-    Image,
-    Tab,
-    TabList,
-    TabPanel,
-    TabPanels,
-    Tabs,
-    Text,
-    useColorModeValue
-} from '@chakra-ui/react';
+import { Box, Container, Image, Tab, TabList, TabPanel, TabPanels, Tabs, Text, useColorModeValue } from '@chakra-ui/react';
 import PopoverPurchasesItem from "../PopoverPurchases/PopoverPurchasesItem";
 
 const PurchasedFeatureUKR = () => {

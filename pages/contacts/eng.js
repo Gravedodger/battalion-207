@@ -54,10 +54,21 @@ const ContactsPageEng = () => {
                                         </Text>
                                     </Td>
                                     <Td>
-                                        <Text display='flex' alignItems='center' color={textColor} justifyContent='space=between'>
-                                            <Text color={textColor} className={styles.contactsItemLink}>Sviatoslav Malyshevskyi</Text>
-                                            <Link href="https://www.facebook.com/sviatoslav.malyshevskyi" passHref
-                                                  target="_blank" rel="noopener noreferrer">
+                                        <Text display='flex'
+                                              alignItems='center'
+                                              color={textColor}
+                                              justifyContent='space=between'
+                                        >
+                                            <Text color={textColor}
+                                                  className={styles.contactsItemLink}
+                                            >
+                                                Sviatoslav Malyshevskyi
+                                            </Text>
+                                            <Link href="https://www.facebook.com/sviatoslav.malyshevskyi"
+                                                  passhref="true"
+                                                  target="_blank"
+                                                  rel="noopener noreferrer"
+                                            >
                                                 <ExternalLinkIcon ml={3} />
                                             </Link>
                                         </Text>
@@ -72,8 +83,12 @@ const ContactsPageEng = () => {
                                     </Td>
                                     <Td>
                                         <Text>
-                                            <Link href="tel:+380964954677"color={textColor}>
-                                                <Text color={textColor} className={styles.contactsItemLink}>+38 096 495 46 77</Text>
+                                            <Link href="tel:+380964954677" color={textColor}>
+                                                <Text color={textColor}
+                                                      className={styles.contactsItemLink}
+                                                >
+                                                    +38 096 495 46 77
+                                                </Text>
                                             </Link>
                                         </Text>
                                     </Td>
@@ -88,7 +103,11 @@ const ContactsPageEng = () => {
                                     <Td>
                                         <Text>
                                             <Link href="mailto:battalion207.info@gmail.com">
-                                                <Text color={textColor} className={styles.contactsItemLink}>battalion207.info@gmail.com</Text>
+                                                <Text color={textColor}
+                                                      className={styles.contactsItemLink}
+                                                >
+                                                    battalion207.info@gmail.com
+                                                </Text>
                                             </Link>
                                         </Text>
                                     </Td>

@@ -1,8 +1,8 @@
 import React from 'react';
+import CurrentDate from "../CurrentDate";
 import { Center } from '@chakra-ui/react';
 import WarHeader from "./components/WarHeader";
 import WarListUKR from "./components/WarListUKR";
-import CurrentDate from "../CurrentDate";
 
 const WarStatsUKR = () => {
     return (

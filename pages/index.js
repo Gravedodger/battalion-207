@@ -22,16 +22,24 @@ export default function Home() {
 
         <main className='main'>
             <Center>
-                <Container display="flex" maxW="x1" flexDir="column" justifyContent="center" alignItems="center">
+                <Container display="flex"
+                           maxW="x1"
+                           flexDir="column"
+                           justifyContent="center"
+                           alignItems="center">
                    <Flex alignItems='center'
                          position='relative'
                          left='24%'
                          mt='2rem'>
-                       <Link href='/requisitesSimple' passHref>
+                       <Link href='/requisitesSimple' passhref="true">
                            <InfoOutlineIcon
                                fontSize={{ lg: '40px', md: '35px', sm: '30px', base: '30px' }}
-                               variant="ghost" aria-label="Quick link to financial support page"
-                               cursor='pointer' color='#222222' mr='3rem' ml='-3rem'
+                               variant="ghost"
+                               aria-label="Quick link to financial support page"
+                               cursor='pointer'
+                               color='#222222'
+                               mr='3rem'
+                               ml='-3rem'
                            />
                        </Link>
                        <Box w='100%'>
@@ -47,17 +55,34 @@ export default function Home() {
                        </Box>
                    </Flex>
 
-                    <Flex className={styles.starterWrap} flexWrap='wrap'
-                          spacing={20} gap={10}
-                          justifyContent='center' alignItems='center' flexDirection='column'>
+                    <Flex className={styles.starterWrap}
+                          flexWrap='wrap'
+                          spacing={20}
+                          gap={10}
+                          justifyContent='center'
+                          alignItems='center'
+                          flexDirection='column'
+                    >
                         <Box className={styles.starterLogoContainer}>
-                            <Image src='/logo.WebP' lazy='true' alt="main logo" objectFit='contain' boxSize="90%" layout='fill'/>
+                            <Image src='/logo.WebP'
+                                   lazy='true'
+                                   alt="main logo"
+                                   objectFit='contain'
+                                   boxSize="90%"
+                                   layout='fill'
+                            />
                         </Box>
 
-                        <Flex className={styles.starterFlagWrap} justifyContent='center' alignItems='center'>
+                        <Flex className={styles.starterFlagWrap}
+                              justifyContent='center'
+                              alignItems='center'
+                        >
                             <Box className={styles.starterFlagContainer}>
-                                <Text fontSize={{ lg: 'lg', md: 'md', sm: 'sm' }} textAlign="center"
-                                      color={textColor} className={styles.flagLabel}>
+                                <Text fontSize={{ lg: 'lg', md: 'md', sm: 'sm' }}
+                                      textAlign="center"
+                                      color={textColor}
+                                      className={styles.flagLabel}
+                                >
                                     Українською
                                 </Text>
 
@@ -71,12 +96,13 @@ export default function Home() {
                                         />
                                     </Link>
                                 </Box>
-
                             </Box>
 
                             <Box className={styles.starterFlagContainer}>
-                                <Text fontSize={{ lg: 'lg', md: 'md', sm: 'sm' }} textAlign="center"
-                                      color={textColor} className={styles.flagLabel}
+                                <Text fontSize={{ lg: 'lg', md: 'md', sm: 'sm' }}
+                                      textAlign="center"
+                                      color={textColor}
+                                      className={styles.flagLabel}
                                 >
                                     In English
                                 </Text>

@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './PurchasedFeature.module.css';
 import PurchasedHeader from "./components/PurchasedHeader";
-import { Box, Container, Tab, TabList, TabPanel, TabPanels, Tabs, Text, Image, useColorModeValue } from '@chakra-ui/react';
 import PopoverPurchasesItem from "../PopoverPurchases/PopoverPurchasesItem";
+import { Box, Container, Tab, TabList, TabPanel, TabPanels, Tabs, Text, Image, useColorModeValue } from '@chakra-ui/react';
 
 const PurchasedFeatureENG = () => {
     const textColor = useColorModeValue('#222222', '#c59d5f');
@@ -130,55 +130,149 @@ const PurchasedFeatureENG = () => {
             <PurchasedHeader titleEng='Purchases' />
             <Tabs>
                 <TabList>
-                    <Tab p={{ lg: 4, md: 3, sm: 2, base: 2 }} fontSize={{ lg: '18px', sm: '14px', base: '12px' }}>
+                    <Tab p={{ lg: 4, md: 3, sm: 2, base: 2 }}
+                         fontSize={{ lg: '18px', sm: '14px', base: '12px' }}
+                    >
                         April
                     </Tab>
-                    <Tab p={{ lg: 4, md: 3, sm: 2, base: 2 }} fontSize={{ lg: '18px', sm: '14px', base: '12px' }}>
+                    <Tab p={{ lg: 4, md: 3, sm: 2, base: 2 }}
+                         fontSize={{ lg: '18px', sm: '14px', base: '12px' }}
+                    >
                         May
                     </Tab>
                 </TabList>
 
                 <TabPanels>
                     {/*     APRIL    */}
-                    <TabPanel p={{ lg: 4, md: 4, sm: 2, base: 1 }} fontSize={{lg: '18px', md: '16px', sm: '15px', base: '14px' }}>
-                        <Text mt='1rem' color={textColor} textDecoration='underline'>01.04.2022</Text>
-                        <PopoverPurchasesItem trigger={itemId1} title='Fuel A-95' purchaseProof={itemId1Pic} />
+                    <TabPanel p={{ lg: 4, md: 4, sm: 2, base: 1 }}
+                              fontSize={{lg: '18px', md: '16px', sm: '15px', base: '14px' }}
+                    >
+                        <Text mt='1rem'
+                              color={textColor}
+                              textDecoration='underline'
+                        >
+                            01.04.2022
+                        </Text>
+                        <PopoverPurchasesItem trigger={itemId1}
+                                              title='Fuel A-95'
+                                              purchaseProof={itemId1Pic}
+                        />
 
-                        <Text mt='1rem' color={textColor} textDecoration='underline'>02.04.2022</Text>
-                        <PopoverPurchasesItem trigger={itemId2} title='Pistol holder and knives' purchaseProof={itemId2Pic} />
+                        <Text mt='1rem'
+                              color={textColor}
+                              textDecoration='underline'
+                        >
+                            02.04.2022
+                        </Text>
+                        <PopoverPurchasesItem trigger={itemId2}
+                                              title='Pistol holder and knives'
+                                              purchaseProof={itemId2Pic}
+                        />
 
-                        <Text mt='1rem' color={textColor} textDecoration='underline'>03.04.2022</Text>
-                        <PopoverPurchasesItem trigger={itemId3} title='Rainproof ponchos' purchaseProof={itemId3Pic} />
-                        <PopoverPurchasesItem trigger={itemId4} title='Electric cable' purchaseProof={itemId4Pic} />
+                        <Text mt='1rem'
+                              color={textColor}
+                              textDecoration='underline'
+                        >
+                            03.04.2022
+                        </Text>
+                        <PopoverPurchasesItem trigger={itemId3}
+                                              title='Rainproof ponchos'
+                                              purchaseProof={itemId3Pic}
+                        />
+                        <PopoverPurchasesItem trigger={itemId4}
+                                              title='Electric cable'
+                                              purchaseProof={itemId4Pic}
+                        />
                         <Text mt='0.2rem' color='#09A205'>
                             + sweets => ₴ 136.07
                         </Text>
                         <Text mt='0.2rem' color='#09A205'>
                             + Accounting journals => ₴ 367.60
                         </Text>
-                        <PopoverPurchasesItem trigger={itemId5} title='Sharp shovel' purchaseProof={itemId5Pic} />
-                        <PopoverPurchasesItem trigger={itemId6} title='Sharp shovel' purchaseProof={itemId6Pic} />
-                        <PopoverPurchasesItem trigger={itemId7} title='Tactical shovel Skif' purchaseProof={itemId7Pic} />
+                        <PopoverPurchasesItem trigger={itemId5}
+                                              title='Sharp shovel'
+                                              purchaseProof={itemId5Pic}
+                        />
+                        <PopoverPurchasesItem trigger={itemId6}
+                                              title='Sharp shovel'
+                                              purchaseProof={itemId6Pic}
+                        />
+                        <PopoverPurchasesItem trigger={itemId7}
+                                              title='Tactical shovel Skif'
+                                              purchaseProof={itemId7Pic}
+                        />
 
 
-                        <Text mt='1rem' color={textColor} textDecoration='underline'>04.04.2022</Text>
-                        <PopoverPurchasesItem trigger={itemId8} title='Fuel A-95' purchaseProof={itemId8Pic} />
-                        <PopoverPurchasesItem trigger={itemId9} title='Collimator sight Hawke RD1' purchaseProof={itemId9Pic} />
-                        <PopoverPurchasesItem trigger={itemId10} title='Mobile phone HTC Desire 600' purchaseProof={itemId10Pic} />
+                        <Text mt='1rem'
+                              color={textColor}
+                              textDecoration='underline'
+                        >
+                            04.04.2022
+                        </Text>
+                        <PopoverPurchasesItem trigger={itemId8}
+                                              title='Fuel A-95'
+                                              purchaseProof={itemId8Pic}
+                        />
+                        <PopoverPurchasesItem trigger={itemId9}
+                                              title='Collimator sight Hawke RD1'
+                                              purchaseProof={itemId9Pic}
+                        />
+                        <PopoverPurchasesItem trigger={itemId10}
+                                              title='Mobile phone HTC Desire 600'
+                                              purchaseProof={itemId10Pic}
+                        />
 
-                        <Text mt='1rem' color={textColor} textDecoration='underline'>06.04.2022</Text>
-                        <PopoverPurchasesItem trigger={itemId11} title='Sandbags' purchaseProof={itemId11Pic} />
+                        <Text mt='1rem'
+                              color={textColor}
+                              textDecoration='underline'
+                        >
+                            06.04.2022
+                        </Text>
+                        <PopoverPurchasesItem trigger={itemId11}
+                                              title='Sandbags'
+                                              purchaseProof={itemId11Pic}
+                        />
 
-                        <Text mt='1rem' color={textColor} textDecoration='underline'>07.04.2022</Text>
-                        <PopoverPurchasesItem trigger={itemId12} title='Fuel A-95' purchaseProof={itemId12Pic} />
-                        <PopoverPurchasesItem trigger={itemId13} title='Pistol holder' purchaseProof={itemId13Pic} />
+                        <Text mt='1rem'
+                              color={textColor}
+                              textDecoration='underline'
+                        >
+                            07.04.2022
+                        </Text>
+                        <PopoverPurchasesItem trigger={itemId12}
+                                              title='Fuel A-95'
+                                              purchaseProof={itemId12Pic}
+                        />
+                        <PopoverPurchasesItem trigger={itemId13}
+                                              title='Pistol holder'
+                                              purchaseProof={itemId13Pic}
+                        />
 
-                        <Text mt='1rem' color={textColor} textDecoration='underline'>08.04.2022</Text>
-                        <PopoverPurchasesItem trigger={itemId14} title='Car jack' purchaseProof={itemId14Pic} />
-                        <PopoverPurchasesItem trigger={itemId15} title='Wrenches' purchaseProof={itemId15Pic} />
-                        <PopoverPurchasesItem trigger={itemId16} title='Electric cable' purchaseProof={itemId16Pic} />
+                        <Text mt='1rem'
+                              color={textColor}
+                              textDecoration='underline'
+                        >
+                            08.04.2022
+                        </Text>
+                        <PopoverPurchasesItem trigger={itemId14}
+                                              title='Car jack'
+                                              purchaseProof={itemId14Pic}
+                        />
+                        <PopoverPurchasesItem trigger={itemId15}
+                                              title='Wrenches'
+                                              purchaseProof={itemId15Pic}
+                        />
+                        <PopoverPurchasesItem trigger={itemId16}
+                                              title='Electric cable'
+                                              purchaseProof={itemId16Pic}
+                        />
 
-                        <Text mt='1rem' color={textColor} textDecoration='underline'>11.04.2022</Text>
+                        <Text mt='1rem'
+                              color={textColor}
+                              textDecoration='underline'
+                        >
+                            11.04.2022
+                        </Text>
                         <PopoverPurchasesItem trigger={itemId17} title='Water bottles' purchaseProof={itemId17Pic} />
 
                         <Text mt='1rem' color={textColor} textDecoration='underline'>12.04.2022</Text>
