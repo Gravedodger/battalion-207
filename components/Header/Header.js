@@ -2,7 +2,6 @@ import React from 'react';
 import { ReturnButton } from "../Icons";
 import { LightBulbIcon } from '../Icons';
 import { MoonIcon } from "@chakra-ui/icons";
-import { InfoOutlineIcon } from "@chakra-ui/icons";
 import { Box, Flex, IconButton, Text, useColorMode, Link, useColorModeValue } from '@chakra-ui/react';
 
 const Header = ({ pageTitle }) => {
@@ -10,13 +9,14 @@ const Header = ({ pageTitle }) => {
     const { toggleColorMode } = useColorMode();
 
     const bgColor = useColorModeValue('white', 'gray.800');
-    const textColor = useColorModeValue('#222222', '#c59d5f')
+    const textColor = useColorModeValue('#222222', '#c59d5f');
 
     return (
         <Flex
             alignItems='center'
             justifyContent='space-around'
-            mb='5%' mt={{ lg: '2.6rem', md: '2rem', sm: '1.5rem', base: '1rem' }}
+            mb='5%'
+            mt={{ lg: '2.6rem', md: '2rem', sm: '1.5rem', base: '1rem' }}
             pb={4}
             zIndex={1}
             backgroundColor={bgColor}
@@ -38,28 +38,15 @@ const Header = ({ pageTitle }) => {
                 <div className="underline" mb={{ lg: '1rem', md: '1rem', sm: '1rem', base: '1rem' }} />
             </Box>
 
-            <Box>
-                <Link href='/requisitesSimple' passhref="true">
-                    <InfoOutlineIcon
-                        fontSize={{ lg: '40px', md: '35px', sm: '30px', base: '30px' }}
-                        variant="ghost"
-                        aria-label="Quick link to financial support page"
-                        cursor='pointer'
-                        color='#222222'
-                        mr='3rem'
-                        ml='-3rem'
-                    />
-                </Link>
-                <IconButton
-                    fontSize={{ lg: '40px', md: '35px', sm: '30px', base: '30px' }}
-                    variant="ghost"
-                    aria-label="Toggle theme"
-                    cursor='pointer'
-                    icon={themeIcon}
-                    onClick={toggleColorMode}
-                    color='#222222'
-                />
-            </Box>
+            <IconButton
+                fontSize={{ lg: '40px', md: '35px', sm: '30px', base: '30px' }}
+                variant="ghost"
+                aria-label="Toggle theme"
+                cursor='pointer'
+                icon={themeIcon}
+                onClick={toggleColorMode}
+                color='#222222'
+            />
         </Flex>
     );
 }

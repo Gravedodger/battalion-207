@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 import { motion } from 'framer-motion';
 import ScrollToTop from "/components/ScrollToTop";
 import { ChakraProvider } from "@chakra-ui/react";
+import ExtraInfoFeature from "../components/extraInfoFeature/extraInfoFeature";
 
 function MyApp({ Component, pageProps, router }) {
   return (

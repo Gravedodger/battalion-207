@@ -7,6 +7,7 @@ import DandD from "/components/D&D";
 import Header from "/components/Header/Header";
 import Categories from "/components/Categories/Categories";
 import { Center, Box, Tooltip } from '@chakra-ui/react';
+import ExtraInfoFeature from "../../components/extraInfoFeature";
 
 const ItemsPageUkr = ({progressValueNum}) => {
     const [item, setItem]= useState(items);
@@ -31,6 +32,8 @@ const ItemsPageUkr = ({progressValueNum}) => {
         </Head>
 
         <main className='main'>
+            <ExtraInfoFeature />
+
             <Header pageTitle='Нагальна необхідність' />
 
             <Box display='flex'

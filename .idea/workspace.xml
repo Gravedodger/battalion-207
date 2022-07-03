@@ -11,58 +11,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16cc5659-9977-4949-ba87-ebf4e6bd80d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/smaly.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/smaly.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/extraInfoFeature/extraInfoFeature.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/extraInfoFeature/extraInfoFeature.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/extraInfoFeature/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Card/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Card/Card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Categories/Categories.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Categories/Categories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/CopyContents/CopyContents.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/CopyContents/CopyContents.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/D&amp;D/D&amp;D.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/D&amp;D/D&amp;D.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/DonationsFeature/DonationsFeature.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/DonationsFeature/DonationsFeature.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/DonationsFeature/components/DFBody/DFBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/DonationsFeature/components/DFBody/DFBody.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/DonationsFeature/components/DFHeader/DFHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/DonationsFeature/components/DFHeader/DFHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Gallery/Gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Gallery/Gallery.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Icons.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Icons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Icons/FilterIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Icons/FilterIcon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Icons/LightBulbIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Icons/LightBulbIcon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Icons/ReturnButtonIcn.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Icons/ReturnButtonIcn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Modal/ModalContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Modal/ModalContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Pagination/Pagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Pagination/Pagination.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/PayPalButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/PayPalButtons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/PopoverFinSupport/PopoverFinSupport.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/PopoverFinSupport/PopoverFinSupport.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/PopoverFinSupport/PopoverItemCrypto.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/PopoverFinSupport/PopoverItemCrypto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/PopoverPurchases/PopoverPurchasesItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/PopoverPurchases/PopoverPurchasesItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/PurchasedFeature/PurchasedFeatureENG.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/PurchasedFeature/PurchasedFeatureENG.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/PurchasedFeature/PurchasedFeatureUKR.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/PurchasedFeature/PurchasedFeatureUKR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/PurchasedFeature/components/PurchasedHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/PurchasedFeature/components/PurchasedHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Requisites/RequisitesENG.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Requisites/RequisitesENG.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Requisites/RequisitesUKR.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Requisites/RequisitesUKR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/WarStats/WarStatsENG.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/WarStatsENG.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/WarStats/WarStatsUKR.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/WarStatsUKR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/WarStats/components/WarItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/WarItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/WarStats/components/WarItemIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/WarItemIcon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/WarStats/components/WarItemInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/WarItemInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/WarStats/components/WarListUKR.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/WarListUKR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/WarStats/components/warListENG.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/warListENG.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/404.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/500.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/500.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/FAQ/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/FAQ/eng.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/FAQ/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/FAQ/ukr.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_document.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about/eng.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about/ukr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/data/Items/itemsDataENG.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/data/Items/itemsDataENG.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/data/Items/itemsDataUKR.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/data/Items/itemsDataUKR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contacts/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contacts/eng.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contacts/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contacts/ukr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/finSupport/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/finSupport/eng.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/finSupport/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/finSupport/ukr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/homepage/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/homepage/eng.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/homepage/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/homepage/ukr.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/items/eng.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/items/eng.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/items/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/items/ukr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/requisitesSimple.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/requisitesSimple.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +157,9 @@
       <workItem from="1655247238424" duration="1261000" />
       <workItem from="1655841143966" duration="297000" />
       <workItem from="1656292773112" duration="310000" />
-      <workItem from="1656800148562" duration="5626000" />
+      <workItem from="1656800148562" duration="11239000" />
+      <workItem from="1656812842285" duration="84000" />
+      <workItem from="1656812976026" duration="774000" />
     </task>
     <servers />
   </component>

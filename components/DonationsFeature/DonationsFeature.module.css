@@ -27,9 +27,7 @@
     justify-content: space-between;
 }
 
-.DFNavItem {
-
-}
+.DFNavItem {}
 
 /* minor style changes for the scrollbar */
 .donationsList::-webkit-scrollbar {
@@ -112,4 +110,11 @@
         margin: 0;
         justify-self: center;
     }
+}
+
+/*    Blur    */
+.blur {
+    color: transparent;
+    text-shadow: 0 0 32px black;
+    filter: blur(10px);
 }

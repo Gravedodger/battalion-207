@@ -8,7 +8,7 @@ import { Center, Flex, Box, Container, IconButton, useColorMode, Text, Link, Ima
 export default function Home() {
     const { toggleColorMode } = useColorMode();
     const themeIcon = useColorModeValue(<MoonIcon/>, <LightBulbIcon/>);
-    const textColor = useColorModeValue('#222222', '#fff');
+    const textColor = useColorModeValue('#222222', '#c59d5f');
 
     return <>
         <Head>
@@ -37,7 +37,7 @@ export default function Home() {
                                variant="ghost"
                                aria-label="Quick link to financial support page"
                                cursor='pointer'
-                               color='#222222'
+                               color={textColor}
                                mr='3rem'
                                ml='-3rem'
                            />
@@ -50,7 +50,7 @@ export default function Home() {
                                cursor='pointer'
                                icon={themeIcon}
                                onClick={toggleColorMode}
-                               color='#c59d5f'
+                               color='#222222'
                            />
                        </Box>
                    </Flex>

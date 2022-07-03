@@ -1,4 +1,5 @@
 import React from "react";
+import styles from './../../DonationsFeature.module.css';
 import { Tabs, Tab, TabList, TabPanels, TabPanel, Text, Box, useColorModeValue } from '@chakra-ui/react';
 
 const DFBody = ({ totalUkr, totalEng }) => {
@@ -36,7 +37,9 @@ const DFBody = ({ totalUkr, totalEng }) => {
                 </Tab>
             </TabList>
 
-            <TabPanels h={{ lg:'700px', md: '550px', sm: '450px', base: '450px' }}>
+            <TabPanels className={styles.blur}
+                       h={{ lg:'725px', md: '650px', sm: '650px', base: '650px' }}
+            >
                 <TabPanel p={{ lg: 4, md: 4, sm: 2, base: 1 }}
                           fontSize={{lg: '18px', md: '16px', sm: '15px', base: '14px' }}
                 >
