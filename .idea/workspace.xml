@@ -11,17 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16cc5659-9977-4949-ba87-ebf4e6bd80d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/extraInfoFeature/extraInfoFeature.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/extraInfoFeature/extraInfoFeature.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/extraInfoFeature/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/DonationsFeature/DonationsFeature.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/DonationsFeature/DonationsFeature.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/DonationsFeature/components/DFBody/DFBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/DonationsFeature/components/DFBody/DFBody.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/PurchasedFeature/PurchasedFeatureENG.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/PurchasedFeature/PurchasedFeatureENG.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/WarStats/components/WarListUKR.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/WarListUKR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/WarStats/components/warListENG.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/WarStats/components/warListENG.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/items/ukr.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/items/ukr.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +152,8 @@
       <workItem from="1656292773112" duration="310000" />
       <workItem from="1656800148562" duration="11239000" />
       <workItem from="1656812842285" duration="84000" />
-      <workItem from="1656812976026" duration="774000" />
+      <workItem from="1656812976026" duration="1443000" />
+      <workItem from="1656976905661" duration="612000" />
     </task>
     <servers />
   </component>

@@ -1,7 +1,7 @@
 import React from "react";
 import Head from 'next/head';
 import styles from '/styles/Starter.module.css';
-import {InfoOutlineIcon, MoonIcon} from "@chakra-ui/icons";
+import { InfoOutlineIcon, MoonIcon } from "@chakra-ui/icons";
 import { LightBulbIcon } from "/components/Icons";
 import { Center, Flex, Box, Container, IconButton, useColorMode, Text, Link, Image, useColorModeValue } from '@chakra-ui/react';
 

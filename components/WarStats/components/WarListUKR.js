@@ -10,21 +10,21 @@ const WarListUKR = () => {
         <GridItem w='100%'>
             <WarItem
                 warIcon='/icons/icnPersonnel.WebP'
-                warCount='35,870'
+                warCount='36,200'
                 warInfoUKR='Особовий склад'
             />
         </GridItem>
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icons/icnTank.WebP'
-                warCount='1,582'
+                warCount='1,589'
                 warInfoUKR='Танки'
             />
         </GridItem>
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icons/icnAV.WebP'
-                warCount='3,737'
+                warCount='3,754'
                 warInfoUKR='Броньовані машини'
             />
         </GridItem>
@@ -45,7 +45,7 @@ const WarListUKR = () => {
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icons/icnUAV.WebP'
-                warCount='653'
+                warCount='658'
                 warInfoUKR='БПЛА'
             />
         </GridItem>
@@ -59,7 +59,7 @@ const WarListUKR = () => {
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icons/icnArtillery.WebP'
-                warCount='800'
+                warCount='804'
                 warInfoUKR='Арт. системи'
             />
         </GridItem>
@@ -73,7 +73,7 @@ const WarListUKR = () => {
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icons/icnTruck.WebP'
-                warCount='2,614'
+                warCount='2,629'
                 warInfoUKR='Автотехніка'
             />
         </GridItem>
@@ -87,7 +87,7 @@ const WarListUKR = () => {
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icons/excavator.WebP'
-                warCount='61'
+                warCount='65'
                 warInfoUKR='Спеціальна техніка'
             />
         </GridItem>
