@@ -26,6 +26,10 @@ class Document extends NextDocument {
                         gtag('config', 'G-JX837M7B8E');
                         `}
                     </NextScript>
+                    {/*  Google Adsense  */}
+                    <NextScript async
+                            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2323010691493448"
+                            crossOrigin="anonymous" />
 
                     <meta charSet="UTF-8" />
                     <meta name="theme-color" content="#fff" />
