@@ -17,6 +17,9 @@ export default function Home() {
             <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
             <meta name="description" content="Battalion-207 needs and requirements" />
             <link rel="icon" href="/favicon.ico" />
+            <script async
+                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2323010691493448"
+                    crossOrigin="anonymous" />
             <title>Battalion-207</title>
         </Head>
 
