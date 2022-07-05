@@ -44,6 +44,7 @@ class Document extends NextDocument {
                     />
 
                     <link rel="manifest" href="/public/manifest.json" />
+                    <NextScript />
                 </Head>
                 <body>
                 <ColorModeScript initialColorMode={theme.config.initialColorMode} />
