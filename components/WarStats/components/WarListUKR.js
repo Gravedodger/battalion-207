@@ -10,21 +10,21 @@ const WarListUKR = () => {
         <GridItem w='100%'>
             <WarItem
                 warIcon='/icons/icnPersonnel.WebP'
-                warCount='43,200'
+                warCount='43,750'
                 warInfoUKR='Особовий склад'
             />
         </GridItem>
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icons/icnTank.WebP'
-                warCount='1,849'
+                warCount='1,876'
                 warInfoUKR='Танки'
             />
         </GridItem>
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icons/icnAV.WebP'
-                warCount='4,108'
+                warCount='4,141'
                 warInfoUKR='Броньовані машини'
             />
         </GridItem>
@@ -38,14 +38,14 @@ const WarListUKR = () => {
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icons/icnHelicopter.WebP'
-                warCount='193'
+                warCount='195'
                 warInfoUKR='Helicopters'
             />
         </GridItem>
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icons/icnUAV.WebP'
-                warCount='778'
+                warCount='787'
                 warInfoUKR='БПЛА'
             />
         </GridItem>
@@ -59,7 +59,7 @@ const WarListUKR = () => {
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icons/icnArtillery.WebP'
-                warCount='975'
+                warCount='985'
                 warInfoUKR='Арт. системи'
             />
         </GridItem>
@@ -73,7 +73,7 @@ const WarListUKR = () => {
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icons/icnTruck.WebP'
-                warCount='3,021'
+                warCount='3,044'
                 warInfoUKR='Автотехніка'
             />
         </GridItem>
@@ -87,7 +87,7 @@ const WarListUKR = () => {
         <GridItem w='80%'>
             <WarItem
                 warIcon='/icons/excavator.WebP'
-                warCount='90'
+                warCount='92'
                 warInfoUKR='Спеціальна техніка'
             />
         </GridItem>
